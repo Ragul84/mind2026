@@ -1,0 +1,740 @@
+[
+  {
+    "id": "tnpsc-group2a-2017-gs-q101",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "101",
+    "question_text": "Projectile motion is a combination of horizontal motion with constant ______ and vertical motion with constant ______",
+    "options": [
+      "Acceleration, velocity",
+      "Velocity, acceleration",
+      "Displacement, velocity",
+      "Velocity, displacement"
+    ],
+    "answer_text": "Velocity, acceleration",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q102",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "102",
+    "question_text": "Nuclear force is",
+    "options": [
+      "charge dependent",
+      "spin independent",
+      "both charge and spin independent",
+      "spin dependent but charge independent"
+    ],
+    "answer_text": "spin dependent but charge independent",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q104",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "104",
+    "question_text": "The oxidation of SO2 to SO3^2- ion by oxygen. SO2 + O2 → SO3^2-, in this reaction which is Lewis acid and Lewis base?",
+    "options": [
+      "SO2 is Lewis acid and oxygen is Lewis base",
+      "Oxygen is Lewis acid and SO2 is Lewis base",
+      "Both are Lewis acids",
+      "Both are Lewis bases"
+    ],
+    "answer_text": "Oxygen is Lewis acid and SO2 is Lewis base",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q118",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "118",
+    "question_text": "The arithmetic mean of a group of 75 observations was calculated as 27. It was later found that one observation was wrongly read as 43 instead of the correct value 53. Obtain the correct arithmetic mean of the data.",
+    "options": [
+      "26.13",
+      "27.13",
+      "28.13",
+      "25.13"
+    ],
+    "answer_text": "27.13",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q119",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "119",
+    "question_text": "A sum of money triples itself at 8% per annum over certain time. The number of years is equal to",
+    "options": [
+      "24",
+      "25",
+      "20",
+      "12"
+    ],
+    "answer_text": "25",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q120",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "120",
+    "question_text": "Match the following -: (a) Annie Besant 1. Kesari (b) Bipin Chandrapal 2. Common weal (c) Boopendra Nath Dutt 3. The New Asia (d) Tilak 4. Yuganthar",
+    "options": [
+      "3 4 1 2",
+      "2 1 4 3",
+      "4 3 1 2",
+      "2 3 4 1"
+    ],
+    "answer_text": "2 1 4 3",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q121",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "121",
+    "question_text": "Before E.V. Ramaswamy Vaikom Satyagraha was first started by three leaders. They were -",
+    "options": [
+      "T. Prakasam, T.K. Madhavan and K.P. Kesava Menon",
+      "T.K. Madhavan, K.P. Kesava Menon and George Joseph",
+      "George Joseph, T. Prakasam and T.K. Madhavan",
+      "K.P. Kesava Menon, T. Prakasam and George Joseph"
+    ],
+    "answer_text": "T.K. Madhavan, K.P. Kesava Menon and George Joseph",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q122",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "122",
+    "question_text": "Who was called ‘The Father of Modern India’?",
+    "options": [
+      "Ambedhkar",
+      "Periyar E.V.R",
+      "Gandhiji",
+      "Rajaram Mohan Roy"
+    ],
+    "answer_text": "Rajaram Mohan Roy",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q123",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "123",
+    "question_text": "Tambapanni is the old name of",
+    "options": [
+      "Tamil Nadu",
+      "Kerala",
+      "Srilanka",
+      "Karnataka"
+    ],
+    "answer_text": "Srilanka",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q124",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "124",
+    "question_text": "Name the journal which declared ‘Swami Vivekanand the greatest figure in the Parliament’.",
+    "options": [
+      "Young India",
+      "Samachar Darpan",
+      "Swadeshi Mitran",
+      "New York Herald"
+    ],
+    "answer_text": "New York Herald",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q125",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "125",
+    "question_text": "Cultivable lands which has not been ploughed for between one and five years are called as",
+    "options": [
+      "Culturable waste",
+      "Current fallows",
+      "Other fallows",
+      "Permanent fallows"
+    ],
+    "answer_text": "Other fallows",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q126",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "126",
+    "question_text": "Tidal forests of Ganga—Brahmaputra delta, mainly consists of",
+    "options": [
+      "Rhododentrons",
+      "Hardwood palms",
+      "Laurels",
+      "Junipers"
+    ],
+    "answer_text": "Hardwood palms",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q127",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "127",
+    "question_text": "Which is wrongly matched?",
+    "options": [
+      "Indo — European Family — Arya",
+      "Austric Family — Nishada",
+      "Dravidian Family — Dravidian",
+      "Sino ~ Tibetan Family - Munda"
+    ],
+    "answer_text": "Sino ~ Tibetan Family - Munda",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q128",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "128",
+    "question_text": "marked the beginning of census taking in India.",
+    "options": [
+      "The year 1862",
+      "The year 1872",
+      "The year 1882",
+      "The year 1892"
+    ],
+    "answer_text": "The year 1872",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q129",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "129",
+    "question_text": "The MRTP Act, 1969 has been repealed and replaced by the competition Act, 2002 with effect from",
+    "options": [
+      "2002",
+      "2009",
+      "2013",
+      "2016"
+    ],
+    "answer_text": "2009",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q130",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "130",
+    "question_text": "The basic objective of Gandhian plan brought out by S.N. Agarwala was",
+    "options": [
+      "Agricultural development",
+      "Growth of cottage and village industries",
+      "To achieve equality",
+      "To raise the material as well as the cultural level of Indian masses"
+    ],
+    "answer_text": "To raise the material as well as the cultural level of Indian masses",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q175",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "175",
+    "question_text": "In Chola kingdom the revenue department was called as",
+    "options": [
+      "Perumtharam",
+      "Utan Kuttam",
+      "Puravuvari",
+      "Olai Nayagam"
+    ],
+    "answer_text": "Puravuvari",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q176",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "176",
+    "question_text": "Where the All India Muslim League was formed in 1906?",
+    "options": [
+      "Mumbai",
+      "Uttar Pradesh",
+      "Chennai",
+      "Dhaka"
+    ],
+    "answer_text": "Dhaka",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q177",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "177",
+    "question_text": "When ‘Swadeshi day’ was celebrated in India?",
+    "options": [
+      "27 May, 1932",
+      "28 May, 1932",
+      "29 May, 1932",
+      "30 May, 1932"
+    ],
+    "answer_text": "29 May, 1932",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q178",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "178",
+    "question_text": "Who was the first ruler in the Chola-Chalukya line?",
+    "options": [
+      "Raja Raja II",
+      "Vikrama chola",
+      "Kulothunga I",
+      "Adhi Rajendran"
+    ],
+    "answer_text": "Kulothunga I",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q179",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "179",
+    "question_text": "The Vaikam Satyagraha arose in Kerala in the year",
+    "options": [
+      "1918",
+      "1924",
+      "1913",
+      "1928"
+    ],
+    "answer_text": "1924",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q180",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "180",
+    "question_text": "Periyar incorporated the ideas of the justice party and formed a new party called",
+    "options": [
+      "Dravida Kazhagam",
+      "Dravida Munnetra Kazhagam",
+      "Swantara party",
+      "Anna Dravida Munnetra Kazhagam"
+    ],
+    "answer_text": "Dravida Kazhagam",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q181",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "181",
+    "question_text": "Mercury the smallest planet has only 88 earth days to orbit the sun, because",
+    "options": [
+      "Size of the planet",
+      "Spinning speed",
+      "Distance from the sun",
+      "It’s thin atmosphere"
+    ],
+    "answer_text": "Distance from the sun",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q182",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "182",
+    "question_text": "Match the disasters with its type and pick the correct answers code : (a) Blizzards 1. Hydrological disaster (b) Tsunamis 2. Health disaster (c) Nuclear accidents 3. Atmospheric disaster (d) Pandemic 4. Anthropogenic disaster",
+    "options": [
+      "2 1 4 3",
+      "2 3 4 1",
+      "3 1 2 4",
+      "3 1 4 2"
+    ],
+    "answer_text": "3 1 4 2",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q183",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "183",
+    "question_text": "Despite the substantial improvement in health conditions of people in India, there has been certain negative trends due to I. High incidence of HIV/AIDS in rural areas II. High incidence of HIV/AIDS in urban areas III. Growing incidence of Heart diseases and cancer in rural areas IV. Growing incidence of Heart diseases and cancer in urban areas",
+    "options": [
+      "All are correct",
+      "I and III correct",
+      "II and IV correct",
+      "I, II and IV correct"
+    ],
+    "answer_text": "I, II and IV correct",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q184",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "184",
+    "question_text": "Which one of the following matches is correct? (a) Thyroid hormone 1. Cushing’s disease (b) Insulin 2. Myxedema (c) Corticosteroids 3. Acromegaly (d) Growth hormone 4. Diabetes",
+    "options": [
+      "1 2 3 4",
+      "2 4 3 1",
+      "4 2 1 3",
+      "2 4 1 3"
+    ],
+    "answer_text": "2 4 1 3",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q185",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "185",
+    "question_text": "Which one of the following changes was not called by the Gandhian model and growth in the Indian Planning System?",
+    "options": [
+      "To replace production oriented planning with employment oriented planning",
+      "To replace employment-oriented planning with the production oriented planning",
+      "It is in favour of small scale and cottage industries",
+      "It is against large scale industries producing consumer goods"
+    ],
+    "answer_text": "To replace employment-oriented planning with the production oriented planning",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q186",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "186",
+    "question_text": "The word ‘Secularism’ was inserted in the preamble of the constitution after supreme court of India observed ‘Secularism’ was a basic feature of constitution in",
+    "options": [
+      "1975",
+      "1973",
+      "1976",
+      "1981"
+    ],
+    "answer_text": "1973",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q187",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "187",
+    "question_text": "The special status provided to Jammu and Kashmir under Art. 370 limits parliament to enact laws relating to",
+    "options": [
+      "List-I and List-III of the Seventh Schedule",
+      "List-I only of the Seventh Schedule",
+      "List-II only of the Seventh Schedule",
+      "List-I, II & III of the Seventh Schedule"
+    ],
+    "answer_text": "List-I and List-III of the Seventh Schedule",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q188",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "188",
+    "question_text": "The ideals of liberty, equality and fraternity enshrined in the preamble of the Constitution of India were adopted under inspiration from the",
+    "options": [
+      "American Declaration of Independence",
+      "French Revolution",
+      "Russian Revolution",
+      "UN Charter"
+    ],
+    "answer_text": "French Revolution",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q189",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "189",
+    "question_text": "Which one of the following is not correct related to the distinctions between the grants under Article 275 and Article 282 of the Constitution of India?",
+    "options": [
+      "The grants-in-aid under Article 275 are statutory whereas under Article 282 they are discretionary",
+      "Under Article 282, the union has the power to provide grants-in-aid even for non-plan expenditure",
+      "Under Article 275, the union has the right to give grants in accordance with the decision taken on the basis of recommendation of Finance Commission",
+      "Allocation of Grants under Article 282 is based on the recommendation of Cabinet Committee"
+    ],
+    "answer_text": "Allocation of Grants under Article 282 is based on the recommendation of Cabinet Committee",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q190",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "190",
+    "question_text": "Match List-I with List II and select the correct answer using the code given below : List I (a) P.A. Sangma (b) G.M.C. Balayogi (c) Manohar Joshi (d) Somnath Chatterjee List II 1. Telugu Desam party 2. CPI (m) 3. Shiv Sena 4. Congress - I",
+    "options": [
+      "(A) 2 3 4 1",
+      "(B) 4 1 3 2",
+      "(C) 2 4 3 1",
+      "(D) 4 3 1 2"
+    ],
+    "answer_text": "(B) 4 1 3 2",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q191",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "191",
+    "question_text": "Kaviko Arakkattalai Award given to —————— during the year 2017.",
+    "options": [
+      "Poet Muthulingam",
+      "Poet Vairamuthu",
+      "Poet Vali",
+      "Poet Vijay"
+    ],
+    "answer_text": "Poet Vali",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q192",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "192",
+    "question_text": "What percentage of downtrodden students enrollment in private schools as per Right to Education Act?",
+    "options": [
+      "25",
+      "26",
+      "27",
+      "28"
+    ],
+    "answer_text": "25",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q193",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "193",
+    "question_text": "Find out the total votes of the electoral college for the Indian Presidential Election, 2017.",
+    "options": [
+      "11,00,346 votes",
+      "11,04,546 votes",
+      "12,06,232 votes",
+      "13,00,346 votes"
+    ],
+    "answer_text": "11,04,546 votes",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q194",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "194",
+    "question_text": "Which one of the following is the objective of perspective plan 2023?",
+    "options": [
+      "Create Employment Opportunity",
+      "Digital Technology",
+      "Award",
+      "Reward"
+    ],
+    "answer_text": "Create Employment Opportunity",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q195",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "195",
+    "question_text": "Which of the following objectives regarding Skill India Mission is incorrect?",
+    "options": [
+      "Its objective is to achieve skilling of the youth across the country",
+      "Its aim is to remove financial constraints in accessing skill training programmes",
+      "Under the mission, loans from Rs. 50,000 to 1.5 lakh will be available to more than 84 lakh Youth of India",
+      "The tagline of this mission is Kaushal Bharat"
+    ],
+    "answer_text": "The tagline of this mission is Kaushal Bharat",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q196",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "196",
+    "question_text": "Which country physicists created a new form of Hydrogen? (Negatively charged hydrogen cluster)",
+    "options": [
+      "India",
+      "Japan",
+      "Australia",
+      "China"
+    ],
+    "answer_text": "Japan",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q197",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "197",
+    "question_text": "Rajiv Gandhi School of Intellectual Property Rights Law is located in ______ (city) of ______ state.",
+    "options": [
+      "Chennai — Tamil Nadu",
+      "Ujjain — Madhya Pradesh",
+      "Cochin — Kerala",
+      "Kharagpur — West Bengal"
+    ],
+    "answer_text": "Kharagpur — West Bengal",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q198",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "198",
+    "question_text": "Which one of the following is not correctly matched?",
+    "options": [
+      "Varishtha Pension Bima Yojana - Social security for old age",
+      "Pravasi Kaushal Vikas Yojana — Seeking employment in abroad",
+      "PM Fasal Bima Yojana — Insurance coverage to farmers",
+      "PM Gram Sadak Yojana — Empowerment of rural women"
+    ],
+    "answer_text": "PM Gram Sadak Yojana — Empowerment of rural women",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q199",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "exam": "TNPSC",
+    "year": 2017,
+    "question_number": "199",
+    "question_text": "When BSE's sensex has reached its maximum 30,000 — mark for the first time-in the history?",
+    "options": [
+      "26 December 2016",
+      "26 January 2017",
+      "26 April 2017",
+      "26 May 2017"
+    ],
+    "answer_text": "26 January 2017",
+    "question_type": "objective",
+    "answer_source": "ticked-verified",
+    "confidence": 0.85
+  }
+]

@@ -1,0 +1,260 @@
+{
+  "photosynthesis_detail": [
+    {
+      "run": 1,
+      "evidence": [
+        "ncert-class-11-biology-biology-en-chapter-11-pdf:0061"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Photosynthesis\n\nPhotosynthesis is the process by which green plants make their own food. During this process, carbon d"
+    },
+    {
+      "run": 2,
+      "evidence": [
+        "ncert-class-11-biology-biology-en-chapter-11-pdf:0061"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Photosynthesis\n\nPhotosynthesis is the process by which green plants make their own food. During this process, carbon d"
+    },
+    {
+      "run": 3,
+      "evidence": [
+        "ncert-class-11-biology-biology-en-chapter-11-pdf:0061"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Photosynthesis\n\nPhotosynthesis is the process by which green plants make their own food. During this process, carbon d"
+    },
+    {
+      "run": 4,
+      "evidence": [
+        "ncert-class-11-biology-biology-en-chapter-11-pdf:0061"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Photosynthesis\n\nPhotosynthesis is the process by which green plants make their own food. During this process, carbon d"
+    },
+    {
+      "run": 5,
+      "evidence": [
+        "ncert-class-11-biology-biology-en-chapter-11-pdf:0061"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Photosynthesis\n\nPhotosynthesis is the process by which green plants make their own food. During this process, carbon d"
+    }
+  ],
+  "newton_short": [
+    {
+      "run": 1,
+      "evidence": [
+        "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:0012",
+        "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf:0043",
+        "ncert-class-11-physics-physics-part-i-en-chapter-06-pdf:0040",
+        "ncert-class-11-physics-physics-part-i-en-chapter-05-pdf:0026"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Newton's Second Law\n\nNewton's second law of motion relates the net external force acting on a body to its acceleration"
+    },
+    {
+      "run": 2,
+      "evidence": [
+        "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:0012",
+        "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf:0043",
+        "ncert-class-11-physics-physics-part-i-en-chapter-06-pdf:0040",
+        "ncert-class-11-physics-physics-part-i-en-chapter-05-pdf:0026"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Newton's Second Law\n\nNewton's second law of motion relates the net external force acting on a body to its acceleration"
+    },
+    {
+      "run": 3,
+      "evidence": [
+        "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:0012",
+        "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf:0043",
+        "ncert-class-11-physics-physics-part-i-en-chapter-06-pdf:0040",
+        "ncert-class-11-physics-physics-part-i-en-chapter-05-pdf:0026"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Newton's Second Law\n\nNewton's second law of motion relates the net external force acting on a body to its acceleration"
+    },
+    {
+      "run": 4,
+      "evidence": [
+        "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:0012",
+        "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf:0043",
+        "ncert-class-11-physics-physics-part-i-en-chapter-06-pdf:0040",
+        "ncert-class-11-physics-physics-part-i-en-chapter-05-pdf:0026"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Newton's Second Law\n\nNewton's second law of motion relates the net external force acting on a body to its acceleration"
+    },
+    {
+      "run": 5,
+      "evidence": [
+        "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:0012",
+        "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf:0043",
+        "ncert-class-11-physics-physics-part-i-en-chapter-06-pdf:0040",
+        "ncert-class-11-physics-physics-part-i-en-chapter-05-pdf:0026"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Newton's Second Law\n\nNewton's second law of motion relates the net external force acting on a body to its acceleration"
+    }
+  ],
+  "newton_explain": [
+    {
+      "run": 1,
+      "evidence": [
+        "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:0012",
+        "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf:0043",
+        "ncert-class-11-physics-physics-part-i-en-chapter-06-pdf:0040",
+        "ncert-class-11-physics-physics-part-i-en-chapter-05-pdf:0026"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Newton's Second Law of Motion\n\nNewton's second law relates the net external force acting on a body to its acceleration"
+    },
+    {
+      "run": 2,
+      "evidence": [
+        "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:0012",
+        "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf:0043",
+        "ncert-class-11-physics-physics-part-i-en-chapter-06-pdf:0040",
+        "ncert-class-11-physics-physics-part-i-en-chapter-05-pdf:0026"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Newton's Second Law of Motion\n\nNewton's second law of motion relates the net external force acting on a body to its ac"
+    },
+    {
+      "run": 3,
+      "evidence": [
+        "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:0012",
+        "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf:0043",
+        "ncert-class-11-physics-physics-part-i-en-chapter-06-pdf:0040",
+        "ncert-class-11-physics-physics-part-i-en-chapter-05-pdf:0026"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Newton's Second Law of Motion\n\nNewton's second law of motion relates the net external force acting on a body to its ac"
+    },
+    {
+      "run": 4,
+      "evidence": [
+        "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:0012",
+        "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf:0043",
+        "ncert-class-11-physics-physics-part-i-en-chapter-06-pdf:0040",
+        "ncert-class-11-physics-physics-part-i-en-chapter-05-pdf:0026"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Newton's Second Law of Motion\n\nNewton's second law of motion relates the net external force acting on a body to its ac"
+    },
+    {
+      "run": 5,
+      "evidence": [
+        "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:0012",
+        "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf:0043",
+        "ncert-class-11-physics-physics-part-i-en-chapter-06-pdf:0040",
+        "ncert-class-11-physics-physics-part-i-en-chapter-05-pdf:0026"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Newton's Second Law of Motion\n\nNewton's second law relates the net external force acting on a body to its acceleration"
+    }
+  ],
+  "inflation": [
+    {
+      "run": 1,
+      "evidence": [
+        "ncert-class-11-economics-statistics-for-economics-en-chapter-07-pdf:0016"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Inflation\n\nInflation refers to a general and continuing increase in prices. If inflation becomes sufficiently large, m"
+    },
+    {
+      "run": 2,
+      "evidence": [
+        "ncert-class-11-economics-statistics-for-economics-en-chapter-07-pdf:0016"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Inflation\n\n**Inflation** is a general and continuing increase in prices . Its primary impact is lowering the value of "
+    },
+    {
+      "run": 3,
+      "evidence": [
+        "ncert-class-11-economics-statistics-for-economics-en-chapter-07-pdf:0016"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Inflation\n\nInflation is a **general and continuing increase in prices**. If inflation becomes sufficiently large, mone"
+    },
+    {
+      "run": 4,
+      "evidence": [
+        "ncert-class-11-economics-statistics-for-economics-en-chapter-07-pdf:0016"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Inflation\n\nInflation is a general and continuing increase in prices. It is primarily measured using the **Wholesale Pr"
+    },
+    {
+      "run": 5,
+      "evidence": [
+        "ncert-class-11-economics-statistics-for-economics-en-chapter-07-pdf:0016"
+      ],
+      "boards": [
+        "ncert"
+      ],
+      "verdict": "FAIL_WRONG_CORPUS",
+      "answerHead": "# Inflation\n\nInflation refers to a general and continuing increase in prices . Its primary impact is lowering the value "
+    }
+  ]
+}

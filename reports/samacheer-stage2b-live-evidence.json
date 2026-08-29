@@ -1,0 +1,260 @@
+[
+  {
+    "prompt": "Explain Newton second law",
+    "httpStatus": 200,
+    "tokenCount": 22,
+    "hasDone": true,
+    "evidence": [
+      {
+        "schemaVersion": 1,
+        "evidenceId": "textbook:chapter:a8b6de05-6375-4e34-9794-ff0fd1c7326f",
+        "kind": "textbook",
+        "sourceId": "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf",
+        "chapterId": "a8b6de05-6375-4e34-9794-ff0fd1c7326f",
+        "rank": 1,
+        "supportingChunkCount": 2,
+        "excerptChunkId": "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:0012",
+        "excerpt": "4.5 NEWTON’S SECOND LAW OF MOTION The first law refers to the simple case when the net external force on a body is zero. The second law of motion refers to the general situation when there is a net external force acting on the body. It relates the net external force to the acceleration of the body. Momentum Momentum of a body is defined to be the product of its mass m and velocity v, and is denoted by p: p = m v…",
+        "display": {
+          "board": "ncert",
+          "classLevel": 11,
+          "subject": "physics",
+          "language": "english",
+          "bookTitle": "Physics Part-I",
+          "volumeOrPart": "Part I",
+          "officialSourceUrl": "https://ncert.nic.in/textbook/pdf/keph104.pdf",
+          "unitType": "chapter",
+          "unitNumber": "4",
+          "unitTitle": "LAWS OF MOTION"
+        },
+        "displayFieldProvenance": {
+          "board": "verified_official",
+          "classLevel": "verified_official",
+          "subject": "verified_official",
+          "language": "verified_official",
+          "bookTitle": "verified_official",
+          "volumeOrPart": "verified_official",
+          "officialSourceUrl": "verified_official",
+          "unitType": "verified_official",
+          "unitNumber": "verified_official",
+          "unitTitle": "verified_official"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "evidenceId": "textbook:source:ncert-class-9-science-science-en-chapter-08-pdf",
+        "kind": "textbook",
+        "sourceId": "ncert-class-9-science-science-en-chapter-08-pdf",
+        "rank": 3,
+        "supportingChunkCount": 1,
+        "excerptChunkId": "ncert-class-9-science-science-en-chapter-08-pdf:0026",
+        "excerpt": "4.1 MATHEMATICAL FORMULATION OF SECOND LAW OF MOTION Suppose an object of mass, m is moving along a straight line with an initial velocity, u. It is uniformly accelerated to velocity, v in time, t by the application of a constant for ce, F throughout the time, t. The initial and final momentum of the object will be, p1 = mu and p2 = mv r espectively. The change in momentum ∝ p2 – p1 ∝ mv – mu ∝ m × (v – u). The rate…",
+        "display": {},
+        "displayFieldProvenance": {}
+      },
+      {
+        "schemaVersion": 1,
+        "evidenceId": "textbook:chapter:de0e19c1-a46b-419f-9c38-d49e3a1bc7a8",
+        "kind": "textbook",
+        "sourceId": "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf",
+        "chapterId": "de0e19c1-a46b-419f-9c38-d49e3a1bc7a8",
+        "rank": 4,
+        "supportingChunkCount": 1,
+        "excerptChunkId": "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf:0043",
+        "excerpt": "13.6 FORCE LAW FOR SIMPLE HARMONIC MOTION Using Newton’s second law of motion, and the expression for acceleration of a particle undergoing SHM (Eq. 13.11), the force acting on a particle of mass m in SHM is F (t ) = ma = –m ω2 x (t) i.e., F (t) = –k x (t) (13.13) where k = mω2 (13.14a) or ω = k m (13.14b) Like acceleration, force is always directed towards the mean position—hence it is sometimes called the restoring…",
+        "display": {
+          "board": "ncert",
+          "classLevel": 11,
+          "subject": "physics",
+          "language": "english",
+          "bookTitle": "Physics Part-II",
+          "volumeOrPart": "Part II",
+          "officialSourceUrl": "https://ncert.nic.in/textbook/pdf/keph206.pdf",
+          "unitType": "chapter",
+          "unitNumber": "13",
+          "unitTitle": "OSCILLATIONS"
+        },
+        "displayFieldProvenance": {
+          "board": "verified_official",
+          "classLevel": "verified_official",
+          "subject": "verified_official",
+          "language": "verified_official",
+          "bookTitle": "verified_official",
+          "volumeOrPart": "verified_official",
+          "officialSourceUrl": "verified_official",
+          "unitType": "verified_official",
+          "unitNumber": "verified_official",
+          "unitTitle": "verified_official"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "evidenceId": "textbook:source:samacheer-class-11-physics-volume-1-english-book-pdf",
+        "kind": "textbook",
+        "sourceId": "samacheer-class-11-physics-volume-1-english-book-pdf",
+        "rank": 5,
+        "supportingChunkCount": 1,
+        "excerptChunkId": "samacheer-class-11-physics-volume-1-english-book-pdf:0306",
+        "excerpt": "3.2.2 Newton’s Second Law This law states that The force acting on an object is equal to the rate of change of its momentum",
+        "display": {},
+        "displayFieldProvenance": {}
+      },
+      {
+        "schemaVersion": 1,
+        "evidenceId": "textbook:source:samacheer-class-11-physics-volume-2-english-book-pdf",
+        "kind": "textbook",
+        "sourceId": "samacheer-class-11-physics-volume-2-english-book-pdf",
+        "rank": 6,
+        "supportingChunkCount": 1,
+        "excerptChunkId": "samacheer-class-11-physics-volume-2-english-book-pdf:0075",
+        "excerpt": "/arrowrightnosp F GmM R re e = − 2 ˆ Now equating Gravitational force to Newton’s second law, UNIT-6(XI-Physics_Vol-2).indd 18UNIT-6(XI-Physics_Vol-2).indd 18 02-01-2023 14:29:0802-01-2023 14:29:08",
+        "display": {},
+        "displayFieldProvenance": {}
+      }
+    ],
+    "answerPreview": "Hello there! I can definitely help you understand Newton's Second Law of Motion. It's a fundamental concept in physics and very important for your exams. Newton's Second Law of Motion describes how an object's motion changes when a net external force acts on i"
+  },
+  {
+    "prompt": "Explain Samacheer Class 10 Social Science India resources and industries",
+    "httpStatus": 200,
+    "tokenCount": 21,
+    "hasDone": true,
+    "evidence": [
+      {
+        "schemaVersion": 1,
+        "evidenceId": "textbook:source:samacheer-class-10-science-english-science-english-full-10th-social-20science-em-text-pdf",
+        "kind": "textbook",
+        "sourceId": "samacheer-class-10-science-english-science-english-full-10th-social-20science-em-text-pdf",
+        "rank": 1,
+        "supportingChunkCount": 3,
+        "excerptChunkId": "samacheer-class-10-science-english-science-english-full-10th-social-20science-em-text-pdf:0271",
+        "excerpt": "172 India - Resources and Industries free state. It enters into the composition of many rocks and minerals especially from igneous and metamorphic rocks. The total recoverable reserves of iron ore in India are haematite and magnetite Jharkhand is the leading producer of iron ore with 25% the country’s production. Singhbhum, Hazaribagh, Dhanbad and Ranchi districts are its major producers. Odisha with 21% production…",
+        "display": {},
+        "displayFieldProvenance": {}
+      },
+      {
+        "schemaVersion": 1,
+        "evidenceId": "textbook:source:samacheer-class-10-social-science-english-book-pdf",
+        "kind": "textbook",
+        "sourceId": "samacheer-class-10-social-science-english-book-pdf",
+        "rank": 2,
+        "supportingChunkCount": 3,
+        "excerptChunkId": "samacheer-class-10-social-science-english-book-pdf:0275",
+        "excerpt": "172 India - Resources and Industries free state. It enters into the composition of many rocks and minerals especially from igneous and metamorphic rocks. The total recoverable reserves of iron ore in India are haematite and magnetite Jharkhand is the leading producer of iron ore with 25% the country’s production. Singhbhum, Hazaribagh, Dhanbad and Ranchi districts are its major producers. Odisha with 21% production…",
+        "display": {},
+        "displayFieldProvenance": {}
+      }
+    ],
+    "answerPreview": "Let's break down India's resources and industries, focusing on what's important for your exams. India is rich in various natural resources, which form the backbone of its industries. We can look at some key minerals and how they are used. ### Iron Ore Iron ore"
+  },
+  {
+    "prompt": "Explain Samacheer Class 12 History Home Rule League",
+    "httpStatus": 200,
+    "tokenCount": 18,
+    "hasDone": true,
+    "evidence": [
+      {
+        "schemaVersion": 1,
+        "evidenceId": "textbook:source:samacheer-class-12-home-science-english-book-pdf",
+        "kind": "textbook",
+        "sourceId": "samacheer-class-12-home-science-english-book-pdf",
+        "rank": 1,
+        "supportingChunkCount": 1,
+        "excerptChunkId": "samacheer-class-12-home-science-english-book-pdf:0001",
+        "excerpt": "HOME SCIENCE HIGHER SECONDARY SECOND YEAR Home Science_XII_Front.indd 1 11-12-2021 10.22.15 PM",
+        "display": {},
+        "displayFieldProvenance": {}
+      },
+      {
+        "schemaVersion": 1,
+        "evidenceId": "textbook:source:samacheer-class-12-statistics-english-book-pdf",
+        "kind": "textbook",
+        "sourceId": "samacheer-class-12-statistics-english-book-pdf",
+        "rank": 2,
+        "supportingChunkCount": 2,
+        "excerptChunkId": "samacheer-class-12-statistics-english-book-pdf:0115",
+        "excerpt": "where k = number of classes 12th_Statistics_EM_Unit_2.indd 61 11-12-2021 21:22:47",
+        "display": {},
+        "displayFieldProvenance": {}
+      },
+      {
+        "schemaVersion": 1,
+        "evidenceId": "textbook:source:samacheer-class-10-physical-education-english-book-pdf",
+        "kind": "textbook",
+        "sourceId": "samacheer-class-10-physical-education-english-book-pdf",
+        "rank": 4,
+        "supportingChunkCount": 1,
+        "excerptChunkId": "samacheer-class-10-physical-education-english-book-pdf:0063",
+        "excerpt": "30 To make and keep the committee responsible to frame rules and regulations, record for the competition. Ensure winner trophy for all categories are given to the winners. Display the names of the winning house, individual Annual Athletic Champion, School Championship along with the record breaking performances on the Honor Board. Classi/f_ication of Competitions Extramural Competitions Extramural competitions are…",
+        "display": {},
+        "displayFieldProvenance": {}
+      },
+      {
+        "schemaVersion": 1,
+        "evidenceId": "textbook:source:samacheer-class-8-physical-education-english-book-pdf",
+        "kind": "textbook",
+        "sourceId": "samacheer-class-8-physical-education-english-book-pdf",
+        "rank": 5,
+        "supportingChunkCount": 2,
+        "excerptChunkId": "samacheer-class-8-physical-education-english-book-pdf:0063",
+        "excerpt": "30 To make and keep the committee responsible to frame rules and regulations, record for the competition. Ensure winner trophy for all categories are given to the winners. Display the names of the winning house, individual Annual Athletic Champion, School Championship along with the record breaking performances on the Honor Board. Classi/f_ication of Competitions Extramural Competitions Extramural competitions are…",
+        "display": {},
+        "displayFieldProvenance": {}
+      }
+    ],
+    "answerPreview": "The Home Rule League was a significant movement in India's struggle for independence, advocating for self-government (Home Rule) for India within the British Empire, similar to the status of other dominions like Canada or Australia. Here's a breakdown of its k"
+  },
+  {
+    "prompt": "Explain Samacheer Class 10 Science nuclear physics",
+    "httpStatus": 200,
+    "tokenCount": 23,
+    "hasDone": true,
+    "evidence": [
+      {
+        "schemaVersion": 1,
+        "evidenceId": "textbook:source:samacheer-class-10-science-english-book-pdf",
+        "kind": "textbook",
+        "sourceId": "samacheer-class-10-science-english-book-pdf",
+        "rank": 1,
+        "supportingChunkCount": 2,
+        "excerptChunkId": "samacheer-class-10-science-english-book-pdf:0327",
+        "excerpt": "8610th Standard Science  Rutherford (Rd) is defined as the quantity of a radioactive substance which produces 10 6 disintegrations in one second. 1 Rd = 106 disintegrations per second.  The SI unit of radioactivity is becquerel. It is defined as the quantity of one disintegration per second.  Helium nucleus ( 2He4) consisting of two protons and two neutrons is known as alpha particle.  Beta particles are…",
+        "display": {},
+        "displayFieldProvenance": {}
+      },
+      {
+        "schemaVersion": 1,
+        "evidenceId": "textbook:source:samacheer-class-10-science-english-science-english-full-10th-science-em-text-pdf",
+        "kind": "textbook",
+        "sourceId": "samacheer-class-10-science-english-science-english-full-10th-science-em-text-pdf",
+        "rank": 2,
+        "supportingChunkCount": 2,
+        "excerptChunkId": "samacheer-class-10-science-english-science-english-full-10th-science-em-text-pdf:0329",
+        "excerpt": "86 10th Standard Science Rutherford (Rd) is defined as the quantity of a radioactive substance which produces 106 disintegrations in one second. 1 Rd = 106 disintegrations per second. The SI unit of radioactivity is becquerel. It is defined as the quantity of one disintegration per second. Helium nucleus ( 2He4) consisting of two protons and two neutrons is known as alpha particle. Beta particles are electrons (…",
+        "display": {},
+        "displayFieldProvenance": {}
+      },
+      {
+        "schemaVersion": 1,
+        "evidenceId": "textbook:source:samacheer-class-12-physics-volume-2-english-book-pdf",
+        "kind": "textbook",
+        "sourceId": "samacheer-class-12-physics-volume-2-english-book-pdf",
+        "rank": 5,
+        "supportingChunkCount": 2,
+        "excerptChunkId": "samacheer-class-12-physics-volume-2-english-book-pdf:0590",
+        "excerpt": "Unit 9 Atomic and Nuclear physics 179 with emission of proton, electron, and antineutrino with the half life of 13 minutes. Neutrons are classified according to their kinetic energy as (i) slow neutrons (0 to 1000 eV) (ii) fast neutrons (0.5 MeV to 10 MeV). The neutrons with average energy of about 0.025 eV in thermal equilibrium are called thermal neutron, because at 298K, the thermal energy kT eV 0 025. . Slow and…",
+        "display": {},
+        "displayFieldProvenance": {}
+      }
+    ],
+    "answerPreview": "Nuclear physics is a branch of science that deals with the study of the **nucleus of atoms**, including its structure, properties, and the interactions and reactions that involve it. It's a crucial area for understanding energy generation, medical applications"
+  },
+  {
+    "prompt": "???????? ??????? 10 ???? ???????? ????? ?????????? ????? ???????",
+    "httpStatus": 200,
+    "tokenCount": 13,
+    "hasDone": true,
+    "evidence": [],
+    "answerPreview": "இந்திய அரசியலமைப்பின் **பத்தாவது அட்டவணை (Tenth Schedule)**, **கட்சித்தாவல் தடைச் சட்டம் (Anti-defection Law)** பற்றிப் பேசுகிறது. இது ஒரு அரசியல் கட்சியில் இருந்து மற்றொரு கட்சிக்கு உறுப்பினர்கள் மாறுவதைத் தடுப்பதன் மூலம், அரசியல் ஸ்திரத்தன்மையை உறுதி செய்வதை"
+  }
+]

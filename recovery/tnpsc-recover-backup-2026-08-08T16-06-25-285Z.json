@@ -1,0 +1,331 @@
+[
+  {
+    "id": "tnpsc-group2-prelims-2014-q27",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "27",
+    "old": "ticked-verified|garbage-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q19",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "19",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q23",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "23",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q18",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "18",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q4",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "4",
+    "old": "ticked-verified|offtopic-demoted|garbage-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q26",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "26",
+    "old": "ticked-verified|garbage-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q33",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "33",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q40",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "40",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q41",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "41",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q36",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "36",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q38",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "38",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q51",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "51",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q56",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "56",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q59",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "59",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q60",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "60",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q61",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "61",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q62",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "62",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q66",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "66",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q72",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "72",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q80",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "80",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q81",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "81",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q82",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "82",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q84",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "84",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q88",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "88",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q89",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "89",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q90",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "90",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q96",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "96",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q98",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "98",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q30",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "30",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q37",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "37",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q49",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "49",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q69",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "69",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q28",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "28",
+    "old": "ticked-verified|offtopic-demoted|garbage-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q2",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "2",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q70",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "70",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2014-q87",
+    "source_id": "tnpsc-group2-prelims-2014",
+    "qnum": "87",
+    "old": "ticked-verified|offtopic-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2a-2017-gs-q128",
+    "source_id": "tnpsc-group2a-2017-gs",
+    "qnum": "128",
+    "old": "ticked-verified|garbage-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-2018-gs-q128",
+    "source_id": "tnpsc-group2-2018-gs",
+    "qnum": "128",
+    "old": "ticked-verified|garbage-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-2018-gs-q133",
+    "source_id": "tnpsc-group2-2018-gs",
+    "qnum": "133",
+    "old": "ticked-verified|garbage-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-2018-gs-q171",
+    "source_id": "tnpsc-group2-2018-gs",
+    "qnum": "171",
+    "old": "ticked-verified|garbage-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-2018-gs-q174",
+    "source_id": "tnpsc-group2-2018-gs",
+    "qnum": "174",
+    "old": "ticked-verified|garbage-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-2018-gs-q175",
+    "source_id": "tnpsc-group2-2018-gs",
+    "qnum": "175",
+    "old": "ticked-verified|garbage-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group2-2018-gs-q146",
+    "source_id": "tnpsc-group2-2018-gs",
+    "qnum": "146",
+    "old": "ticked-verified|garbage-demoted",
+    "new": "ticked-verified"
+  },
+  {
+    "id": "tnpsc-group4-prelims-2025-q98",
+    "source_id": "tnpsc-group4-prelims-2025",
+    "qnum": "98",
+    "old": "official-key-ocr|garbage-demoted",
+    "new": "official-key-ocr"
+  },
+  {
+    "id": "tnpsc-group4-prelims-2025-q130",
+    "source_id": "tnpsc-group4-prelims-2025",
+    "qnum": "130",
+    "old": "official-key-ocr|garbage-demoted",
+    "new": "official-key-ocr"
+  },
+  {
+    "id": "tnpsc-group4-prelims-2025-q131",
+    "source_id": "tnpsc-group4-prelims-2025",
+    "qnum": "131",
+    "old": "official-key-ocr|garbage-demoted",
+    "new": "official-key-ocr"
+  },
+  {
+    "id": "tnpsc-group4-prelims-2025-q164",
+    "source_id": "tnpsc-group4-prelims-2025",
+    "qnum": "164",
+    "old": "official-key-ocr|garbage-demoted",
+    "new": "official-key-ocr"
+  }
+]

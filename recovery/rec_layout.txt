@@ -1,0 +1,196 @@
+[Edit/085bdfc8] D:\mindwhite\app\(tabs)\_layout.tsx
+OLD:
+const TAB_CONFIG = {
+  home: { label: 'Home', icon: 'house-user' },
+  learn: { label: 'Learn', icon: 'graduation-cap' },
+  arena: { label: 'Rooms', icon: 'door-open' },
+  mascot: { label: 'MIGA', icon: 'microphone', isCenter: true },
+  leaderboard: { label: 'Ranks', icon: 'crown' },
+  profile: { label: 'Profile', icon: 'user-circle' },
+};
+
+const TAB_ORDER = ['home', 'learn', 'arena', 'mascot', 'leaderboard', 'profile'];
+NEW:
+const TAB_CONFIG = {
+  home: { label: 'Home', icon: 'house-user' },
+  learn: { label: 'Learn', icon: 'graduation-cap' },
+  arena: { label: 'Rooms', icon: 'door-open' },
+  mascot: { label: 'MIGA', icon: 'microphone', isCenter: true },
+  knowindia: { label: 'India', icon: 'globe-asia' },
+  profile: { label: 'Profile', icon: 'user-circle' },
+};
+
+const TAB_ORDER = ['home', 'learn', 'arena', 'mascot', 'knowindia', 'profile'];
+============================================================
+[Edit/085bdfc8] D:\mindwhite\app\(tabs)\_layout.tsx
+OLD:
+  const handleTabPress = (tab: string, index: number) => {
+    if (activeIndex !== index) {
+      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+      
+      const routes: Record<string, string> = {
+        home: '/home',
+        learn: '/learn',
+        arena: '/arena',
+        mascot: '/mascot',
+        leaderboard: '/leaderboard',
+        profile: '/profile'
+      };
+      
+      navigationRouter.replace(routes[tab] as any);
+    }
+  };
+NEW:
+  const handleTabPress = (tab: string, index: number) => {
+    // Know Your India launches the full-screen globe (outside the tab stack)
+    if (tab === 'knowindia') {
+      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+      navigationRouter.push('/know-your-constituency' as any);
+      return;
+    }
+    if (activeIndex !== index) {
+      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+      const routes: Record<string, string> = {
+        home: '/home',
+        learn: '/learn',
+        arena: '/arena',
+        mascot: '/mascot',
+        profile: '/profile'
+      };
+      navigationRouter.replace(routes[tab] as any);
+    }
+  };
+============================================================
+[Edit/085bdfc8] D:\mindwhite\app\(tabs)\_layout.tsx
+OLD:
+        <Stack.Screen name="leaderboard" options={{ title: 'Ranks' }} />
+NEW:
+        <Stack.Screen name="leaderboard" options={{ title: 'Ranks', animation: 'slide_from_right' }} />
+============================================================
+[Edit/db7703b6] D:\mindwhite\app\(tabs)\_layout.tsx
+OLD:
+        <Stack.Screen name="home" />
+        <Stack.Screen name="home-v2" options={{ title: 'Home V2' }} />
+        <Stack.Screen name="learn/index" options={{ title: 'Learn' }} />
+NEW:
+        <Stack.Screen name="home" />
+        <Stack.Screen name="learn/index" options={{ title: 'Learn' }} />
+============================================================
+[Edit/db7703b6] D:\mindwhite\app\(tabs)\_layout.tsx
+OLD:
+  const renderIcon = () => {
+    if (isCenter) {
+      return (
+        <MaterialCommunityIcons
+          name={config.icon as any}
+          size={focused ? 24 : 23}
+          color={focused ? theme.colors.primary : theme.colors.onSurfaceVariant}
+        />
+      );
+    }
+NEW:
+  const renderIcon = () => {
+    if (isCenter) {
+      return (
+        <View style={[styles.centerFab, focused ? styles.centerFabActive : styles.centerFabIdle]}>
+          {focused && (
+            <LinearGradient
+              colors={['#19D3C6', '#0F766E']}
+              start={{ x: 0.15, y: 0 }}
+              end={{ x: 0.9, y: 1 }}
+              style={StyleSheet.absoluteFill}
+            />
+          )}
+          {focused && <View style={styles.centerFabSheen} pointerEvents="none" />}
+          <MaterialCommunityIcons
+            name={config.icon as any}
+            size={24}
+            color={focused ? '#FFFFFF' : theme.colors.onSurfaceVariant}
+          />
+        </View>
+      );
+    }
+============================================================
+[Edit/db7703b6] D:\mindwhite\app\(tabs)\_layout.tsx
+OLD:
+        <MotiView
+          animate={{
+            scale: isCenter ? (focused ? 1.03 : 0.98) : (focused ? 1.05 : 0.95),
+            translateY: isCenter ? 0 : (focused ? -4 : -2),
+          }}
+          transition={theme.motion.productive as any}
+          style={styles.geminiIconStack}
+        >
+NEW:
+        <MotiView
+          animate={{
+            scale: isCenter ? (focused ? 1.06 : 1) : (focused ? 1.05 : 0.95),
+            translateY: isCenter ? (focused ? -12 : -6) : (focused ? -4 : -2),
+          }}
+          transition={theme.motion.expressive as any}
+          style={styles.geminiIconStack}
+        >
+============================================================
+[Edit/db7703b6] D:\mindwhite\app\(tabs)\_layout.tsx
+OLD:
+  centerTabButtonActive: {
+    backgroundColor: 'rgba(0, 212, 199, 0.12)',
+  },
+NEW:
+  centerTabButtonActive: {
+    backgroundColor: 'transparent',
+  },
+  centerFab: {
+    width: 54,
+    height: 54,
+    borderRadius: 27,
+    alignItems: 'center',
+    justifyContent: 'center',
+    overflow: 'hidden',
+  },
+  centerFabIdle: {
+    backgroundColor: '#F1F5F4',
+    borderWidth: 1,
+    borderColor: '#E2E8E6',
+  },
+  centerFabActive: {
+    borderWidth: 0,
+    shadowColor: '#0F766E',
+    shadowOpacity: 0.45,
+    shadowRadius: 12,
+    shadowOffset: { width: 0, height: 6 },
+    elevation: 10,
+  },
+  // soft top highlight for a glassy 3D dome
+  centerFabSheen: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    height: '50%',
+    backgroundColor: 'rgba(255,255,255,0.18)',
+  },
+============================================================
+[Edit/db7703b6] D:\mindwhite\app\(tabs)\_layout.tsx
+OLD:
+            scale: isCenter ? (focused ? 1.06 : 1) : (focused ? 1.05 : 0.95),
+            translateY: isCenter ? (focused ? -12 : -6) : (focused ? -4 : -2),
+NEW:
+            scale: isCenter ? (focused ? 1.05 : 1) : (focused ? 1.05 : 0.95),
+            translateY: isCenter ? (focused ? -8 : -4) : (focused ? -4 : -2),
+============================================================
+[Edit/db7703b6] D:\mindwhite\app\(tabs)\_layout.tsx
+OLD:
+import { BlurView } from 'expo-blur';
+NEW:
+import { BlurView } from 'expo-blur';
+import { LinearGradient } from 'expo-linear-gradient';
+============================================================
+[Edit/db7703b6] D:\mindwhite\app\(tabs)\_layout.tsx
+OLD:
+            scale: isCenter ? (focused ? 1.05 : 1) : (focused ? 1.05 : 0.95),
+            translateY: isCenter ? (focused ? -8 : -4) : (focused ? -4 : -2),
+NEW:
+            scale: isCenter ? (focused ? 1.08 : 1) : (focused ? 1.05 : 0.95),
+            translateY: isCenter ? 0 : (focused ? -4 : -2),
+============================================================

@@ -1,0 +1,88 @@
+{
+  "expo": {
+    "name": "mindgains-ai",
+    "slug": "mindgains-ai",
+    "scheme": "mindgains",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mindgains.ai",
+      "infoPlist": {
+        "NSCameraUsageDescription": "MindGains uses the camera to scan math problems from notebooks and textbooks.",
+        "NSPhotoLibraryUsageDescription": "MindGains uses your photo library so you can choose saved question screenshots to solve."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#103A8A"
+      },
+      "permissions": [
+        "com.android.vending.BILLING",
+        "android.permission.CAMERA",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_EXTERNAL_STORAGE"
+      ],
+      "package": "com.mindgains.ai"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 24
+          }
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow MindGains to use your camera to scan math problems from notebooks and textbooks."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/icon.png",
+          "color": "#00D4C7"
+        }
+      ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "79599dc3-da6e-4979-8206-bb93dfec9491"
+      }
+    },
+    "owner": "ragul84"
+  }
+}

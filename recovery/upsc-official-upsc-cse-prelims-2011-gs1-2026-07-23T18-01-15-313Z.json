@@ -1,0 +1,122 @@
+[
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q1",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "1",
+    "question_text": "In the Union Budget 2011-12, a full exemption from the basic customs duty was extended to the bio-based asphalt (bioasphalt). What is the importance of this material?\n1. Unlike traditional asphalt, bio-asphalt is not based on fossil fuels.\n2. Bioasphalt can be made from non-renewable resources.\n3. Bioasphalt can be made from organic waste materials.\n4. It is eco-friendly to use bioasphalt for surfacing of the roads.\nWhich of the statements given above are correct?",
+    "options": [
+      "1, 2 and 3 only",
+      "1, 3 and 4 only",
+      "2 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "answer_text": "1, 3 and 4 only",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q2",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "2",
+    "question_text": "Consider the following:\n1. Carbon dioxide\n2. Oxides of Nitrogen\n3. Oxides of Sulphur\nWhich of the above is/are the emission/emissions from coal combustion at thermal power plants?",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer_text": "1, 2 and 3",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q3",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "3",
+    "question_text": "Satellites used for telecommunication relay are kept in a geostationary orbit. A satellite is said to be in such an orbit when:\n1. The orbit is geosynchronous.\n2. The orbit is circular.\n3. The orbit lies in the plane of the Earth's equator.\n4. The orbit is at an altitude of 22,236 km.\nSelect the correct answer using the codes given below:",
+    "options": [
+      "1, 2 and 3 only",
+      "1, 3 and 4 only",
+      "2 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "answer_text": "1, 2 and 3 only",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q4",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "4",
+    "question_text": "India has experienced persistent and high food inflation in the recent past. What could be the reasons?\n1. Due to a gradual switchover to the cultivation of commercial crops, the area under the cultivation of food grains has steadily decreased in the last five years by about 30%.\n2. As a consequence of increasing incomes, the consumption patterns of the people have undergone a significant change.\n3. The food supply chain has structural constraints.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer_text": "2 and 3 only",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q6",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "6",
+    "question_text": "Adaptation of flora and fauna to warm and humid conditions Which three of the above are correct criteria in this context ?",
+    "options": [
+      "1. 2 and 6",
+      "2, 4 and 6",
+      "1, 3 and 5",
+      "3, 4 and 6"
+    ],
+    "answer_text": "1. 2 and 6",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q9",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "9",
+    "question_text": "Oat avait At aer-det af ae art 21 “safes 8 stearate oor act &/e ?",
+    "options": [
+      "ae 1",
+      "Fat 2",
+      "1 ate 2 ert",
+      "TA ak ag2"
+    ],
+    "answer_text": "Fat 2",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q102",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "102",
+    "question_text": "The compound used in breath analysis test for drunken driving is",
+    "options": [
+      "K2Cr2O7",
+      "KI",
+      "KMnO4",
+      "CuSO4"
+    ],
+    "answer_text": "K2Cr2O7",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q103",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "103",
+    "question_text": "Which Metro Rail Corporation has started the initiative to become the World's first 100% solar-powered metro?",
+    "options": [
+      "Jaipur Metro Rail Corporation Ltd.",
+      "Gujarat Metro Rail Corporation Ltd.",
+      "Delhi Metro Rail Corporation Ltd.",
+      "Chennai Metro Rail Corporation Ltd."
+    ],
+    "answer_text": "Delhi Metro Rail Corporation Ltd.",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q104",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "104",
+    "question_text": "As per G-20 surveillance note, India's economy is to grow at ---------- in the year 2020.",
+    "options": [
+      "6.5%",
+      "5.5%",
+      "7.5%",
+      "8.5%"
+    ],
+    "answer_text": "7.5%",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q105",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "105",
+    "question_text": "In the year 1951, Population growth rate is called",
+    "options": [
+      "Year of Great Divide",
+      "Year of Population Explosion",
+      "Year of Population",
+      "Year of Small Divide"
+    ],
+    "answer_text": "Year of Small Divide",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q106",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "106",
+    "question_text": "In which desert is Noor Complex located?",
+    "options": [
+      "Sahara Desert",
+      "Thar Desert",
+      "Kalhari Desert",
+      "Gopi Desert"
+    ],
+    "answer_text": "Sahara Desert",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q107",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "107",
+    "question_text": "Which of the following statement(s) is/are correct?\n1. In 2019, World Environment Day was Celebrated in China.\n2. The Theme for the World Environment Day is Air Pollution.",
+    "options": [
+      "1 and 2 are true",
+      "1 is true, 2 is false",
+      "1 and 2 are false",
+      "2 is true, 1 is false"
+    ],
+    "answer_text": "1 is true, 2 is false",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q108",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "108",
+    "question_text": "The objective of Jandhan Yojana is",
+    "options": [
+      "Financial inclusion",
+      "Reducing regional disparities",
+      "Social exclusion",
+      "Population control"
+    ],
+    "answer_text": "Financial inclusion",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q109",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "109",
+    "question_text": "France has ---------- party system.",
+    "options": [
+      "Single party",
+      "Multi party",
+      "Biparty",
+      "None"
+    ],
+    "answer_text": "Multi party",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q110",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "110",
+    "question_text": "Which water conservation campaign has been recently launched by the Central Government?",
+    "options": [
+      "Jal Bachav Abhiyan",
+      "Jal Tarang Abhiyan",
+      "Jal Suraksha Abhiyan",
+      "Jal Shakthi Abhiyan"
+    ],
+    "answer_text": "Jal Shakthi Abhiyan",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q111",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "111",
+    "question_text": "The major port along the West Coast",
+    "options": [
+      "Kandla",
+      "Chennai",
+      "Paradip",
+      "Kolkata"
+    ],
+    "answer_text": "Kandla",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q112",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "112",
+    "question_text": "In lower organisms sometimes the entire mature organisms do not form gametes but they themselves behave as gametes and the fusion of such mature individuals is known as",
+    "options": [
+      "Anisogamy",
+      "Merogamy",
+      "Paedogamy",
+      "Hologamy"
+    ],
+    "answer_text": "Hologamy",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q113",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "113",
+    "question_text": "Match the following :\nPlace: (a) Delhi (b) Central India (c) Lucknow (d) Kanpur\nLeaders of the revolt: 1. Begum Hazarat Mahal 2. Tantia Tope 3. Rani Laxmi Bai 4. Bhadur Shah - II",
+    "options": [
+      "(a)-2, (b)-1, (c)-3, (d)-4",
+      "(a)-4, (b)-3, (c)-1, (d)-2",
+      "(a)-1, (b)-3, (c)-4, (d)-2",
+      "(a)-4, (b)-2, (c)-1, (d)-3"
+    ],
+    "answer_text": "(a)-4, (b)-3, (c)-1, (d)-2",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q114",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "114",
+    "question_text": "Who was selected as the first Chief Vigilance Commissioner of India?",
+    "options": [
+      "Sharad Kumar",
+      "B.K. Acharya",
+      "Nittoor Srinivasa Rau",
+      "R.P. Khanna"
+    ],
+    "answer_text": "Nittoor Srinivasa Rau",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q115",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "115",
+    "question_text": "Consumer Protection Act is called as",
+    "options": [
+      "Tamil Nadu Nugarvor Kavasam",
+      "Consumer's Magna Carta",
+      "World Nugarvor Kavasam",
+      "Valuable Consumer Kavasam"
+    ],
+    "answer_text": "Consumer's Magna Carta",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q116",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "116",
+    "question_text": "In which model of elections, the President and the Vice-President, the members of the Rajya Sabha are elected?",
+    "options": [
+      "By-Elections",
+      "Direct Election",
+      "Indirect Election",
+      "Mid-Term polls"
+    ],
+    "answer_text": "Indirect Election",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q117",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "117",
+    "question_text": "Which of the following statements is / are correct?\n1. The term of office of the Governor is five years\n2. He can remain in office till his successor enters upon the office of the Governor.",
+    "options": [
+      "Both 1, 2 are correct",
+      "only 1 is correct",
+      "only 2 is correct",
+      "Both 1, 2 are incorrect"
+    ],
+    "answer_text": "Both 1, 2 are correct",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q118",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "118",
+    "question_text": "Which of the following statements about bases is /are true?\nI. Base is a substance which releases hydroxide ions when dissolved in water\nII. They change blue litmus to red\nIII. Zinc reacts with sodium hydroxide to form Sodium Zineate with the liberation of hydrogen gas\nIV. They are colourless with phenolphthalein and pink with methyl orange",
+    "options": [
+      "I and III",
+      "II only",
+      "III and IV",
+      "IV and II"
+    ],
+    "answer_text": "I and III",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q119",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "119",
+    "question_text": "Match List I with List II :\nList I: (a) Right to equality (b) Right to Freedom (c) Right to constitutional remedies (d) Right to freedom of religion\nList II: 1. Articles 25-28 2. Articles 14-18 3. Articles 19-22 4. Article 32",
+    "options": [
+      "(a)-2, (b)-3, (c)-4, (d)-1",
+      "(a)-1, (b)-4, (c)-3, (d)-2",
+      "(a)-3, (b)-2, (c)-1, (d)-4",
+      "(a)-4, (b)-1, (c)-2, (d)-3"
+    ],
+    "answer_text": "(a)-2, (b)-3, (c)-4, (d)-1",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q120",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "120",
+    "question_text": "From when Women were granted the right to vote in British India?",
+    "options": [
+      "1920",
+      "1921",
+      "1922",
+      "1923"
+    ],
+    "answer_text": "1921",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q121",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "121",
+    "question_text": "In which year the Staff Selection Board was established in Tamilnadu during the Panagal Ministry?",
+    "options": [
+      "1916",
+      "1920",
+      "1924",
+      "1927"
+    ],
+    "answer_text": "1924",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q122",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "122",
+    "question_text": "Match the following: (a) Thembavani (b) Seerapuranam (c) Bhagvad Gita (d) Tripitakas -- List II: 1. Hindus 2. Christians 3. Buddhists 4. Muslims",
+    "options": [
+      "4 3 1 2",
+      "2 1 3 4",
+      "1 3 4 2",
+      "2 4 1 3"
+    ],
+    "answer_text": "2 4 1 3",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q151",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "151",
+    "question_text": "The education system in India consists of primarily ______ levels.",
+    "options": [
+      "Eight",
+      "Six",
+      "Four",
+      "Two"
+    ],
+    "answer_text": "Six",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q152",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "152",
+    "question_text": "Kamaraj served as the Chief Minister of Tamil Nadu for",
+    "options": [
+      "7 years",
+      "8 years",
+      "9 years",
+      "10 years"
+    ],
+    "answer_text": "9 years",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q153",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "153",
+    "question_text": "GST came into effect on ______ in India.",
+    "options": [
+      "29th March 2017",
+      "1st July 2017",
+      "29th March 2016",
+      "1st July 2016"
+    ],
+    "answer_text": "1st July 2017",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q154",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "154",
+    "question_text": "Mutant variety of wheat is",
+    "options": [
+      "Oenothera Lamarkiana",
+      "Castor Aruna",
+      "Sharbati Sonora",
+      "Mirabilis Jalaba"
+    ],
+    "answer_text": "Sharbati Sonora",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q156",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "156",
+    "question_text": "Which article of the Indian Constitution talks about 'Taxes levied and collected by the Union but assigned to the States'?",
+    "options": [
+      "Art. 201",
+      "Art. 269",
+      "Art. 272",
+      "Art. 268"
+    ],
+    "answer_text": "Art. 269",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q157",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "157",
+    "question_text": "I. Baripada: A hamlet that Conserves Forest, promotes growth. II. Baripada: Located in Maharastra - Gujarat border. Which of the above statements is correct?",
+    "options": [
+      "I is true but II is false",
+      "I and II is true",
+      "I is false but II is true",
+      "I and II are false"
+    ],
+    "answer_text": "I and II is true",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q158",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "158",
+    "question_text": "Chennai becomes the ______ Indian city with metro railway.",
+    "options": [
+      "first",
+      "fifth",
+      "sixth",
+      "second"
+    ],
+    "answer_text": "sixth",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q159",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "159",
+    "question_text": "When was Swachh Bharat Abhiyan was announced by the Prime Minister?",
+    "options": [
+      "2 Oct 2013",
+      "15 August 2014",
+      "2 Oct 2015",
+      "2 Oct 2016"
+    ],
+    "answer_text": "15 August 2014",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q161",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "161",
+    "question_text": "India's central meridian passes through",
+    "options": [
+      "Ahmedabad",
+      "Mirzapur",
+      "Greenwich",
+      "Gujarat"
+    ],
+    "answer_text": "Mirzapur",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q162",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "162",
+    "question_text": "Who is the first Indian transgender to be honoured with 'Padmashri'?",
+    "options": [
+      "Satyasree Sharmila",
+      "Prithika Yashini",
+      "Narthaki Natraj",
+      "Tamilselvi"
+    ],
+    "answer_text": "Narthaki Natraj",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q163",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "163",
+    "question_text": "During 1857, the peasants had to pay heavy taxes in the form of",
+    "options": [
+      "Land tax",
+      "Customs duty",
+      "Revenue tax",
+      "Service tax"
+    ],
+    "answer_text": "Land tax",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q164",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "164",
+    "question_text": "Home rule league in Bombay was formed by",
+    "options": [
+      "Bharathiar",
+      "Mrs. Annie Besant",
+      "Nehru",
+      "Tilak"
+    ],
+    "answer_text": "Tilak",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q165",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "165",
+    "question_text": "Match the following: (a) Herald of new age (b) Martin Luther of Hinduism (c) New India (d) Photo Voltaic lighting system -- 1. Annie Besant 2. Raja Rammohan Roy 3. Ramakrishna Mission 4. Swami Dyanandha Saraswathi",
+    "options": [
+      "a-1, b-3, c-2, d-4",
+      "a-2, b-4, c-1, d-3",
+      "a-4, b-3, c-2, d-1",
+      "a-1, b-4, c-3, d-2"
+    ],
+    "answer_text": "a-2, b-4, c-1, d-3",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q166",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "166",
+    "question_text": "The Central Vigilance Commission was established on the recommendation of",
+    "options": [
+      "Administrative Reforms Commission",
+      "National Development Council",
+      "Santhanam Committee on Prevention of Corruption",
+      "Law Commission"
+    ],
+    "answer_text": "Santhanam Committee on Prevention of Corruption",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q167",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "167",
+    "question_text": "The Chief Justice and other Judges of the Indian Supreme Court are appointed by",
+    "options": [
+      "The President",
+      "The Attorney General",
+      "The Governor",
+      "The Prime Minister"
+    ],
+    "answer_text": "The President",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q168",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "168",
+    "question_text": "Which Amendment has made provisions related to 'Nagar Palikas' (Urban Local Governments)?",
+    "options": [
+      "73rd Amendment Act",
+      "75th Amendment Act",
+      "74th Amendment Act",
+      "70th Amendment Act"
+    ],
+    "answer_text": "74th Amendment Act",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q169",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "169",
+    "question_text": "Which Union Territory has its own elected Legislative Assembly?",
+    "options": [
+      "Chandigarh",
+      "Lakshadweep",
+      "Puducherry",
+      "Daman and Diu"
+    ],
+    "answer_text": "Puducherry",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q170",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "170",
+    "question_text": "In Lok Sabha, how many members are elected directly by the people?",
+    "options": [
+      "453",
+      "354",
+      "543",
+      "545"
+    ],
+    "answer_text": "543",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q172",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "172",
+    "question_text": "Which right has been abolished by the 44th Amendment Act, 1978?",
+    "options": [
+      "Right to freedom of religion",
+      "Right against Exploitation",
+      "Right to Property",
+      "Right to Constitutional remedies"
+    ],
+    "answer_text": "Right to Property",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q175",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "175",
+    "question_text": "The Railway Station \"Mendipathar\" is located in",
+    "options": [
+      "Sikkim",
+      "Meghalaya",
+      "Tripura",
+      "Nagaland"
+    ],
+    "answer_text": "Meghalaya",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "tnpsc-group4-prelims-2019-gs-q176",
+    "source_id": "tnpsc-group4-prelims-2019-gs",
+    "exam": "TNPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "176",
+    "question_text": "The first state to be created on Linguistic basis was",
+    "options": [
+      "Kashmir",
+      "Tamilnadu",
+      "Karnataka",
+      "Andhra"
+    ],
+    "answer_text": "Andhra",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  }
+]

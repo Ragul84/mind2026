@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-08-23T07:10:43.566Z",
+  "prompts": [
+    {
+      "key": "dpsp_short",
+      "prompt": "DPSP"
+    },
+    {
+      "key": "dpsp_explicit",
+      "prompt": "What are Directive Principles of State Policy?"
+    },
+    {
+      "key": "fr_short",
+      "prompt": "FR"
+    },
+    {
+      "key": "fr_explain",
+      "prompt": "Explain Fundamental Rights"
+    },
+    {
+      "key": "democracy",
+      "prompt": "What is democracy?"
+    },
+    {
+      "key": "federalism",
+      "prompt": "What is federalism?"
+    },
+    {
+      "key": "fundamental_duties",
+      "prompt": "What are Fundamental Duties?"
+    },
+    {
+      "key": "panchayati_raj",
+      "prompt": "What is Panchayati Raj?"
+    },
+    {
+      "key": "revolt",
+      "prompt": "The revolt of 1857"
+    },
+    {
+      "key": "revolt_causes",
+      "prompt": "Explain the causes of the Revolt of 1857"
+    },
+    {
+      "key": "revolt_explain",
+      "prompt": "Explain the Revolt of 1857"
+    },
+    {
+      "key": "1857",
+      "prompt": "1857"
+    },
+    {
+      "key": "monsoon",
+      "prompt": "Explain Indian monsoon"
+    },
+    {
+      "key": "monsoon_why",
+      "prompt": "Why does monsoon occur in India?"
+    },
+    {
+      "key": "sw_monsoon",
+      "prompt": "Southwest monsoon"
+    },
+    {
+      "key": "river_systems",
+      "prompt": "Explain river systems of India"
+    },
+    {
+      "key": "biodiversity",
+      "prompt": "What is biodiversity?"
+    },
+    {
+      "key": "mineral",
+      "prompt": "What is a mineral?"
+    },
+    {
+      "key": "photosynthesis",
+      "prompt": "What is photosynthesis?"
+    },
+    {
+      "key": "photosynthesis_detail",
+      "prompt": "Explain photosynthesis in detail"
+    },
+    {
+      "key": "nuclear_fission_short",
+      "prompt": "What is nuclear fission?"
+    },
+    {
+      "key": "nuclear_fission_explain",
+      "prompt": "Explain nuclear fission"
+    },
+    {
+      "key": "newton_short",
+      "prompt": "What is Newton's second law?"
+    },
+    {
+      "key": "newton_explain",
+      "prompt": "Explain Newton's second law"
+    },
+    {
+      "key": "gdp",
+      "prompt": "GDP"
+    },
+    {
+      "key": "fiscal_deficit",
+      "prompt": "What is fiscal deficit?"
+    },
+    {
+      "key": "inflation",
+      "prompt": "What is inflation?"
+    },
+    {
+      "key": "national_income",
+      "prompt": "What is national income?"
+    },
+    {
+      "key": "cell_theory",
+      "prompt": "What is the cell theory?"
+    },
+    {
+      "key": "respiratory_system",
+      "prompt": "What is the human respiratory system?"
+    }
+  ],
+  "fixtures": [
+    {
+      "key": "tnpsc",
+      "context": {
+        "primary_exam": "tnpsc",
+        "primary_curriculum": "samacheer",
+        "class_level": 10,
+        "context_source": "onboarding"
+      },
+      "expectedCorpus": "samacheer",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a"
+    },
+    {
+      "key": "upsc",
+      "context": {
+        "primary_exam": "upsc",
+        "primary_curriculum": "ncert",
+        "class_level": 11,
+        "context_source": "onboarding"
+      },
+      "expectedCorpus": "ncert",
+      "userId": "54778a7f-c934-472f-bfa2-b4b22b5fe910"
+    }
+  ],
+  "seededFixtures": [
+    {
+      "fixtureKey": "tnpsc",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a",
+      "studyPayload": {
+        "primary_exam": "tnpsc",
+        "primary_curriculum": "samacheer",
+        "class_level": 10,
+        "context_source": "onboarding"
+      },
+      "protocolTrackId": "tnpsc_ecosystem"
+    },
+    {
+      "fixtureKey": "upsc",
+      "userId": "54778a7f-c934-472f-bfa2-b4b22b5fe910",
+      "studyPayload": {
+        "primary_exam": "upsc",
+        "primary_curriculum": "ncert",
+        "class_level": 11,
+        "context_source": "onboarding"
+      },
+      "protocolTrackId": "upsc_ecosystem"
+    }
+  ],
+  "smokeTests": [],
+  "results": [
+    {
+      "name": "tnpsc:revolt_explain",
+      "fixtureKey": "tnpsc",
+      "prompt": "Explain the Revolt of 1857",
+      "expectedCorpus": "samacheer",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a",
+      "stream": {
+        "ok": true,
+        "status": 200,
+        "events": [
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "done"
+        ],
+        "answer": "# Revolt of 1857\n\nThe Revolt of 1857, also known as the **Sepoy Mutiny** or the **First War of Indian Independence**, was a major uprising against the rule of the British East India Company in India. It began on **May 10, 1857**, in **Meerut** as a mutiny of sepoys (Indian soldiers) in the Company's army.\n\n**Key Causes:**\n\n1.  **Political Causes:** Policies like the **Doctrine of Lapse** (annexing states without a natural male heir, like Jhansi, Nagpur, and Satara) and the annexation of Awadh on grounds of misgovernance created widespread resentment among Indian rulers and the populace.\n2.  **Economic Causes:** High land revenue demands, destruction of traditional Indian industries due to British trade policies, and economic exploitation led to poverty and discontent.\n3.  **Social and Religious Causes:** British interference in Indian social customs (like the abolition of Sati and widow remarriage act), Christian missionary activities, and a general feeling that the British were trying to destroy Indian culture fueled distrust.\n4.  **Military Causes:** Discrimination against Indian soldiers, lower pay, poor prospects for promotion, and the controversial **greased cartridges** incident (rumoured to be greased with animal fat, offensive to both Hindus and Muslims) sparked the immediate rebellion.\n\n**Major Centres and Leaders:**\n\n*   **Delhi:** Bahadur Shah II (nominal leader), General Bakht Khan\n*   **Kanpur:** Nana Saheb, Tantia Tope, Azimullah Khan\n*   **Lucknow:** Begum Hazrat Mahal\n*   **Jhansi:** Rani Lakshmibai\n*   **Bareilly:** Khan Bahadur Khan\n*   **Arrah (Bihar):** Kunwar Singh\n\n**Consequences:**\n\n*   The revolt was ultimately suppressed by the British by **1858**.\n*   It led to the **end of the East India Company's rule** and the transfer of power directly to the British Crown through the **Government of India Act, 1858**.\n*   The **Queen's Proclamation of 1858** promised religious freedom, equal treatment of Indians, and an end to territorial expansion.\n*   The Indian army was reorganized to prevent future rebellions, with a higher proportion of British soldiers.\n*   It sowed the seeds for future nationalist movements in India."
+      },
+      "actualPrimaryCorpus": null,
+      "leakageBoards": [],
+      "topSource": null,
+      "evidenceAudit": [],
+      "auditSupportingEvidence": [],
+      "answerCoverage": 1,
+      "verdict": "FAIL_NO_EVIDENCE"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "pass_direct": 0,
+    "pass_partial": 0,
+    "fail": 1,
+    "strictPassRate": 0
+  },
+  "validatorVersion": "strict-v2",
+  "notes": [
+    "TOC/contents/exercise/glossary-adjacent passages are rejected unless they contain an actual proposition answering the requested aspect.",
+    "PASS_DIRECT requires both corpus match and at least one strict supporting passage."
+  ]
+}

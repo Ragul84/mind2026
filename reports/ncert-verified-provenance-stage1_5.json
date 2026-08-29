@@ -1,0 +1,807 @@
+{
+  "title": "NCERT VERIFIED PROVENANCE — STAGE 1.5",
+  "generated_at": "2026-08-16T10:19:51.184Z",
+  "corpus": {
+    "live_ncert_source_documents": 484,
+    "live_ncert_chunks": 14242
+  },
+  "coverage": {
+    "catalogued_source_ids": 484,
+    "verified_book_titles": 315,
+    "verified_chapter_numbers": 315,
+    "verified_chapter_titles": 315,
+    "verified_official_source_references": 315,
+    "verified_language": 315,
+    "retained_manifest_titles": 8,
+    "total_student_facing_verified_titles": 323,
+    "unresolved_source_ids": 161
+  },
+  "breakdown": {
+    "classes": {
+      "6": 14,
+      "7": 26,
+      "8": 11,
+      "10": 41,
+      "11": 127,
+      "12": 96
+    },
+    "subjects": {
+      "accountancy": 18,
+      "biology": 32,
+      "business-studies": 20,
+      "chemistry": 18,
+      "economics": 16,
+      "geography": 38,
+      "mathematics": 57,
+      "physics": 26,
+      "political-science": 33,
+      "science": 38,
+      "social-science": 19
+    },
+    "chapter_provenance": {
+      "verified_ingestion_manifest": 8,
+      "verified_official": 315
+    }
+  },
+  "provenance_statuses": {
+    "documents": {
+      "existing_curated_mapping": 484
+    },
+    "chapters": {
+      "verified_ingestion_manifest": 8,
+      "verified_official": 315
+    }
+  },
+  "validation": {
+    "live_source_ids_without_catalog": [],
+    "orphan_catalog_records": [],
+    "catalog_live_metadata_disagreements": [],
+    "source_ids_with_multiple_chapter_rows": [],
+    "duplicate_official_chapter_numbers_within_book": [],
+    "unresolved_source_ids": [
+      "ncert-class-10-science-science-en-chapter-04-pdf",
+      "ncert-class-10-science-science-en-chapter-06-pdf",
+      "ncert-class-10-science-science-en-chapter-08-pdf",
+      "ncert-class-10-science-science-en-chapter-09-pdf",
+      "ncert-class-10-science-science-en-chapter-13-pdf",
+      "ncert-class-10-social-science-contemporary-india-ii-en-chapter-06-pdf",
+      "ncert-class-10-social-science-india-and-the-contemporary-world-ii-en-chapter-02-pdf",
+      "ncert-class-10-social-science-india-and-the-contemporary-world-ii-en-chapter-04-pdf",
+      "ncert-class-11-accountancy-accountancy-ii-en-chapter-02-pdf",
+      "ncert-class-11-chemistry-chemistry-part-ii-en-chapter-01-pdf",
+      "ncert-class-11-geography-fundamental-of-physical-geography-en-chapter-02-pdf",
+      "ncert-class-11-geography-fundamental-of-physical-geography-en-chapter-03-pdf",
+      "ncert-class-11-geography-fundamental-of-physical-geography-en-chapter-14-pdf",
+      "ncert-class-11-mathematics-mathematics-en-chapter-05-pdf",
+      "ncert-class-11-mathematics-mathematics-en-chapter-06-pdf",
+      "ncert-class-11-mathematics-mathematics-en-chapter-07-pdf",
+      "ncert-class-11-physics-physics-part-i-en-chapter-07-pdf",
+      "ncert-class-12-business-studies-business-studies-i-en-chapter-02-pdf",
+      "ncert-class-12-business-studies-business-studies-i-en-chapter-03-pdf",
+      "ncert-class-12-economics-introductory-macroeconomics-en-chapter-01-pdf",
+      "ncert-class-12-economics-introductory-macroeconomics-en-chapter-02-pdf",
+      "ncert-class-12-economics-introductory-macroeconomics-en-chapter-03-pdf",
+      "ncert-class-12-economics-introductory-macroeconomics-en-chapter-04-pdf",
+      "ncert-class-12-economics-introductory-macroeconomics-en-chapter-05-pdf",
+      "ncert-class-12-economics-introductory-macroeconomics-en-chapter-06-pdf",
+      "ncert-class-12-economics-introductory-microeconomics-en-chapter-01-pdf",
+      "ncert-class-12-economics-introductory-microeconomics-en-chapter-02-pdf",
+      "ncert-class-12-economics-introductory-microeconomics-en-chapter-03-pdf",
+      "ncert-class-12-economics-introductory-microeconomics-en-chapter-04-pdf",
+      "ncert-class-12-economics-introductory-microeconomics-en-chapter-05-pdf",
+      "ncert-class-12-geography-fundamentals-of-human-geography-en-chapter-03-pdf",
+      "ncert-class-12-geography-fundamentals-of-human-geography-en-chapter-04-pdf",
+      "ncert-class-12-geography-fundamentals-of-human-geography-en-chapter-05-pdf",
+      "ncert-class-12-geography-fundamentals-of-human-geography-en-chapter-07-pdf",
+      "ncert-class-12-geography-fundamentals-of-human-geography-en-chapter-08-pdf",
+      "ncert-class-12-geography-practical-work-in-geography-part-ii-en-chapter-04-pdf",
+      "ncert-class-12-history-themes-in-indian-history-i-en-chapter-01-pdf",
+      "ncert-class-12-history-themes-in-indian-history-i-en-chapter-02-pdf",
+      "ncert-class-12-history-themes-in-indian-history-i-en-chapter-03-pdf",
+      "ncert-class-12-history-themes-in-indian-history-i-en-chapter-04-pdf",
+      "ncert-class-12-history-themes-in-indian-history-ii-en-chapter-01-pdf",
+      "ncert-class-12-history-themes-in-indian-history-ii-en-chapter-02-pdf",
+      "ncert-class-12-history-themes-in-indian-history-ii-en-chapter-03-pdf",
+      "ncert-class-12-history-themes-in-indian-history-ii-en-chapter-04-pdf",
+      "ncert-class-12-history-themes-in-indian-history-iii-en-chapter-01-pdf",
+      "ncert-class-12-history-themes-in-indian-history-iii-en-chapter-02-pdf",
+      "ncert-class-12-history-themes-in-indian-history-iii-en-chapter-03-pdf",
+      "ncert-class-12-history-themes-in-indian-history-iii-en-chapter-04-pdf",
+      "ncert-class-12-mathematics-mathematics-part-ii-en-chapter-03-pdf",
+      "ncert-class-12-mathematics-mathematics-part-ii-en-chapter-04-pdf",
+      "ncert-class-12-physics-physics-part-ii-en-chapter-06-pdf",
+      "ncert-class-6-mathematics-ganita-prakash-en-chapter-02-pdf",
+      "ncert-class-6-mathematics-ganita-prakash-en-chapter-03-pdf",
+      "ncert-class-6-mathematics-ganita-prakash-en-chapter-09-pdf",
+      "ncert-class-6-science-curiosity-en-chapter-01-pdf",
+      "ncert-class-6-science-curiosity-en-chapter-02-pdf",
+      "ncert-class-6-science-curiosity-en-chapter-04-pdf",
+      "ncert-class-6-science-curiosity-en-chapter-11-pdf",
+      "ncert-class-6-science-curiosity-en-chapter-12-pdf",
+      "ncert-class-6-social-science-exploring-society-india-and-beyond-en-chapter-01-pdf",
+      "ncert-class-6-social-science-exploring-society-india-and-beyond-en-chapter-02-pdf",
+      "ncert-class-6-social-science-exploring-society-india-and-beyond-en-chapter-03-pdf",
+      "ncert-class-6-social-science-exploring-society-india-and-beyond-en-chapter-04-pdf",
+      "ncert-class-6-social-science-exploring-society-india-and-beyond-en-chapter-05-pdf",
+      "ncert-class-6-social-science-exploring-society-india-and-beyond-en-chapter-06-pdf",
+      "ncert-class-6-social-science-exploring-society-india-and-beyond-en-chapter-07-pdf",
+      "ncert-class-6-social-science-exploring-society-india-and-beyond-en-chapter-08-pdf",
+      "ncert-class-6-social-science-exploring-society-india-and-beyond-en-chapter-09-pdf",
+      "ncert-class-6-social-science-exploring-society-india-and-beyond-en-chapter-10-pdf",
+      "ncert-class-6-social-science-exploring-society-india-and-beyond-en-chapter-11-pdf",
+      "ncert-class-6-social-science-exploring-society-india-and-beyond-en-chapter-12-pdf",
+      "ncert-class-6-social-science-exploring-society-india-and-beyond-en-chapter-13-pdf",
+      "ncert-class-6-social-science-exploring-society-india-and-beyond-en-chapter-14-pdf",
+      "ncert-class-7-mathematics-ganita-prakash-en-chapter-02-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-01-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-02-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-03-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-04-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-05-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-06-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-07-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-08-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-09-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-10-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-11-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-12-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-01-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-02-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-03-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-04-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-05-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-06-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-07-pdf",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-08-pdf",
+      "ncert-class-8-mathematics-ganita-prakash-part-i-en-chapter-01-pdf",
+      "ncert-class-8-mathematics-ganita-prakash-part-i-en-chapter-02-pdf",
+      "ncert-class-8-mathematics-ganita-prakash-part-i-en-chapter-03-pdf",
+      "ncert-class-8-mathematics-ganita-prakash-part-i-en-chapter-04-pdf",
+      "ncert-class-8-mathematics-ganita-prakash-part-i-en-chapter-05-pdf",
+      "ncert-class-8-mathematics-ganita-prakash-part-i-en-chapter-06-pdf",
+      "ncert-class-8-mathematics-ganita-prakash-part-i-en-chapter-07-pdf",
+      "ncert-class-8-mathematics-ganita-prakash-part-ii-en-chapter-01-pdf",
+      "ncert-class-8-mathematics-ganita-prakash-part-ii-en-chapter-02-pdf",
+      "ncert-class-8-mathematics-ganita-prakash-part-ii-en-chapter-03-pdf",
+      "ncert-class-8-mathematics-ganita-prakash-part-ii-en-chapter-04-pdf",
+      "ncert-class-8-mathematics-ganita-prakash-part-ii-en-chapter-05-pdf",
+      "ncert-class-8-mathematics-ganita-prakash-part-ii-en-chapter-06-pdf",
+      "ncert-class-8-mathematics-ganita-prakash-part-ii-en-chapter-07-pdf",
+      "ncert-class-8-science-curiosity-en-chapter-03-pdf",
+      "ncert-class-8-science-curiosity-en-chapter-12-pdf",
+      "ncert-class-8-social-science-exploring-society-india-and-beyond-part-i-en-chapter-01-pdf",
+      "ncert-class-8-social-science-exploring-society-india-and-beyond-part-i-en-chapter-02-pdf",
+      "ncert-class-8-social-science-exploring-society-india-and-beyond-part-i-en-chapter-03-pdf",
+      "ncert-class-8-social-science-exploring-society-india-and-beyond-part-i-en-chapter-04-pdf",
+      "ncert-class-8-social-science-exploring-society-india-and-beyond-part-i-en-chapter-05-pdf",
+      "ncert-class-8-social-science-exploring-society-india-and-beyond-part-i-en-chapter-06-pdf",
+      "ncert-class-8-social-science-exploring-society-india-and-beyond-part-i-en-chapter-07-pdf",
+      "ncert-class-9-mathematics-mathematics-en-chapter-01-pdf",
+      "ncert-class-9-mathematics-mathematics-en-chapter-02-pdf",
+      "ncert-class-9-mathematics-mathematics-en-chapter-03-pdf",
+      "ncert-class-9-mathematics-mathematics-en-chapter-04-pdf",
+      "ncert-class-9-mathematics-mathematics-en-chapter-05-pdf",
+      "ncert-class-9-mathematics-mathematics-en-chapter-06-pdf",
+      "ncert-class-9-mathematics-mathematics-en-chapter-07-pdf",
+      "ncert-class-9-mathematics-mathematics-en-chapter-08-pdf",
+      "ncert-class-9-mathematics-mathematics-en-chapter-09-pdf",
+      "ncert-class-9-mathematics-mathematics-en-chapter-10-pdf",
+      "ncert-class-9-mathematics-mathematics-en-chapter-11-pdf",
+      "ncert-class-9-mathematics-mathematics-en-chapter-12-pdf",
+      "ncert-class-9-science-science-en-chapter-01-pdf",
+      "ncert-class-9-science-science-en-chapter-02-pdf",
+      "ncert-class-9-science-science-en-chapter-03-pdf",
+      "ncert-class-9-science-science-en-chapter-04-pdf",
+      "ncert-class-9-science-science-en-chapter-05-pdf",
+      "ncert-class-9-science-science-en-chapter-06-pdf",
+      "ncert-class-9-science-science-en-chapter-07-pdf",
+      "ncert-class-9-science-science-en-chapter-08-pdf",
+      "ncert-class-9-science-science-en-chapter-09-pdf",
+      "ncert-class-9-science-science-en-chapter-10-pdf",
+      "ncert-class-9-science-science-en-chapter-11-pdf",
+      "ncert-class-9-science-science-en-chapter-12-pdf",
+      "ncert-class-9-social-science-contemporary-india-i-en-chapter-01-pdf",
+      "ncert-class-9-social-science-contemporary-india-i-en-chapter-02-pdf",
+      "ncert-class-9-social-science-contemporary-india-i-en-chapter-03-pdf",
+      "ncert-class-9-social-science-contemporary-india-i-en-chapter-04-pdf",
+      "ncert-class-9-social-science-contemporary-india-i-en-chapter-05-pdf",
+      "ncert-class-9-social-science-contemporary-india-i-en-chapter-06-pdf",
+      "ncert-class-9-social-science-democratic-politics-i-en-chapter-01-pdf",
+      "ncert-class-9-social-science-democratic-politics-i-en-chapter-02-pdf",
+      "ncert-class-9-social-science-democratic-politics-i-en-chapter-03-pdf",
+      "ncert-class-9-social-science-democratic-politics-i-en-chapter-04-pdf",
+      "ncert-class-9-social-science-democratic-politics-i-en-chapter-05-pdf",
+      "ncert-class-9-social-science-economics-en-chapter-01-pdf",
+      "ncert-class-9-social-science-economics-en-chapter-02-pdf",
+      "ncert-class-9-social-science-economics-en-chapter-03-pdf",
+      "ncert-class-9-social-science-economics-en-chapter-04-pdf",
+      "ncert-class-9-social-science-india-and-the-contemporary-world-i-en-chapter-01-pdf",
+      "ncert-class-9-social-science-india-and-the-contemporary-world-i-en-chapter-02-pdf",
+      "ncert-class-9-social-science-india-and-the-contemporary-world-i-en-chapter-03-pdf",
+      "ncert-class-9-social-science-india-and-the-contemporary-world-i-en-chapter-04-pdf",
+      "ncert-class-9-social-science-india-and-the-contemporary-world-i-en-chapter-05-pdf"
+    ]
+  },
+  "representative_verified_records": [
+    {
+      "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-01-pdf",
+      "chapter_key": "official-ncert-chapter",
+      "chapter_number": "1",
+      "chapter_title": "REAL NUMBERS",
+      "verification_status": "verified_official",
+      "field_provenance": {
+        "page_end": "unverified",
+        "page_start": "unverified",
+        "unit_title": "unverified",
+        "unit_number": "unverified",
+        "chapter_title": "verified_official",
+        "chapter_number": "verified_official"
+      },
+      "metadata_source": {
+        "kind": "official_ncert_chapter_pdf",
+        "official_catalogue": "https://ncert.nic.in/textbook.php?ln=en",
+        "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh101.pdf"
+      },
+      "document": {
+        "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-01-pdf",
+        "board": "ncert",
+        "class_level": 10,
+        "subject": "mathematics",
+        "language": "english",
+        "book_title": "Mathematics",
+        "volume_or_part": null,
+        "official_source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+        "verification_status": "existing_curated_mapping",
+        "field_provenance": {
+          "term": "unverified",
+          "board": "verified_official",
+          "subject": "verified_official",
+          "language": "verified_official",
+          "book_title": "verified_official",
+          "class_level": "verified_official",
+          "document_scope": "verified_official",
+          "volume_or_part": "unverified",
+          "official_source_url": "verified_official"
+        },
+        "metadata_source": {
+          "kind": "live_textbook_chunks_baseline",
+          "note": "Baseline metadata copied from existing live corpus; not approved for student-facing provenance.",
+          "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+          "official_ncert_catalogue": "https://ncert.nic.in/textbook.php?ln=en"
+        }
+      }
+    },
+    {
+      "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-02-pdf",
+      "chapter_key": "official-ncert-chapter",
+      "chapter_number": "2",
+      "chapter_title": "POLYNOMIALS",
+      "verification_status": "verified_official",
+      "field_provenance": {
+        "page_end": "unverified",
+        "page_start": "unverified",
+        "unit_title": "unverified",
+        "unit_number": "unverified",
+        "chapter_title": "verified_official",
+        "chapter_number": "verified_official"
+      },
+      "metadata_source": {
+        "kind": "official_ncert_chapter_pdf",
+        "official_catalogue": "https://ncert.nic.in/textbook.php?ln=en",
+        "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh102.pdf"
+      },
+      "document": {
+        "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-02-pdf",
+        "board": "ncert",
+        "class_level": 10,
+        "subject": "mathematics",
+        "language": "english",
+        "book_title": "Mathematics",
+        "volume_or_part": null,
+        "official_source_url": "https://ncert.nic.in/textbook/pdf/jemh102.pdf",
+        "verification_status": "existing_curated_mapping",
+        "field_provenance": {
+          "term": "unverified",
+          "board": "verified_official",
+          "subject": "verified_official",
+          "language": "verified_official",
+          "book_title": "verified_official",
+          "class_level": "verified_official",
+          "document_scope": "verified_official",
+          "volume_or_part": "unverified",
+          "official_source_url": "verified_official"
+        },
+        "metadata_source": {
+          "kind": "live_textbook_chunks_baseline",
+          "note": "Baseline metadata copied from existing live corpus; not approved for student-facing provenance.",
+          "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh102.pdf",
+          "official_ncert_catalogue": "https://ncert.nic.in/textbook.php?ln=en"
+        }
+      }
+    },
+    {
+      "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-03-pdf",
+      "chapter_key": "official-ncert-chapter",
+      "chapter_number": "3",
+      "chapter_title": "PAIR OF LINEAR EQUATIONS IN TWO VARIABLES",
+      "verification_status": "verified_official",
+      "field_provenance": {
+        "page_end": "unverified",
+        "page_start": "unverified",
+        "unit_title": "unverified",
+        "unit_number": "unverified",
+        "chapter_title": "verified_official",
+        "chapter_number": "verified_official"
+      },
+      "metadata_source": {
+        "kind": "official_ncert_chapter_pdf",
+        "official_catalogue": "https://ncert.nic.in/textbook.php?ln=en",
+        "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh103.pdf"
+      },
+      "document": {
+        "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-03-pdf",
+        "board": "ncert",
+        "class_level": 10,
+        "subject": "mathematics",
+        "language": "english",
+        "book_title": "Mathematics",
+        "volume_or_part": null,
+        "official_source_url": "https://ncert.nic.in/textbook/pdf/jemh103.pdf",
+        "verification_status": "existing_curated_mapping",
+        "field_provenance": {
+          "term": "unverified",
+          "board": "verified_official",
+          "subject": "verified_official",
+          "language": "verified_official",
+          "book_title": "verified_official",
+          "class_level": "verified_official",
+          "document_scope": "verified_official",
+          "volume_or_part": "unverified",
+          "official_source_url": "verified_official"
+        },
+        "metadata_source": {
+          "kind": "live_textbook_chunks_baseline",
+          "note": "Baseline metadata copied from existing live corpus; not approved for student-facing provenance.",
+          "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh103.pdf",
+          "official_ncert_catalogue": "https://ncert.nic.in/textbook.php?ln=en"
+        }
+      }
+    },
+    {
+      "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-04-pdf",
+      "chapter_key": "official-ncert-chapter",
+      "chapter_number": "4",
+      "chapter_title": "QUADRATIC EQUATIONS",
+      "verification_status": "verified_official",
+      "field_provenance": {
+        "page_end": "unverified",
+        "page_start": "unverified",
+        "unit_title": "unverified",
+        "unit_number": "unverified",
+        "chapter_title": "verified_official",
+        "chapter_number": "verified_official"
+      },
+      "metadata_source": {
+        "kind": "official_ncert_chapter_pdf",
+        "official_catalogue": "https://ncert.nic.in/textbook.php?ln=en",
+        "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh104.pdf"
+      },
+      "document": {
+        "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-04-pdf",
+        "board": "ncert",
+        "class_level": 10,
+        "subject": "mathematics",
+        "language": "english",
+        "book_title": "Mathematics",
+        "volume_or_part": null,
+        "official_source_url": "https://ncert.nic.in/textbook/pdf/jemh104.pdf",
+        "verification_status": "existing_curated_mapping",
+        "field_provenance": {
+          "term": "unverified",
+          "board": "verified_official",
+          "subject": "verified_official",
+          "language": "verified_official",
+          "book_title": "verified_official",
+          "class_level": "verified_official",
+          "document_scope": "verified_official",
+          "volume_or_part": "unverified",
+          "official_source_url": "verified_official"
+        },
+        "metadata_source": {
+          "kind": "live_textbook_chunks_baseline",
+          "note": "Baseline metadata copied from existing live corpus; not approved for student-facing provenance.",
+          "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh104.pdf",
+          "official_ncert_catalogue": "https://ncert.nic.in/textbook.php?ln=en"
+        }
+      }
+    },
+    {
+      "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-05-pdf",
+      "chapter_key": "official-ncert-chapter",
+      "chapter_number": "5",
+      "chapter_title": "ARITHMETIC PROGRESSIONS",
+      "verification_status": "verified_official",
+      "field_provenance": {
+        "page_end": "unverified",
+        "page_start": "unverified",
+        "unit_title": "unverified",
+        "unit_number": "unverified",
+        "chapter_title": "verified_official",
+        "chapter_number": "verified_official"
+      },
+      "metadata_source": {
+        "kind": "official_ncert_chapter_pdf",
+        "official_catalogue": "https://ncert.nic.in/textbook.php?ln=en",
+        "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh105.pdf"
+      },
+      "document": {
+        "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-05-pdf",
+        "board": "ncert",
+        "class_level": 10,
+        "subject": "mathematics",
+        "language": "english",
+        "book_title": "Mathematics",
+        "volume_or_part": null,
+        "official_source_url": "https://ncert.nic.in/textbook/pdf/jemh105.pdf",
+        "verification_status": "existing_curated_mapping",
+        "field_provenance": {
+          "term": "unverified",
+          "board": "verified_official",
+          "subject": "verified_official",
+          "language": "verified_official",
+          "book_title": "verified_official",
+          "class_level": "verified_official",
+          "document_scope": "verified_official",
+          "volume_or_part": "unverified",
+          "official_source_url": "verified_official"
+        },
+        "metadata_source": {
+          "kind": "live_textbook_chunks_baseline",
+          "note": "Baseline metadata copied from existing live corpus; not approved for student-facing provenance.",
+          "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh105.pdf",
+          "official_ncert_catalogue": "https://ncert.nic.in/textbook.php?ln=en"
+        }
+      }
+    },
+    {
+      "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-06-pdf",
+      "chapter_key": "official-ncert-chapter",
+      "chapter_number": "6",
+      "chapter_title": "TRIANGLES",
+      "verification_status": "verified_official",
+      "field_provenance": {
+        "page_end": "unverified",
+        "page_start": "unverified",
+        "unit_title": "unverified",
+        "unit_number": "unverified",
+        "chapter_title": "verified_official",
+        "chapter_number": "verified_official"
+      },
+      "metadata_source": {
+        "kind": "official_ncert_chapter_pdf",
+        "official_catalogue": "https://ncert.nic.in/textbook.php?ln=en",
+        "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh106.pdf"
+      },
+      "document": {
+        "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-06-pdf",
+        "board": "ncert",
+        "class_level": 10,
+        "subject": "mathematics",
+        "language": "english",
+        "book_title": "Mathematics",
+        "volume_or_part": null,
+        "official_source_url": "https://ncert.nic.in/textbook/pdf/jemh106.pdf",
+        "verification_status": "existing_curated_mapping",
+        "field_provenance": {
+          "term": "unverified",
+          "board": "verified_official",
+          "subject": "verified_official",
+          "language": "verified_official",
+          "book_title": "verified_official",
+          "class_level": "verified_official",
+          "document_scope": "verified_official",
+          "volume_or_part": "unverified",
+          "official_source_url": "verified_official"
+        },
+        "metadata_source": {
+          "kind": "live_textbook_chunks_baseline",
+          "note": "Baseline metadata copied from existing live corpus; not approved for student-facing provenance.",
+          "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh106.pdf",
+          "official_ncert_catalogue": "https://ncert.nic.in/textbook.php?ln=en"
+        }
+      }
+    },
+    {
+      "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-07-pdf",
+      "chapter_key": "official-ncert-chapter",
+      "chapter_number": "7",
+      "chapter_title": "COORDINATE GEOMETRY",
+      "verification_status": "verified_official",
+      "field_provenance": {
+        "page_end": "unverified",
+        "page_start": "unverified",
+        "unit_title": "unverified",
+        "unit_number": "unverified",
+        "chapter_title": "verified_official",
+        "chapter_number": "verified_official"
+      },
+      "metadata_source": {
+        "kind": "official_ncert_chapter_pdf",
+        "official_catalogue": "https://ncert.nic.in/textbook.php?ln=en",
+        "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh107.pdf"
+      },
+      "document": {
+        "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-07-pdf",
+        "board": "ncert",
+        "class_level": 10,
+        "subject": "mathematics",
+        "language": "english",
+        "book_title": "Mathematics",
+        "volume_or_part": null,
+        "official_source_url": "https://ncert.nic.in/textbook/pdf/jemh107.pdf",
+        "verification_status": "existing_curated_mapping",
+        "field_provenance": {
+          "term": "unverified",
+          "board": "verified_official",
+          "subject": "verified_official",
+          "language": "verified_official",
+          "book_title": "verified_official",
+          "class_level": "verified_official",
+          "document_scope": "verified_official",
+          "volume_or_part": "unverified",
+          "official_source_url": "verified_official"
+        },
+        "metadata_source": {
+          "kind": "live_textbook_chunks_baseline",
+          "note": "Baseline metadata copied from existing live corpus; not approved for student-facing provenance.",
+          "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh107.pdf",
+          "official_ncert_catalogue": "https://ncert.nic.in/textbook.php?ln=en"
+        }
+      }
+    },
+    {
+      "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-08-pdf",
+      "chapter_key": "official-ncert-chapter",
+      "chapter_number": "8",
+      "chapter_title": "INTRODUCTION TO TRIGONOMETRY",
+      "verification_status": "verified_official",
+      "field_provenance": {
+        "page_end": "unverified",
+        "page_start": "unverified",
+        "unit_title": "unverified",
+        "unit_number": "unverified",
+        "chapter_title": "verified_official",
+        "chapter_number": "verified_official"
+      },
+      "metadata_source": {
+        "kind": "official_ncert_chapter_pdf",
+        "official_catalogue": "https://ncert.nic.in/textbook.php?ln=en",
+        "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh108.pdf"
+      },
+      "document": {
+        "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-08-pdf",
+        "board": "ncert",
+        "class_level": 10,
+        "subject": "mathematics",
+        "language": "english",
+        "book_title": "Mathematics",
+        "volume_or_part": null,
+        "official_source_url": "https://ncert.nic.in/textbook/pdf/jemh108.pdf",
+        "verification_status": "existing_curated_mapping",
+        "field_provenance": {
+          "term": "unverified",
+          "board": "verified_official",
+          "subject": "verified_official",
+          "language": "verified_official",
+          "book_title": "verified_official",
+          "class_level": "verified_official",
+          "document_scope": "verified_official",
+          "volume_or_part": "unverified",
+          "official_source_url": "verified_official"
+        },
+        "metadata_source": {
+          "kind": "live_textbook_chunks_baseline",
+          "note": "Baseline metadata copied from existing live corpus; not approved for student-facing provenance.",
+          "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh108.pdf",
+          "official_ncert_catalogue": "https://ncert.nic.in/textbook.php?ln=en"
+        }
+      }
+    },
+    {
+      "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-09-pdf",
+      "chapter_key": "official-ncert-chapter",
+      "chapter_number": "9",
+      "chapter_title": "SOME APPLICATIONS OF TRIGONOMETRY",
+      "verification_status": "verified_official",
+      "field_provenance": {
+        "page_end": "unverified",
+        "page_start": "unverified",
+        "unit_title": "unverified",
+        "unit_number": "unverified",
+        "chapter_title": "verified_official",
+        "chapter_number": "verified_official"
+      },
+      "metadata_source": {
+        "kind": "official_ncert_chapter_pdf",
+        "official_catalogue": "https://ncert.nic.in/textbook.php?ln=en",
+        "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh109.pdf"
+      },
+      "document": {
+        "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-09-pdf",
+        "board": "ncert",
+        "class_level": 10,
+        "subject": "mathematics",
+        "language": "english",
+        "book_title": "Mathematics",
+        "volume_or_part": null,
+        "official_source_url": "https://ncert.nic.in/textbook/pdf/jemh109.pdf",
+        "verification_status": "existing_curated_mapping",
+        "field_provenance": {
+          "term": "unverified",
+          "board": "verified_official",
+          "subject": "verified_official",
+          "language": "verified_official",
+          "book_title": "verified_official",
+          "class_level": "verified_official",
+          "document_scope": "verified_official",
+          "volume_or_part": "unverified",
+          "official_source_url": "verified_official"
+        },
+        "metadata_source": {
+          "kind": "live_textbook_chunks_baseline",
+          "note": "Baseline metadata copied from existing live corpus; not approved for student-facing provenance.",
+          "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh109.pdf",
+          "official_ncert_catalogue": "https://ncert.nic.in/textbook.php?ln=en"
+        }
+      }
+    },
+    {
+      "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-10-pdf",
+      "chapter_key": "official-ncert-chapter",
+      "chapter_number": "10",
+      "chapter_title": "CIRCLES",
+      "verification_status": "verified_official",
+      "field_provenance": {
+        "page_end": "unverified",
+        "page_start": "unverified",
+        "unit_title": "unverified",
+        "unit_number": "unverified",
+        "chapter_title": "verified_official",
+        "chapter_number": "verified_official"
+      },
+      "metadata_source": {
+        "kind": "official_ncert_chapter_pdf",
+        "official_catalogue": "https://ncert.nic.in/textbook.php?ln=en",
+        "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh110.pdf"
+      },
+      "document": {
+        "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-10-pdf",
+        "board": "ncert",
+        "class_level": 10,
+        "subject": "mathematics",
+        "language": "english",
+        "book_title": "Mathematics",
+        "volume_or_part": null,
+        "official_source_url": "https://ncert.nic.in/textbook/pdf/jemh110.pdf",
+        "verification_status": "existing_curated_mapping",
+        "field_provenance": {
+          "term": "unverified",
+          "board": "verified_official",
+          "subject": "verified_official",
+          "language": "verified_official",
+          "book_title": "verified_official",
+          "class_level": "verified_official",
+          "document_scope": "verified_official",
+          "volume_or_part": "unverified",
+          "official_source_url": "verified_official"
+        },
+        "metadata_source": {
+          "kind": "live_textbook_chunks_baseline",
+          "note": "Baseline metadata copied from existing live corpus; not approved for student-facing provenance.",
+          "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh110.pdf",
+          "official_ncert_catalogue": "https://ncert.nic.in/textbook.php?ln=en"
+        }
+      }
+    },
+    {
+      "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-11-pdf",
+      "chapter_key": "official-ncert-chapter",
+      "chapter_number": "11",
+      "chapter_title": "AREAS RELATED TO CIRCLES",
+      "verification_status": "verified_official",
+      "field_provenance": {
+        "page_end": "unverified",
+        "page_start": "unverified",
+        "unit_title": "unverified",
+        "unit_number": "unverified",
+        "chapter_title": "verified_official",
+        "chapter_number": "verified_official"
+      },
+      "metadata_source": {
+        "kind": "official_ncert_chapter_pdf",
+        "official_catalogue": "https://ncert.nic.in/textbook.php?ln=en",
+        "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh111.pdf"
+      },
+      "document": {
+        "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-11-pdf",
+        "board": "ncert",
+        "class_level": 10,
+        "subject": "mathematics",
+        "language": "english",
+        "book_title": "Mathematics",
+        "volume_or_part": null,
+        "official_source_url": "https://ncert.nic.in/textbook/pdf/jemh111.pdf",
+        "verification_status": "existing_curated_mapping",
+        "field_provenance": {
+          "term": "unverified",
+          "board": "verified_official",
+          "subject": "verified_official",
+          "language": "verified_official",
+          "book_title": "verified_official",
+          "class_level": "verified_official",
+          "document_scope": "verified_official",
+          "volume_or_part": "unverified",
+          "official_source_url": "verified_official"
+        },
+        "metadata_source": {
+          "kind": "live_textbook_chunks_baseline",
+          "note": "Baseline metadata copied from existing live corpus; not approved for student-facing provenance.",
+          "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh111.pdf",
+          "official_ncert_catalogue": "https://ncert.nic.in/textbook.php?ln=en"
+        }
+      }
+    },
+    {
+      "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-12-pdf",
+      "chapter_key": "official-ncert-chapter",
+      "chapter_number": "12",
+      "chapter_title": "SURFACE AREAS AND VOLUMES",
+      "verification_status": "verified_official",
+      "field_provenance": {
+        "page_end": "unverified",
+        "page_start": "unverified",
+        "unit_title": "unverified",
+        "unit_number": "unverified",
+        "chapter_title": "verified_official",
+        "chapter_number": "verified_official"
+      },
+      "metadata_source": {
+        "kind": "official_ncert_chapter_pdf",
+        "official_catalogue": "https://ncert.nic.in/textbook.php?ln=en",
+        "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh112.pdf"
+      },
+      "document": {
+        "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-12-pdf",
+        "board": "ncert",
+        "class_level": 10,
+        "subject": "mathematics",
+        "language": "english",
+        "book_title": "Mathematics",
+        "volume_or_part": null,
+        "official_source_url": "https://ncert.nic.in/textbook/pdf/jemh112.pdf",
+        "verification_status": "existing_curated_mapping",
+        "field_provenance": {
+          "term": "unverified",
+          "board": "verified_official",
+          "subject": "verified_official",
+          "language": "verified_official",
+          "book_title": "verified_official",
+          "class_level": "verified_official",
+          "document_scope": "verified_official",
+          "volume_or_part": "unverified",
+          "official_source_url": "verified_official"
+        },
+        "metadata_source": {
+          "kind": "live_textbook_chunks_baseline",
+          "note": "Baseline metadata copied from existing live corpus; not approved for student-facing provenance.",
+          "official_chapter_pdf": "https://ncert.nic.in/textbook/pdf/jemh112.pdf",
+          "official_ncert_catalogue": "https://ncert.nic.in/textbook.php?ln=en"
+        }
+      }
+    }
+  ],
+  "chunk_provenance": {
+    "rows_required_for_ncert_stage_1_5": 0,
+    "reason": "NCERT live source documents are chapter PDFs; source_id resolves to document and chapter metadata."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 4,
+  "book_code": "lemh2",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/lemh2ps.pdf",
+  "fetched_at": "2026-08-16T13:56:14.307Z",
+  "sample": {
+    "class_level": 12,
+    "subject": "mathematics",
+    "book_title": "Mathematics Part-II",
+    "volume_or_part": "Part II"
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "Relations and Functions"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "Inverse Trigonometric Functions"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "Matrices"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "Determinants"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "Continuity and Differentiability"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "Application of Derivatives"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    11,
+    12
+  ],
+  "evidence_mode": "official_pdf_text"
+}

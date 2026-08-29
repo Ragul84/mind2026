@@ -1,0 +1,1996 @@
+{
+  "TNPSC": {
+    "edu4bharat-tnpsc-group2-2022-gs": {
+      "total": 96,
+      "demoted": 96
+    },
+    "exams-tn-specific-tet-pyq-2017-tn-tet-2017-paper-1-appolo-pdf": {
+      "total": 141,
+      "demoted": 98
+    },
+    "exams-tn-specific-tet-pyq-2017-tn-tet-2017-paper-2-appolo-pdf": {
+      "total": 203,
+      "demoted": 120
+    },
+    "tnpsc-acf-prelims-2023-gs": {
+      "total": 185,
+      "demoted": 0
+    },
+    "tnpsc-group-2-question-papers-2022-group-2-question-paper-2022-pdf": {
+      "total": 24,
+      "demoted": 24
+    },
+    "tnpsc-group-2-question-papers-2022-group-ii-prelim-2022-ge-pdf": {
+      "total": 98,
+      "demoted": 91
+    },
+    "tnpsc-group-2-question-papers-2022-group-ii-prelim-2022-pdf": {
+      "total": 102,
+      "demoted": 96
+    },
+    "tnpsc-group-2-question-papers-2024-tnpsc-group-2-general-english-compressed-4210106ac735967f905724b400560ebb-pdf": {
+      "total": 77,
+      "demoted": 74
+    },
+    "tnpsc-group-2a-question-papers-2016-general-english-2016-pdf": {
+      "total": 93,
+      "demoted": 10
+    },
+    "tnpsc-group-2a-question-papers-2016-general-studies-2016-pdf": {
+      "total": 119,
+      "demoted": 66
+    },
+    "tnpsc-group-2a-question-papers-2016-general-tamil-2016-pdf": {
+      "total": 75,
+      "demoted": 75
+    },
+    "tnpsc-group-2a-question-papers-2017-english-2017-pdf": {
+      "total": 99,
+      "demoted": 38
+    },
+    "tnpsc-group-2a-question-papers-2017-general-studies-2017-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "tnpsc-group-2a-question-papers-2017-tamil-2017-pdf": {
+      "total": 102,
+      "demoted": 102
+    },
+    "tnpsc-group-2a-question-papers-2022-group-2-question-paper-2022-pdf": {
+      "total": 24,
+      "demoted": 24
+    },
+    "tnpsc-group-2a-question-papers-2022-group-ii-prelim-2022-ge-pdf": {
+      "total": 98,
+      "demoted": 91
+    },
+    "tnpsc-group-2a-question-papers-2022-group-ii-prelim-2022-pdf": {
+      "total": 102,
+      "demoted": 96
+    },
+    "tnpsc-group-2a-question-papers-2024-tnpsc-group-2-general-english-compressed-4210106ac735967f905724b400560ebb-pdf": {
+      "total": 77,
+      "demoted": 73
+    },
+    "tnpsc-group-4-question-papers-2016-tnpsc-group-4-2016-general-studies-pdf": {
+      "total": 100,
+      "demoted": 26
+    },
+    "tnpsc-group-4-question-papers-2016-tnpsc-group-4-2016-general-tamil-pdf": {
+      "total": 68,
+      "demoted": 68
+    },
+    "tnpsc-group-4-question-papers-2022-tnpsc-group-4-2022-general-tamil-pdf": {
+      "total": 9,
+      "demoted": 9
+    },
+    "tnpsc-group-4-question-papers-2024-tnpsc-group-4-general-tamil-2024-question-paper-a37936acdd70c006060a62c2a3a0e1f9-pdf": {
+      "total": 8,
+      "demoted": 8
+    },
+    "tnpsc-group1-prelims-2019": {
+      "total": 184,
+      "demoted": 8
+    },
+    "tnpsc-group1-prelims-2021-gs": {
+      "total": 184,
+      "demoted": 0
+    },
+    "tnpsc-group1-prelims-2022": {
+      "total": 100,
+      "demoted": 100
+    },
+    "tnpsc-group1-prelims-2022-gs": {
+      "total": 185,
+      "demoted": 0
+    },
+    "tnpsc-group1-prelims-2024": {
+      "total": 124,
+      "demoted": 124
+    },
+    "tnpsc-group1-prelims-2024-gs": {
+      "total": 189,
+      "demoted": 0
+    },
+    "tnpsc-group2-2018-gs": {
+      "total": 59,
+      "demoted": 6
+    },
+    "tnpsc-group2-prelims-2014": {
+      "total": 78,
+      "demoted": 36
+    },
+    "tnpsc-group2-prelims-2022": {
+      "total": 82,
+      "demoted": 82
+    },
+    "tnpsc-group2-prelims-2022-gs-v2": {
+      "total": 90,
+      "demoted": 0
+    },
+    "tnpsc-group2-prelims-2024": {
+      "total": 95,
+      "demoted": 95
+    },
+    "tnpsc-group2-prelims-2024-gs-v2": {
+      "total": 94,
+      "demoted": 0
+    },
+    "tnpsc-group2a-2017-gs": {
+      "total": 41,
+      "demoted": 2
+    },
+    "tnpsc-group4-prelims-2019": {
+      "total": 49,
+      "demoted": 49
+    },
+    "tnpsc-group4-prelims-2019-gs": {
+      "total": 92,
+      "demoted": 0
+    },
+    "tnpsc-group4-prelims-2022-gs": {
+      "total": 94,
+      "demoted": 0
+    },
+    "tnpsc-group4-prelims-2025": {
+      "total": 122,
+      "demoted": 8
+    }
+  },
+  "UPSC": {
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf": {
+      "total": 186,
+      "demoted": 186
+    },
+    "exams-upsc-pyq-2020-qp-cmse-23-surg-gynae-obst-preven-social-medcn-paper-20ii-190723-pdf": {
+      "total": 178,
+      "demoted": 178
+    },
+    "exams-upsc-pyq-2020-qp-csm-24-political-science-internl-20-rel-paper-i-031024-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2020-qp-csm-24-political-science-internl-20-rel-paper-ii-031024-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2020-qp-esem-23-electronics-telecommunication-engineering-20paper-ii-260623-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2020-qp-ies-iss-24-general-economics-20paper-i-240624-pdf": {
+      "total": 10,
+      "demoted": 10
+    },
+    "exams-upsc-pyq-2020-qp-ifsm-23-statistics-paper-20-i-051223-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2020-qp-ifsm-23-statistics-paper-20-ii-051223-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2020-qp-so-19-20-paper-20-20i-280823-pdf": {
+      "total": 144,
+      "demoted": 144
+    },
+    "exams-upsc-pyq-2020-qp-so-19-20-paper-ii-20-28proc-20practice-2c-20categories-20i-2c-20viii-20and-20xi-20-29-280823-pdf": {
+      "total": 188,
+      "demoted": 152
+    },
+    "exams-upsc-pyq-2020-qp-so-19-20-paper-ii-20-28proc-20practice-2c-20category-20iii-29-280823-pdf": {
+      "total": 167,
+      "demoted": 110
+    },
+    "exams-upsc-pyq-2020-qp-so-19-20-paper-ii-20-28proc-practice-2c-20category-20ii-20-29-280823-pdf": {
+      "total": 184,
+      "demoted": 149
+    },
+    "exams-upsc-pyq-2020-qp-so-19-20-paper-ii-20-28proc-practice-2c-20category-20x-29-280823-pdf": {
+      "total": 258,
+      "demoted": 167
+    },
+    "exams-upsc-pyq-2020-qp-so-19-20-paper-iii-noting-drafting-precis-20writing-280823-pdf": {
+      "total": 3,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2020-qp-so-ldce-23-procedure-practice-category-ii-20paper-ii-111223-pdf": {
+      "total": 255,
+      "demoted": 172
+    },
+    "exams-upsc-pyq-2021-qp-so-25-steno19-21-paper-i-151225-pdf": {
+      "total": 127,
+      "demoted": 103
+    },
+    "exams-upsc-pyq-2022-qp-so-21-22-paper-i-161023-pdf": {
+      "total": 178,
+      "demoted": 135
+    },
+    "exams-upsc-pyq-2022-qp-so-21-22-paper-ii-procedure-practice-category-i-viii-xi-161023-pdf": {
+      "total": 257,
+      "demoted": 180
+    },
+    "exams-upsc-pyq-2022-qp-so-21-22-paper-ii-procedure-practice-category-ii-161023-pdf": {
+      "total": 251,
+      "demoted": 188
+    },
+    "exams-upsc-pyq-2022-qp-so-21-22-paper-ii-procedure-practice-category-iii-161023-pdf": {
+      "total": 136,
+      "demoted": 101
+    },
+    "exams-upsc-pyq-2022-qp-so-21-22-paper-ii-procedure-practice-category-x-161023-pdf": {
+      "total": 192,
+      "demoted": 153
+    },
+    "exams-upsc-pyq-2022-qp-so-21-22-paper-iii-noting-drafting-precis-writing-161023-pdf": {
+      "total": 3,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-capf-2023-gs-essay-compre-07082023-pdf": {
+      "total": 2,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-cmse-23-general-medicine-and-pediatrics-paper-i-190723-pdf": {
+      "total": 140,
+      "demoted": 98
+    },
+    "exams-upsc-pyq-2023-qp-cs-pre-exam-2023-general-studies-paper-ii-280523-pdf": {
+      "total": 129,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-agriculture-paper-i-29092023-pdf": {
+      "total": 3,
+      "demoted": 3
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-agriculture-paper-ii-29092023-pdf": {
+      "total": 7,
+      "demoted": 7
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-ah-vs-paper-i-29092023-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-ah-vs-paper-ii-29092023-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-anthropology-paper-i-29092023-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-anthropology-paper-ii-29092023-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-bengali-literature-paper-ii-290923-pdf": {
+      "total": 2,
+      "demoted": 2
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-botany-paper-i-29092023-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-botany-paper-ii-29092023-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-chemistry-paper-i-29092023-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-civil-engineering-paper-i-29092023-pdf": {
+      "total": 6,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-civil-engineering-paper-ii-29092023-pdf": {
+      "total": 13,
+      "demoted": 12
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-commerce-accountancy-paper-i-29092023-pdf": {
+      "total": 13,
+      "demoted": 13
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-commerce-accountancy-paper-ii-29092023-pdf": {
+      "total": 8,
+      "demoted": 8
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-economics-paper-i-29092023-pdf": {
+      "total": 11,
+      "demoted": 10
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-economics-paper-ii-29092023-pdf": {
+      "total": 4,
+      "demoted": 4
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-electrical-engineering-paper-i-29092023-pdf": {
+      "total": 6,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-electrical-engineering-paper-ii-29092023-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-english-literature-paper-i-290923-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-english-literature-paper-ii-290923-pdf": {
+      "total": 3,
+      "demoted": 3
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-general-studies-paper-i-180923-pdf": {
+      "total": 2,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-general-studies-paper-ii-180923-pdf": {
+      "total": 18,
+      "demoted": 2
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-general-studies-paper-iii-180923-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-general-studies-paper-iv-180923-pdf": {
+      "total": 9,
+      "demoted": 7
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-geography-paper-i-29092023-pdf": {
+      "total": 9,
+      "demoted": 8
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-geography-paper-ii-29092023-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-geology-paper-i-29092023-pdf": {
+      "total": 2,
+      "demoted": 2
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-geology-paper-ii-29092023-pdf": {
+      "total": 4,
+      "demoted": 4
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-gujarati-literature-paper-i-290923-pdf": {
+      "total": 3,
+      "demoted": 3
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-gujarati-literature-paper-ii-290923-pdf": {
+      "total": 4,
+      "demoted": 4
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-hindi-literature-paper-i-290923-pdf": {
+      "total": 3,
+      "demoted": 3
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-hindi-literature-paper-ii-290923-pdf": {
+      "total": 1,
+      "demoted": 1
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-history-paper-i-29092023-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-history-paper-ii-29092023-pdf": {
+      "total": 4,
+      "demoted": 4
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-kannada-literature-paper-i-290923-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-kannada-literature-paper-ii-290923-pdf": {
+      "total": 4,
+      "demoted": 4
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-law-paper-i-29092023-pdf": {
+      "total": 7,
+      "demoted": 7
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-law-paper-ii-29092023-pdf": {
+      "total": 12,
+      "demoted": 10
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-maithili-literature-paper-i-290923-pdf": {
+      "total": 2,
+      "demoted": 2
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-maithili-literature-paper-ii-290923-pdf": {
+      "total": 3,
+      "demoted": 3
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-malayalam-literature-paper-i-290923-pdf": {
+      "total": 8,
+      "demoted": 8
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-malayalam-literature-paper-ii-290923-pdf": {
+      "total": 8,
+      "demoted": 8
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-management-paper-i-29092023-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-management-paper-ii-29092023-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-marathi-literature-paper-i-290923-pdf": {
+      "total": 2,
+      "demoted": 2
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-marathi-literature-paper-ii-290923-pdf": {
+      "total": 2,
+      "demoted": 2
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-mathematics-paper-ii-29092023-pdf": {
+      "total": 5,
+      "demoted": 4
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-mechanical-engineering-paper-i-29092023-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-mechanical-engineering-paper-ii-29092023-pdf": {
+      "total": 3,
+      "demoted": 3
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-medical-science-paper-i-29092023-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-medical-science-paper-ii-29092023-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-philosophy-paper-i-29092023-pdf": {
+      "total": 7,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-philosophy-paper-ii-29092023-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-physics-paper-i-29092023-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-physics-paper-ii-29092023-pdf": {
+      "total": 11,
+      "demoted": 11
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-pol-sc-ir-paper-i-29092023-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-pol-sc-ir-paper-ii-29092023-pdf": {
+      "total": 7,
+      "demoted": 7
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-psychology-paper-i-29092023-pdf": {
+      "total": 7,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-psychology-paper-ii-29092023-pdf": {
+      "total": 3,
+      "demoted": 3
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-public-20administration-paper-i-29092023-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-public-20administration-paper-ii-29092023-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-punjabi-literature-paper-i-290923-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-punjabi-literature-paper-ii-290923-pdf": {
+      "total": 1,
+      "demoted": 1
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-sanskrit-literature-paper-ii-290923-pdf": {
+      "total": 1,
+      "demoted": 1
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-sindhi-devanagari-literature-paper-i-290923-pdf": {
+      "total": 3,
+      "demoted": 3
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-sindhi-devanagari-literature-paper-ii-290923-pdf": {
+      "total": 4,
+      "demoted": 4
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-sociology-paper-i-29092023-pdf": {
+      "total": 4,
+      "demoted": 4
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-sociology-paper-ii-29092023-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-statistics-paper-i-29092023-pdf": {
+      "total": 3,
+      "demoted": 3
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-statistics-paper-ii-29092023-pdf": {
+      "total": 13,
+      "demoted": 9
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-tamil-literature-paper-i-290923-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-tamil-literature-paper-ii-290923-pdf": {
+      "total": 7,
+      "demoted": 7
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-telugu-literature-paper-i-290923-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-telugu-literature-paper-ii-290923-pdf": {
+      "total": 3,
+      "demoted": 3
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-zoology-paper-i-29092023-pdf": {
+      "total": 4,
+      "demoted": 4
+    },
+    "exams-upsc-pyq-2023-qp-csm-23-zoology-paper-ii-29092023-pdf": {
+      "total": 8,
+      "demoted": 7
+    },
+    "exams-upsc-pyq-2023-qp-esem-23-civil-engineering-paper-i-250623-pdf": {
+      "total": 4,
+      "demoted": 4
+    },
+    "exams-upsc-pyq-2023-qp-esem-23-civil-engineering-paper-ii-260623-pdf": {
+      "total": 9,
+      "demoted": 7
+    },
+    "exams-upsc-pyq-2023-qp-esem-23-electrical-engineering-paper-i-250623-pdf": {
+      "total": 7,
+      "demoted": 7
+    },
+    "exams-upsc-pyq-2023-qp-esem-23-electrical-engineering-paper-ii-260623-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-esem-23-electronics-telecommunication-engineering-paper-i-250623-pdf": {
+      "total": 7,
+      "demoted": 7
+    },
+    "exams-upsc-pyq-2023-qp-esem-23-mechanical-engineering-paper-i-250623-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-esem-23-mechanical-engineering-paper-ii-260623-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-geolm-23-chemistry-paper-i-240623-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-geolm-23-chemistry-paper-ii-250623-pdf": {
+      "total": 12,
+      "demoted": 11
+    },
+    "exams-upsc-pyq-2023-qp-geolm-23-chemistry-paper-iii-250623-pdf": {
+      "total": 9,
+      "demoted": 9
+    },
+    "exams-upsc-pyq-2023-qp-geolm-23-geo-physics-paper-i-240623-pdf": {
+      "total": 7,
+      "demoted": 7
+    },
+    "exams-upsc-pyq-2023-qp-geolm-23-geo-physics-paper-ii-250623-pdf": {
+      "total": 8,
+      "demoted": 8
+    },
+    "exams-upsc-pyq-2023-qp-geolm-23-geo-physics-paper-iii-250623-pdf": {
+      "total": 7,
+      "demoted": 7
+    },
+    "exams-upsc-pyq-2023-qp-geolm-23-geology-paper-i-240623-pdf": {
+      "total": 10,
+      "demoted": 10
+    },
+    "exams-upsc-pyq-2023-qp-geolm-23-geology-paper-ii-250623-pdf": {
+      "total": 10,
+      "demoted": 10
+    },
+    "exams-upsc-pyq-2023-qp-geolm-23-geology-paper-iii-250623-pdf": {
+      "total": 10,
+      "demoted": 10
+    },
+    "exams-upsc-pyq-2023-qp-iesiss-23-general-economics-paper-ii-250623-pdf": {
+      "total": 11,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-iesiss-23-general-economics-paper-iii-250623-pdf": {
+      "total": 13,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-iesiss-23-statictics-paper-iv-260623-pdf": {
+      "total": 15,
+      "demoted": 11
+    },
+    "exams-upsc-pyq-2023-qp-iesiss-23-statistics-paper-ii-250623-pdf": {
+      "total": 78,
+      "demoted": 54
+    },
+    "exams-upsc-pyq-2023-qp-iesiss-23-statistics-paper-iii-250623-pdf": {
+      "total": 8,
+      "demoted": 8
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-agricultural-engineering-paper-i-051223-pdf": {
+      "total": 7,
+      "demoted": 7
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-agricultural-engineering-paper-ii-051223-pdf": {
+      "total": 5,
+      "demoted": 5
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-agriculture-paper-i-051223-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-agriculture-paper-ii-051223-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-animal-husbandry-veterinary-science-paper-i-051223-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-animal-husbandry-veterinary-science-paper-ii-051223-pdf": {
+      "total": 4,
+      "demoted": 4
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-botany-paper-i-051223-pdf": {
+      "total": 7,
+      "demoted": 7
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-botany-paper-ii-051223-pdf": {
+      "total": 6,
+      "demoted": 6
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-chemical-engineering-paper-i-051223-pdf": {
+      "total": 4,
+      "demoted": 4
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-chemical-engineering-paper-ii-051223-pdf": {
+      "total": 3,
+      "demoted": 3
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-chemistry-paper-i-051223-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-chemistry-paper-ii-051223-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-civil-engineering-paper-i-051223-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-civil-engineering-paper-ii-051223-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-forestry-paper-1-051223-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-forestry-paper-ii-051223-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-geology-paper-i-051223-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-geology-paper-ii-051223-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-mathemathics-paper-i-051223-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-mathemathics-paper-ii-051223-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-mechanical-engineering-paper-i-051223-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-mechanical-engineering-paper-ii-051223-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-physics-paper-i-051223-pdf": {
+      "total": 4,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-physics-paper-ii-051223-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-zoology-paper-i-051223-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-ifsm-23-zoology-paper-ii-051223-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-so-ldce-23-noting-drafting-precis-writing-paper-iii-111223-pdf": {
+      "total": 4,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-so-ldce-23-paper-i-111223-pdf": {
+      "total": 160,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-so-ldce-23-procedure-practice-category-i-viii-and-xi-paper-ii-111223-pdf": {
+      "total": 242,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-so-ldce-23-procedure-practice-category-iii-paper-ii-111223-pdf": {
+      "total": 187,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-qp-so-ldce-23-procedure-practice-category-x-paper-ii-111223-pdf": {
+      "total": 253,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-upsc-csm-geography-optional-paper-1-2023-pdf": {
+      "total": 9,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2023-upsc-csm-geography-optional-paper-2-2023-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-cgeoscnstprelexam-24-geophysics-paper-190224-pdf": {
+      "total": 124,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-cgsmain-24-chemistry-paper-i-240624-pdf": {
+      "total": 13,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-cgsmain-24-chemistry-paper-ii-240624-pdf": {
+      "total": 4,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-cgsmain-24-chemistry-paper-iii-240624-pdf": {
+      "total": 9,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-cgsmain-24-geo-physics-paper-i-240624-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-cgsmain-24-geo-physics-paper-ii-240624-pdf": {
+      "total": 19,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-cgsmain-24-geo-physics-paper-iii-240624-pdf": {
+      "total": 10,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-cgsmain-24-geology-paper-i-240624-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-cgsmain-24-geology-paper-ii-240624-pdf": {
+      "total": 10,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-cgsmain-24-geology-paper-iii-240624-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-cgsmain-24-hydrogeology-240624-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-cmse-24-paper-i-general-medicine-and-pediatrics-150724-pdf": {
+      "total": 172,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-cmse-24-paper-ii-surgery-gyae-obst-prevent-social-medcn-150724-pdf": {
+      "total": 163,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-agriculture-paper-i-031024-pdf": {
+      "total": 9,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-agriculture-paper-ii-031024-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-anim-husb-vet-science-paper-i-031024-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-anim-husb-vet-science-paper-ii-031024-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-anthropology-paper-i-031024-pdf": {
+      "total": 2,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-anthropology-paper-ii-031024-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-botany-paper-i-031024-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-botany-paper-ii-031024-pdf": {
+      "total": 9,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-chemistry-paper-i-031024-pdf": {
+      "total": 4,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-chemistry-paper-ii-031024-pdf": {
+      "total": 15,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-civil-engineering-paper-i-031024-pdf": {
+      "total": 16,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-civil-engineering-paper-ii-031024-pdf": {
+      "total": 4,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-commerce-and-accountancy-paper-i-031024-pdf": {
+      "total": 14,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-commerce-and-accountancy-paper-ii-031024-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-economics-paper-i-031024-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-economics-paper-ii-031024-pdf": {
+      "total": 9,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-electrical-engineering-paper-i-031024-pdf": {
+      "total": 3,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-electrical-engineering-paper-ii-031024-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-geography-paper-i-031024-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-geography-paper-ii-031024-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-geology-paper-i-031024-pdf": {
+      "total": 3,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-geology-paper-ii-031024-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-history-paper-i-031024-pdf": {
+      "total": 3,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-history-paper-ii-031024-pdf": {
+      "total": 9,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-law-paper-i-031024-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-law-paper-ii-031024-pdf": {
+      "total": 10,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-management-paper-i-031024-pdf": {
+      "total": 12,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-management-paper-ii-031024-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-mathematics-paper-i-031024-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-mathematics-paper-ii-031024-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-mechanical-engineering-paper-i-031024-pdf": {
+      "total": 3,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-mechanical-engineering-paper-ii-031024-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-medical-science-paper-i-031024-pdf": {
+      "total": 9,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-medical-science-paper-ii-031024-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-philosophy-paper-i-031024-pdf": {
+      "total": 3,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-philosophy-paper-ii-031024-pdf": {
+      "total": 9,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-physics-paper-i-031024-pdf": {
+      "total": 4,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-physics-paper-ii-031024-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-psychology-paper-i-031024-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-psychology-paper-ii-031024-pdf": {
+      "total": 9,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-public-administration-paper-i-031024-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-public-administration-paper-ii-031024-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-sociology-paper-i-031024-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-sociology-paper-ii-031024-pdf": {
+      "total": 3,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-statistics-paper-i-031024-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-statistics-paper-ii-031024-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-zoology-paper-i-031024-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csm-24-zoology-paper-ii-031024-pdf": {
+      "total": 4,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csp-24-general-studies-paper-i-180624-pdf": {
+      "total": 167,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-csp-24-general-studies-paper-ii-180624-pdf": {
+      "total": 100,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-enggservcprelexam-24-civil-engineering-190224-pdf": {
+      "total": 129,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-enggservcprelexam-24-electrical-engineering-190224-pdf": {
+      "total": 100,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-enggservcprelexam-24-general-studies-and-engineering-aptitude-190224-pdf": {
+      "total": 64,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-enggservcprelexam-24-mechanical-engineering-190224-pdf": {
+      "total": 155,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-esem-24-civil-engineering-paper-i-240624-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-esem-24-civil-engineering-paper-ii-240624-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-esem-24-electrical-engineering-paper-i-240624-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-esem-24-electrical-engineering-paper-ii-240624-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-esem-24-electronics-telecommunication-engineering-paper-i-240624-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-esem-24-electronics-telecommunication-engineering-paper-ii-240624-pdf": {
+      "total": 4,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-esem-24-mechanical-engineering-paper-i-240624-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-esem-24-mechanical-engineering-paper-ii-240624-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ies-iss-24-general-economics-paper-ii-240624-pdf": {
+      "total": 10,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ies-iss-24-general-economics-paper-iii-240624-pdf": {
+      "total": 11,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ies-iss-24-statistics-paper-i-240624-pdf": {
+      "total": 54,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ies-iss-24-statistics-paper-ii-240624-pdf": {
+      "total": 54,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ies-iss-24-statistics-paper-iii-240624-pdf": {
+      "total": 9,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ies-iss-24-statistics-paper-iv-240624-pdf": {
+      "total": 11,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-agricultural-engineering-paper-i-021224-pdf": {
+      "total": 3,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-agricultural-engineering-paper-ii-021224-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-agriculture-paper-i-021224-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-agriculture-paper-ii-021224-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-animal-husbandry-veterinary-science-paper-i-021224-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-animal-husbandry-veterinary-science-paper-ii-021224-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-botany-paper-i-021224-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-botany-paper-ii-021224-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-chemical-engineering-paper-i-021224-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-chemical-engineering-paper-ii-021224-pdf": {
+      "total": 10,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-chemistry-paper-i-021224-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-chemistry-paper-ii-021224-pdf": {
+      "total": 12,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-civil-engineering-paper-i-021224-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-civil-engineering-paper-ii-021224-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-forestry-paper-i-021224-pdf": {
+      "total": 3,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-forestry-paper-ii-021224-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-geology-paper-i-021224-pdf": {
+      "total": 4,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-geology-paper-ii-021224-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-mathematics-paper-i-021224-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-mathematics-paper-ii-021224-pdf": {
+      "total": 2,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-mechanical-engineering-paper-i-021224-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-mechanical-engineering-paper-ii-021224-pdf": {
+      "total": 2,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-physics-paper-i-021224-pdf": {
+      "total": 3,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-physics-paper-ii-021224-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-statistics-paper-i-021224-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-statistics-paper-ii-021224-pdf": {
+      "total": 4,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-zoology-paper-i-021224-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-ifsm-24-zoology-paper-ii-021224-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-so-ldce-24-paper-i-130125-pdf": {
+      "total": 165,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-so-ldce-24-paper-ii-procedure-practice-category-iii-130125-pdf": {
+      "total": 153,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-so-ldce-24-paper-ii-procedurepractice-categories-i-and-viii-130125-pdf": {
+      "total": 205,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-so-ldce-24-paper-ii-procedurepracticecategory-ii-130125-pdf": {
+      "total": 185,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-so-ldce-24-paper-ii-procedurepracticecategory-x-130125-pdf": {
+      "total": 203,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-qp-so-ldce-24-paper-iii-noting-drafting-precis-writing-130125-pdf": {
+      "total": 2,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-upsc-csm-geography-optional-paper-1-2024-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2024-upsc-csm-geography-optional-paper-2-2024-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-agriculture-paper-20ii-qp-csm-25-010925-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-agriculture-paper-i-qp-csm-25-010925-pdf": {
+      "total": 3,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-ani-husb-veter-science-paper-20i-qp-csm-25-010925-pdf": {
+      "total": 4,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-ani-husb-veter-science-paper-20ii-qp-csm-25-010925-pdf": {
+      "total": 2,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-anthropology-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 2,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-assamese-literature-paper-20i-qp-csm-25-010925-pdf": {
+      "total": 3,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-assamese-literature-paper-20ii-qp-csm-25-010925-pdf": {
+      "total": 2,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-bodo-literature-paper-i-qp-csm-25-010925-pdf": {
+      "total": 1,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-botany-paper-i-qp-csm-25-010925-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-botany-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 1,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-chemistry-paper-i-qp-csm-25-010925-pdf": {
+      "total": 2,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-chemistry-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 14,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-civil-engineering-paper-20i-qp-csm-25-010925-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-civil-engineering-paper-20ii-qp-csm-25-010925-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-civil-engineering-paper-i-qp-esem-25-110825-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-commerce-and-accountancy-paper-i-qp-csm-25-010925-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-commerce-and-accountancy-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-economics-paper-20i-qp-csm-25-010925-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-economics-paper-20ii-qp-csm-25-010925-pdf": {
+      "total": 4,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-electrical-engineering-paper-20i-qp-csm-25-010925-pdf": {
+      "total": 2,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-electrical-engineering-paper-20ii-qp-csm-25-010925-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-electrical-engineering-paper-i-qp-esem-25-110825-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-electro-telecomn-engineering-paper-i-qp-esem-25-110825-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-english-literature-paper-20i-qp-csm-25-010925-pdf": {
+      "total": 6,
+      "demoted": 2
+    },
+    "exams-upsc-pyq-2025-english-literature-paper-20ii-qp-csm-25-010925-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-general-studies-paper-20i-qp-csm-25-010925-pdf": {
+      "total": 18,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-general-studies-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-general-studies-paper-iii-qp-csm-25-010925-pdf": {
+      "total": 9,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-general-studies-paper-iv-qp-csm-25-010925-pdf": {
+      "total": 9,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-geography-paper-i-qp-csm-25-010925-pdf": {
+      "total": 4,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-geology-paper-20i-qp-csm-25-010925-pdf": {
+      "total": 1,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-geology-paper-20ii-qp-csm-25-010925-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-gujarati-literature-paper-i-qp-csm-25-010925-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-gujarati-literature-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-hindi-literature-paper-i-qp-csm-25-010925-pdf": {
+      "total": 1,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-hindi-literature-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 3,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-history-paper-20i-qp-csm-25-010925-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-history-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 3,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-kannada-literature-28paper-i-qp-csm-25-010925-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-kannada-literature-paper-20ii-qp-csm-25-010925-pdf": {
+      "total": 3,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-law-paper-20i-qp-csm-25-010925-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-law-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 4,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-maithili-literature-paper-i-qp-csm-25-010925-pdf": {
+      "total": 2,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-maithili-literature-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 1,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-malayalam-20-literature-paper-i-qp-csm-25-010925-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-malayalam-literature-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 8,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-management-paper-i-qp-csm-25-010925-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-management-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 14,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-manipuri-literature-paper-i-qp-csm-25-010925-pdf": {
+      "total": 2,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-marathi-literature-paper-20i-qp-csm-25-010925-pdf": {
+      "total": 4,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-mathematics-paper-20i-qp-csm-25-010925-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-mathematics-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-mechanical-engineering-paper-i-qp-csm-25-010925-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-mechanical-engineering-paper-i-qp-esem-25-110825-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-mechanical-engineering-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-medical-science-paper-i-qp-csm-25-010925-pdf": {
+      "total": 3,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-medical-science-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 4,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-philosophy-paper-i-qp-csm-25-010925-pdf": {
+      "total": 9,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-philosophy-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-physics-paper-i-qp-csm-25-010925-pdf": {
+      "total": 2,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-physics-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 7,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-political-science-interanational-relations-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 4,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-psychology-paper-i-qp-csm-25-010925-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-psychology-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 4,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-public-administration-paper-i-qp-csm-25-010925-pdf": {
+      "total": 2,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-public-administration-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 5,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-punjabi-literature-paper-i-qp-csm-25-010925-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-punjabi-literature-paper-ii-qp-csm-25-010925-pdf": {
+      "total": 6,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-qp-cgeoscnstp-25-chemistry-paper-ii-100225-pdf": {
+      "total": 150,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-qp-cgeoscnstp-25-general-studies-paper-i-100225-pdf": {
+      "total": 110,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-qp-cgeoscnstp-25-geology-hydrogeology-paper-ii-100225-pdf": {
+      "total": 164,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-qp-cgeoscnstp-25-geophysics-paper-ii-100225-pdf": {
+      "total": 112,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-qp-cms-2025-paper-01-210725-pdf": {
+      "total": 69,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-qp-cms-2025-paper-02-210725-pdf": {
+      "total": 103,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-qp-csp-25-general-studies-paper-i-26052025-pdf": {
+      "total": 101,
+      "demoted": 0
+    },
+    "exams-upsc-pyq-2025-qp-csp-25-general-studies-paper-ii-26052025-pdf": {
+      "total": 103,
+      "demoted": 0
+    },
+    "upsc-cse-prelims-2011-gs1": {
+      "total": 100,
+      "demoted": 0
+    },
+    "upsc-cse-prelims-2012-gs1": {
+      "total": 100,
+      "demoted": 0
+    },
+    "upsc-cse-prelims-2013-gs1": {
+      "total": 100,
+      "demoted": 0
+    },
+    "upsc-cse-prelims-2014-gs1": {
+      "total": 100,
+      "demoted": 0
+    },
+    "upsc-cse-prelims-2015-gs1": {
+      "total": 100,
+      "demoted": 0
+    },
+    "upsc-cse-prelims-2016-gs1": {
+      "total": 9,
+      "demoted": 0
+    },
+    "upsc-cse-prelims-2017-gs1": {
+      "total": 9,
+      "demoted": 0
+    },
+    "upsc-cse-prelims-2018-gs1": {
+      "total": 10,
+      "demoted": 0
+    },
+    "upsc-cse-prelims-2019-gs1": {
+      "total": 2,
+      "demoted": 0
+    },
+    "upsc-cse-prelims-2021-gs1": {
+      "total": 1,
+      "demoted": 0
+    },
+    "upsc-cse-prelims-2023-gs1": {
+      "total": 1,
+      "demoted": 0
+    },
+    "upsc-cse-prelims-2024-gs1": {
+      "total": 2,
+      "demoted": 0
+    },
+    "upsc-cse-prelims-2025-gs1": {
+      "total": 5,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2016-mrunal-economy": {
+      "total": 24,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography": {
+      "total": 29,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture": {
+      "total": 23,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2016-mrunal-polity-and-science": {
+      "total": 15,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2017-mrunal-economy": {
+      "total": 27,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2017-mrunal-environment": {
+      "total": 21,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture": {
+      "total": 19,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations": {
+      "total": 25,
+      "demoted": 1
+    },
+    "web-upsc-cse-prelims-gs1-2018-mrunal-economy": {
+      "total": 21,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2018-mrunal-environment": {
+      "total": 15,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2018-mrunal-geography": {
+      "total": 4,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture": {
+      "total": 20,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2018-mrunal-international-relations": {
+      "total": 8,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2018-mrunal-polity": {
+      "total": 12,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2018-mrunal-science-and-technology": {
+      "total": 10,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2019-mrunal-economy": {
+      "total": 28,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2019-mrunal-environment": {
+      "total": 22,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2019-mrunal-geography": {
+      "total": 7,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2019-mrunal-history-and-culture": {
+      "total": 15,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2019-mrunal-polity-and-international-relations": {
+      "total": 15,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2019-mrunal-science-and-technology": {
+      "total": 11,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2020-mrunal-agriculture": {
+      "total": 8,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2020-mrunal-economy": {
+      "total": 22,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2020-mrunal-environment-and-biodiversity": {
+      "total": 14,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2020-mrunal-geography": {
+      "total": 5,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture": {
+      "total": 19,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations": {
+      "total": 18,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2020-mrunal-science-and-technology": {
+      "total": 11,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2021-forumias-pdf": {
+      "total": 82,
+      "demoted": 1
+    },
+    "web-upsc-cse-prelims-gs1-2021-mrunal-environment-and-biodiversity": {
+      "total": 3,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2021-mrunal-polity-and-governance": {
+      "total": 13,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2022-forumias": {
+      "total": 98,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2023": {
+      "total": 98,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2024": {
+      "total": 98,
+      "demoted": 0
+    },
+    "web-upsc-cse-prelims-gs1-2025-forumias": {
+      "total": 95,
+      "demoted": 0
+    }
+  },
+  "SSC": {
+    "exams-ssc-pyq-2016-ssc-cgl-2016-paper-01-pdf": {
+      "total": 96,
+      "demoted": 43
+    },
+    "exams-ssc-pyq-2017-ssc-cgl-2017-paper-01-pdf": {
+      "total": 1,
+      "demoted": 0
+    },
+    "exams-ssc-pyq-2018-ssc-cgl-2018-paper-01-pdf": {
+      "total": 23,
+      "demoted": 4
+    },
+    "exams-ssc-pyq-2019-ssc-cgl-2019-paper-01-pdf": {
+      "total": 25,
+      "demoted": 10
+    },
+    "exams-ssc-pyq-2020-ssc-cgl-tier-1-2020-all-subjects-21-sets-en-pdf": {
+      "total": 665,
+      "demoted": 208
+    },
+    "exams-ssc-pyq-2021-ssc-cgl-tier-1-2021-paper-1-pdf": {
+      "total": 37,
+      "demoted": 14
+    },
+    "exams-ssc-pyq-2021-ssc-cgl-tier-1-2021-paper-2-pdf": {
+      "total": 37,
+      "demoted": 18
+    },
+    "exams-ssc-pyq-2021-ssc-cgl-tier-1-2021-paper-3-pdf": {
+      "total": 32,
+      "demoted": 12
+    },
+    "exams-ssc-pyq-2023-ssc-cgl-tier-1-2023-07-14-shift-1-en-pdf": {
+      "total": 37,
+      "demoted": 9
+    },
+    "exams-ssc-pyq-2023-ssc-cgl-tier-1-2023-07-14-shift-2-en-pdf": {
+      "total": 40,
+      "demoted": 13
+    },
+    "exams-ssc-pyq-2024-ssc-cgl-tier-1-2024-09-09-shift-1-en-pdf": {
+      "total": 36,
+      "demoted": 13
+    },
+    "exams-ssc-pyq-2024-ssc-cgl-tier-1-2024-09-09-shift-2-en-pdf": {
+      "total": 35,
+      "demoted": 14
+    },
+    "exams-ssc-pyq-2024-ssc-cgl-tier-1-2024-09-09-shift-3-en-pdf": {
+      "total": 40,
+      "demoted": 14
+    },
+    "examside-ssc-cgl-tier-i": {
+      "total": 647,
+      "demoted": 0
+    }
+  },
+  "NEET": {
+    "exams-neet-pyq-2017-neet-2017-paper-1-english-resonance-pdf": {
+      "total": 96,
+      "demoted": 9
+    },
+    "exams-neet-pyq-2018-neet-2018-paper-1-english-resonance-pdf": {
+      "total": 1,
+      "demoted": 0
+    },
+    "exams-neet-pyq-2020-neet-2020-paper-1-english-phase2b-pdf": {
+      "total": 163,
+      "demoted": 43
+    },
+    "exams-neet-pyq-2022-neet-2022-paper-1-english-phase2b-pdf": {
+      "total": 208,
+      "demoted": 54
+    },
+    "exams-neet-pyq-2025-aakash-medical-engineering-foundation-prospectus-english-2025-updated-2-1-1-1766082328507-pdf": {
+      "total": 480,
+      "demoted": 2
+    },
+    "official-neet-2022021617": {
+      "total": 6,
+      "demoted": 1
+    },
+    "official-neet-2022021657": {
+      "total": 75,
+      "demoted": 23
+    },
+    "official-neet-2022021683": {
+      "total": 5,
+      "demoted": 2
+    },
+    "official-neet-2022021689": {
+      "total": 7,
+      "demoted": 4
+    },
+    "official-neet-2022021690": {
+      "total": 92,
+      "demoted": 25
+    },
+    "official-neet-2022040630": {
+      "total": 62,
+      "demoted": 7
+    },
+    "official-neet-2022040631": {
+      "total": 100,
+      "demoted": 39
+    },
+    "official-neet-2022040794": {
+      "total": 5,
+      "demoted": 4
+    },
+    "official-neet-2022040877": {
+      "total": 62,
+      "demoted": 10
+    },
+    "official-neet-2022050125": {
+      "total": 6,
+      "demoted": 3
+    },
+    "official-neet-2023030662": {
+      "total": 52,
+      "demoted": 6
+    },
+    "official-neet-2025020754": {
+      "total": 474,
+      "demoted": 38
+    },
+    "official-neet-20260102588210790": {
+      "total": 21,
+      "demoted": 7
+    },
+    "official-neet-202602231394640855": {
+      "total": 88,
+      "demoted": 28
+    },
+    "testbook-neet-correct-option-2024-1764738731-pdf": {
+      "total": 163,
+      "demoted": 0
+    }
+  },
+  "JEE": {
+    "exams-jee-pyq-2013-jee-main-2013-paper-1-english-resonance-pdf": {
+      "total": 1,
+      "demoted": 0
+    },
+    "exams-jee-pyq-2014-jee-advanced-2014-paper-1-official-pdf": {
+      "total": 54,
+      "demoted": 1
+    },
+    "exams-jee-pyq-2014-jee-advanced-2014-paper-2-official-pdf": {
+      "total": 72,
+      "demoted": 3
+    },
+    "exams-jee-pyq-2017-jee-main-2017-set-a-byjus-pdf": {
+      "total": 76,
+      "demoted": 32
+    },
+    "exams-jee-pyq-2018-jee-advanced-2018-paper-1-official-pdf": {
+      "total": 2,
+      "demoted": 1
+    },
+    "exams-jee-pyq-2018-jee-advanced-2018-paper-2-official-pdf": {
+      "total": 21,
+      "demoted": 19
+    },
+    "exams-jee-pyq-2018-jee-main-2018-code-a-byjus-pdf": {
+      "total": 72,
+      "demoted": 35
+    },
+    "exams-jee-pyq-2020-jee-advanced-2020-paper-1-english-official-pdf": {
+      "total": 1,
+      "demoted": 1
+    },
+    "exams-jee-pyq-2020-jee-advanced-2020-paper-2-english-official-pdf": {
+      "total": 3,
+      "demoted": 1
+    },
+    "exams-jee-pyq-2021-jee-advanced-2021-paper-1-english-official-pdf": {
+      "total": 1,
+      "demoted": 0
+    },
+    "exams-jee-pyq-2021-jee-advanced-2021-paper-2-english-official-pdf": {
+      "total": 5,
+      "demoted": 2
+    },
+    "exams-jee-pyq-2022-jee-advanced-2022-paper-1-english-official-pdf": {
+      "total": 4,
+      "demoted": 1
+    },
+    "exams-jee-pyq-2022-jee-advanced-2022-paper-2-english-official-pdf": {
+      "total": 2,
+      "demoted": 1
+    },
+    "exams-jee-pyq-2023-jee-advanced-2023-paper-1-english-official-pdf": {
+      "total": 1,
+      "demoted": 0
+    },
+    "exams-jee-pyq-2025-jee-advanced-2025-paper-1-english-official-pdf": {
+      "total": 1,
+      "demoted": 1
+    },
+    "exams-jee-pyq-2025-jee-advanced-2025-paper-2-english-official-pdf": {
+      "total": 1,
+      "demoted": 1
+    },
+    "examside-jee-advanced": {
+      "total": 572,
+      "demoted": 0
+    },
+    "examside-jee-main": {
+      "total": 10193,
+      "demoted": 0
+    },
+    "official-jee-advanced-2026-paper-1-provisional-key": {
+      "total": 34,
+      "demoted": 0
+    },
+    "official-jee-advanced-2026-paper-2-provisional-key": {
+      "total": 24,
+      "demoted": 0
+    },
+    "official-jee-advanced-p1_english": {
+      "total": 3,
+      "demoted": 1
+    },
+    "official-jee-advanced-p1_hindi": {
+      "total": 3,
+      "demoted": 0
+    },
+    "official-jee-advanced-p1_provisional_keys": {
+      "total": 3,
+      "demoted": 0
+    },
+    "official-jee-advanced-p1_solutions_final": {
+      "total": 3,
+      "demoted": 0
+    },
+    "official-jee-advanced-p2_english": {
+      "total": 1,
+      "demoted": 1
+    },
+    "official-jee-advanced-p2_provisional_keys": {
+      "total": 1,
+      "demoted": 1
+    },
+    "official-jee-advanced-p2_solutions_final": {
+      "total": 1,
+      "demoted": 1
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 4,
+  "book_code": "lech2",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/lech2ps.pdf",
+  "fetched_at": "2026-08-16T13:54:23.358Z",
+  "sample": {
+    "class_level": 12,
+    "subject": "chemistry",
+    "book_title": "Chemistry-II",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "unit",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "SOLUTIONS"
+    },
+    {
+      "canonical_unit_type": "unit",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "ELECTROCHEMISTRY"
+    },
+    {
+      "canonical_unit_type": "unit",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "CHEMICAL KINETICS"
+    },
+    {
+      "canonical_unit_type": "unit",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "THE d-AND f-BLOCK ELEMENTS"
+    },
+    {
+      "canonical_unit_type": "unit",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "COORDINATION COMPOUNDS"
+    },
+    {
+      "canonical_unit_type": "unit",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "Haloalkanes and Haloarenes"
+    },
+    {
+      "canonical_unit_type": "unit",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": "Alcohols, Phenols and Ethers"
+    },
+    {
+      "canonical_unit_type": "unit",
+      "canonical_unit_number": "8",
+      "canonical_unit_title": "Aldehydes, Ketones and Carboxylic Acids"
+    },
+    {
+      "canonical_unit_type": "unit",
+      "canonical_unit_number": "9",
+      "canonical_unit_title": "Amines"
+    },
+    {
+      "canonical_unit_type": "unit",
+      "canonical_unit_number": "10",
+      "canonical_unit_title": "Biomolecules"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    11,
+    12,
+    13
+  ],
+  "evidence_mode": "official_pdf_text"
+}

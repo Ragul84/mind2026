@@ -1,0 +1,22 @@
+{
+  "source_id": "ncert-class-6-mathematics-ganita-prakash-en-chapter-05-pdf",
+  "official_url": "https://ncert.nic.in/textbook/pdf/fegp105.pdf",
+  "fetched_at": "2026-08-16T13:25:53.211Z",
+  "identity": {
+    "chapterNumber": null,
+    "lines": [
+      "Children sit in a circle and play a game of numbers.",
+      "One of the children starts by saying ‘1’. The second",
+      "player says ‘2’, and so on. But when it is the turn of 3, 6,",
+      "9, … (multiples of 3), the player should say ‘idli’ instead",
+      "of the number. When it is the turn of 5, 10, … (multiples",
+      "of 5), the player should say ‘vada’ instead of the number.",
+      "When a number is both a multiple of 3 and a multiple",
+      "of 5, the player should say ‘idli-vada’! If a player makes",
+      "any mistake, they are out.",
+      "The game continues in rounds till only one person",
+      "remains.",
+      "For which numbers should the players say ‘idli’"
+    ]
+  }
+}

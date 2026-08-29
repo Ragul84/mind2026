@@ -1,0 +1,742 @@
+[
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q1",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "1",
+    "question_text": "In the Union Budget 2011-12, a full exemption from the basic customs duty was extended to the bio-based asphalt (bioasphalt). What is the importance of this material?\n1. Unlike traditional asphalt, bio-asphalt is not based on fossil fuels.\n2. Bioasphalt can be made from non-renewable resources.\n3. Bioasphalt can be made from organic waste materials.\n4. It is eco-friendly to use bioasphalt for surfacing of the roads.\nWhich of the statements given above are correct?",
+    "options": [
+      "1, 2 and 3 only",
+      "1, 3 and 4 only",
+      "2 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "answer_text": "1, 3 and 4 only",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q2",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "2",
+    "question_text": "Consider the following:\n1. Carbon dioxide\n2. Oxides of Nitrogen\n3. Oxides of Sulphur\nWhich of the above is/are the emission/emissions from coal combustion at thermal power plants?",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer_text": "1, 2 and 3",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q3",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "3",
+    "question_text": "Satellites used for telecommunication relay are kept in a geostationary orbit. A satellite is said to be in such an orbit when:\n1. The orbit is geosynchronous.\n2. The orbit is circular.\n3. The orbit lies in the plane of the Earth's equator.\n4. The orbit is at an altitude of 22,236 km.\nSelect the correct answer using the codes given below:",
+    "options": [
+      "1, 2 and 3 only",
+      "1, 3 and 4 only",
+      "2 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "answer_text": "1, 2 and 3 only",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q4",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "4",
+    "question_text": "India has experienced persistent and high food inflation in the recent past. What could be the reasons?\n1. Due to a gradual switchover to the cultivation of commercial crops, the area under the cultivation of food grains has steadily decreased in the last five years by about 30%.\n2. As a consequence of increasing incomes, the consumption patterns of the people have undergone a significant change.\n3. The food supply chain has structural constraints.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer_text": "2 and 3 only",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q5",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "5",
+    "question_text": "At present, scientists can determine the arrangement or relative positions of genes or DNA sequences on a chromosome. How does this knowledge benefit us?\n1. It is possible to know the pedigree of livestock.\n2. It is possible to understand the causes of all human diseases.\n3. It is possible to develop disease-resistant animal breeds.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer_text": "1 and 3 only",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q6",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "6",
+    "question_text": "In terms of economy, the visit by foreign nationals to witness the XIX Common Wealth Games in India amounted to",
+    "options": [
+      "Export",
+      "Import",
+      "Production",
+      "Consumption"
+    ],
+    "answer_text": "Export",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q7",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "7",
+    "question_text": "Microbial fuel cells are considered a source of sustainable energy. Why?\n1. They use living organisms as catalysts to generate electricity from certain substrates.\n2. They use a variety of inorganic materials as substrates.\n3. They can be installed in waste water treatment plants to cleanse water and produce electricity.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer_text": "1 and 3 only",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q8",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "8",
+    "question_text": "Which one of the following statements appropriately describes the ‘fiscal stimulus’?",
+    "options": [
+      "It is a massive investment by the Government in manufacturing sector to ensure the supply of goods to meet the demand surge caused by rapid economic growth",
+      "It is an intense affirmative action of the Government to boost economic activity in the country",
+      "It is Government’s intensive action on financial institutions to ensure disbursement of loans to agriculture and allied sectors to promote greater food production and contain food inflation",
+      "It is an extreme affirmative action by the Government to pursue its policy of financial inclusion"
+    ],
+    "answer_text": "It is an intense affirmative action of the Government to boost economic activity in the country",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q9",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "9",
+    "question_text": "The formation of ozone hole in the Antarctic region has been a cause of concern. What could be the reason for the formation of this hole?",
+    "options": [
+      "Presence of prominent tropospheric turbulence; and inflow of chlorofluorocarbons",
+      "Presence of prominent polar front and stratospheric clouds; and inflow of chlorofluorocarbons",
+      "Absence of polar front and stratospheric clouds; and inflow of methane and chlorofluorocarbons",
+      "Increased temperature at polar region due to global warming"
+    ],
+    "answer_text": "Presence of prominent polar front and stratospheric clouds; and inflow of chlorofluorocarbons",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q10",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "10",
+    "question_text": "Consider the following actions which the Government can take:\n1. Devaluing the domestic currency.\n2. Reduction in the export subsidy.\n3. Adopting suitable policies which attract greater FDI and more funds from FIIs.\nWhich of the above action/actions can help in reducing the current account deficit?",
+    "options": [
+      "1 and 2",
+      "2 and 3",
+      "3 only",
+      "1 and 3"
+    ],
+    "answer_text": "1 and 3",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q11",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "11",
+    "question_text": "The Constitution (Seventy-Third Amendment) Act, 1992, which aims at promoting the Panchayati Raj Institutions in the country, provides for which of the following?\n1. Constitution of District Planning Committees.\n2. State Election Commissions to conduct all panchayat elections.\n3. Establishment of State Finance Commissions.\nSelect the correct answer using the codes given below:",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer_text": "1, 2 and 3",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q12",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "12",
+    "question_text": "Two important rivers — one with its source in Jharkhand (and known by a different name in Odisha), and another, with its source in Odisha — merge at a place only a short distance from the coast of Bay of Bengal before flowing into the sea. This is an important site of wildlife and biodiversity and a protected area. Which one of the following could be this?",
+    "options": [
+      "Bhitarkanika",
+      "Chandipur-on-sea",
+      "Gopalpur-on-sea",
+      "Simlipal"
+    ],
+    "answer_text": "Bhitarkanika",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q13",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "13",
+    "question_text": "A rapid increase in the rate of inflation is sometimes attributed to the ‘base effect’. What is ‘base effect’?",
+    "options": [
+      "It is the impact of drastic deficiency in supply due to failure of crops",
+      "It is the impact of the surge in demand due to rapid economic growth",
+      "It is the impact of the price levels of previous year on the calculation of inflation rate",
+      "None of the statements (a), (b) and (c) given above is correct in this context"
+    ],
+    "answer_text": "It is the impact of the price levels of previous year on the calculation of inflation rate",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q14",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "14",
+    "question_text": "India is regarded as a country with ‘Demographic Dividend’. This is due to",
+    "options": [
+      "Its high population in the age group below 15 years",
+      "Its high population in the age group of 15-64 years",
+      "Its high population in the age group above 65 years",
+      "Its high total population"
+    ],
+    "answer_text": "Its high population in the age group of 15-64 years",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q15",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "15",
+    "question_text": "Regarding ‘carbon credits’, which one of the following statements is not correct?",
+    "options": [
+      "The carbon credit system was ratified in conjunction with the Kyoto Protocol",
+      "Carbon credits are awarded to countries or groups that have reduced greenhouse gases below their emission quota",
+      "The goal of the carbon credit system is to limit the increase of carbon dioxide emission",
+      "Carbon credits are traded at a price fixed from time to time by the United Nations Environment Programme"
+    ],
+    "answer_text": "Carbon credits are traded at a price fixed from time to time by the United Nations Environment Programme",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q16",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "16",
+    "question_text": "Which one of the following is not a feature of ‘Value Added Tax’?",
+    "options": [
+      "It is a multi-point destination-based system of taxation",
+      "It is a tax levied on value addition at each stage of transaction in the production-distribution chain",
+      "It is a tax on the final consumption of goods or services and must ultimately be borne by the consumer",
+      "It is basically a subject of the Central Government and the State Governments are only a facilitator for its successful implementation"
+    ],
+    "answer_text": "It is basically a subject of the Central Government and the State Governments are only a facilitator for its successful implementation",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q17",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "17",
+    "question_text": "A ‘closed economy’ is an economy in which",
+    "options": [
+      "the money supply is fully controlled",
+      "deficit financing takes place",
+      "only exports take place",
+      "neither exports nor imports take place"
+    ],
+    "answer_text": "neither exports nor imports take place",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q18",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "18",
+    "question_text": "When the bark of a tree is removed in a circular fashion all around near its base, it gradually dries up and dies because",
+    "options": [
+      "Water from soil cannot rise to aerial parts",
+      "Roots are starved of energy",
+      "Tree is infected by soil microbes",
+      "Roots do not receive oxygen for respiration"
+    ],
+    "answer_text": "Roots are starved of energy",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q19",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "19",
+    "question_text": "The ‘New START’ treaty was in the news. What is this treaty?",
+    "options": [
+      "It is a bilateral strategic nuclear arms reduction treaty between the USA and the Russian Federation",
+      "It is a multilateral energy security cooperation treaty among the members of the East Asia Summit",
+      "It is a treaty between the Russian Federation and the European Union for the energy security cooperation",
+      "It is a multilateral cooperation treaty among the BRICS countries for the promotion of trade"
+    ],
+    "answer_text": "It is a bilateral strategic nuclear arms reduction treaty between the USA and the Russian Federation",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q20",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "20",
+    "question_text": "Three of the following criteria have contributed to the recognition of Western Ghats-Sri Lanka and Indo-Burma regions as hotspots of biodiversity:\n1. Species richness\n2. Vegetation density\n3. Endemism\n4. Ethno-botanical importance\n5. Threat perception\n6. Adaptation of flora and fauna to warm and humid conditions\nWhich three of the above are correct criteria in this context?",
+    "options": [
+      "1, 2 and 6",
+      "2, 4 and 6",
+      "1, 3 and 5",
+      "3, 4 and 6"
+    ],
+    "answer_text": "1, 3 and 5",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q21",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "21",
+    "question_text": "Human activities in the recent past have caused the increased concentration of carbon dioxide in the atmosphere, but a lot of it does not remain in the lower atmosphere because of\n1. its escape into the outer stratosphere.\n2. the photosynthesis by phytoplankton in the oceans.\n3. the trapping of air in the polar ice caps.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 and 2",
+      "2 only",
+      "2 and 3",
+      "3 only"
+    ],
+    "answer_text": "2 only",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q22",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "22",
+    "question_text": "In the context of ecosystem productivity, marine upwelling zones are important as they increase the marine productivity by bringing the\n1. decomposer microorganisms to the surface.\n2. nutrients to the surface.\n3. bottom-dwelling organisms to the surface.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 and 2",
+      "2 only",
+      "2 and 3",
+      "3 only"
+    ],
+    "answer_text": "2 only",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q23",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "23",
+    "question_text": "If a tropical rain forest is removed, it does not regenerate quickly as compared to a tropical deciduous forest. This is because",
+    "options": [
+      "the soil of rain forest is deficient in nutrients",
+      "propagules of the trees in a rain forest have poor viability",
+      "the rain forest species are slow-growing",
+      "exotic species invade the fertile soil of rain forest"
+    ],
+    "answer_text": "the soil of rain forest is deficient in nutrients",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q24",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "24",
+    "question_text": "The Himalayan Range is very rich in species diversity. Which one among the following is the most appropriate reason for this phenomenon?",
+    "options": [
+      "It has a high rainfall that supports luxuriant vegetative growth",
+      "It is a confluence of different bio-geographical zones",
+      "Exotic and invasive species have not been introduced in this region",
+      "It has less human interference"
+    ],
+    "answer_text": "It is a confluence of different bio-geographical zones",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q25",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "25",
+    "question_text": "With reference to India, consider the following Central Acts:\n1. Import and Export (Control) Act, 1947\n2. Mining and Mineral Development (Regulation) Act, 1957\n3. Customs Act, 1962\n4. Indian Forest Act, 1927\nWhich of the above Acts have relevance to/bearing on the biodiversity conservation in the country?",
+    "options": [
+      "1 and 3 only",
+      "2, 3 and 4 only",
+      "1, 2, 3 and 4",
+      "None of the above Acts"
+    ],
+    "answer_text": "1, 2, 3 and 4",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q26",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "26",
+    "question_text": "Karl Marx explained the process of class struggle with the help of which one of the following theories?",
+    "options": [
+      "Empirical liberalism",
+      "Existentialism",
+      "Darwin’s theory of evolution",
+      "Dialectical materialism"
+    ],
+    "answer_text": "Dialectical materialism",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q27",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "27",
+    "question_text": "A layer in the Earth’s atmosphere called Ionosphere facilitates radio communication. Why?\n1. The presence of ozone causes the reflection of radio waves to Earth.\n2. Radio waves have a very long wavelength.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer_text": "Neither 1 nor 2",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q28",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "28",
+    "question_text": "Both Foreign Direct Investment (FDI) and Foreign Institutional Investor (FII) are related to investment in a country. Which one of the following statements best represents an important difference between the two?",
+    "options": [
+      "FII helps bring better management skills and technology, while FDI only brings in capital",
+      "FII helps in increasing capital availability in general, while FDI only targets specific sectors",
+      "FDI flows only into the secondary market, while FII targets primary market",
+      "FII is considered to be more stable than FDI"
+    ],
+    "answer_text": "FII helps in increasing capital availability in general, while FDI only targets specific sectors",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q29",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "29",
+    "question_text": "A genetically engineered form of brinjal, known as the Bt-brinjal, has been developed. The objective of this is",
+    "options": [
+      "To make it pest-resistant",
+      "To improve its taste and nutritive qualities",
+      "To make it drought-resistant",
+      "To make its shelf-life longer"
+    ],
+    "answer_text": "To make it pest-resistant",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q30",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "30",
+    "question_text": "With reference to ‘Aam Admi Bima Yojana’, consider the following statements:\n1. The member insured under the scheme must be the head of the family or an earning member of the family in a rural landless household.\n2. The member insured must be in the age group of 30 to 65 years.\n3. There is a provision for free scholarship for up to two children of the insured who are studying between classes 9 and 12.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer_text": "1 and 3 only",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q31",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "31",
+    "question_text": "In the context of global oil prices, ‘Brent crude oil’ is frequently referred to in the news. What does this term imply?\n1. It is a major classification of crude oil.\n2. It is sourced from North Sea.\n3. It does not contain sulphur.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "2 only",
+      "1 and 2 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer_text": "1 and 2 only",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q32",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "32",
+    "question_text": "The function of heavy water in a nuclear reactor is to",
+    "options": [
+      "Slow down the speed of neutrons",
+      "Increase the speed of neutrons",
+      "Cool down the reactor",
+      "Stop the nuclear reaction"
+    ],
+    "answer_text": "Slow down the speed of neutrons",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q33",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "33",
+    "question_text": "In India, if a religious sect/community is given the status of a national minority, what special advantages it is entitled to?\n1. It can establish and administer exclusive educational institutions.\n2. The President of India automatically nominates a representative of the community to Lok Sabha.\n3. It can derive benefits from the Prime Minister’s 15-Point Programme.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer_text": "1 and 3 only",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q34",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "34",
+    "question_text": "India is home to lakhs of persons with disabilities. What are the benefits available to them under the law?\n1. Free schooling till the age of 18 years in government-run schools.\n2. Preferential allotment of land for setting up business.\n3. Ramps in public buildings.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer_text": "1, 2 and 3",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q35",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "35",
+    "question_text": "With what purpose is the Government of India promoting the concept of ‘Mega Food Parks’?\n1. To provide good infrastructure facilities for the food processing industry.\n2. To increase the processing of perishable items and reduce wastage.\n3. To provide emerging and eco-friendly food processing technologies to entrepreneurs.\nSelect the correct answer using the codes given below:",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer_text": "1 and 2 only",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q36",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "36",
+    "question_text": "The authorization for the withdrawal of funds from the Consolidated Fund of India must come from",
+    "options": [
+      "The President of India",
+      "The Parliament of India",
+      "The Prime Minister of India",
+      "The Union Finance Minister"
+    ],
+    "answer_text": "The Parliament of India",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2011-gs1-q37",
+    "source_id": "upsc-cse-prelims-2011-gs1",
+    "exam": "UPSC",
+    "year": 2011,
+    "subject": null,
+    "topic": null,
+    "question_number": "37",
+    "question_text": "All revenues received by the Union Government by way of taxes and other receipts for the conduct of Government business are credited to the",
+    "options": [
+      "Contingency Fund of India",
+      "Public Account",
+      "Consolidated Fund of India",
+      "Deposits and Advances Fund"
+    ],
+    "answer_text": "Consolidated Fund of India",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  }
+]

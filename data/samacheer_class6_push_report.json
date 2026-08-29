@@ -1,0 +1,501 @@
+{
+  "scope": "samacheer_safe_push",
+  "subjects": {
+    "class6:english": {
+      "redis_key": "samacheer:class6:english",
+      "class": 6,
+      "subject": "english",
+      "count": 56,
+      "sample_questions": [
+        "Fill in the blanks with the opposites of the words given in brackets. 1. We should learn from our ______________ (success).",
+        "Children don’t like to read ______________ (interesting) books.",
+        "Be ______________ (general) when you are telling us what you need.",
+        "The teacher asked the children to ______________ (start) talking.",
+        "The new boss decided to ______________ (appoint) the lazy workers."
+      ]
+    },
+    "class6:mathematics": {
+      "redis_key": "samacheer:class6:mathematics",
+      "class": 6,
+      "subject": "mathematics",
+      "count": 524,
+      "sample_questions": [
+        "The smallest 7 digit number is _______.",
+        "The largest 8 digit number is _______.",
+        "The place value of 5 in 7005380 is _______.",
+        "The expanded form of the number 76,70,905 is _______.",
+        "Successor of a one digit number is always a one digit number."
+      ]
+    },
+    "class6:science": {
+      "redis_key": "samacheer:class6:science",
+      "class": 6,
+      "subject": "science",
+      "count": 142,
+      "sample_questions": [
+        "__________ is the percentage of nitrogen in air.",
+        "Gas exchange takes place in plants using ___________.",
+        "The constituent of air that supports combustion is __________.",
+        "Nitrogen is used in the food packaging industry because it ________.",
+        "________ and ______ are the two gases, which when taken together, make up about 99 percentage of air. I. Nitrogen II. carbon-di-oxide III. Noble gases IV. Oxygen"
+      ]
+    },
+    "class6:tamil": {
+      "redis_key": "samacheer:class6:tamil",
+      "class": 6,
+      "subject": "tamil",
+      "count": 0,
+      "sample_questions": []
+    },
+    "class7:mathematics": {
+      "redis_key": "samacheer:class7:mathematics",
+      "class": 7,
+      "subject": "mathematics",
+      "count": 321,
+      "sample_questions": [
+        "Find the area and perimeter of the following parallelograms:?",
+        "Find the missing values.?",
+        "Suresh won a parallelogram-shaped trophy in a state level Chess tournament. He knows that the area of the trophy is 735 sq. cm and its base is 21 cm. What is the height of that trophy?",
+        "Janaki has a piece of fabric in the shape of a parallelogram. Its height is 12 m and its base is 18 m. She cuts the fabric into four equal parallelograms by cutting the parallel sides through its mid-points. Find the area of each new parallelogram.?",
+        "A ground is in the shape of parallelogram. The height of the parallelogram is 14 metres and the corresponding base is 8 metres longer than its height. Find the cost of levelling the ground at the rate of `15 per sq. m.?"
+      ]
+    },
+    "class7:science": {
+      "redis_key": "samacheer:class7:science",
+      "class": 7,
+      "subject": "science",
+      "count": 282,
+      "sample_questions": [
+        "Volume of irregularly shaped objects are measured using the law of ______________.",
+        "One cubic metre is equal to _____________ cubic centimetre.",
+        "Density of mercury is _______________.",
+        "One astronomical unit is equal to _______.",
+        "The area of a leaf can be measured using a ____________________."
+      ]
+    },
+    "class8:english": {
+      "redis_key": "samacheer:class8:english",
+      "class": 8,
+      "subject": "english",
+      "count": 5,
+      "sample_questions": [
+        "What life lessons you learn from the birds?",
+        "Choose the correct match: Match the qualities of the birds with the life lessons.",
+        "What life lessons you learn from the birds?",
+        "What life lessons you learn from the birds?",
+        "Choose the correct match: Match the qualities of the birds with the life lesson."
+      ]
+    },
+    "class8:tamil": {
+      "redis_key": "samacheer:class8:tamil",
+      "class": 8,
+      "subject": "tamil",
+      "count": 0,
+      "sample_questions": []
+    },
+    "class8:mathematics": {
+      "redis_key": "samacheer:class8:mathematics",
+      "class": 8,
+      "subject": "mathematics",
+      "count": 232,
+      "sample_questions": [
+        "The simplest form of 125/200 is _________.?",
+        "Which of the following is not an equivalent fraction of 8/12?",
+        "Which is bigger: 4/5 or 8/9?",
+        "Add the fractions: 3/55 + 87/10.?",
+        "Simplify: 1/8 − 1/61.?"
+      ]
+    },
+    "class8:science": {
+      "redis_key": "samacheer:class8:science",
+      "class": 8,
+      "subject": "science",
+      "count": 301,
+      "sample_questions": [
+        "The pressure of a liquid column _________ with the depth of the column.",
+        "Hydraulic lift works under the principle of __________.",
+        "The property of __________ of a liquid surface enables the water droplets to move upward in plants.",
+        "A simple barometer was first constructed by __________.",
+        "Force acting on a given area is called pressure."
+      ]
+    },
+    "class8:social-science": {
+      "redis_key": "samacheer:class8:social-science",
+      "class": 8,
+      "subject": "social-science",
+      "count": 296,
+      "sample_questions": [
+        "Who laid the foundation of Portuguese power in India?",
+        "Which of the following European Nations made the foremost attempt to discover a sea route to India?",
+        "In 1453, Constantinople was captured by ____________.",
+        "Sir William Hawkins belonged to ____________.",
+        "The first fort constructed by the British in India was ____________."
+      ]
+    },
+    "class9:english": {
+      "redis_key": "samacheer:class9:english",
+      "class": 9,
+      "subject": "english",
+      "count": 70,
+      "sample_questions": [
+        "Identify the character or speaker of the following line: \"They gathered the treasure.\"?",
+        "Identify the character or speaker of the following line: \"The pine tree under which I am buried, to be cut down and made into a mortar.\"?",
+        "Identify the character or speaker of the following line: \"They dug, and found nothing but a quantity of dirt and nasty offal.\"?",
+        "Identify the character or speaker of the following line: \"He had not to wait long before he was called into the prince's palace, and ordered to exhibit his power.\"?",
+        "Identify the character or speaker of the following line: \"BOW, WOW, WOW!\"?"
+      ]
+    },
+    "class9:tamil": {
+      "redis_key": "samacheer:class9:tamil",
+      "class": 9,
+      "subject": "tamil",
+      "count": 0,
+      "sample_questions": []
+    },
+    "class9:mathematics": {
+      "redis_key": "samacheer:class9:mathematics",
+      "class": 9,
+      "subject": "mathematics",
+      "count": 66,
+      "sample_questions": [
+        "Which of the following are sets? (i) The collection of prime numbers up to 100. (ii) The collection of rich people in India. (iii) The collection of all rivers in India. (iv) The collection of good Hockey players.",
+        "List the set of letters of the following words in Roster form. (i) INDIA (ii) PARALLELOGRAM (iii) MISSISSIPPI (iv) CZECHOSLOVAKIA?",
+        "Consider the following sets A = {0, 3, 5, 8}, B = {2, 4, 6, 10} and C = {12, 14, 18, 20}. (a) State whether True or False: (i) 18 ∉ C (ii) 6 ∈ A (iii) 14 ∈ C (iv) 10 ∉ B (v) 5 ∉ B (vi) 0 ∉ B (b) Fill in the blanks: (i) 3 ∈ ____ (ii) 14 ∈ ____ (iii) 18 ∉ B (iv) 4 ∈ B?",
+        "Represent the following sets in Roster form. (i) A = The set of all even natural numbers less than 20. (ii) B = {y : y = n^2, n ∈ N, n ≤ 5} (iii) C = {x : x is a perfect cube, 27 < x < 216} (iv) D = {x : x ∈ Z, –5 < x ≤ 2}?",
+        "Represent the following sets in set builder form. (i) B = The set of all Cricket players in India who scored double centuries in One Day Internationals. (ii) C = {... 21, 32, 43 }. (iii) D = The set of all Tamil months in a year. (iv) E = The set of odd Whole numbers less than 9.?"
+      ]
+    },
+    "class9:science": {
+      "redis_key": "samacheer:class9:science",
+      "class": 9,
+      "subject": "science",
+      "count": 181,
+      "sample_questions": [
+        "Which of the following converts electrical energy into mechanical energy?",
+        "Transformer works on",
+        "The part of the AC generator that passes the current from the armature coil to the external circuit is",
+        "The unit of magnetic flux density is",
+        "The SI Unit of magnetic field induction is"
+      ]
+    },
+    "class9:social-science": {
+      "redis_key": "samacheer:class9:social-science",
+      "class": 9,
+      "subject": "social-science",
+      "count": 275,
+      "sample_questions": [
+        "Hand axes and cleavers are the important tool types of the __________ culture.",
+        "The methods and techniques involved in the production of stone tools are called __________ technology.",
+        "___________ is known as the Middle Stone Age, as it is placed between the Paleolithic and Neolithic.",
+        "Identify the correct statement about prehistoric humans.",
+        "The period called _________ marks the beginning of agriculture and animal domestication."
+      ]
+    },
+    "class10:english": {
+      "redis_key": "samacheer:class10:english",
+      "class": 10,
+      "subject": "english",
+      "count": 48,
+      "sample_questions": [
+        "Where does the family live?",
+        "Why do you think the street is named as ‘Complaining Street’?",
+        "What does the word ‘growl’ mean here?",
+        "Why do they find everything amiss?",
+        "What is the opinion about the folks you meet down the street?"
+      ]
+    },
+    "class10:tamil": {
+      "redis_key": "samacheer:class10:tamil",
+      "class": 10,
+      "subject": "tamil",
+      "count": 0,
+      "sample_questions": []
+    },
+    "class10:mathematics": {
+      "redis_key": "samacheer:class10:mathematics",
+      "class": 10,
+      "subject": "mathematics",
+      "count": 43,
+      "sample_questions": [
+        "Find all positive integers, when divided by 3 leaves remainder 2.?",
+        "A man has 532 flower pots. He wants to arrange them in rows such that each row contains 21 flower pots. Find the number of completed rows and how many flower pots are left over.?",
+        "Prove that the product of two consecutive positive integers is divisible by 2.?",
+        "When the positive integers a, b and c are divided by 13, the respective remainders are 9, 7 and 10. Show that a+b+c is divisible by 13.?",
+        "Prove that the square of any integer leaves the remainder either 0 or 1 when divided by 4.?"
+      ]
+    },
+    "class10:science": {
+      "redis_key": "samacheer:class10:science",
+      "class": 10,
+      "subject": "science",
+      "count": 337,
+      "sample_questions": [
+        "Calculate the velocity of a moving body of mass 5 kg whose linear momentum is 2.5 kg m s⁻¹.?",
+        "A door is pushed at a point whose distance from the hinges is 90 cm, with a force of 40 N. Calculate the moment of the force about the hinges.?",
+        "At what height from the centre of the Earth will the acceleration due to gravity be 1/4 of its value at the Earth’s surface?",
+        "Inertia of a body depends on",
+        "Impulse is equal to"
+      ]
+    },
+    "class10:social-science": {
+      "redis_key": "samacheer:class10:social-science",
+      "class": 10,
+      "subject": "social-science",
+      "count": 138,
+      "sample_questions": [
+        "Japan forced a war on China in the year _____.",
+        "The new state of Albania was created according to the Treaty of _____ signed in May 1913.",
+        "Japan entered into an alliance with _______ in the year _______.",
+        "In the Balkans _______ had mixed population.",
+        "In the battle of Tannenberg _______ suffered heavy losses."
+      ]
+    },
+    "class11:english": {
+      "redis_key": "samacheer:class11:english",
+      "class": 11,
+      "subject": "english",
+      "count": 19,
+      "sample_questions": [
+        "monotonous",
+        "Form two derivatives from each of the following words: honest, manage, beauty, peace, arrange, collect, approve, narrate, class.?",
+        "Fill in the blanks with suitable homophones: Break / brake, waste / waist, principle / principal, bread / bred, lesson / lessen, pale / pail, through / threw, corps / corpse.?",
+        "The rich industrialist is a ________ and a social reformer.?",
+        "The Chairperson of our company is a __________.?"
+      ]
+    },
+    "class11:mathematics": {
+      "redis_key": "samacheer:class11:mathematics",
+      "class": 11,
+      "subject": "mathematics",
+      "count": 8,
+      "sample_questions": [
+        "If | | 13,| | 5 and 60a b ab= = ⋅= ° then ||ab× is",
+        "Vectors a and b are inclined at an angle 120.θ=° If | | 1, | | 2ab==, then 2[( 3 ) (3 )]a b ab+×− is equal to",
+        "If and ab are two vectors of magnitude 2 and inclined at an angle 60°, then the angle between a and ab+ is",
+        "If the projection of ˆ ˆˆ53ij k−− on the vector ˆ ˆˆ3ijk λ ++ is same as the projection of ˆˆ ˆ ˆˆ3 on 5 3, then i j k ij k λλ + + −− is equal to",
+        "If (1, 2, 4) and (2, - 3λ - 3) are the initial and terminal points of the vector ˆ ˆˆ57i jk+−, then the value of λ is equal to"
+      ]
+    },
+    "class11:physics": {
+      "redis_key": "samacheer:class11:physics",
+      "class": 11,
+      "subject": "physics",
+      "count": 62,
+      "sample_questions": [
+        "The unit of the expression hc/G is",
+        "If the error in the measurement of radius is 2%, then the error in the determination of volume of the sphere will be",
+        "If the length and time period of an oscillating pendulum have errors of 1% and 3% respectively then the error in measurement of acceleration due to gravity is",
+        "The length of a body is measured as 3.51 m, if the accuracy is 0.01 m, then the percentage error in the measurement is",
+        "Which of the following has the highest number of significant figures?"
+      ]
+    },
+    "class11:chemistry": {
+      "redis_key": "samacheer:class11:chemistry",
+      "class": 11,
+      "subject": "chemistry",
+      "count": 90,
+      "sample_questions": [
+        "Which one of the following is the least electronegative element?",
+        "The element with positive electron gain enthalpy is",
+        "The correct order of decreasing electronegativity values among the elements X, Y, Z and A with atomic numbers 4, 8, 7 and 12 respectively",
+        "Assertion: Helium has the highest value of ionisation energy among all the elements known. Reason: Helium has the highest value of electron affinity among all the elements known.",
+        "The electronic configuration of the atom having maximum difference in first and second ionisation energies is"
+      ]
+    },
+    "class11:history": {
+      "redis_key": "samacheer:class11:history",
+      "class": 11,
+      "subject": "history",
+      "count": 99,
+      "sample_questions": [
+        "Buddha delivered his first sermon in _______",
+        "______ is the Buddhist text that makes a reference to Ajatashatru’s meeting of Buddha",
+        "Bhagavatisutra is a _______ text",
+        "______ played an important role in improving the method of cultivation.",
+        "Among the 16 mahajanapadas, ______ emerged as the most powerful in northern India."
+      ]
+    },
+    "class11:geography": {
+      "redis_key": "samacheer:class11:geography",
+      "class": 11,
+      "subject": "geography",
+      "count": 142,
+      "sample_questions": [
+        "The word ‘geography’ is coined from _______ language.",
+        "Four traditions of geography were introduced by _________.",
+        "Which one of the following is not a theme of geography?",
+        "Systematic approach to study geography was developed by _________.",
+        "Anthropology deals with human _________."
+      ]
+    },
+    "class11:political-science": {
+      "redis_key": "samacheer:class11:political-science",
+      "class": 11,
+      "subject": "political-science",
+      "count": 66,
+      "sample_questions": [
+        "In the Indian context, who is considered the first political thinker?",
+        "What is the contribution of Thiruvalluvar to political science?",
+        "What comes to your mind when you hear the term Government?",
+        "In what way you, your family or the citizen are connected with government?",
+        "Can you identify the role of government in your day to day life?"
+      ]
+    },
+    "class11:commerce": {
+      "redis_key": "samacheer:class11:commerce",
+      "class": 11,
+      "subject": "commerce",
+      "count": 53,
+      "sample_questions": [
+        "In Pandiyas Dynasty the place where the goods are sold is _____",
+        "Hindrance of place is removed by ________",
+        "Who wrote “ Arthasasthra” ?",
+        "Trade and Commerce was common to _______ Dynasty.",
+        "________ was first sultan who paved way in the dense forest and helped traders to move from one market place to others place for their commercial caravans."
+      ]
+    },
+    "class11:economics": {
+      "redis_key": "samacheer:class11:economics",
+      "class": 11,
+      "subject": "economics",
+      "count": 148,
+      "sample_questions": [
+        "Pick the odd one out",
+        "Choice is always constrained or limited by the _____ of our resources.",
+        "The chief exponent of the Cardinal utility approach was",
+        "Marginal Utility is measured by using the formula of",
+        "When marginal utility reaches zero, the total utility will be"
+      ]
+    },
+    "class11:accountancy": {
+      "redis_key": "samacheer:class11:accountancy",
+      "class": 11,
+      "subject": "accountancy",
+      "count": 125,
+      "sample_questions": [
+        "Main objective of preparing ledger account is to",
+        "The process of transferring the debit and credit items from journal to ledger accounts is called",
+        "JF means",
+        "The process of finding the net amount from the totals of debit and credit columns in a ledger is known as",
+        "If the total of the debit side of an account exceeds the total of its credit side, it means"
+      ]
+    },
+    "class11:botany": {
+      "redis_key": "samacheer:class11:botany",
+      "class": 11,
+      "subject": "botany",
+      "count": 105,
+      "sample_questions": [
+        "Which one of the following statement about virus is correct?",
+        "Identify the incorrect statement about the Gram positive bacteria",
+        "Identify the Archaebacterium",
+        "The correct statement regarding Blue green algae is ____________",
+        "Choose the correct match: Identify the correctly matched pair"
+      ]
+    },
+    "class12:physics": {
+      "redis_key": "samacheer:class12:physics",
+      "class": 12,
+      "subject": "physics",
+      "count": 77,
+      "sample_questions": [
+        "Two identical point charges of magnitude –q are fixed as shown in the figure below. A third charge +q is placed midway between the two charges at the point P. Suppose this charge +q is displaced a small distance from the point P in the directions indicated by the arrows, in which direction(s) will +q be stable with respect to the displacement?",
+        "Which charge configuration produces a uniform electric field?",
+        "What is the ratio of the charges q1/q2 for the following electric field line pattern?",
+        "An electric dipole is placed at an alignment angle of 30° with an electric field of 2 × 10^5 N C⁻¹. It experiences a torque equal to 8 N m. The charge on the dipole if the dipole length is 1 cm is",
+        "Four Gaussian surfaces are given below with charges inside each Gaussian surface. Rank the electric flux through each Gaussian surface in increasing order."
+      ]
+    },
+    "class12:chemistry": {
+      "redis_key": "samacheer:class12:chemistry",
+      "class": 12,
+      "subject": "chemistry",
+      "count": 132,
+      "sample_questions": [
+        "The number of electrons that have a total charge of 9650 coulombs is",
+        "Consider the following half cell reactions: Mn + 2e → Mn and 2 3+ → 2 Mn + 2 e+. The E° for the reaction 2+ 3+3Mn Mn+2Mn, → and the possibility of the forward reaction are respectively.",
+        "The button cell used in watches function as follows... The cell potential will be",
+        "The molar conductivity of a 0.5 mol dm-3 solution of AgNO3 with electrolytic conductivity of 5761 031.×−− S cm2-1 at 298 K is",
+        "Calculate Λ° using appropriate molar conductances of the electrolytes listed above at infinite dilution in water at 25°C."
+      ]
+    },
+    "class12:history": {
+      "redis_key": "samacheer:class12:history",
+      "class": 12,
+      "subject": "history",
+      "count": 80,
+      "sample_questions": [
+        "When did Gandhi return to India from South Africa?",
+        "In which year English Education was introduced in India?",
+        "Find the odd one.",
+        "'Swaraj is my birth right and I shall have it' was said by",
+        "Who was called the ‘Grand Old Man of India’?"
+      ]
+    },
+    "class12:geography": {
+      "redis_key": "samacheer:class12:geography",
+      "class": 12,
+      "subject": "geography",
+      "count": 78,
+      "sample_questions": [
+        "Most anthropologists believe that hundreds of thousands of years ago humans first appeared in",
+        "The first urban settlement to reach a population of one million (Million city) is",
+        "It is predicted that by 2050 about the developing world and the developed world will be urbanized to",
+        "As per 2011 census, which one of the following is correct?",
+        "One of the following statements is untrue regarding the concentric zone theory model"
+      ]
+    },
+    "class12:economics": {
+      "redis_key": "samacheer:class12:economics",
+      "class": 12,
+      "subject": "economics",
+      "count": 208,
+      "sample_questions": [
+        "The branches of the subject Economics are _____________.",
+        "Who coined the word ‘Macro’?",
+        "Who is regarded as the Father of Modern Macro Economics?",
+        "Identify the other name for Macro Economics.",
+        "Macro economics is a study of ___________________."
+      ]
+    },
+    "class12:accountancy": {
+      "redis_key": "samacheer:class12:accountancy",
+      "class": 12,
+      "subject": "accountancy",
+      "count": 130,
+      "sample_questions": [
+        "Incomplete records are generally maintained by",
+        "Statement of affairs is a",
+        "Opening statement of affairs is usually prepared to find out the",
+        "The excess of assets over liabilities is",
+        "Which of the following items relating to bills payable is transferred to total creditors account?"
+      ]
+    },
+    "class12:business-mathematics": {
+      "redis_key": "samacheer:class12:business-mathematics",
+      "class": 12,
+      "subject": "business-mathematics",
+      "count": 45,
+      "sample_questions": [
+        "What is population?",
+        "What is sample?",
+        "What is statistic?",
+        "Define parameter.?",
+        "What is sampling distribution of a statistic?"
+      ]
+    },
+    "class12:commerce-accountancy": {
+      "redis_key": "samacheer:class12:commerce-accountancy",
+      "class": 12,
+      "subject": "accountancy",
+      "count": 130,
+      "sample_questions": [
+        "Incomplete records are generally maintained by",
+        "Statement of affairs is a",
+        "Opening statement of affairs is usually prepared to find out the",
+        "The excess of assets over liabilities is",
+        "Which of the following items relating to bills payable is transferred to total creditors account?"
+      ]
+    }
+  }
+}

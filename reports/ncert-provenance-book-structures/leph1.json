@@ -1,0 +1,61 @@
+{
+  "schema_version": 4,
+  "book_code": "leph1",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/leph1ps.pdf",
+  "fetched_at": "2026-08-16T13:56:37.851Z",
+  "sample": {
+    "class_level": 12,
+    "subject": "physics",
+    "book_title": "Physics Part-I",
+    "volume_or_part": "Part I"
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "ELECTRIC CHARGES AND FIELDS"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "ELECTROSTATIC POTENTIAL AND CAPACITANCE"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "CURRENT ELECTRICITY"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "MOVING CHARGES AND MAGNETISM"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "MAGNETISM AND MATTER"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "ELECTROMAGNETIC INDUCTION"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": "ALTERNATING CURRENT"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "8",
+      "canonical_unit_title": "ELECTROMAGNETIC WAVES"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    12,
+    13,
+    14
+  ],
+  "evidence_mode": "official_pdf_text"
+}

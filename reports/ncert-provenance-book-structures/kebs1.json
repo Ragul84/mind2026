@@ -1,0 +1,30 @@
+{
+  "schema_version": 4,
+  "book_code": "kebs1",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/kebs1ps.pdf",
+  "fetched_at": "2026-08-16T13:38:38.700Z",
+  "sample": {
+    "class_level": 11,
+    "subject": "business studies",
+    "book_title": "Business Studies",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "10",
+      "canonical_unit_title": "Internal Trade"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "11",
+      "canonical_unit_title": "International Business"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    6,
+    8
+  ],
+  "evidence_mode": "official_pdf_text"
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 4,
+  "book_code": "jess2",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/jess2ps.pdf",
+  "fetched_at": "2026-08-16T13:36:33.445Z",
+  "sample": {
+    "class_level": 10,
+    "subject": "social science",
+    "book_title": "Understanding Economic Development",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "Appendix"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "Appendix"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "Appendix"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "Appendix"
+    }
+  ],
+  "evidence_pages": [
+    7,
+    8,
+    12
+  ],
+  "evidence_mode": "official_pdf_text"
+}

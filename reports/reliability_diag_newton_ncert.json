@@ -1,0 +1,22 @@
+{
+  "prompt": "What is Newton's second law?",
+  "bundle": {
+    "retrievalQuery": "Newton s second law",
+    "exactPhrase": "newton s second law",
+    "terms": [
+      "newton",
+      "second",
+      "law"
+    ],
+    "aliasTokens": [],
+    "numericTokens": [],
+    "eligible": true
+  },
+  "stoppedAt": "rpc_error",
+  "error": {
+    "code": "57014",
+    "details": null,
+    "hint": null,
+    "message": "canceling statement due to statement timeout"
+  }
+}

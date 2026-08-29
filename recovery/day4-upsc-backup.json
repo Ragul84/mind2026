@@ -1,0 +1,275 @@
+{
+  "quiz": {
+    "questions": [
+      {
+        "source": "generated_from_study_cards",
+        "options": [
+          "Abolition of Untouchability",
+          "Note the word \"ONLY\"—discrimination on other grounds (like residence) is permitted",
+          "Declares that all laws inconsistent with FRs shall be void",
+          "Equality Before Law (UK origin - negative concept) + Equal Protection of Laws (USA origin - positive concept)"
+        ],
+        "question": "What is the key point about Article 14: Equality Before Law?",
+        "explanation": "The key point about Article 14: Equality Before Law: Equality Before Law (UK origin - negative concept) + Equal Protection of Laws (USA origin - positive concept).",
+        "answer_index": 3
+      },
+      {
+        "source": "generated_from_study_cards",
+        "options": [
+          "Abolition of Untouchability",
+          "Abolition of Titles",
+          "Note the word \"ONLY\"—discrimination on other grounds (like residence) is permitted",
+          "Declares that all laws inconsistent with FRs shall be void"
+        ],
+        "question": "What is the key point about Article 15: Prohibition of Discrimination?",
+        "explanation": "The key point about Article 15: Prohibition of Discrimination: Note the word \"ONLY\"—discrimination on other grounds (like residence) is permitted.",
+        "answer_index": 2
+      },
+      {
+        "source": "generated_from_study_cards",
+        "options": [
+          "Abolition of Untouchability",
+          "Note the word \"ONLY\"—discrimination on other grounds (like residence) is permitted",
+          "Declares that all laws inconsistent with FRs shall be void",
+          "Equality Before Law (UK origin - negative concept) + Equal Protection of Laws (USA origin - positive concept)"
+        ],
+        "question": "What is the key fact about Art 17?",
+        "explanation": "The key fact about Art 17: Abolition of Untouchability.",
+        "answer_index": 0
+      },
+      {
+        "source": "generated_from_study_cards",
+        "options": [
+          "Declares that all laws inconsistent with FRs shall be void",
+          "Abolition of Titles",
+          "Equality Before Law (UK origin - negative concept) + Equal Protection of Laws (USA origin - positive concept)",
+          "Abolition of Untouchability"
+        ],
+        "question": "What is the key fact about Art 13?",
+        "explanation": "The key fact about Art 13: Declares that all laws inconsistent with FRs shall be void.",
+        "answer_index": 0
+      },
+      {
+        "source": "generated_from_study_cards",
+        "options": [
+          "Abolition of Untouchability",
+          "Declares that all laws inconsistent with FRs shall be void",
+          "Equality Before Law (UK origin - negative concept) + Equal Protection of Laws (USA origin - positive concept)",
+          "Abolition of Titles"
+        ],
+        "question": "What is the key fact about Art 18?",
+        "explanation": "The key fact about Art 18: Abolition of Titles.",
+        "answer_index": 3
+      }
+    ]
+  },
+  "track": "upsc_ecosystem",
+  "snapshot": {
+    "title": "Fundamental Rights Block 1: Art 12–18 (Right to Equality)",
+    "exam_hook": "🏔️ UPSC Ranker Hook: Art 12 defines \"State\". Art 13 is the heart of Judicial Review. Art 14 applies to foreigners; Art 15/16 DO NOT. Art 17 is absolute. Art 18 allows military/academic titles.",
+    "quick_notes": [
+      {
+        "title": "Article 12 & 13: The Guardians",
+        "detail": "Art 12: Defines \"State\" to include Government/Parliament, State Govts/Legislatures, Local authorities (Panchayats/Municipalities), and Statutory/Non-statutory authorities (LIC, ONGC, SAIL). Art 13: Declares that all laws inconsistent with FRs shall be void. This is the explicit basis for Judicial Review by SC (Art 32) and HC (Art 226).",
+        "explanation": "Article 12 of the Constitution defines the term \"State\" for the purpose of Fundamental Rights. Under this definition, \"State\" includes the central Government and Parliament, the state governments and their legislatures, all local authorities like Panchayats and Municipalities, and other bodies like LIC, ONGC, or SAIL which are created by law and carry out public functions. Article 13 establishes that any law made by the State which goes against any Fundamental Right will be considered void or invalid. This means if Parliament or a state legislature passes a law that takes away your rights, the courts can throw it out. This power of courts to check laws is called Judicial Review, and it can be exercised in the Supreme Court under Article 32 or in a High Court under Article 226. Together, Articles 12 and 13 are guardians because they define who cannot violate your rights and give courts the clear power to cancel any law that does so."
+      },
+      {
+        "title": "Article 14: Equality Before Law",
+        "detail": "Equality Before Law (UK origin - negative concept) + Equal Protection of Laws (USA origin - positive concept). It permits \"Reasonable Classification\" but prohibits \"Class Legislation\". Exceptions : President and Governors have immunity under Art 361.",
+        "explanation": "Article 14 of the Indian Constitution guarantees two related rights: \"Equality before the law\" means that no person is above the law and every individual is subject to the same law in the same way, a concept borrowed from the United Kingdom that is considered a \"negative\" duty on the state not to discriminate. \"Equal protection of the laws\" means that the law itself must treat people in similar situations equally, a \"positive\" duty borrowed from the United States that requires the state to provide the same legal protection to all. This Article allows the government to make \"reasonable classification\", which means it can create different rules for different groups of people as long as the classification has a fair and logical basis related to the law's purpose. But it forbids \"class legislation\", which means making arbitrary laws that single out a specific person or group for favor or disfavor without a reasonable reason. The only exception mentioned here is that the President of India and the Governors of states have special immunity under Article 361 of the Constitution, which means they cannot be sued or prosecuted in a court of law while they are holding office. This exception exists to protect the dignity and independence of these high offices, not to give them personal privileges."
+      },
+      {
+        "title": "Article 15: Prohibition of Discrimination",
+        "detail": "State shall not discriminate against any citizen on grounds ONLY of religion, race, caste, sex, place of birth. Note the word \"ONLY\"—discrimination on other grounds (like residence) is permitted. Special provisions for women, children, and socially/educationally backward classes (Art 15(4) and (5)) are exceptions.",
+        "explanation": "Article 15 of the Indian Constitution is called the Prohibition of Discrimination. It says that the State, which means all government bodies, cannot treat any citizen unfairly or unequally if the only reason is their religion, race, caste, sex, or place of birth. The word \"only\" is very important here: if the government has a different reason, such as where a person lives or their income, it is allowed to treat them differently. For example, a state can give benefits only to people who live in that state. However, the Constitution also allows the State to make special laws for women and children, as well as for socially and educationally backward classes, which include Scheduled Castes (SC) and Scheduled Tribes (ST). These exceptions are explained in clauses 4 and 5 of Article 15, which permit the government to reserve seats in public educational institutions for these groups."
+      },
+      {
+        "title": "Article 16: Equality of Opportunity in Public Employment",
+        "detail": "No discrimination in state employment. 77th and 81st Amendments added provisions for reservation in promotion and \"carry forward\" rule. 103rd Amendment added 10% EWS reservation (Art 16(6)).",
+        "explanation": "Article 16 of the Indian Constitution ensures that every citizen has equal access to jobs and posts under the government, meaning the state cannot discriminate against anyone based on religion, race, caste, sex, descent, place of birth, or residence when hiring for public employment. \"Public employment\" refers to jobs in government departments, public sector companies, and other state-run organisations. However, the Constitution allows the government to make special provisions for certain groups: the 77th Amendment (1995) added Article 16(4A), which permits the state to reserve seats in promotions—meaning giving preference in moving to higher positions—for Scheduled Castes (SC) and Scheduled Tribes (ST) if they are underrepresented in government service. The 81st Amendment (2000) added Article 16(4B), which allows unfilled reserved positions from previous years—called \"carry forward\" rule—to be filled in later years, even if the total reserved seats exceed 50% of the available posts in that year. The 103rd Amendment (2019) added Article 16(6), which provides 10% reservation in public employment for Economically Weaker Sections (EWS)—citizens whose annual family income is less than a certain limit and who own limited agricultural land or assets, but only for those not already covered by SC, ST, or Other Backward Classes (OBC) reservations. The core principle remains that while general equality is guaranteed, the state can make targeted exceptions to uplift historically and economically disadvantaged groups."
+      },
+      {
+        "title": "Article 17 & 18: Social Equality",
+        "detail": "Art 17: Abolition of Untouchability. It is an ABSOLUTE right (no exceptions). Art 18: Abolition of Titles. Military and Academic distinctions are NOT titles. Bharat Ratna/Padma awards are not titles to be used as prefixes/suffixes.",
+        "explanation": "Article 17 and 18: Social Equality Article 17 of the Indian Constitution abolishes \"untouchability,\" which was the cruel social practice of treating certain people as impure and outside the caste system, and it makes the practice of untouchability a punishable offense. This is an absolute right, meaning there are no exceptions or circumstances where untouchability can be practiced legally. Article 18 of the Indian Constitution abolishes \"titles,\" which are honorary rankings like \"Sir\" or \"Raja\" that were given by the British to create a social hierarchy, but it clearly states that military and academic distinctions, such as a \"Param Vir Chakra\" award or a PhD degree, are not considered titles under this rule. Under Article 18, national awards like the Bharat Ratna or Padma awards are not official titles that can be used as prefixes or suffixes to a person's name, so you cannot write \"Bharat Ratna Sachin Tendulkar\" legally, though the award itself is honored. Both articles aim to ensure social equality by removing artificial barriers of status and hierarchy created by tradition or government."
+      }
+    ],
+    "mastery_depth": "Fundamental Rights Block 1: Art 12–18 (Right to Equality) is a daily exam-learning block, not just a list of facts. Read each point for definition, example, and common trap. Article 12 & 13: The Guardians: Art 12: Defines \"State\" to include Govt/Parliament, State Govts/Legislatures, Local authorities (Panchayats/Municipalities), and Statutory/Non-statutory authorities (LIC, ONGC, SAIL). Art 13: Declares that all laws inconsistent with FRs shall be void. This is the explicit basis for Judicial Review by SC (Art 32) and HC (Art 226). Article 14: Equality Before Law: Equality Before Law (UK origin - negative concept) + Equal Protection of Laws (USA origin - positive concept). It permits \"Reasonable Classification\" but prohibits \"Class Legislation\". Exceptions : President and Governors have immunity under Art 361. Article 15: Prohibition of Discrimination: State shall not discriminate against any citizen on grounds ONLY of religion, race, caste, sex, place of birth. Note the word \"ONLY\"—discrimination on other grounds (like residence) is permitted. Special provisions for women, children, and socially/educationally backward classes (Art 15(4) and (5)) are exceptions. Article 16: Equality of Opportunity in Public Employment: No discrimination in state employment. 77th and 81st Amendments added provisions for reservation in promotion and \"carry forward\" rule. 103rd Amendment added 10% EWS reservation (Art 16(6)). Article 17 & 18: Social Equality: Art 17: Abolition of Untouchability. It is an ABSOLUTE right (no exceptions). Art 18: Abolition of Titles. Military and Academic distinctions are NOT titles. Bharat Ratna/Padma awards are not titles to be used as prefixes/suffixes. Before attempting the quiz, be able to explain each term in one sentence and match it with its law, convention, example, or exam keyword."
+  },
+  "day_number": 4,
+  "flashcards": [
+    {
+      "back": "Article 12.",
+      "front": "Which article defines the 'State' for the purpose of Fundamental Rights?",
+      "source": "llm_grounded_reading_content"
+    },
+    {
+      "back": "It declares that any law inconsistent with Fundamental Rights shall be void, establishing the basis for Judicial Review.",
+      "front": "What is the primary function of Article 13?",
+      "source": "llm_grounded_reading_content"
+    },
+    {
+      "back": "The President of India and the Governors of states.",
+      "front": "Who has special immunity under Article 361 as an exception to Article 14?",
+      "source": "llm_grounded_reading_content"
+    },
+    {
+      "back": "Religion, race, caste, sex, and place of birth.",
+      "front": "What are the five specific grounds on which the State cannot discriminate under Article 15?",
+      "source": "llm_grounded_reading_content"
+    },
+    {
+      "back": "The 103rd Amendment (2019).",
+      "front": "Which amendment added the 10% reservation for Economically Weaker Sections (EWS) in public employment?",
+      "source": "llm_grounded_reading_content"
+    },
+    {
+      "back": "It allows unfilled reserved positions from previous years to be filled in later years, even if the total exceeds 50%.",
+      "front": "What is the 'carry forward' rule in public employment?",
+      "source": "llm_grounded_reading_content"
+    },
+    {
+      "back": "Yes, it is an absolute right with no exceptions.",
+      "front": "Is the right to abolition of untouchability (Article 17) an absolute right?",
+      "source": "llm_grounded_reading_content"
+    },
+    {
+      "back": "No, they are not considered titles.",
+      "front": "Are military and academic distinctions considered 'titles' under Article 18?",
+      "source": "llm_grounded_reading_content"
+    },
+    {
+      "back": "No, they are not official titles and cannot be used as prefixes or suffixes.",
+      "front": "Can national awards like the Bharat Ratna be used as prefixes or suffixes to a name?",
+      "source": "llm_grounded_reading_content"
+    },
+    {
+      "back": "It allows the government to create different rules for different groups of people if the classification has a fair and logical basis.",
+      "front": "What does 'reasonable classification' under Article 14 permit?",
+      "source": "llm_grounded_reading_content"
+    }
+  ],
+  "topic_title": "Fundamental Rights Block 1: Art 12–18 (Right to Equality)",
+  "lesson_intro": "Welcome to Part III of the Constitution—the 'Magna Carta' of India. Fundamental Rights (FRs) are the most critical part of your UPSC Polity preparation because they define the relationship between the citizen and the State. We begin with the 'Right to Equality'. Before you learn about the rights themselves, you must understand Article 12 (which defines who the 'State' is) and Article 13 (which gives the courts the power of Judicial Review). Article 14 to 18 then lay the groundwork for a society free from discrimination, untouchability, and titles of nobility. For a UPSC aspirant, these aren't just articles; they are the tools used to challenge arbitrary state action.",
+  "lesson_pages": [
+    {
+      "type": "overview",
+      "intro": "",
+      "title": "Fundamental Rights Block 1: Art 12–18 (Right to Equality)",
+      "blocks": [
+        {
+          "type": "fact_grid",
+          "items": [
+            {
+              "label": "Article 12 & 13: The Guardians"
+            },
+            {
+              "label": "Article 14: Equality Before Law"
+            },
+            {
+              "label": "Article 15: Prohibition of Discrimination"
+            },
+            {
+              "label": "Article 16: Equality of Opportunity in Public Employment"
+            },
+            {
+              "label": "Article 17 & 18: Social Equality"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "intro": "Article 12 of the Constitution defines the term \"State\" for the purpose of Fundamental Rights. Under this definition, \"State\" includes the central Government and Parliament, the state governments and their legislatures, all local authorities like Panchayats and Municipalities, and other bodies like LIC, ONGC, or SAIL which are created by law and carry out public functions. Article 13 establishes that any law made by the State which goes against any Fundamental Right will be considered void or invalid. This means if Parliament or a state legislature passes a law that takes away your rights, the courts can throw it out. This power of courts to check laws is called Judicial Review, and it can be exercised in the Supreme Court under Article 32 or in a High Court under Article 226. Together, Articles 12 and 13 are guardians because they define who cannot violate your rights and give courts the clear power to cancel any law that does so.",
+      "title": "Article 12 & 13: The Guardians",
+      "blocks": []
+    },
+    {
+      "type": "concept",
+      "intro": "Article 14 of the Indian Constitution guarantees two related rights: \"Equality before the law\" means that no person is above the law and every individual is subject to the same law in the same way, a concept borrowed from the United Kingdom that is considered a \"negative\" duty on the state not to discriminate. \"Equal protection of the laws\" means that the law itself must treat people in similar situations equally, a \"positive\" duty borrowed from the United States that requires the state to provide the same legal protection to all. This Article allows the government to make \"reasonable classification\", which means it can create different rules for different groups of people as long as the classification has a fair and logical basis related to the law's purpose. But it forbids \"class legislation\", which means making arbitrary laws that single out a specific person or group for favor or disfavor without a reasonable reason. The only exception mentioned here is that the President of India and the Governors of states have special immunity under Article 361 of the Constitution, which means they cannot be sued or prosecuted in a court of law while they are holding office. This exception exists to protect the dignity and independence of these high offices, not to give them personal privileges.",
+      "title": "Article 14: Equality Before Law",
+      "blocks": []
+    },
+    {
+      "type": "concept",
+      "intro": "Article 15 of the Indian Constitution is called the Prohibition of Discrimination. It says that the State, which means all government bodies, cannot treat any citizen unfairly or unequally if the only reason is their religion, race, caste, sex, or place of birth. The word \"only\" is very important here: if the government has a different reason, such as where a person lives or their income, it is allowed to treat them differently. For example, a state can give benefits only to people who live in that state. However, the Constitution also allows the State to make special laws for women and children, as well as for socially and educationally backward classes, which include Scheduled Castes (SC) and Scheduled Tribes (ST). These exceptions are explained in clauses 4 and 5 of Article 15, which permit the government to reserve seats in public educational institutions for these groups.",
+      "title": "Article 15: Prohibition of Discrimination",
+      "blocks": [
+        {
+          "text": "State shall not discriminate against any citizen on grounds ONLY of religion, race, caste, sex, place of birth.",
+          "type": "trap"
+        }
+      ]
+    },
+    {
+      "type": "concept",
+      "intro": "Article 16 of the Indian Constitution ensures that every citizen has equal access to jobs and posts under the government, meaning the state cannot discriminate against anyone based on religion, race, caste, sex, descent, place of birth, or residence when hiring for public employment. \"Public employment\" refers to jobs in government departments, public sector companies, and other state-run organisations. However, the Constitution allows the government to make special provisions for certain groups: the 77th Amendment (1995) added Article 16(4A), which permits the state to reserve seats in promotions—meaning giving preference in moving to higher positions—for Scheduled Castes (SC) and Scheduled Tribes (ST) if they are underrepresented in government service. The 81st Amendment (2000) added Article 16(4B), which allows unfilled reserved positions from previous years—called \"carry forward\" rule—to be filled in later years, even if the total reserved seats exceed 50% of the available posts in that year. The 103rd Amendment (2019) added Article 16(6), which provides 10% reservation in public employment for Economically Weaker Sections (EWS)—citizens whose annual family income is less than a certain limit and who own limited agricultural land or assets, but only for those not already covered by SC, ST, or Other Backward Classes (OBC) reservations.",
+      "title": "Article 16: Equality of Opportunity in Public Employment",
+      "blocks": []
+    },
+    {
+      "type": "concept",
+      "intro": "Article 17 and 18: Social Equality Article 17 of the Indian Constitution abolishes \"untouchability,\" which was the cruel social practice of treating certain people as impure and outside the caste system, and it makes the practice of untouchability a punishable offense. This is an absolute right, meaning there are no exceptions or circumstances where untouchability can be practiced legally. Article 18 of the Indian Constitution abolishes \"titles,\" which are honorary rankings like \"Sir\" or \"Raja\" that were given by the British to create a social hierarchy, but it clearly states that military and academic distinctions, such as a \"Param Vir Chakra\" award or a PhD degree, are not considered titles under this rule. Under Article 18, national awards like the Bharat Ratna or Padma awards are not official titles that can be used as prefixes or suffixes to a person's name, so you cannot write \"Bharat Ratna Sachin Tendulkar\" legally, though the award itself is honored. Both articles aim to ensure social equality by removing artificial barriers of status and hierarchy created by tradition or government.",
+      "title": "Article 17 & 18: Social Equality",
+      "blocks": [
+        {
+          "text": "Military and Academic distinctions are NOT titles.",
+          "type": "trap"
+        }
+      ]
+    }
+  ],
+  "quick_note_cards": [
+    {
+      "back": "Art 13 provides the basis for Judicial Review. It says any law (statute, ordinance, custom) that violates Fundamental Rights is VOID. The SC (Art 32) and HC (Art 226) use this power to strike down unconstitutional laws.",
+      "front": "Article 13 and Judicial Review—what is the link?",
+      "title": "Exam Card"
+    },
+    {
+      "back": "YES. Article 14 (Equality before law) applies to all persons, whether citizens or foreigners/legal corporations. However, Articles 15, 16, 19, 29, and 30 are available ONLY to citizens.",
+      "front": "Does Art 14 apply to non-citizens?",
+      "title": "Exam Card"
+    },
+    {
+      "back": "The State cannot discriminate ONLY on grounds of religion, race, caste, sex, place of birth. It CAN discriminate on other grounds like residence (e.g., domicile requirements for state schemes), unless prohibited elsewhere.",
+      "front": "Article 15: The \"ONLY\" Trap?",
+      "title": "Exam Card"
+    },
+    {
+      "back": "Article 17 (Abolition of Untouchability). Unlike most other FRs (like Art 19) which have \"reasonable restrictions\", Art 17 has no exceptions. Practicing untouchability is a crime.",
+      "front": "Which Fundamental Right is considered \"Absolute\"?",
+      "title": "Exam Card"
+    },
+    {
+      "back": "NO. The SC in Balaji Raghavan case (1996) ruled they are \"National Honours\", not titles. However, they cannot be used as prefixes (e.g., \"Bharat Ratna X\") or suffixes to the name.",
+      "front": "Are Bharat Ratna and Padma Awards \"Titles\" under Art 18?",
+      "title": "Exam Card"
+    }
+  ],
+  "curriculum_metadata": {
+    "platinum": true,
+    "weightage": 10,
+    "is_premium": true,
+    "is_long_day": true,
+    "quiz_source": "Local exam-style daily topic rebuild",
+    "pyq_frequency": "Very High",
+    "estimated_time": "25 min",
+    "yield_category": "high_yield",
+    "quiz_rebuilt_at": "2026-05-25T11:06:20.618Z",
+    "quiz_hydrated_at": "2026-05-24T18:10:06.861Z",
+    "quiz_match_level": "day_topic_exam_style_local",
+    "daily_question_target": 12
+  },
+  "video_recommendations": [
+    {
+      "url": "https://www.youtube.com/watch?v=Nlo1C4XvCxc",
+      "why": "Detailed FR analysis for UPSC.",
+      "title": "UPSC: Fundamental Rights Block 1: Art 12–18 (Right to Equality)"
+    }
+  ],
+  "smart_revision_summary": {
+    "mini_grid": "Fundamental Rights Block 1: Art 12–18 (Right to Equality) | W:10 | Very High PYQ",
+    "one_screen_summary": "Art 12: State definition. Art 13: Judicial Review. Art 14: Equality before law + Equal protection (President/Governor exceptions). Art 15: No discrimination on 5 grounds (Citizens only). Art 16: Public employment equality (Citizens only). Art 17: Untouchability abolished (Absolute). Art 18: Titles abolished (except Military/Academic)."
+  }
+}

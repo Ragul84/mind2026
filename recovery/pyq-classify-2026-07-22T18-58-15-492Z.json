@@ -1,0 +1,4758 @@
+{
+  "updates": [
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q1",
+      "subject": "Economy",
+      "topic": "Stand Up India Scheme"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q12",
+      "subject": "Economy",
+      "topic": "Ease of Doing Business Index"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q16",
+      "subject": "Economy",
+      "topic": "Trans-Pacific Partnership"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q18",
+      "subject": "Economy",
+      "topic": "MCLR"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q31",
+      "subject": "Economy",
+      "topic": "Financial Stability and Development Council"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q35",
+      "subject": "Economy",
+      "topic": "Base Erosion and Profit Shifting"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q37",
+      "subject": "Economy",
+      "topic": "District Mineral Foundations"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q38",
+      "subject": "Science & Technology",
+      "topic": "SWAYAM"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q4",
+      "subject": "Economy",
+      "topic": "Core Banking Solutions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q41",
+      "subject": "Economy",
+      "topic": "Bitcoins"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q42",
+      "subject": "Economy",
+      "topic": "New Development Bank"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q46",
+      "subject": "Economy",
+      "topic": "Gold Schemes"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q50",
+      "subject": "Economy",
+      "topic": "Global Financial Stability Report"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q51",
+      "subject": "Economy",
+      "topic": "Atal Pension Yojana"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q52",
+      "subject": "Economy",
+      "topic": "Regional Comprehensive Economic Partnership"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q57",
+      "subject": "Current Affairs",
+      "topic": "European Stability Mechanism"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q59",
+      "subject": "Current Affairs",
+      "topic": "DigiLocker"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q77",
+      "subject": "Current Affairs",
+      "topic": "Global Hunger Index"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q78",
+      "subject": "Economy",
+      "topic": "Fiscal Deficit"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q79",
+      "subject": "Economy",
+      "topic": "Payment Banks"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q82",
+      "subject": "Current Affairs",
+      "topic": "UDAY Scheme"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q86",
+      "subject": "Economy",
+      "topic": "WTO Agriculture Subsidies"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q87",
+      "subject": "Economy",
+      "topic": "Capital Budget"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-economy-q90",
+      "subject": "Current Affairs",
+      "topic": "IMFC"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q11",
+      "subject": "Science & Technology",
+      "topic": "Net Metering"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q19",
+      "subject": "Environment",
+      "topic": "Kharai Camel"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q2",
+      "subject": "Environment",
+      "topic": "GIAHS"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q20",
+      "subject": "Geography",
+      "topic": "Banana Species Discovery"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q23",
+      "subject": "Current Affairs",
+      "topic": "Millets Promotion"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q27",
+      "subject": "Environment",
+      "topic": "TEEB"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q28",
+      "subject": "Environment",
+      "topic": "Red Sanders"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q29",
+      "subject": "Environment",
+      "topic": "UN-REDD+ Programme"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q3",
+      "subject": "Geography",
+      "topic": "Brahmaputra Tributaries"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q30",
+      "subject": "Environment",
+      "topic": "Greenhouse Gas Protocol"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q32",
+      "subject": "Environment",
+      "topic": "Agenda 21"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q43",
+      "subject": "Environment",
+      "topic": "Western Ghats Committees"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q49",
+      "subject": "Geography",
+      "topic": "Shale Gas Basins"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q5",
+      "subject": "Environment",
+      "topic": "Climate Protocols"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q53",
+      "subject": "Science & Technology",
+      "topic": "Energy Efficiency Label"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q58",
+      "subject": "Geography",
+      "topic": "Drip Irrigation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q60",
+      "subject": "Geography",
+      "topic": "River Linking"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q61",
+      "subject": "Environment",
+      "topic": "Air Quality Index"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q65",
+      "subject": "Current Affairs",
+      "topic": "State Butterfly"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q71",
+      "subject": "Current Affairs",
+      "topic": "Artificial Inland Port"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q72",
+      "subject": "Environment",
+      "topic": "Paris Agreement"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q73",
+      "subject": "Environment",
+      "topic": "Sustainable Development Goals"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q8",
+      "subject": "Environment",
+      "topic": "Green India Mission"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q81",
+      "subject": "Environment",
+      "topic": "Climate Change"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q88",
+      "subject": "Environment",
+      "topic": "UNCCD"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q96",
+      "subject": "Economy",
+      "topic": "Pradhan Mantri Fasal Bima Yojana"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q97",
+      "subject": "Geography",
+      "topic": "Indian Biodiversity"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q98",
+      "subject": "Environment",
+      "topic": "National Ganga River Basin Authority"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-environment-and-geography-q99",
+      "subject": "Environment",
+      "topic": "Neem-coated Urea"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q13",
+      "subject": "History",
+      "topic": "Medieval Indian Tribes"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q14",
+      "subject": "History",
+      "topic": "Ashokan Edicts"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q17",
+      "subject": "Current Affairs",
+      "topic": "India-Africa Summit"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q21",
+      "subject": "Science & Technology",
+      "topic": "INS Astradharini"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q24",
+      "subject": "History",
+      "topic": "Swadeshi Movement"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q25",
+      "subject": "Art & Culture",
+      "topic": "Bodhisattva Concept"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q26",
+      "subject": "Current Affairs",
+      "topic": "Doctors Without Borders"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q33",
+      "subject": "History",
+      "topic": "Satya Shodhak Samaj"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q39",
+      "subject": "History",
+      "topic": "Montague-Chelmsford Reforms"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q40",
+      "subject": "Art & Culture",
+      "topic": "Ajanta and Mahabalipuram"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q44",
+      "subject": "History",
+      "topic": "Keshab Chandra Sen"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q45",
+      "subject": "Current Affairs",
+      "topic": "Gulf Cooperation Council"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q47",
+      "subject": "Current Affairs",
+      "topic": "Belt and Road Initiative"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q63",
+      "subject": "History",
+      "topic": "Medieval Indian Economy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q67",
+      "subject": "History",
+      "topic": "Surat Split 1907"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q68",
+      "subject": "History",
+      "topic": "Cripps Mission"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q69",
+      "subject": "Geography",
+      "topic": "Famous Places and Regions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q74",
+      "subject": "General Knowledge",
+      "topic": "The Man Who Knew Infinity"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q84",
+      "subject": "History",
+      "topic": "Vijayanagar Taxation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q85",
+      "subject": "Art & Culture",
+      "topic": "Ancient Indian Literature"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q92",
+      "subject": "History",
+      "topic": "Medieval Indian Sects"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q94",
+      "subject": "Current Affairs",
+      "topic": "Communities in News"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-history-and-culture-q95",
+      "subject": "Current Affairs",
+      "topic": "International Organizations"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-polity-and-science-q10",
+      "subject": "Current Affairs",
+      "topic": "Project Loon"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-polity-and-science-q100",
+      "subject": "Polity",
+      "topic": "Chief Secretary"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-polity-and-science-q15",
+      "subject": "Polity",
+      "topic": "Gram Nyayalaya Act"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-polity-and-science-q22",
+      "subject": "Current Affairs",
+      "topic": "Greased Lightning-10"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-polity-and-science-q34",
+      "subject": "Science & Technology",
+      "topic": "Viruses"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-polity-and-science-q54",
+      "subject": "Science & Technology",
+      "topic": "ITER"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-polity-and-science-q6",
+      "subject": "Science & Technology",
+      "topic": "Transcriptome"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-polity-and-science-q62",
+      "subject": "Science & Technology",
+      "topic": "Astrosat"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-polity-and-science-q66",
+      "subject": "Current Affairs",
+      "topic": "Mangalyaan"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-polity-and-science-q70",
+      "subject": "Polity",
+      "topic": "Legislative Powers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-polity-and-science-q75",
+      "subject": "Polity",
+      "topic": "Panchayati Raj"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-polity-and-science-q76",
+      "subject": "Polity",
+      "topic": "Legislative Procedure"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-polity-and-science-q80",
+      "subject": "Science & Technology",
+      "topic": "Li-Fi"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-polity-and-science-q9",
+      "subject": "Economy",
+      "topic": "Food Labeling"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2016-mrunal-polity-and-science-q91",
+      "subject": "Current Affairs",
+      "topic": "Social Campaigns"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q10",
+      "subject": "Current Affairs",
+      "topic": "UN-Habitat"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q11",
+      "subject": "Economy",
+      "topic": "National Skills Qualification Framework"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q14",
+      "subject": "Economy",
+      "topic": "Stressed Assets Scheme"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q27",
+      "subject": "Economy",
+      "topic": "Post-1991 Economic Reforms"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q29",
+      "subject": "Economy",
+      "topic": "NPCI and RuPay"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q31",
+      "subject": "Economy",
+      "topic": "Goods and Services Tax"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q32",
+      "subject": "Current Affairs",
+      "topic": "India-EU BTIA"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q33",
+      "subject": "Current Affairs",
+      "topic": "WTO Trade Facilitation Agreement"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q38",
+      "subject": "Current Affairs",
+      "topic": "Vidyanjali Yojana"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q39",
+      "subject": "Current Affairs",
+      "topic": "Unnat Bharat Abhiyan"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q44",
+      "subject": "Economy",
+      "topic": "Fiscal Indicators"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q5",
+      "subject": "Economy",
+      "topic": "National Investment and Infrastructure Fund"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q52",
+      "subject": "Economy",
+      "topic": "Domestic Content Requirement"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q54",
+      "subject": "Economy",
+      "topic": "National Pension System"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q57",
+      "subject": "Economy",
+      "topic": "Quality Certification Marks"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q59",
+      "subject": "Polity",
+      "topic": "Intellectual Property Rights"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q6",
+      "subject": "Economy",
+      "topic": "Global Infrastructure Facility"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q64",
+      "subject": "Polity",
+      "topic": "Quality Council of India"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q65",
+      "subject": "Economy",
+      "topic": "Small Finance Banks"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q66",
+      "subject": "Current Affairs",
+      "topic": "APMCHUD"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q68",
+      "subject": "Economy",
+      "topic": "Unified Payments Interface"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q78",
+      "subject": "Current Affairs",
+      "topic": "Recognition of Prior Learning"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q84",
+      "subject": "Current Affairs",
+      "topic": "Global Gender Gap Index"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q85",
+      "subject": "Current Affairs",
+      "topic": "Smart India Hackathon"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q86",
+      "subject": "Economy",
+      "topic": "Monetary Policy Committee"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q93",
+      "subject": "Current Affairs",
+      "topic": "Digital Single Market Strategy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-economy-q95",
+      "subject": "Polity",
+      "topic": "Benami Property Transactions Act"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q100",
+      "subject": "Environment",
+      "topic": "Carbon Sequestration"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q15",
+      "subject": "Environment",
+      "topic": "Climate and Clean Air Coalition"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q16",
+      "subject": "Geography",
+      "topic": "Indian Ocean Dipole"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q17",
+      "subject": "Environment",
+      "topic": "Gharial Habitat"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q2",
+      "subject": "Environment",
+      "topic": "Global Climate Change Alliance"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q22",
+      "subject": "Polity",
+      "topic": "Soil Health Card Scheme"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q28",
+      "subject": "Science & Technology",
+      "topic": "Somatic Cell Nuclear Transfer"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q30",
+      "subject": "Environment",
+      "topic": "M-STRIPES"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q41",
+      "subject": "Environment",
+      "topic": "Wildlife Protection Act"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q45",
+      "subject": "Environment",
+      "topic": "Lion Translocation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q48",
+      "subject": "Geography",
+      "topic": "Great Nicobar"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q55",
+      "subject": "Geography",
+      "topic": "River Teesta"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q58",
+      "subject": "Economy",
+      "topic": "National Agriculture Market"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q60",
+      "subject": "Environment",
+      "topic": "Wildlife Protection Act"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q70",
+      "subject": "Science & Technology",
+      "topic": "Genome Sequencing"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q74",
+      "subject": "Geography",
+      "topic": "Indian States"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q79",
+      "subject": "Geography",
+      "topic": "Eastern and Western Ghats"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q81",
+      "subject": "Environment",
+      "topic": "Wildlife Trade"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q89",
+      "subject": "Environment",
+      "topic": "Bioremediation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q9",
+      "subject": "Environment",
+      "topic": "Water Pollution"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-environment-q96",
+      "subject": "Environment",
+      "topic": "Butterfly Population"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q1",
+      "subject": "History",
+      "topic": "Kakatiya Kingdom"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q12",
+      "subject": "History",
+      "topic": "Dyarchy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q19",
+      "subject": "Art & Culture",
+      "topic": "Ajanta Paintings"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q20",
+      "subject": "Art & Culture",
+      "topic": "Festivals and Communities"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q23",
+      "subject": "Science & Technology",
+      "topic": "Chemicals in Products"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q24",
+      "subject": "Science & Technology",
+      "topic": "OLED Displays"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q25",
+      "subject": "Art & Culture",
+      "topic": "Sun Temples"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q3",
+      "subject": "History",
+      "topic": "Buddhist Sects"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q35",
+      "subject": "Current Affairs",
+      "topic": "Cyber Security"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q37",
+      "subject": "Science & Technology",
+      "topic": "Space Missions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q43",
+      "subject": "History",
+      "topic": "Indian Freedom Struggle"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q51",
+      "subject": "History",
+      "topic": "Butler Committee 1927"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q56",
+      "subject": "Science & Technology",
+      "topic": "Zika virus transmission"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q62",
+      "subject": "History",
+      "topic": "British Indian Association"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q69",
+      "subject": "Science & Technology",
+      "topic": "Astrophysics concepts"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q87",
+      "subject": "Art & Culture",
+      "topic": "Manipuri Sankirtana"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q88",
+      "subject": "History",
+      "topic": "Ryotwari Settlement"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q90",
+      "subject": "History",
+      "topic": "Trade Disputes Act 1929"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-history-and-culture-q99",
+      "subject": "History",
+      "topic": "Factories Act 1881"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q18",
+      "subject": "Current Affairs",
+      "topic": "Indian Ocean Naval Symposium"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q26",
+      "subject": "Polity",
+      "topic": "Election rules"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q34",
+      "subject": "Geography",
+      "topic": "Chabahar Port"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q36",
+      "subject": "Polity",
+      "topic": "Right to vote"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q40",
+      "subject": "Polity",
+      "topic": "Election Commission"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q42",
+      "subject": "Polity",
+      "topic": "Judicial Review"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q46",
+      "subject": "Polity",
+      "topic": "President's rule"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q47",
+      "subject": "Polity",
+      "topic": "Right against Exploitation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q49",
+      "subject": "Polity",
+      "topic": "Cabinet Government"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q50",
+      "subject": "Polity",
+      "topic": "Indian Federalism"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q53",
+      "subject": "Current Affairs",
+      "topic": "Nuclear Security"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q61",
+      "subject": "Polity",
+      "topic": "Fundamental Duties"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q63",
+      "subject": "Polity",
+      "topic": "Preamble"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q67",
+      "subject": "Polity",
+      "topic": "Democracy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q7",
+      "subject": "Polity",
+      "topic": "Lok Sabha Elections"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q71",
+      "subject": "Polity",
+      "topic": "Parliamentary Government"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q72",
+      "subject": "Polity",
+      "topic": "Rights and Duties"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q73",
+      "subject": "Polity",
+      "topic": "Constitution Makers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q75",
+      "subject": "Polity",
+      "topic": "Parliamentary Control"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q76",
+      "subject": "Polity",
+      "topic": "Private Member Bill"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q80",
+      "subject": "Polity",
+      "topic": "Equality"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q82",
+      "subject": "Polity",
+      "topic": "Directive Principles"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q91",
+      "subject": "Polity",
+      "topic": "Local Self-Government"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q92",
+      "subject": "Polity",
+      "topic": "Directive Principles of State Policy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q18",
+      "subject": "Economy",
+      "topic": "Agricultural Households Survey"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q21",
+      "subject": "Economy",
+      "topic": "Merchant Discount Rate"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q23",
+      "subject": "Economy",
+      "topic": "Equalization Tax"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q24",
+      "subject": "Economy",
+      "topic": "FRBM Review Committee"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q25",
+      "subject": "Economy",
+      "topic": "Edible Oils Import"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q30",
+      "subject": "Economy",
+      "topic": "ATM Network"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q31",
+      "subject": "Economy",
+      "topic": "Legal Tender Money"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q33",
+      "subject": "Economy",
+      "topic": "Economic Development Indicators"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q35",
+      "subject": "Economy",
+      "topic": "Capital Formation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q41",
+      "subject": "Economy",
+      "topic": "Treasury Bills"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q48",
+      "subject": "Economy",
+      "topic": "Pradhan Mantri Kaushal Vikas Yojana"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q61",
+      "subject": "Economy",
+      "topic": "Capital Adequacy Ratio"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q66",
+      "subject": "Polity",
+      "topic": "Right to Education Act"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q68",
+      "subject": "Polity",
+      "topic": "Food Safety Standards"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q70",
+      "subject": "Polity",
+      "topic": "National Food Security Act"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q71",
+      "subject": "Polity",
+      "topic": "Geographical Indications Act"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q73",
+      "subject": "Economy",
+      "topic": "Digital Payments"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q78",
+      "subject": "Economy",
+      "topic": "Minimum Support Price"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q81",
+      "subject": "Economy",
+      "topic": "Public Sector Banking"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q89",
+      "subject": "Current Affairs",
+      "topic": "ASEAN Free Trade Partners"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-economy-q91",
+      "subject": "Current Affairs",
+      "topic": "Digital India"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-environment-q19",
+      "subject": "Environment",
+      "topic": "National Green Tribunal"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-environment-q28",
+      "subject": "Geography",
+      "topic": "Shrinking Water Bodies"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-environment-q44",
+      "subject": "Environment",
+      "topic": "Conservation Agriculture"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-environment-q45",
+      "subject": "Environment",
+      "topic": "Mass Extinction"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-environment-q5",
+      "subject": "Environment",
+      "topic": "Carbon Fertilization"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-environment-q51",
+      "subject": "Environment",
+      "topic": "Sand Mining Impacts"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-environment-q52",
+      "subject": "Environment",
+      "topic": "Soil Properties"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-environment-q53",
+      "subject": "Environment",
+      "topic": "Green Economy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-environment-q56",
+      "subject": "Environment",
+      "topic": "Invasive Species"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-environment-q58",
+      "subject": "Environment",
+      "topic": "Climate Initiatives"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-environment-q7",
+      "subject": "Science & Technology",
+      "topic": "Solar Energy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-environment-q79",
+      "subject": "Geography",
+      "topic": "Wildlife Sanctuaries"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-environment-q83",
+      "subject": "Environment",
+      "topic": "Habitat Rights"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-environment-q85",
+      "subject": "Environment",
+      "topic": "Organic Farming"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-environment-q90",
+      "subject": "Environment",
+      "topic": "Climate Smart Agriculture"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-geography-q47",
+      "subject": "Geography",
+      "topic": "Artificial Lakes"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-geography-q55",
+      "subject": "Geography",
+      "topic": "Volcanoes"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-geography-q72",
+      "subject": "Geography",
+      "topic": "Mineral Resources"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-geography-q74",
+      "subject": "Geography",
+      "topic": "Longitude"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q10",
+      "subject": "History",
+      "topic": "Labour Movement"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q11",
+      "subject": "Art & Culture",
+      "topic": "Jain Sects"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q13",
+      "subject": "History",
+      "topic": "Foreign Travellers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q14",
+      "subject": "History",
+      "topic": "Buddhist Concepts"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q15",
+      "subject": "History",
+      "topic": "Subsidiary Alliance"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q26",
+      "subject": "History",
+      "topic": "Indian Nationalists"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q36",
+      "subject": "History",
+      "topic": "Santhal Uprising"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q37",
+      "subject": "History",
+      "topic": "British Economic Impact"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q39",
+      "subject": "Art & Culture",
+      "topic": "Indian Handicrafts"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q46",
+      "subject": "History",
+      "topic": "English Education in India"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q49",
+      "subject": "History",
+      "topic": "Indian National Movement"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q50",
+      "subject": "History",
+      "topic": "Chronological Events"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q59",
+      "subject": "History",
+      "topic": "Colonial Education"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q64",
+      "subject": "History",
+      "topic": "Wood's Dispatch"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q67",
+      "subject": "Art & Culture",
+      "topic": "Indian Traditions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q76",
+      "subject": "History",
+      "topic": "Post-Independence Events"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q8",
+      "subject": "History",
+      "topic": "East India Company Trade"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q9",
+      "subject": "History",
+      "topic": "Champaran Satyagraha"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q97",
+      "subject": "Art & Culture",
+      "topic": "Bani Thani painting"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-history-and-culture-q99",
+      "subject": "Art & Culture",
+      "topic": "Tyagaraja and Annamacharya"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-international-relations-q22",
+      "subject": "Current Affairs",
+      "topic": "Nuclear Suppliers Group"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-international-relations-q29",
+      "subject": "Current Affairs",
+      "topic": "Rule of Law Index"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-international-relations-q60",
+      "subject": "Geography",
+      "topic": "Regions and countries"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-international-relations-q63",
+      "subject": "Current Affairs",
+      "topic": "Famine and conflict"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-international-relations-q69",
+      "subject": "Current Affairs",
+      "topic": "Two-state solution"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-international-relations-q88",
+      "subject": "Polity",
+      "topic": "IAEA Additional Protocol"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-international-relations-q92",
+      "subject": "Geography",
+      "topic": "Towns and countries"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-international-relations-q98",
+      "subject": "Science & Technology",
+      "topic": "THAAD system"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-polity-q16",
+      "subject": "Polity",
+      "topic": "Leader of Opposition"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-polity-q20",
+      "subject": "Polity",
+      "topic": "Ninth Schedule"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-polity-q27",
+      "subject": "Polity",
+      "topic": "Aadhaar card"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-polity-q38",
+      "subject": "Polity",
+      "topic": "Article 356"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-polity-q65",
+      "subject": "Polity",
+      "topic": "Parliamentary Committees"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-polity-q75",
+      "subject": "Current Affairs",
+      "topic": "ILO Conventions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-polity-q77",
+      "subject": "Polity",
+      "topic": "Right to Privacy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-polity-q87",
+      "subject": "Polity",
+      "topic": "Presidential Election"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-polity-q93",
+      "subject": "Polity",
+      "topic": "Government of India Act 1935"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-polity-q94",
+      "subject": "Polity",
+      "topic": "Speaker of Legislative Assembly"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-polity-q95",
+      "subject": "Polity",
+      "topic": "Law and Liberty"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-polity-q96",
+      "subject": "Polity",
+      "topic": "Governor of State"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-science-and-technology-q1",
+      "subject": "Science & Technology",
+      "topic": "IRNSS"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-science-and-technology-q17",
+      "subject": "Environment",
+      "topic": "Desert Plant Adaptations"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-science-and-technology-q2",
+      "subject": "Science & Technology",
+      "topic": "General Theory of Relativity"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-science-and-technology-q3",
+      "subject": "Science & Technology",
+      "topic": "Genetically Modified Mustard"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-science-and-technology-q4",
+      "subject": "Science & Technology",
+      "topic": "Technology Terms"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-science-and-technology-q43",
+      "subject": "Science & Technology",
+      "topic": "Cyber Threats"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-science-and-technology-q54",
+      "subject": "Science & Technology",
+      "topic": "3D Printing Applications"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-science-and-technology-q6",
+      "subject": "Science & Technology",
+      "topic": "Internet of Things"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-science-and-technology-q62",
+      "subject": "Science & Technology",
+      "topic": "Aadhaar API"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2018-mrunal-science-and-technology-q80",
+      "subject": "Science & Technology",
+      "topic": "Satellite Launch Vehicles"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q19",
+      "subject": "Polity",
+      "topic": "Atal Innovation Mission"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q24",
+      "subject": "Economy",
+      "topic": "Poverty Line"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q3",
+      "subject": "Economy",
+      "topic": "Global Competitiveness Report"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q37",
+      "subject": "Economy",
+      "topic": "Rice Exports"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q48",
+      "subject": "Economy",
+      "topic": "Coal Sector"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q57",
+      "subject": "Polity",
+      "topic": "Patents Act"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q60",
+      "subject": "Polity",
+      "topic": "Industrial Employment"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q61",
+      "subject": "Economy",
+      "topic": "Service Area Approach"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q62",
+      "subject": "Geography",
+      "topic": "Minor Minerals"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q63",
+      "subject": "Economy",
+      "topic": "External Debt"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q64",
+      "subject": "Economy",
+      "topic": "Bank Assets"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q65",
+      "subject": "Economy",
+      "topic": "Currency Crisis"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q67",
+      "subject": "Economy",
+      "topic": "Foreign Portfolio Investment"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q69",
+      "subject": "Polity",
+      "topic": "Regulatory Bodies"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q70",
+      "subject": "Economy",
+      "topic": "Five Year Plans"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q71",
+      "subject": "Economy",
+      "topic": "Asian Infrastructure Investment Bank"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q72",
+      "subject": "Economy",
+      "topic": "Inter-Creditor Agreement"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q73",
+      "subject": "Polity",
+      "topic": "Public Sector Banks"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q74",
+      "subject": "Economy",
+      "topic": "Petroleum and Natural Gas Regulatory Board"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q76",
+      "subject": "Polity",
+      "topic": "Maternity Benefit Act"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q77",
+      "subject": "Economy",
+      "topic": "Ease of Doing Business Index"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q79",
+      "subject": "Economy",
+      "topic": "Food Corporation of India"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q80",
+      "subject": "Economy",
+      "topic": "Social Capital"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q82",
+      "subject": "Economy",
+      "topic": "Purchasing Power Parity"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q84",
+      "subject": "Economy",
+      "topic": "Agricultural Imports"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q86",
+      "subject": "Economy",
+      "topic": "Rupee Depreciation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q87",
+      "subject": "Economy",
+      "topic": "Payment System Data Storage"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-economy-q90",
+      "subject": "Economy",
+      "topic": "Money Multiplier"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q18",
+      "subject": "Geography",
+      "topic": "National Parks"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q21",
+      "subject": "History",
+      "topic": "Plant Domestication"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q22",
+      "subject": "Environment",
+      "topic": "Endangered Species"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q25",
+      "subject": "Environment",
+      "topic": "Climate Engineering"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q26",
+      "subject": "Science & Technology",
+      "topic": "Waste Treatment"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q27",
+      "subject": "Geography",
+      "topic": "Biosphere Reserves"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q28",
+      "subject": "Environment",
+      "topic": "Animal Diets"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q29",
+      "subject": "Environment",
+      "topic": "Wildlife Distribution"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q30",
+      "subject": "Environment",
+      "topic": "Microbeads Pollution"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q31",
+      "subject": "Environment",
+      "topic": "Himalayan Nettle"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q32",
+      "subject": "Science & Technology",
+      "topic": "Remote Sensing"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q33",
+      "subject": "Geography",
+      "topic": "Forest Cover"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q34",
+      "subject": "Environment",
+      "topic": "Methane Hydrate"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q35",
+      "subject": "Environment",
+      "topic": "Biomass Burning"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q39",
+      "subject": "Environment",
+      "topic": "Pesticides"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q40",
+      "subject": "Environment",
+      "topic": "Wetlands Conservation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q41",
+      "subject": "Environment",
+      "topic": "Nitrogen Emissions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q43",
+      "subject": "Environment",
+      "topic": "H-CNG Fuel"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q58",
+      "subject": "Environment",
+      "topic": "Environment Protection Act"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q68",
+      "subject": "Environment",
+      "topic": "Compensatory Afforestation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q78",
+      "subject": "Environment",
+      "topic": "Extended Producer Responsibility"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-environment-q83",
+      "subject": "Geography",
+      "topic": "Kharif Crops Area"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-geography-q20",
+      "subject": "Geography",
+      "topic": "Sun Position"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-geography-q23",
+      "subject": "Geography",
+      "topic": "River Places"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-geography-q36",
+      "subject": "Geography",
+      "topic": "Seas and Countries"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-geography-q38",
+      "subject": "Geography",
+      "topic": "Glacier River Pairs"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-geography-q42",
+      "subject": "Geography",
+      "topic": "Dams"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-geography-q44",
+      "subject": "Science & Technology",
+      "topic": "Dew Formation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-geography-q51",
+      "subject": "Polity",
+      "topic": "PVTGs"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-history-and-culture-q1",
+      "subject": "History",
+      "topic": "Mughal Administration"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-history-and-culture-q10",
+      "subject": "History",
+      "topic": "Gupta Period"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-history-and-culture-q11",
+      "subject": "History",
+      "topic": "Temple Architecture"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-history-and-culture-q12",
+      "subject": "History",
+      "topic": "Delhi Sultanate"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-history-and-culture-q13",
+      "subject": "History",
+      "topic": "Bhakti Movement"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-history-and-culture-q14",
+      "subject": "History",
+      "topic": "British Colonial Rule"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-history-and-culture-q15",
+      "subject": "History",
+      "topic": "Indian National Movement"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-history-and-culture-q16",
+      "subject": "History",
+      "topic": "Mughal Music"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-history-and-culture-q17",
+      "subject": "History",
+      "topic": "Mughal Art"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-history-and-culture-q4",
+      "subject": "History",
+      "topic": "Charter Act 1813"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-history-and-culture-q5",
+      "subject": "History",
+      "topic": "Swadeshi Movement"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-history-and-culture-q6",
+      "subject": "History",
+      "topic": "Social Movements"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-history-and-culture-q7",
+      "subject": "History",
+      "topic": "Harappan Sites"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-history-and-culture-q8",
+      "subject": "History",
+      "topic": "Ashokan Inscriptions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-history-and-culture-q9",
+      "subject": "History",
+      "topic": "Mahayana Buddhism"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-polity-and-international-relations-q2",
+      "subject": "History",
+      "topic": "Land Reforms"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-polity-and-international-relations-q46",
+      "subject": "Polity",
+      "topic": "Impeachment of Judges"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-polity-and-international-relations-q47",
+      "subject": "Polity",
+      "topic": "Ninth Schedule"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-polity-and-international-relations-q49",
+      "subject": "Polity",
+      "topic": "Office of Profit"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-polity-and-international-relations-q50",
+      "subject": "Polity",
+      "topic": "Tribal Land Transfer"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-polity-and-international-relations-q52",
+      "subject": "Polity",
+      "topic": "Article 142"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-polity-and-international-relations-q53",
+      "subject": "Polity",
+      "topic": "State Legislature"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-polity-and-international-relations-q54",
+      "subject": "Current Affairs",
+      "topic": "UNCAC and UNTOC"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-polity-and-international-relations-q55",
+      "subject": "Environment",
+      "topic": "Forest Rights Act"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-polity-and-international-relations-q56",
+      "subject": "Polity",
+      "topic": "Right to Marry"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-polity-and-international-relations-q66",
+      "subject": "Polity",
+      "topic": "Governor Appointment"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-polity-and-international-relations-q81",
+      "subject": "Polity",
+      "topic": "Judicial Review"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-polity-and-international-relations-q85",
+      "subject": "Polity",
+      "topic": "Liberty Definition"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-polity-and-international-relations-q88",
+      "subject": "Current Affairs",
+      "topic": "GDPR"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-polity-and-international-relations-q89",
+      "subject": "Current Affairs",
+      "topic": "Nuclear Cooperation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-science-and-technology-q100",
+      "subject": "General Knowledge",
+      "topic": "General Statements"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-science-and-technology-q75",
+      "subject": "Science & Technology",
+      "topic": "LTE and VoLTE"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-science-and-technology-q91",
+      "subject": "Science & Technology",
+      "topic": "AR vs VR"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-science-and-technology-q92",
+      "subject": "Science & Technology",
+      "topic": "Denisovan"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-science-and-technology-q93",
+      "subject": "Science & Technology",
+      "topic": "Recent Science Developments"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-science-and-technology-q94",
+      "subject": "Science & Technology",
+      "topic": "Digital Signature"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-science-and-technology-q95",
+      "subject": "Science & Technology",
+      "topic": "Wearable Technology"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-science-and-technology-q96",
+      "subject": "Science & Technology",
+      "topic": "RNA Interference"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-science-and-technology-q97",
+      "subject": "Science & Technology",
+      "topic": "Black Hole Merger"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-science-and-technology-q98",
+      "subject": "Science & Technology",
+      "topic": "Antibiotic Resistance"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2019-mrunal-science-and-technology-q99",
+      "subject": "Science & Technology",
+      "topic": "Cas9 Protein"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-agriculture-q100",
+      "subject": "Environment",
+      "topic": "Biochar in Farming"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-agriculture-q54",
+      "subject": "Economy",
+      "topic": "Chemical Fertilizers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-agriculture-q66",
+      "subject": "Economy",
+      "topic": "Pulse Production"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-agriculture-q67",
+      "subject": "Geography",
+      "topic": "Crop Characteristics"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-agriculture-q69",
+      "subject": "Economy",
+      "topic": "Sugarcane Cultivation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-agriculture-q70",
+      "subject": "Environment",
+      "topic": "Eco-friendly Agriculture"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q09",
+      "subject": "Economy",
+      "topic": "Financial Crisis Immunity"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q20",
+      "subject": "Science & Technology",
+      "topic": "Blockchain Technology"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q27",
+      "subject": "Economy",
+      "topic": "Gold Tranche"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q33",
+      "subject": "Polity",
+      "topic": "MPLADS"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q36",
+      "subject": "Polity",
+      "topic": "Budget Documents"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q71",
+      "subject": "Economy",
+      "topic": "Public Investment in Agriculture"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q72",
+      "subject": "Economy",
+      "topic": "Interest Coverage Ratio"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q73",
+      "subject": "Economy",
+      "topic": "Rice Price Factors"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q74",
+      "subject": "Current Affairs",
+      "topic": "India Trade Relations"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q76",
+      "subject": "Economy",
+      "topic": "Kisan Credit Card"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q77",
+      "subject": "Economy",
+      "topic": "CPI vs WPI"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q79",
+      "subject": "Economy",
+      "topic": "Minimum Support Price"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q80",
+      "subject": "Economy",
+      "topic": "Money Market Instruments"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q81",
+      "subject": "Economy",
+      "topic": "Foreign Direct Investment"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q82",
+      "subject": "Economy",
+      "topic": "International Trade"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q83",
+      "subject": "Economy",
+      "topic": "Crude Oil Grades"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q84",
+      "subject": "Economy",
+      "topic": "Non-Financial Debt"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q86",
+      "subject": "Economy",
+      "topic": "TRIMS"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q87",
+      "subject": "Economy",
+      "topic": "Monetary Policy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q88",
+      "subject": "Economy",
+      "topic": "Post-1991 Economy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q89",
+      "subject": "Economy",
+      "topic": "Cooperative Banks"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-economy-q90",
+      "subject": "Economy",
+      "topic": "Cyber Insurance"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-environment-and-biodiversity-q08",
+      "subject": "Environment",
+      "topic": "Benzene Pollution"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-environment-and-biodiversity-q55",
+      "subject": "Environment",
+      "topic": "Desert National Park"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-environment-and-biodiversity-q58",
+      "subject": "Geography",
+      "topic": "Groundwater Resources"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-environment-and-biodiversity-q60",
+      "subject": "Environment",
+      "topic": "Tiger Reserves"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-environment-and-biodiversity-q61",
+      "subject": "Environment",
+      "topic": "Wildlife Protection Act"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-environment-and-biodiversity-q64",
+      "subject": "Environment",
+      "topic": "National Policy on Biofuels"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-environment-and-biodiversity-q65",
+      "subject": "Environment",
+      "topic": "Social Cost of Carbon"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-environment-and-biodiversity-q92",
+      "subject": "Environment",
+      "topic": "Indian Elephants"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-environment-and-biodiversity-q93",
+      "subject": "Geography",
+      "topic": "Protected Areas in Cauvery Basin"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-environment-and-biodiversity-q94",
+      "subject": "Environment",
+      "topic": "Indian Biodiversity"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-environment-and-biodiversity-q95",
+      "subject": "Environment",
+      "topic": "Protected Areas and Barasinga"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-environment-and-biodiversity-q96",
+      "subject": "Science & Technology",
+      "topic": "Steel Slag Uses"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-environment-and-biodiversity-q97",
+      "subject": "Environment",
+      "topic": "Musk Deer Habitat"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-environment-and-biodiversity-q98",
+      "subject": "Environment",
+      "topic": "Sustainable Road Construction"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-geography-q52",
+      "subject": "Geography",
+      "topic": "Major Minerals in India"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-geography-q53",
+      "subject": "Geography",
+      "topic": "Ocean Mean Temperature"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-geography-q56",
+      "subject": "Geography",
+      "topic": "Siachen Glacier Location"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-geography-q59",
+      "subject": "Geography",
+      "topic": "Jet Streams and Cyclones"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-geography-q78",
+      "subject": "Geography",
+      "topic": "River Drainage"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q11",
+      "subject": "History",
+      "topic": "Buddhist Paramitas"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q12",
+      "subject": "History",
+      "topic": "Rakhmabai Case"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q13",
+      "subject": "History",
+      "topic": "Indigo Cultivation Decline"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q14",
+      "subject": "History",
+      "topic": "Fort William College"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q15",
+      "subject": "History",
+      "topic": "Ulgulan Movement"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q16",
+      "subject": "History",
+      "topic": "Ancient Indian Scholars"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q24",
+      "subject": "History",
+      "topic": "Gandhism and Marxism"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q41",
+      "subject": "History",
+      "topic": "Mughal Administrative Terms"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q42",
+      "subject": "History",
+      "topic": "Buddhist Sects"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q43",
+      "subject": "History",
+      "topic": "Industrial Revolution in India"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q44",
+      "subject": "History",
+      "topic": "Early Medieval Dynasties"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q45",
+      "subject": "History",
+      "topic": "Hundi in Post-Harsha Period"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q46",
+      "subject": "History",
+      "topic": "Desher Katha"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q47",
+      "subject": "History",
+      "topic": "Gandhi-Irwin Pact"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q48",
+      "subject": "History",
+      "topic": "Vital-Vidhvansak Journal"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q49",
+      "subject": "History",
+      "topic": "Land Measures in Ancient India"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q50",
+      "subject": "History",
+      "topic": "Ashoka's Inscriptions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q62",
+      "subject": "History",
+      "topic": "Gupta Dynasty Ports"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-history-and-culture-q91",
+      "subject": "History",
+      "topic": "Ancient Indian Religious Terms"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations-q21",
+      "subject": "Polity",
+      "topic": "Parliamentary System"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations-q22",
+      "subject": "Polity",
+      "topic": "Directive Principles"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations-q23",
+      "subject": "Polity",
+      "topic": "Basic Structure Doctrine"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations-q25",
+      "subject": "Polity",
+      "topic": "Bureaucracy in India"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations-q26",
+      "subject": "Polity",
+      "topic": "Preamble"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations-q28",
+      "subject": "Polity",
+      "topic": "Directive Principles"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations-q29",
+      "subject": "Polity",
+      "topic": "Ministerial Eligibility"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations-q30",
+      "subject": "Polity",
+      "topic": "Parliament Sessions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations-q31",
+      "subject": "Polity",
+      "topic": "Aadhaar Act"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations-q32",
+      "subject": "Polity",
+      "topic": "Rajya Sabha Powers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations-q34",
+      "subject": "Polity",
+      "topic": "Fundamental Rights"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations-q35",
+      "subject": "Polity",
+      "topic": "Separation of Powers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations-q37",
+      "subject": "Polity",
+      "topic": "Constitutional Government"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations-q38",
+      "subject": "Polity",
+      "topic": "Fundamental Rights and DPSP"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations-q39",
+      "subject": "Polity",
+      "topic": "Legal Services Authorities"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations-q40",
+      "subject": "Current Affairs",
+      "topic": "International Agreements"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations-q75",
+      "subject": "Current Affairs",
+      "topic": "G20 Members"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-polity-and-international-relations-q85",
+      "subject": "Science & Technology",
+      "topic": "Nuclear Safeguards"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-science-and-technology-q01",
+      "subject": "Science & Technology",
+      "topic": "Carbon Nanotubes"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-science-and-technology-q02",
+      "subject": "Science & Technology",
+      "topic": "Drone Applications"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-science-and-technology-q03",
+      "subject": "Science & Technology",
+      "topic": "Space Experiment"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-science-and-technology-q04",
+      "subject": "Science & Technology",
+      "topic": "Genome Editing"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-science-and-technology-q05",
+      "subject": "Science & Technology",
+      "topic": "Vaccines"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-science-and-technology-q06",
+      "subject": "Science & Technology",
+      "topic": "Public Key Infrastructure"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-science-and-technology-q07",
+      "subject": "Science & Technology",
+      "topic": "Plant vs Animal Cells"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-science-and-technology-q17",
+      "subject": "Science & Technology",
+      "topic": "Reproductive Technology"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-science-and-technology-q18",
+      "subject": "Science & Technology",
+      "topic": "Artificial Intelligence Applications"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-science-and-technology-q19",
+      "subject": "Science & Technology",
+      "topic": "Visible Light Communication"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2020-mrunal-science-and-technology-q68",
+      "subject": "Science & Technology",
+      "topic": "Solar Water Pumps"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q10",
+      "subject": "Economy",
+      "topic": "Inflation Effects"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q100",
+      "subject": "Current Affairs",
+      "topic": "ICC World Test Championship"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q15",
+      "subject": "Economy",
+      "topic": "Lender of Last Resort"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q16",
+      "subject": "Environment",
+      "topic": "R2 Code of Practices"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q17",
+      "subject": "Environment",
+      "topic": "Copper Smelting Pollution"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q19",
+      "subject": "Environment",
+      "topic": "Blue Carbon"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q21",
+      "subject": "Science & Technology",
+      "topic": "Natural Mosquito Repellent"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q22",
+      "subject": "Environment",
+      "topic": "Ocean Primary Producers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q23",
+      "subject": "Environment",
+      "topic": "Animal Defense Mechanisms"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q24",
+      "subject": "Environment",
+      "topic": "New York Declaration on Forests"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q25",
+      "subject": "Environment",
+      "topic": "Magnetite Pollution Sources"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q26",
+      "subject": "Environment",
+      "topic": "Filter Feeders"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q27",
+      "subject": "Environment",
+      "topic": "Biogeochemical Cycles"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q33",
+      "subject": "History",
+      "topic": "English East India Company"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q35",
+      "subject": "History",
+      "topic": "Vijayanagara Empire"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q36",
+      "subject": "History",
+      "topic": "Madanapalle"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q37",
+      "subject": "History",
+      "topic": "Historical Places"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q38",
+      "subject": "History",
+      "topic": "Medieval Indian History"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q39",
+      "subject": "History",
+      "topic": "St. Francis Xavier"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q40",
+      "subject": "History",
+      "topic": "Ancient Indian Law"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q41",
+      "subject": "Art & Culture",
+      "topic": "Ancient Indian Poets"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q42",
+      "subject": "History",
+      "topic": "British Reforms"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q43",
+      "subject": "History",
+      "topic": "Quit India Movement"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q44",
+      "subject": "History",
+      "topic": "Songs from Prison"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q45",
+      "subject": "History",
+      "topic": "Medieval India"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q46",
+      "subject": "History",
+      "topic": "Bethune Female School"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q47",
+      "subject": "History",
+      "topic": "Indian National Army"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q48",
+      "subject": "History",
+      "topic": "Regional Kingdoms"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q5",
+      "subject": "Economy",
+      "topic": "Urban Cooperative Banks"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q50",
+      "subject": "History",
+      "topic": "Language Movements"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q51",
+      "subject": "Environment",
+      "topic": "Permaculture Farming"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q52",
+      "subject": "Environment",
+      "topic": "Palm Oil"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q53",
+      "subject": "Geography",
+      "topic": "Indus River System"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q54",
+      "subject": "Geography",
+      "topic": "Indian Salt Lakes"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q55",
+      "subject": "Geography",
+      "topic": "Eastern Ghats Rivers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q56",
+      "subject": "Environment",
+      "topic": "Seabed Mining"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q57",
+      "subject": "Geography",
+      "topic": "Water Efficiency Crops"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q58",
+      "subject": "Geography",
+      "topic": "Ocean Currents"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q59",
+      "subject": "Environment",
+      "topic": "Climate-Smart Agriculture"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q6",
+      "subject": "Economy",
+      "topic": "Government Bond Yields"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q60",
+      "subject": "Environment",
+      "topic": "Tropical Rainforest Biome"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q61",
+      "subject": "Geography",
+      "topic": "Savannah Vegetation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q62",
+      "subject": "Geography",
+      "topic": "Global Water Distribution"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q63",
+      "subject": "Environment",
+      "topic": "Plant Species and Uses"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q64",
+      "subject": "Geography",
+      "topic": "Soil Formation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q65",
+      "subject": "Science & Technology",
+      "topic": "Recombinant Vaccines"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q66",
+      "subject": "Science & Technology",
+      "topic": "Mitochondrial Diseases"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q67",
+      "subject": "Science & Technology",
+      "topic": "GM Crops"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q68",
+      "subject": "Science & Technology",
+      "topic": "Pressure Cooker Physics"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q69",
+      "subject": "Science & Technology",
+      "topic": "Microbial Culture"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q7",
+      "subject": "Economy",
+      "topic": "Foreign Direct Investment"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q70",
+      "subject": "Science & Technology",
+      "topic": "Virus Genetics"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q71",
+      "subject": "Science & Technology",
+      "topic": "Water as Solvent"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q72",
+      "subject": "Science & Technology",
+      "topic": "Lighting Technology"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q73",
+      "subject": "Science & Technology",
+      "topic": "ACE2 Receptor"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q74",
+      "subject": "Science & Technology",
+      "topic": "BPA in Plastics"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q75",
+      "subject": "Environment",
+      "topic": "Harmful Chemicals"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q76",
+      "subject": "Science & Technology",
+      "topic": "Astronomical Distances"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q77",
+      "subject": "Polity",
+      "topic": "Parliamentary Democracy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q78",
+      "subject": "Polity",
+      "topic": "Administrative Reforms"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q79",
+      "subject": "Polity",
+      "topic": "Right to Privacy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q8",
+      "subject": "Economy",
+      "topic": "Currency Devaluation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q80",
+      "subject": "Polity",
+      "topic": "Election Law"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q81",
+      "subject": "Polity",
+      "topic": "Right to the City"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q82",
+      "subject": "Polity",
+      "topic": "Judicial Custody"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q83",
+      "subject": "Polity",
+      "topic": "Parole Rules"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q84",
+      "subject": "Polity",
+      "topic": "Forest Rights Act"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q85",
+      "subject": "Polity",
+      "topic": "Discretionary Power"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q86",
+      "subject": "Polity",
+      "topic": "Federalism"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q88",
+      "subject": "Polity",
+      "topic": "Judiciary Powers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q89",
+      "subject": "Polity",
+      "topic": "Citizenship"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q9",
+      "subject": "Economy",
+      "topic": "Black Money"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q90",
+      "subject": "Polity",
+      "topic": "Liberty in Democracy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q91",
+      "subject": "Polity",
+      "topic": "Directive Principles"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q92",
+      "subject": "Polity",
+      "topic": "Right to Property"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q93",
+      "subject": "Polity",
+      "topic": "Constitutional Status"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q94",
+      "subject": "Polity",
+      "topic": "Constitutional Government"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q95",
+      "subject": "Art & Culture",
+      "topic": "Tribal Languages"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q96",
+      "subject": "Polity",
+      "topic": "Bharat Ratna and Padma Awards"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q98",
+      "subject": "Current Affairs",
+      "topic": "Laureus World Sports Award"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q99",
+      "subject": "Current Affairs",
+      "topic": "32nd Summer Olympics"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-mrunal-environment-and-biodiversity-q31",
+      "subject": "Geography",
+      "topic": "Savannah Vegetation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-mrunal-environment-and-biodiversity-q32",
+      "subject": "Geography",
+      "topic": "Water Distribution"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-mrunal-environment-and-biodiversity-q87",
+      "subject": "Environment",
+      "topic": "Copper Smelting Pollution"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-mrunal-polity-and-governance-q1",
+      "subject": "Polity",
+      "topic": "Directive Principles"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-mrunal-polity-and-governance-q11",
+      "subject": "Polity",
+      "topic": "Right to the City"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-mrunal-polity-and-governance-q12",
+      "subject": "Polity",
+      "topic": "Judicial Custody"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-mrunal-polity-and-governance-q13",
+      "subject": "Polity",
+      "topic": "Parole Rules"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-mrunal-polity-and-governance-q14",
+      "subject": "Polity",
+      "topic": "Forest Rights Act"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-mrunal-polity-and-governance-q18",
+      "subject": "Polity",
+      "topic": "Indian Judiciary"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-mrunal-polity-and-governance-q2",
+      "subject": "Polity",
+      "topic": "Right to Property"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-mrunal-polity-and-governance-q20",
+      "subject": "Polity",
+      "topic": "Liberal Democracy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-mrunal-polity-and-governance-q28",
+      "subject": "Polity",
+      "topic": "Administrative Reforms"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-mrunal-polity-and-governance-q29",
+      "subject": "Polity",
+      "topic": "Right to Privacy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-mrunal-polity-and-governance-q3",
+      "subject": "Polity",
+      "topic": "Constitutional Status"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-mrunal-polity-and-governance-q30",
+      "subject": "Polity",
+      "topic": "Election Law"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2021-mrunal-polity-and-governance-q4",
+      "subject": "Polity",
+      "topic": "Constitutional Government"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q1",
+      "subject": "Economy",
+      "topic": "IMF Lending"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q10",
+      "subject": "Economy",
+      "topic": "Government Borrowings"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q100",
+      "subject": "Environment",
+      "topic": "Acid Rain"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q11",
+      "subject": "Polity",
+      "topic": "Contempt of Court"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q12",
+      "subject": "Polity",
+      "topic": "Legal Profession"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q13",
+      "subject": "Polity",
+      "topic": "Constitutional Amendment"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q14",
+      "subject": "Polity",
+      "topic": "Council of Ministers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q15",
+      "subject": "Polity",
+      "topic": "Lok Sabha Powers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q16",
+      "subject": "Polity",
+      "topic": "Anti-Defection Law"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q17",
+      "subject": "Polity",
+      "topic": "Attorney General"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q18",
+      "subject": "Polity",
+      "topic": "Writs"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q19",
+      "subject": "Current Affairs",
+      "topic": "Ayushman Bharat Digital Mission"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q2",
+      "subject": "Economy",
+      "topic": "Exchange Rates"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q20",
+      "subject": "Polity",
+      "topic": "Deputy Speaker"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q21",
+      "subject": "Environment",
+      "topic": "Greenhouse Gas Sources"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q23",
+      "subject": "Geography",
+      "topic": "African Lakes"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q24",
+      "subject": "Geography",
+      "topic": "Indian Rivers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q25",
+      "subject": "Geography",
+      "topic": "Indian Mountains"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q26",
+      "subject": "Geography",
+      "topic": "World Regions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q27",
+      "subject": "Geography",
+      "topic": "Bordering Countries"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q28",
+      "subject": "Geography",
+      "topic": "Mineral Resources"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q29",
+      "subject": "Geography",
+      "topic": "Earth's Seasons"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q3",
+      "subject": "Economy",
+      "topic": "Monetary Policy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q30",
+      "subject": "Geography",
+      "topic": "Wetlands in India"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q31",
+      "subject": "Science & Technology",
+      "topic": "Digital Platforms"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q32",
+      "subject": "Science & Technology",
+      "topic": "Web 3.0"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q33",
+      "subject": "Science & Technology",
+      "topic": "Software as a Service"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q34",
+      "subject": "Science & Technology",
+      "topic": "Weapon Systems"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q35",
+      "subject": "Science & Technology",
+      "topic": "Quantum Computing"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q36",
+      "subject": "Science & Technology",
+      "topic": "Communication Technologies"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q37",
+      "subject": "Science & Technology",
+      "topic": "Biofilms"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q38",
+      "subject": "Science & Technology",
+      "topic": "Probiotics"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q39",
+      "subject": "Science & Technology",
+      "topic": "COVID-19 Vaccines"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q4",
+      "subject": "Economy",
+      "topic": "G20 Common Framework"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q40",
+      "subject": "Science & Technology",
+      "topic": "Solar Storm Effects"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q41",
+      "subject": "Environment",
+      "topic": "Climate Action Tracker"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q42",
+      "subject": "Environment",
+      "topic": "Climate Group EP100"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q43",
+      "subject": "Environment",
+      "topic": "Wetland Functions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q44",
+      "subject": "Environment",
+      "topic": "WHO Air Quality Guidelines"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q45",
+      "subject": "Environment",
+      "topic": "Gucchi Fungus"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q46",
+      "subject": "Science & Technology",
+      "topic": "Polyethylene Terephthalate"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q47",
+      "subject": "General Knowledge",
+      "topic": "Bird Identification"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q48",
+      "subject": "Science & Technology",
+      "topic": "Nitrogen-Fixing Plants"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q49",
+      "subject": "Science & Technology",
+      "topic": "Biorock Technology"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q5",
+      "subject": "Economy",
+      "topic": "Inflation-Indexed Bonds"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q50",
+      "subject": "Environment",
+      "topic": "Miyawaki Method"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q51",
+      "subject": "History",
+      "topic": "Government of India Act 1919"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q52",
+      "subject": "History",
+      "topic": "Medieval Indian Coinage"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q53",
+      "subject": "History",
+      "topic": "Ghadar Party"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q54",
+      "subject": "History",
+      "topic": "Cripps Mission"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q55",
+      "subject": "History",
+      "topic": "Jaina Texts"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q56",
+      "subject": "History",
+      "topic": "Historical Persons"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q57",
+      "subject": "History",
+      "topic": "Mongol Invasions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q58",
+      "subject": "History",
+      "topic": "Kulah-Daran"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q59",
+      "subject": "History",
+      "topic": "European Trade"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q60",
+      "subject": "History",
+      "topic": "Arthashastra"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q62",
+      "subject": "Geography",
+      "topic": "Tea-Producing States"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q63",
+      "subject": "Economy",
+      "topic": "Credit Rating Agencies"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q64",
+      "subject": "Economy",
+      "topic": "Banks Board Bureau"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q65",
+      "subject": "Economy",
+      "topic": "Convertible Bonds"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q66",
+      "subject": "Current Affairs",
+      "topic": "International Organizations"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q67",
+      "subject": "Current Affairs",
+      "topic": "Vietnam Economy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q68",
+      "subject": "Economy",
+      "topic": "Inflation Control"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q69",
+      "subject": "Current Affairs",
+      "topic": "Non-Fungible Tokens"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q7",
+      "subject": "Economy",
+      "topic": "Real Sector"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q70",
+      "subject": "Geography",
+      "topic": "Reservoir States"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q71",
+      "subject": "Economy",
+      "topic": "Industrial Disputes Data"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q72",
+      "subject": "Economy",
+      "topic": "Coal Controller's Organization"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q73",
+      "subject": "Polity",
+      "topic": "Fifth Schedule"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q74",
+      "subject": "Current Affairs",
+      "topic": "Sanitation and Urban Affairs"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q75",
+      "subject": "Environment",
+      "topic": "Environment Protection Act"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q76",
+      "subject": "Current Affairs",
+      "topic": "UN Credentials Committee"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q77",
+      "subject": "Current Affairs",
+      "topic": "Polar Code"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q78",
+      "subject": "Current Affairs",
+      "topic": "UN General Assembly Observer Status"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q79",
+      "subject": "Economy",
+      "topic": "Tea Board"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q8",
+      "subject": "Economy",
+      "topic": "Indirect Transfers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q80",
+      "subject": "Environment",
+      "topic": "Greenwashing"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q81",
+      "subject": "Environment",
+      "topic": "Cloud Radiation Effects"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q82",
+      "subject": "Current Affairs",
+      "topic": "Refugee Settlements"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q83",
+      "subject": "Current Affairs",
+      "topic": "Organization of Turkic States"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q84",
+      "subject": "Geography",
+      "topic": "Solar Energy Projects"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q85",
+      "subject": "Geography",
+      "topic": "UNCLOS Maritime Zones"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q86",
+      "subject": "Current Affairs",
+      "topic": "Senkaku Islands Dispute"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q87",
+      "subject": "Current Affairs",
+      "topic": "Country News Matches"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q88",
+      "subject": "Geography",
+      "topic": "Region-Country Matching"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q89",
+      "subject": "Environment",
+      "topic": "Wildlife Protection Laws"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q9",
+      "subject": "Economy",
+      "topic": "Capital vs Revenue Expenditure"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q90",
+      "subject": "Science & Technology",
+      "topic": "Fungus Cultivators"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q91",
+      "subject": "History",
+      "topic": "Ashoka's Rock Edicts"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q92",
+      "subject": "History",
+      "topic": "King-Dynasty Pairs"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q93",
+      "subject": "Art & Culture",
+      "topic": "Sangam Literature"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q94",
+      "subject": "History",
+      "topic": "Mughal Translation Works"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q95",
+      "subject": "Art & Culture",
+      "topic": "Ramanuja Teachings"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q96",
+      "subject": "History",
+      "topic": "Somnath Temple"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q97",
+      "subject": "Science & Technology",
+      "topic": "Immune System"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q98",
+      "subject": "Science & Technology",
+      "topic": "Nanoparticles"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2022-forumias-q99",
+      "subject": "Science & Technology",
+      "topic": "DNA Barcoding"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q1",
+      "subject": "History",
+      "topic": "Buddhist Centres"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q10",
+      "subject": "Polity",
+      "topic": "Governor General Acts"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q100",
+      "subject": "Polity",
+      "topic": "Presidential Election"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q11",
+      "subject": "Polity",
+      "topic": "Due Process of Law"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q12",
+      "subject": "Polity",
+      "topic": "Prison Administration"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q13",
+      "subject": "Polity",
+      "topic": "Purpose of Constitution"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q15",
+      "subject": "Polity",
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q16",
+      "subject": "Polity",
+      "topic": "Presidential Election"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q17",
+      "subject": "Polity",
+      "topic": "Finance and Money Bills"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q18",
+      "subject": "Environment",
+      "topic": "Community Reserve"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q19",
+      "subject": "Polity",
+      "topic": "Scheduled Areas"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q2",
+      "subject": "History",
+      "topic": "Stupa in Ancient India"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q20",
+      "subject": "Polity",
+      "topic": "Reservation and Article 335"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q21",
+      "subject": "Science & Technology",
+      "topic": "Uranium Enrichment"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q22",
+      "subject": "Environment",
+      "topic": "Marsupials Distribution"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q23",
+      "subject": "Environment",
+      "topic": "Invasive Species Specialist Group"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q24",
+      "subject": "Environment",
+      "topic": "Nocturnal Fauna"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q25",
+      "subject": "Science & Technology",
+      "topic": "Waggle Dance"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q26",
+      "subject": "Science & Technology",
+      "topic": "Mushroom Properties"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q27",
+      "subject": "Environment",
+      "topic": "Indian Squirrels"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q28",
+      "subject": "Science & Technology",
+      "topic": "Extremophiles"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q3",
+      "subject": "History",
+      "topic": "Ancient South Indian Ports"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q30",
+      "subject": "Science & Technology",
+      "topic": "Hydrofluorocarbons Uses"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q31",
+      "subject": "Geography",
+      "topic": "Indian Lakes and Rivers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q32",
+      "subject": "Geography",
+      "topic": "Indian Ports"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q33",
+      "subject": "Environment",
+      "topic": "Deciduous Trees"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q34",
+      "subject": "Geography",
+      "topic": "Agriculture Comparison"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q35",
+      "subject": "Geography",
+      "topic": "Sea Level Changes"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q36",
+      "subject": "Geography",
+      "topic": "Mineral Resources"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q37",
+      "subject": "Geography",
+      "topic": "Mineral Resources"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q38",
+      "subject": "Geography",
+      "topic": "Congo Basin"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q39",
+      "subject": "Geography",
+      "topic": "Indian Mountain Ranges"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q4",
+      "subject": "History",
+      "topic": "Sangam Literature"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q40",
+      "subject": "Current Affairs",
+      "topic": "Connectivity Projects"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q41",
+      "subject": "Economy",
+      "topic": "Infrastructure Investment Trusts"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q42",
+      "subject": "Economy",
+      "topic": "Monetary Policy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q43",
+      "subject": "Environment",
+      "topic": "Carbon Markets"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q44",
+      "subject": "Economy",
+      "topic": "Monetary Policy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q45",
+      "subject": "Economy",
+      "topic": "Capital Markets"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q46",
+      "subject": "Economy",
+      "topic": "Agricultural Models"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q47",
+      "subject": "Geography",
+      "topic": "Crops in India"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q48",
+      "subject": "Economy",
+      "topic": "Intangible Investments"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q49",
+      "subject": "Polity",
+      "topic": "Finance Commission"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q5",
+      "subject": "History",
+      "topic": "Medieval Dynasties"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q50",
+      "subject": "Current Affairs",
+      "topic": "UNOPS S3i Initiative"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q51",
+      "subject": "Polity",
+      "topic": "Home Guards"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q52",
+      "subject": "Polity",
+      "topic": "Legal Acts"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q53",
+      "subject": "Current Affairs",
+      "topic": "Regional Conflicts"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q54",
+      "subject": "Current Affairs",
+      "topic": "Israel-Arab Relations"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q55",
+      "subject": "Art & Culture",
+      "topic": "Sports Awards"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q56",
+      "subject": "Current Affairs",
+      "topic": "Chess Olympiad 2022"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q57",
+      "subject": "Current Affairs",
+      "topic": "Conflict Regions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q58",
+      "subject": "Current Affairs",
+      "topic": "African Coups"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q59",
+      "subject": "Environment",
+      "topic": "Green Hydrogen"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q6",
+      "subject": "History",
+      "topic": "Ancient Literature"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q60",
+      "subject": "Current Affairs",
+      "topic": "G-20 Priorities"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q61",
+      "subject": "History",
+      "topic": "Archaeologists in India"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q62",
+      "subject": "History",
+      "topic": "Cave Shrines"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q63",
+      "subject": "History",
+      "topic": "National Handloom Day"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q64",
+      "subject": "Polity",
+      "topic": "Flag Code of India"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q65",
+      "subject": "Polity",
+      "topic": "Constitution Day"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q66",
+      "subject": "Economy",
+      "topic": "Gold Exports and Reserves"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q67",
+      "subject": "Current Affairs",
+      "topic": "Trade and Technology Council"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q68",
+      "subject": "Economy",
+      "topic": "Production-linked Incentive"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q69",
+      "subject": "Economy",
+      "topic": "Stability and Growth Pact"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q7",
+      "subject": "History",
+      "topic": "Ancient Indian Sects"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q70",
+      "subject": "Current Affairs",
+      "topic": "Global Compact for Migration"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q71",
+      "subject": "Geography",
+      "topic": "Countries Bordering Ukraine"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q72",
+      "subject": "Geography",
+      "topic": "Earth's Atmosphere"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q73",
+      "subject": "Geography",
+      "topic": "Tropical Rain Forest Soil"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q74",
+      "subject": "Geography",
+      "topic": "Temperature Contrast Land and Water"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q75",
+      "subject": "Geography",
+      "topic": "Seismic Waves"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q76",
+      "subject": "Environment",
+      "topic": "Thermal Power Plants"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q77",
+      "subject": "Science & Technology",
+      "topic": "Wolbachia Method"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q78",
+      "subject": "Environment",
+      "topic": "Carbon Capture"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q79",
+      "subject": "Science & Technology",
+      "topic": "Metagenomics"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q8",
+      "subject": "History",
+      "topic": "Vijayanagara Empire"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q80",
+      "subject": "Science & Technology",
+      "topic": "Microsatellite DNA"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q81",
+      "subject": "Current Affairs",
+      "topic": "Janani Suraksha Yojana"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q82",
+      "subject": "Current Affairs",
+      "topic": "Anaemia Mukt Bharat"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q83",
+      "subject": "Science & Technology",
+      "topic": "Carbon Fibres"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q84",
+      "subject": "Science & Technology",
+      "topic": "Accelerometer Applications"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q85",
+      "subject": "Science & Technology",
+      "topic": "Biofilters in Aquaculture"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q86",
+      "subject": "Science & Technology",
+      "topic": "Astronomical Objects"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q87",
+      "subject": "Science & Technology",
+      "topic": "Satellite Navigation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q88",
+      "subject": "Science & Technology",
+      "topic": "Missile Types"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q89",
+      "subject": "Environment",
+      "topic": "Mercury Pollution"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q9",
+      "subject": "History",
+      "topic": "Medieval Gujarat"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q90",
+      "subject": "Science & Technology",
+      "topic": "Green Hydrogen"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q91",
+      "subject": "Economy",
+      "topic": "MSME Classification"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q92",
+      "subject": "Economy",
+      "topic": "Central Bank Digital Currency"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q93",
+      "subject": "Economy",
+      "topic": "Finance Beta"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q94",
+      "subject": "Economy",
+      "topic": "Self-Help Groups"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q95",
+      "subject": "Polity",
+      "topic": "Health Care System"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q96",
+      "subject": "Environment",
+      "topic": "Groundwater Extraction"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q97",
+      "subject": "Polity",
+      "topic": "Constitutional Duties"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q98",
+      "subject": "Current Affairs",
+      "topic": "Famine News"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2023-q99",
+      "subject": "Environment",
+      "topic": "Biodiversity Management"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q1",
+      "subject": "Geography",
+      "topic": "Atmospheric Heating"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q10",
+      "subject": "Geography",
+      "topic": "Mountain Types"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q11",
+      "subject": "Geography",
+      "topic": "Greenfield Airports"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q12",
+      "subject": "Geography",
+      "topic": "Atmospheric Composition"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q13",
+      "subject": "Geography",
+      "topic": "Climate Types"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q14",
+      "subject": "Geography",
+      "topic": "Coriolis Force"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q15",
+      "subject": "Geography",
+      "topic": "Earth's Insolation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q16",
+      "subject": "Environment",
+      "topic": "Tropical Peatlands"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q17",
+      "subject": "Environment",
+      "topic": "PFAS Pollution"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q18",
+      "subject": "Environment",
+      "topic": "Parasitoid Species"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q19",
+      "subject": "Science & Technology",
+      "topic": "Plant Families"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q2",
+      "subject": "Geography",
+      "topic": "Troposphere"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q20",
+      "subject": "Environment",
+      "topic": "Wildlife Protection Act"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q21",
+      "subject": "Science & Technology",
+      "topic": "Insect Classification"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q22",
+      "subject": "Environment",
+      "topic": "Plastic Pollution"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q23",
+      "subject": "Environment",
+      "topic": "Animal Habitats"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q24",
+      "subject": "Current Affairs",
+      "topic": "Sanitation Initiatives"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q25",
+      "subject": "Environment",
+      "topic": "Big Cat Behavior"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q26",
+      "subject": "Environment",
+      "topic": "100 Million Farmers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q27",
+      "subject": "Science & Technology",
+      "topic": "Distributed Energy Resources"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q28",
+      "subject": "Environment",
+      "topic": "Pollination Coevolution"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q29",
+      "subject": "Environment",
+      "topic": "Poisonous Species"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q3",
+      "subject": "Geography",
+      "topic": "Volcanic Eruption Products"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q30",
+      "subject": "Geography",
+      "topic": "Native Indian Trees"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q31",
+      "subject": "Science & Technology",
+      "topic": "Radioisotope Thermoelectric Generators"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q32",
+      "subject": "Science & Technology",
+      "topic": "Stellar Evolution"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q33",
+      "subject": "Science & Technology",
+      "topic": "Human Physiology Vasodilation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q34",
+      "subject": "Science & Technology",
+      "topic": "Radar Applications"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q35",
+      "subject": "Current Affairs",
+      "topic": "Fifth-Generation Fighter Aircraft"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q36",
+      "subject": "Science & Technology",
+      "topic": "Hydrogel Applications"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q37",
+      "subject": "Science & Technology",
+      "topic": "Fuel Cell Vehicle Emissions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q38",
+      "subject": "Environment",
+      "topic": "Pumped-Storage Hydropower"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q39",
+      "subject": "Environment",
+      "topic": "Membrane Bioreactors"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q4",
+      "subject": "Geography",
+      "topic": "Isotherms"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q40",
+      "subject": "Economy",
+      "topic": "Financial Instruments"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q41",
+      "subject": "Economy",
+      "topic": "Total Fertility Rate"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q42",
+      "subject": "Economy",
+      "topic": "Financial Markets"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q43",
+      "subject": "Economy",
+      "topic": "Bond Market Participants"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q44",
+      "subject": "Economy",
+      "topic": "Financial Instruments"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q45",
+      "subject": "Economy",
+      "topic": "Sectors of Economy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q46",
+      "subject": "Science & Technology",
+      "topic": "Sustainable Aviation Fuel"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q47",
+      "subject": "Economy",
+      "topic": "Physical Capital"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q48",
+      "subject": "Science & Technology",
+      "topic": "Metaverse"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q49",
+      "subject": "Economy",
+      "topic": "Foreign Banks Regulation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q5",
+      "subject": "Geography",
+      "topic": "Cocoa Production"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q50",
+      "subject": "Economy",
+      "topic": "CSR Rules"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q51",
+      "subject": "Economy",
+      "topic": "US Treasury Bonds"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q52",
+      "subject": "Economy",
+      "topic": "Syndicated Lending"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q53",
+      "subject": "Economy",
+      "topic": "Digital Rupee"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q54",
+      "subject": "History",
+      "topic": "Gautama Buddha Epithets"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q55",
+      "subject": "History",
+      "topic": "Archaeological Sites"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q56",
+      "subject": "History",
+      "topic": "Medieval Indian Rulers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q57",
+      "subject": "History",
+      "topic": "Revenue Systems"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q58",
+      "subject": "Art & Culture",
+      "topic": "Upanishads and Puranas"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q59",
+      "subject": "Current Affairs",
+      "topic": "International Grains Council"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q6",
+      "subject": "Geography",
+      "topic": "Himalayan Rivers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q60",
+      "subject": "Art & Culture",
+      "topic": "Intangible Cultural Heritage"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q61",
+      "subject": "Polity",
+      "topic": "Constituent Assembly"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q62",
+      "subject": "Polity",
+      "topic": "Government of India Act 1935"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q63",
+      "subject": "Art & Culture",
+      "topic": "Bhasa's Works"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q64",
+      "subject": "History",
+      "topic": "Sanghabhuti"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q65",
+      "subject": "Art & Culture",
+      "topic": "World Heritage Sites 2023"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q66",
+      "subject": "Polity",
+      "topic": "Constitutional Amendment"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q67",
+      "subject": "Geography",
+      "topic": "Demographic Trends"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q68",
+      "subject": "Polity",
+      "topic": "Money Bill Procedure"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q69",
+      "subject": "Polity",
+      "topic": "Defence Ranks"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q7",
+      "subject": "Geography",
+      "topic": "Weathering of Rocks"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q70",
+      "subject": "Polity",
+      "topic": "North Eastern Council"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q71",
+      "subject": "Polity",
+      "topic": "Delimitation Commission"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q72",
+      "subject": "Polity",
+      "topic": "Constitutional Amendments"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q73",
+      "subject": "History",
+      "topic": "Political Parties and Leaders"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q74",
+      "subject": "Polity",
+      "topic": "Constitutional Parts"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q75",
+      "subject": "Polity",
+      "topic": "Constitutional Provisions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q76",
+      "subject": "Polity",
+      "topic": "Right to Privacy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q77",
+      "subject": "Polity",
+      "topic": "Chief of Defence Staff"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q78",
+      "subject": "General Knowledge",
+      "topic": "Military Operations"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q79",
+      "subject": "Geography",
+      "topic": "International Borders"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q8",
+      "subject": "Geography",
+      "topic": "North Sea Borders"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q80",
+      "subject": "Polity",
+      "topic": "Ethics Committee"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q81",
+      "subject": "Polity",
+      "topic": "Nari Shakti Vandan Adhiniyam"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q82",
+      "subject": "Current Affairs",
+      "topic": "Exercise Mitra Shakti"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q83",
+      "subject": "Polity",
+      "topic": "Writ of Prohibition"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q84",
+      "subject": "Polity",
+      "topic": "Scheduled Tribes"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q85",
+      "subject": "Polity",
+      "topic": "Union Budget"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q86",
+      "subject": "Current Affairs",
+      "topic": "Books and Authors"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q87",
+      "subject": "Current Affairs",
+      "topic": "Countries in News"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q88",
+      "subject": "Geography",
+      "topic": "Sumed Pipeline"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q89",
+      "subject": "Geography",
+      "topic": "Red Sea"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q9",
+      "subject": "Geography",
+      "topic": "Waterfalls in India"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q90",
+      "subject": "Environment",
+      "topic": "Sulphur Dioxide Emissions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q91",
+      "subject": "Current Affairs",
+      "topic": "Sahel Region"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q92",
+      "subject": "Current Affairs",
+      "topic": "GM Food Imports"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q93",
+      "subject": "Polity",
+      "topic": "Speaker of Lok Sabha"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q94",
+      "subject": "Polity",
+      "topic": "Parliamentary Procedure"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q95",
+      "subject": "Polity",
+      "topic": "Parliamentary Procedure"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q96",
+      "subject": "Current Affairs",
+      "topic": "EU Climate Policy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q97",
+      "subject": "Current Affairs",
+      "topic": "Venezuela Economy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2024-q99",
+      "subject": "Polity",
+      "topic": "Government Schemes"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q1",
+      "subject": "Science & Technology",
+      "topic": "Alternative Powertrains"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q10",
+      "subject": "Science & Technology",
+      "topic": "Activated Carbon"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q100",
+      "subject": "Geography",
+      "topic": "European Countries"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q11",
+      "subject": "Environment",
+      "topic": "Cement Emissions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q12",
+      "subject": "Current Affairs",
+      "topic": "COP28 Declaration"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q13",
+      "subject": "Science & Technology",
+      "topic": "Earth's Rotation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q14",
+      "subject": "Environment",
+      "topic": "Paris Agreement"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q15",
+      "subject": "Current Affairs",
+      "topic": "Climate Finance"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q16",
+      "subject": "Science & Technology",
+      "topic": "Direct Air Capture"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q17",
+      "subject": "Environment",
+      "topic": "Peacock Tarantula"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q18",
+      "subject": "Environment",
+      "topic": "CO2 Emissions India"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q19",
+      "subject": "General Knowledge",
+      "topic": "Plant Descriptions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q2",
+      "subject": "Science & Technology",
+      "topic": "Unmanned Aerial Vehicles"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q20",
+      "subject": "Environment",
+      "topic": "Oxygen Production Sources"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q21",
+      "subject": "History",
+      "topic": "Raja Ram Mohan Roy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q22",
+      "subject": "History",
+      "topic": "Non-Cooperation Programme"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q23",
+      "subject": "History",
+      "topic": "Ancient Irrigation Devices"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q24",
+      "subject": "History",
+      "topic": "Ancient Indian Rulers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q26",
+      "subject": "History",
+      "topic": "Srivijaya Campaign"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q27",
+      "subject": "History",
+      "topic": "Ancient Indian Regions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q28",
+      "subject": "Art & Culture",
+      "topic": "Music Education History"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q29",
+      "subject": "History",
+      "topic": "Ashokan Administration"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q3",
+      "subject": "Science & Technology",
+      "topic": "Battery Cathode Materials"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q30",
+      "subject": "History",
+      "topic": "Non-Cooperation Movement"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q32",
+      "subject": "Economy",
+      "topic": "RBI Income Sources"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q33",
+      "subject": "Polity",
+      "topic": "Government Organizations"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q34",
+      "subject": "Economy",
+      "topic": "Business Responsibility Reports"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q35",
+      "subject": "Economy",
+      "topic": "Agricultural Income Tax"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q36",
+      "subject": "Economy",
+      "topic": "Critical Minerals Policy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q37",
+      "subject": "Economy",
+      "topic": "Bonds vs Stocks Risk"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q38",
+      "subject": "Economy",
+      "topic": "Options Trading Regulation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q39",
+      "subject": "Environment",
+      "topic": "Circular Economy"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q4",
+      "subject": "Environment",
+      "topic": "Plastic in Products"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q40",
+      "subject": "Economy",
+      "topic": "Capital Receipts"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q41",
+      "subject": "Current Affairs",
+      "topic": "NATO Members"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q42",
+      "subject": "Geography",
+      "topic": "Andes Mountains Countries"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q43",
+      "subject": "Geography",
+      "topic": "Equator Water Bodies"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q44",
+      "subject": "Economy",
+      "topic": "Turmeric Production India"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q45",
+      "subject": "Geography",
+      "topic": "Continental Drift Evidence"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q46",
+      "subject": "Geography",
+      "topic": "Atmospheric Dust Distribution"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q47",
+      "subject": "Geography",
+      "topic": "Isotherms and Temperature"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q48",
+      "subject": "Geography",
+      "topic": "Rock Permeability"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q49",
+      "subject": "Environment",
+      "topic": "Atmosphere and Temperature"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q5",
+      "subject": "Science & Technology",
+      "topic": "Coal Gasification"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q50",
+      "subject": "Current Affairs",
+      "topic": "Rashtriya Gokul Mission"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q51",
+      "subject": "Polity",
+      "topic": "Panchayati Raj"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q52",
+      "subject": "Current Affairs",
+      "topic": "BIMSTEC"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q53",
+      "subject": "Polity",
+      "topic": "Gandhi Peace Prize"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q54",
+      "subject": "Science & Technology",
+      "topic": "GAGAN"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q55",
+      "subject": "Current Affairs",
+      "topic": "AI Action Summit"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q56",
+      "subject": "Current Affairs",
+      "topic": "International Years"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q57",
+      "subject": "Current Affairs",
+      "topic": "BRICS"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q58",
+      "subject": "Polity",
+      "topic": "Lokpal"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q59",
+      "subject": "Current Affairs",
+      "topic": "Kho Kho World Cup"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q6",
+      "subject": "Science & Technology",
+      "topic": "High Explosives"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q60",
+      "subject": "Current Affairs",
+      "topic": "Chess Olympiad 2024"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q62",
+      "subject": "Current Affairs",
+      "topic": "National Rail Plan Kavach"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q63",
+      "subject": "Science & Technology",
+      "topic": "Space Missions Microgravity"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q64",
+      "subject": "Current Affairs",
+      "topic": "Defense Aircraft Pairs"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q65",
+      "subject": "Science & Technology",
+      "topic": "Artificial Rainfall"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q67",
+      "subject": "Polity",
+      "topic": "Speaker Dissolution"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q68",
+      "subject": "Polity",
+      "topic": "Anti-Defection Law"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q69",
+      "subject": "Polity",
+      "topic": "Minor Minerals"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q7",
+      "subject": "Science & Technology",
+      "topic": "Majorana 1 Chip"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q70",
+      "subject": "Environment",
+      "topic": "Nature Restoration Law"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q71",
+      "subject": "Economy",
+      "topic": "Fiscal Deficit Calculation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q72",
+      "subject": "Geography",
+      "topic": "INSTC Corridor"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q73",
+      "subject": "Economy",
+      "topic": "Ethanol Production"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q74",
+      "subject": "Environment",
+      "topic": "Wet-Bulb Temperature"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q75",
+      "subject": "Economy",
+      "topic": "Primary Deficit"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q76",
+      "subject": "Economy",
+      "topic": "Finance Commission"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q77",
+      "subject": "Economy",
+      "topic": "International Financial Institutions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q78",
+      "subject": "Economy",
+      "topic": "Digital Payment Systems"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q79",
+      "subject": "Economy",
+      "topic": "Digital Payment Systems"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q8",
+      "subject": "Science & Technology",
+      "topic": "Monoclonal Antibodies"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q80",
+      "subject": "Current Affairs",
+      "topic": "Government Schemes"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q81",
+      "subject": "Polity",
+      "topic": "Ordinance Making Power"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q82",
+      "subject": "Geography",
+      "topic": "Indian States"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q83",
+      "subject": "Polity",
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q84",
+      "subject": "Polity",
+      "topic": "Governor Powers"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q85",
+      "subject": "Polity",
+      "topic": "Constitutional Provisions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q86",
+      "subject": "Polity",
+      "topic": "Scheduled Areas"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q87",
+      "subject": "Polity",
+      "topic": "Union Ministries"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q88",
+      "subject": "Polity",
+      "topic": "Constitutional Amendment"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q89",
+      "subject": "Polity",
+      "topic": "Governor Immunity"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q9",
+      "subject": "Science & Technology",
+      "topic": "Virology"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q90",
+      "subject": "Economy",
+      "topic": "Petroleum Regulation"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q92",
+      "subject": "Art & Culture",
+      "topic": "Indus Valley Artifacts"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q93",
+      "subject": "History",
+      "topic": "Chauri Chaura Incident"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q94",
+      "subject": "History",
+      "topic": "Gandhi and Harijans"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q95",
+      "subject": "History",
+      "topic": "Portuguese Introductions"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q96",
+      "subject": "Geography",
+      "topic": "Time Zones"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q97",
+      "subject": "Geography",
+      "topic": "International Date Line"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q98",
+      "subject": "History",
+      "topic": "Self-Respect Movement"
+    },
+    {
+      "id": "web-upsc-cse-prelims-gs1-2025-forumias-q99",
+      "subject": "Geography",
+      "topic": "Mineral Resources"
+    }
+  ],
+  "garbage": [
+    "web-upsc-cse-prelims-gs1-2017-mrunal-polity-and-international-relations-q83",
+    "web-upsc-cse-prelims-gs1-2021-forumias-pdf-q49"
+  ]
+}

@@ -1,0 +1,93 @@
+/**
+ * Weak Areas engine (client).
+ * ------------------------------------------------------------------
+ * Real spaced-repetition tracking of weak topics, backing the Sprint Session.
+ *  - recordWrong(): a wrong answer creates/strengthens a weak topic (due now).
+ *  - getDueTopics(): topics that are due to resurface (newest-wrong first),
+ *    excluding mastered ones and anything revised recently (not yet due).
+ *  - markRevised(): advances the spaced-repetition schedule; masters at box 5.
+ *
+ * Every call is defensive: if the table/RPC isn't there yet, it no-ops so the
+ * rest of the app keeps working.
+ */
+
+import { supabase } from '@/utils/supabase';
+
+export interface WeakTopic {
+  id: string;
+  subject: string;
+  topic: string;
+  reason: string | null;
+  strength: number;      // 0..5 mastery box
+  times_wrong: number;
+  times_revised: number;
+  status: 'active' | 'mastered' | 'archived';
+  last_wrong_at: string;
+  next_due_at: string;
+}
+
+export const weakAreasService = {
+  // Record a wrong answer as a weak topic (or strengthen an existing one).
+  async recordWrong(topic: string, subject = 'General', reason?: string, source = 'quiz'): Promise<void> {
+    if (!topic?.trim()) return;
+    try {
+      await supabase.rpc('record_weak_topic', {
+        p_topic: topic.trim(),
+        p_subject: subject,
+        p_reason: reason ?? null,
+        p_source: source,
+      });
+    } catch {
+      /* non-fatal */
+    }
+  },
+
+  // Topics due for revision right now — newest-wrong first. Excludes mastered
+  // and not-yet-due (recently revised) topics automatically.
+  async getDueTopics(limit = 5): Promise<WeakTopic[]> {
+    try {
+      const { data, error } = await supabase
+        .from('weak_topics')
+        .select('id, subject, topic, reason, strength, times_wrong, times_revised, status, last_wrong_at, next_due_at')
+        .eq('status', 'active')
+        .lte('next_due_at', new Date().toISOString())
+        .order('last_wrong_at', { ascending: false })
+        .limit(limit);
+      if (error) return [];
+      return (data as WeakTopic[]) ?? [];
+    } catch {
+      return [];
+    }
+  },
+
+  // All active weak topics (for a dashboard / count), due or not.
+  async getAllActive(limit = 50): Promise<WeakTopic[]> {
+    try {
+      const { data, error } = await supabase
+        .from('weak_topics')
+        .select('id, subject, topic, reason, strength, times_wrong, times_revised, status, last_wrong_at, next_due_at')
+        .eq('status', 'active')
+        .order('next_due_at', { ascending: true })
+        .limit(limit);
+      if (error) return [];
+      return (data as WeakTopic[]) ?? [];
+    } catch {
+      return [];
+    }
+  },
+
+  // Advance spaced repetition after a topic is revised in a sprint.
+  async markRevised(topicId: string): Promise<void> {
+    if (!topicId) return;
+    try {
+      await supabase.rpc('mark_topic_revised', { p_id: topicId });
+    } catch {
+      /* non-fatal */
+    }
+  },
+
+  // Let the user add their own focus topic when nothing is due.
+  async addManual(topic: string, subject = 'General'): Promise<void> {
+    await this.recordWrong(topic, subject, 'Added by you', 'manual');
+  },
+};

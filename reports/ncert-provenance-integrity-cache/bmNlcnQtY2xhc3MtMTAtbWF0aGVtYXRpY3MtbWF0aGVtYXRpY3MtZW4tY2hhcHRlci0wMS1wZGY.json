@@ -1,0 +1,23 @@
+{
+  "source_id": "ncert-class-10-mathematics-mathematics-en-chapter-01-pdf",
+  "official_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+  "fetched_at": "2026-08-16T11:18:14.905Z",
+  "identity": {
+    "chapterNumber": null,
+    "chapterTitle": null,
+    "lines": [
+      "REAL NUMBERS 1",
+      "1",
+      "1.1 Introduction",
+      "In Class IX, you began your exploration of the world of real numbers and encountered",
+      "irrational numbers. We continue our discussion on real numbers in this chapter . We",
+      "begin with very important properties of positive integers in Sections 1.2, namely the",
+      "Euclid’s division algorithm and the Fundamental Theorem of Arithmetic.",
+      "Euclid’s division algorithm, as the name suggests, has to do with divisibility of",
+      "integers. Stated simply, it says any positive integer a can be divided by another positive",
+      "integer b in such a way that it leaves a remainder r that is smaller than b. Many of you",
+      "probably recognise this as the usual long division process. Although this result is quite",
+      "easy to state and understand, it has many applications related to the divisibility properties"
+    ]
+  }
+}

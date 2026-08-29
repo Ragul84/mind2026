@@ -1,0 +1,39 @@
+{
+  "schema_version": 4,
+  "book_code": "legy3",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/legy3ps.pdf",
+  "fetched_at": "2026-08-16T13:56:20.771Z",
+  "sample": {
+    "class_level": 12,
+    "subject": "geography",
+    "book_title": "Practical Work in Geography Part II",
+    "volume_or_part": "Part II"
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "Data – Its Source and Compilation"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "Data Processing"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "Graphical Representation of Data"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "Spatial Information Technology"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    10
+  ],
+  "evidence_mode": "official_pdf_text"
+}

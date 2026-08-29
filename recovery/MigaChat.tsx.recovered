@@ -1,0 +1,495 @@
+import React, { useCallback, useEffect, useRef, useState } from 'react';
+import {
+  View,
+  Text,
+  Image,
+  StyleSheet,
+  TextInput,
+  Pressable,
+  ScrollView,
+  Platform,
+  Keyboard,
+  ActivityIndicator,
+} from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
+import { MotiView } from 'moti';
+import { Easing } from 'react-native-reanimated';
+import { mascotApi, PaperAnswer } from '@/services/mascotApi';
+import { AIUsageService } from '@/services/aiUsageService';
+import PaperScanModal from '@/components/ui/PaperScanModal';
+
+/**
+ * MigaChat — Material 3 styled text chat for the MIGA tab.
+ * Google design language: M3 colour roles, emphasized motion (bubbles spring
+ * in with the M3 emphasized-decelerate curve), tonal surfaces, ripple touch.
+ * Optimistic send + token streaming (TTS skipped). Composer mirrors the call
+ * dock and rises with the keyboard.
+ */
+
+// ── MindGains teal brand + M3 colour roles ─────────────────────────────────
+const M3 = {
+  primary: '#0F766E',          // deep teal — send button, user bubble
+  primaryBright: '#14B8A6',
+  onPrimary: '#FFFFFF',
+  primaryContainer: '#CCFBF1', // teal container — empty badge
+  onPrimaryContainer: '#04332E',
+  surface: '#FFFFFF',
+  surfaceContainer: '#F1F5F4',
+  surfaceContainerHigh: '#E6EEEC',
+  onSurface: '#0F172A',
+  onSurfaceVariant: '#5B6470',
+  outlineVariant: '#DCE5E2',
+};
+// M3 emphasized-decelerate easing (Google motion)
+const EMPHASIZED = Easing.bezier(0.05, 0.7, 0.1, 1);
+
+type ChatRole = 'user' | 'assistant';
+type ChatMessage = { id: string; role: ChatRole; content: string };
+
+const newId = () => `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+
+const buildChatPrompt = (languageLabel: string) =>
+  [
+    'SYSTEM: You are MIGA — a sharp, witty, genuinely warm study buddy for Indian exam aspirants (UPSC, TNPSC, SSC, banking, etc.).',
+    'This is TEXT chat (not voice). Be fast, direct, and accurate. Lead with the answer, then a tight reason.',
+    'Formatting: short paragraphs; a compact list only when it genuinely helps. Bold key terms/articles/years sparingly. No filler preamble.',
+    'For MCQs: state the correct option clearly first (e.g. "Answer: C"), then a one-line why.',
+    'If unsure, say so briefly rather than inventing. Keep exam relevance front and centre.',
+    `Reply in ${languageLabel}. You may mix natural English terms where students do.`,
+  ].join('\n');
+
+type Suggestion = { icon: keyof typeof Ionicons.glyphMap; label: string; prefill?: string; scan?: boolean };
+const SUGGESTIONS: Suggestion[] = [
+  { icon: 'bulb-outline', label: 'Explain a concept', prefill: 'Explain ' },
+  { icon: 'help-circle-outline', label: 'Solve an MCQ', prefill: 'Solve this MCQ:\n' },
+  { icon: 'sparkles-outline', label: 'Quick revision', prefill: 'Quick revision of ' },
+  { icon: 'scan-outline', label: 'Scan & solve', scan: true },
+];
+
+// Three-dot teal thinking wave.
+const DOT_COLORS = ['#0F766E', '#14B8A6', '#5EEAD4'];
+function TypingDots() {
+  return (
+    <View style={styles.typingRow}>
+      {DOT_COLORS.map((c, i) => (
+        <MotiView
+          key={i}
+          from={{ translateY: 0, opacity: 0.4, scale: 0.8 }}
+          animate={{ translateY: -5, opacity: 1, scale: 1 }}
+          transition={{ type: 'timing', duration: 460, easing: EMPHASIZED, loop: true, repeatReverse: true, delay: i * 130 }}
+          style={[styles.typingDot, { backgroundColor: c }]}
+        />
+      ))}
+    </View>
+  );
+}
+
+// Inline **bold** parsing.
+function parseInline(text: string, kp: string): React.ReactNode[] {
+  return text.split(/(\*\*[^*]+\*\*)/g).map((p, i) => {
+    if (/^\*\*[^*]+\*\*$/.test(p)) {
+      return (
+        <Text key={`${kp}-${i}`} style={styles.mdBold}>
+          {p.slice(2, -2)}
+        </Text>
+      );
+    }
+    return p;
+  });
+}
+
+// Lightweight Markdown for assistant bubbles: headings, bullets, numbered
+// lists, bold, blank-line spacing. (The model replies in Markdown.)
+function RichMessage({ text }: { text: string }) {
+  // Strip the "AI-wrapper" em-dash / double-hyphen tell → natural commas.
+  // (En-dash ranges like "Art. 36–51" are left intact.)
+  let cleaned = text
+    .replace(/\r/g, '')
+    .replace(/\s*—\s*/g, ', ')
+    .replace(/\s+--\s+/g, ', ');
+  // While streaming, an opening ** may not have its closing ** yet — hide the
+  // dangling marker so the user never sees raw "**" before it turns bold.
+  if (((cleaned.match(/\*\*/g) || []).length) % 2 === 1) {
+    const i = cleaned.lastIndexOf('**');
+    cleaned = cleaned.slice(0, i) + cleaned.slice(i + 2);
+  }
+  const lines = cleaned.split('\n');
+  return (
+    <View>
+      {lines.map((line, i) => {
+        if (!line.trim()) return <View key={i} style={{ height: 8 }} />;
+        const heading = line.match(/^#{1,6}\s+(.*)/);
+        const bullet = line.match(/^\s*[-*•]\s+(.*)/);
+        const numbered = line.match(/^\s*(\d+)[.)]\s+(.*)/);
+        if (heading) {
+          return <Text key={i} style={styles.mdHeading}>{parseInline(heading[1], `h${i}`)}</Text>;
+        }
+        if (bullet) {
+          return (
+            <View key={i} style={styles.mdBulletRow}>
+              <Text style={styles.mdBulletDot}>•</Text>
+              <Text style={styles.mdBulletText}>{parseInline(bullet[1], `b${i}`)}</Text>
+            </View>
+          );
+        }
+        if (numbered) {
+          return (
+            <View key={i} style={styles.mdBulletRow}>
+              <Text style={styles.mdNum}>{numbered[1]}.</Text>
+              <Text style={styles.mdBulletText}>{parseInline(numbered[2], `n${i}`)}</Text>
+            </View>
+          );
+        }
+        return <Text key={i} style={styles.textAssistant}>{parseInline(line, `p${i}`)}</Text>;
+      })}
+    </View>
+  );
+}
+
+export function MigaChat({
+  userId,
+  languageCode = 'en-IN',
+  languageLabel = 'English',
+  bottomInset = 0,
+  onSwitchToCall,
+}: {
+  userId: string;
+  languageCode?: string;
+  languageLabel?: string;
+  bottomInset?: number;
+  onSwitchToCall?: () => void;
+}) {
+  const [messages, setMessages] = useState<ChatMessage[]>([]);
+  const [input, setInput] = useState('');
+  const [streaming, setStreaming] = useState(false);
+  const [scanOpen, setScanOpen] = useState(false);
+  const [kbLift, setKbLift] = useState(0);
+  const scrollRef = useRef<ScrollView>(null);
+  const nearBottomRef = useRef(true);
+  // Smooth-reveal buffer (ChatGPT-style): tokens land in targetRef; a timer
+  // advances shownRef toward it at an even cadence so text never dumps at once.
+  const targetRef = useRef('');
+  const shownRef = useRef(0);
+  const doneRef = useRef(false);
+  const revealRef = useRef<any>(null);
+
+  useEffect(() => {
+    const showEvt = Platform.OS === 'ios' ? 'keyboardWillShow' : 'keyboardDidShow';
+    const hideEvt = Platform.OS === 'ios' ? 'keyboardWillHide' : 'keyboardDidHide';
+    const onShow = Keyboard.addListener(showEvt, (e: any) =>
+      setKbLift(Math.max(0, (e?.endCoordinates?.height || 0) - bottomInset)),
+    );
+    const onHide = Keyboard.addListener(hideEvt, () => setKbLift(0));
+    return () => { onShow.remove(); onHide.remove(); };
+  }, [bottomInset]);
+
+  // Only auto-scroll when the user is already at the bottom — lets them scroll
+  // up to read without being yanked back down while tokens stream.
+  const scrollToEnd = useCallback((force = false) => {
+    if (!force && !nearBottomRef.current) return;
+    requestAnimationFrame(() => scrollRef.current?.scrollToEnd({ animated: force }));
+  }, []);
+
+  const onScroll = useCallback((e: any) => {
+    const { layoutMeasurement, contentOffset, contentSize } = e.nativeEvent;
+    nearBottomRef.current = contentSize.height - (contentOffset.y + layoutMeasurement.height) < 90;
+  }, []);
+
+  const stopReveal = useCallback(() => {
+    if (revealRef.current) { clearInterval(revealRef.current); revealRef.current = null; }
+  }, []);
+
+  // Reveal loop: ~60fps; reveals a few chars per tick, eased so it catches up
+  // quickly when far behind and slows as it nears the buffer end.
+  const startReveal = useCallback((id: string) => {
+    targetRef.current = '';
+    shownRef.current = 0;
+    doneRef.current = false;
+    stopReveal();
+    revealRef.current = setInterval(() => {
+      const target = targetRef.current;
+      if (shownRef.current < target.length) {
+        const remaining = target.length - shownRef.current;
+        const step = Math.max(1, Math.min(8, Math.ceil(remaining * 0.14)));
+        shownRef.current += step;
+        const shownText = target.slice(0, shownRef.current);
+        setMessages((prev) => prev.map((m) => (m.id === id ? { ...m, content: shownText } : m)));
+        scrollToEnd();
+      } else if (doneRef.current) {
+        setMessages((prev) => prev.map((m) => (m.id === id ? { ...m, content: targetRef.current } : m)));
+        stopReveal();
+        setStreaming(false);
+        scrollToEnd();
+      }
+    }, 16);
+  }, [scrollToEnd, stopReveal]);
+
+  useEffect(() => () => stopReveal(), [stopReveal]);
+
+  const runSend = useCallback(
+    async (text: string) => {
+      const clean = text.trim();
+      if (!clean || streaming) return;
+
+      const assistantId = newId();
+      const history = messages.map((m) => ({ role: m.role, content: m.content }));
+      setMessages((prev) => [
+        ...prev,
+        { id: newId(), role: 'user', content: clean },
+        { id: assistantId, role: 'assistant', content: '' },
+      ]);
+      setInput('');
+      setStreaming(true);
+      nearBottomRef.current = true;
+      scrollToEnd(true);
+      startReveal(assistantId); // begin the smooth typewriter for this reply
+
+      try {
+        const usage = await AIUsageService.check('miga_message');
+        if (!usage.allowed) {
+          targetRef.current = `You've reached today's free MIGA limit (${usage.limit}). It resets soon, upgrade for more.`;
+          doneRef.current = true;
+          return;
+        }
+      } catch { /* fail-open */ }
+
+      try {
+        await new Promise<void>((resolve, reject) => {
+          mascotApi.streamChat(
+            userId || 'guest',
+            [
+              { role: 'system', content: buildChatPrompt(languageLabel) },
+              ...history,
+              { role: 'user', content: clean },
+            ],
+            'chat',
+            (token) => { targetRef.current += token; }, // tokens → buffer; reveal loop displays them
+            () => resolve(),
+            (err) => reject(err),
+            { languageCode, languageLabel },
+          );
+        });
+        if (!targetRef.current.trim()) targetRef.current = 'Hmm, I blanked on that, try asking again?';
+        doneRef.current = true;
+        AIUsageService.consume('miga_message').catch(() => {});
+      } catch {
+        if (!targetRef.current) targetRef.current = 'Connection hiccup, tap send to try again.';
+        doneRef.current = true;
+      }
+    },
+    [streaming, messages, userId, languageCode, languageLabel, scrollToEnd, startReveal],
+  );
+
+  const handleScanResults = useCallback((answers: PaperAnswer[], note?: string) => {
+    if (!answers.length) return;
+    const lines = answers.map((a) => {
+      const head = a.answer
+        ? `Q${a.q}: ${a.answer}${a.answerText ? ` — ${a.answerText}` : ''}`
+        : `Q${a.q}: ${a.answerText || '—'}`;
+      return a.reason ? `${head}\n   ${a.reason}` : head;
+    });
+    const body = `📄 Scanned ${answers.length} question${answers.length > 1 ? 's' : ''}:\n\n${lines.join('\n\n')}${note ? `\n\n${note}` : ''}`;
+    setMessages((prev) => [
+      ...prev,
+      { id: newId(), role: 'user', content: 'Scanned a question paper 📄' },
+      { id: newId(), role: 'assistant', content: body },
+    ]);
+    nearBottomRef.current = true;
+    scrollToEnd(true);
+  }, [scrollToEnd]);
+
+  const showEmpty = messages.length === 0;
+  const composerBottom = Math.max(bottomInset + 52, 64);
+  const canSend = !!input.trim() && !streaming;
+
+  return (
+    <View style={styles.flex}>
+      <ScrollView
+        ref={scrollRef}
+        style={styles.flex}
+        contentContainerStyle={[
+          styles.scrollContent,
+          { paddingBottom: composerBottom + 64 },
+          showEmpty && styles.scrollContentEmpty,
+        ]}
+        keyboardShouldPersistTaps="handled"
+        showsVerticalScrollIndicator={false}
+        onScroll={onScroll}
+        scrollEventThrottle={16}
+      >
+        {showEmpty ? (
+          <MotiView
+            from={{ opacity: 0, translateY: 14 }}
+            animate={{ opacity: 1, translateY: 0 }}
+            transition={{ type: 'timing', duration: 420, easing: EMPHASIZED }}
+            style={styles.empty}
+          >
+            <Image
+              source={require('@/assets/images/learnmascot.png')}
+              style={styles.logo}
+              resizeMode="contain"
+            />
+            <Text style={styles.emptyTitle}>
+              What would you{'\n'}like to <Text style={styles.emptyTitleAccent}>learn today</Text>?
+            </Text>
+            <View style={styles.suggGrid}>
+              {SUGGESTIONS.map((sg) => (
+                <Pressable
+                  key={sg.label}
+                  onPress={() => (sg.scan ? setScanOpen(true) : setInput(sg.prefill || ''))}
+                  android_ripple={{ color: 'rgba(15,118,110,0.12)' }}
+                  style={({ pressed }) => [styles.suggChip, pressed && styles.suggChipPressed]}
+                >
+                  <Ionicons name={sg.icon} size={17} color={M3.primary} />
+                  <Text style={styles.suggText} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.85}>
+                    {sg.label}
+                  </Text>
+                </Pressable>
+              ))}
+            </View>
+          </MotiView>
+        ) : (
+          messages.map((m) => (
+            <MotiView
+              key={m.id}
+              from={{ opacity: 0, translateY: 12, scale: 0.97 }}
+              animate={{ opacity: 1, translateY: 0, scale: 1 }}
+              transition={{ type: 'timing', duration: 340, easing: EMPHASIZED }}
+              style={[styles.row, m.role === 'user' ? styles.rowUser : styles.rowAssistant]}
+            >
+              <View style={[styles.bubble, m.role === 'user' ? styles.bubbleUser : styles.bubbleAssistant]}>
+                {m.role === 'assistant' && !m.content ? (
+                  <TypingDots />
+                ) : m.role === 'user' ? (
+                  <Text style={styles.textUser}>{m.content}</Text>
+                ) : (
+                  <RichMessage text={m.content} />
+                )}
+              </View>
+            </MotiView>
+          ))
+        )}
+      </ScrollView>
+
+      {/* Floating composer — M3 surface, rises with the keyboard */}
+      <MotiView
+        animate={{ translateY: -kbLift }}
+        transition={{ type: 'timing', duration: 240, easing: EMPHASIZED }}
+        style={[styles.dock, { bottom: composerBottom }]}
+      >
+        <View style={styles.inputBar}>
+          <Pressable
+            onPress={() => setScanOpen(true)}
+            android_ripple={{ color: 'rgba(11,87,208,0.18)', borderless: true, radius: 22 }}
+            style={({ pressed }) => [styles.iconBtn, pressed && styles.iconBtnPressed]}
+            accessibilityLabel="Scan a question paper"
+          >
+            <Ionicons name="camera-outline" size={22} color={M3.onSurfaceVariant} />
+          </Pressable>
+
+          <TextInput
+            style={styles.input}
+            value={input}
+            onChangeText={setInput}
+            placeholder="Ask MIGA anything…"
+            placeholderTextColor="#8A8E96"
+            editable={!streaming}
+            returnKeyType="send"
+            onSubmitEditing={() => runSend(input)}
+          />
+
+          <View style={styles.rightActions}>
+            {onSwitchToCall && (
+              <Pressable
+                onPress={onSwitchToCall}
+                android_ripple={{ color: 'rgba(11,87,208,0.18)', borderless: true, radius: 22 }}
+                style={({ pressed }) => [styles.iconBtn, pressed && styles.iconBtnPressed]}
+                accessibilityLabel="Switch to voice call"
+              >
+                <Ionicons name="mic-outline" size={20} color={M3.onSurfaceVariant} />
+              </Pressable>
+            )}
+            <Pressable
+              onPress={() => runSend(input)}
+              disabled={!canSend}
+              android_ripple={{ color: 'rgba(255,255,255,0.25)', borderless: false, radius: 24 }}
+              style={({ pressed }) => [
+                styles.sendBtn,
+                !canSend && styles.sendBtnDisabled,
+                pressed && canSend && styles.sendBtnPressed,
+              ]}
+              accessibilityLabel="Send message"
+            >
+              {streaming ? (
+                <ActivityIndicator size="small" color="#FFFFFF" />
+              ) : (
+                <Ionicons name="arrow-up" size={20} color="#FFFFFF" />
+              )}
+            </Pressable>
+          </View>
+        </View>
+      </MotiView>
+
+      <PaperScanModal
+        visible={scanOpen}
+        onClose={() => setScanOpen(false)}
+        languageCode={languageCode}
+        onResults={handleScanResults}
+      />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  flex: { flex: 1 },
+  scrollContent: { padding: 16 },
+  scrollContentEmpty: { flexGrow: 1, justifyContent: 'center' },
+
+  empty: { alignItems: 'center', paddingHorizontal: 22 },
+  logo: { width: 132, height: 132, marginBottom: 18 },
+  emptyTitle: { fontFamily: 'Poppins-Bold', fontSize: 28, lineHeight: 36, color: M3.onSurface, letterSpacing: -0.6, textAlign: 'center' },
+  emptyTitleAccent: { color: M3.primary },
+  suggGrid: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center', gap: 12, marginTop: 30 },
+  suggChip: { width: '47%', flexDirection: 'row', alignItems: 'center', gap: 8, backgroundColor: M3.surface, borderWidth: 1, borderColor: M3.outlineVariant, borderRadius: 16, paddingHorizontal: 14, paddingVertical: 15 },
+  suggChipPressed: { backgroundColor: M3.surfaceContainer },
+  suggText: { flex: 1, fontFamily: 'Inter-SemiBold', fontSize: 13, color: M3.onSurface },
+
+  row: { marginBottom: 12, flexDirection: 'row' },
+  rowUser: { justifyContent: 'flex-end' },
+  rowAssistant: { justifyContent: 'flex-start' },
+  bubble: { maxWidth: '88%', paddingVertical: 12, paddingHorizontal: 16 },
+  // M3 asymmetric bubble radii
+  bubbleUser: { backgroundColor: M3.primary, borderRadius: 20, borderBottomRightRadius: 6 },
+  bubbleAssistant: { backgroundColor: M3.surfaceContainer, borderRadius: 20, borderBottomLeftRadius: 6 },
+  textUser: { fontFamily: 'Inter-Medium', fontSize: 15, color: M3.onPrimary, lineHeight: 22, letterSpacing: 0.1 },
+  textAssistant: { fontFamily: 'Inter-Regular', fontSize: 15, color: M3.onSurface, lineHeight: 23, letterSpacing: 0.1 },
+  mdBold: { fontFamily: 'Inter-Bold', color: M3.onSurface },
+  mdHeading: { fontFamily: 'Poppins-Bold', fontSize: 15.5, color: M3.onSurface, lineHeight: 23, marginBottom: 2 },
+  mdBulletRow: { flexDirection: 'row', alignItems: 'flex-start', gap: 8, marginVertical: 1 },
+  mdBulletDot: { fontFamily: 'Inter-Bold', fontSize: 15, color: M3.primary, lineHeight: 23 },
+  mdNum: { fontFamily: 'Inter-SemiBold', fontSize: 14, color: M3.primary, lineHeight: 23, minWidth: 16 },
+  mdBulletText: { flex: 1, fontFamily: 'Inter-Regular', fontSize: 15, color: M3.onSurface, lineHeight: 23 },
+
+  typingRow: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingVertical: 4, paddingHorizontal: 2 },
+  typingDot: { width: 8, height: 8, borderRadius: 4 },
+
+  dock: { position: 'absolute', left: 14, right: 14, zIndex: 100 },
+  inputBar: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: M3.surface,
+    borderRadius: 28,
+    paddingLeft: 7,
+    paddingRight: 6,
+    height: 56,
+    borderWidth: 1,
+    borderColor: M3.outlineVariant,
+  },
+  iconBtn: { width: 44, height: 44, borderRadius: 22, alignItems: 'center', justifyContent: 'center' },
+  iconBtnPressed: { backgroundColor: M3.surfaceContainerHigh },
+  input: { flex: 1, color: M3.onSurface, fontSize: 15, fontFamily: 'Inter-Medium', height: '100%', paddingHorizontal: 10 },
+  rightActions: { flexDirection: 'row', alignItems: 'center', gap: 6 },
+  sendBtn: { width: 44, height: 44, borderRadius: 22, backgroundColor: M3.primary, alignItems: 'center', justifyContent: 'center', overflow: 'hidden' },
+  sendBtnDisabled: { backgroundColor: M3.primary },
+  sendBtnPressed: { opacity: 0.9 },
+});

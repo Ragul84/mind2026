@@ -1,0 +1,292 @@
+{
+  "generatedAt": "2026-08-23T09:31:06.188Z",
+  "prompts": [
+    {
+      "key": "dpsp_short",
+      "prompt": "DPSP"
+    },
+    {
+      "key": "dpsp_explicit",
+      "prompt": "What are Directive Principles of State Policy?"
+    },
+    {
+      "key": "fr_short",
+      "prompt": "FR"
+    },
+    {
+      "key": "fr_explain",
+      "prompt": "Explain Fundamental Rights"
+    },
+    {
+      "key": "democracy",
+      "prompt": "What is democracy?"
+    },
+    {
+      "key": "federalism",
+      "prompt": "What is federalism?"
+    },
+    {
+      "key": "fundamental_duties",
+      "prompt": "What are Fundamental Duties?"
+    },
+    {
+      "key": "panchayati_raj",
+      "prompt": "What is Panchayati Raj?"
+    },
+    {
+      "key": "revolt",
+      "prompt": "The revolt of 1857"
+    },
+    {
+      "key": "revolt_causes",
+      "prompt": "Explain the causes of the Revolt of 1857"
+    },
+    {
+      "key": "revolt_explain",
+      "prompt": "Explain the Revolt of 1857"
+    },
+    {
+      "key": "1857",
+      "prompt": "1857"
+    },
+    {
+      "key": "monsoon",
+      "prompt": "Explain Indian monsoon"
+    },
+    {
+      "key": "monsoon_why",
+      "prompt": "Why does monsoon occur in India?"
+    },
+    {
+      "key": "sw_monsoon",
+      "prompt": "Southwest monsoon"
+    },
+    {
+      "key": "river_systems",
+      "prompt": "Explain river systems of India"
+    },
+    {
+      "key": "biodiversity",
+      "prompt": "What is biodiversity?"
+    },
+    {
+      "key": "mineral",
+      "prompt": "What is a mineral?"
+    },
+    {
+      "key": "photosynthesis",
+      "prompt": "What is photosynthesis?"
+    },
+    {
+      "key": "photosynthesis_detail",
+      "prompt": "Explain photosynthesis in detail"
+    },
+    {
+      "key": "nuclear_fission_short",
+      "prompt": "What is nuclear fission?"
+    },
+    {
+      "key": "nuclear_fission_explain",
+      "prompt": "Explain nuclear fission"
+    },
+    {
+      "key": "newton_short",
+      "prompt": "What is Newton's second law?"
+    },
+    {
+      "key": "newton_explain",
+      "prompt": "Explain Newton's second law"
+    },
+    {
+      "key": "gdp",
+      "prompt": "GDP"
+    },
+    {
+      "key": "fiscal_deficit",
+      "prompt": "What is fiscal deficit?"
+    },
+    {
+      "key": "inflation",
+      "prompt": "What is inflation?"
+    },
+    {
+      "key": "national_income",
+      "prompt": "What is national income?"
+    },
+    {
+      "key": "cell_theory",
+      "prompt": "What is the cell theory?"
+    },
+    {
+      "key": "respiratory_system",
+      "prompt": "What is the human respiratory system?"
+    }
+  ],
+  "fixtures": [
+    {
+      "key": "tnpsc",
+      "context": {
+        "primary_exam": "tnpsc",
+        "primary_curriculum": "samacheer",
+        "class_level": 10,
+        "context_source": "onboarding"
+      },
+      "expectedCorpus": "samacheer",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a"
+    },
+    {
+      "key": "upsc",
+      "context": {
+        "primary_exam": "upsc",
+        "primary_curriculum": "ncert",
+        "class_level": 11,
+        "context_source": "onboarding"
+      },
+      "expectedCorpus": "ncert",
+      "userId": "54778a7f-c934-472f-bfa2-b4b22b5fe910"
+    }
+  ],
+  "seededFixtures": [
+    {
+      "fixtureKey": "tnpsc",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a",
+      "studyPayload": {
+        "primary_exam": "tnpsc",
+        "primary_curriculum": "samacheer",
+        "class_level": 10,
+        "context_source": "onboarding"
+      },
+      "protocolTrackId": "tnpsc_ecosystem"
+    },
+    {
+      "fixtureKey": "upsc",
+      "userId": "54778a7f-c934-472f-bfa2-b4b22b5fe910",
+      "studyPayload": {
+        "primary_exam": "upsc",
+        "primary_curriculum": "ncert",
+        "class_level": 11,
+        "context_source": "onboarding"
+      },
+      "protocolTrackId": "upsc_ecosystem"
+    }
+  ],
+  "smokeTests": [],
+  "results": [
+    {
+      "name": "tnpsc:river_systems",
+      "fixtureKey": "tnpsc",
+      "prompt": "Explain river systems of India",
+      "expectedCorpus": "samacheer",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a",
+      "stream": {
+        "ok": true,
+        "status": 200,
+        "events": [
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "evidence",
+          "done"
+        ],
+        "answer": "The river systems of India are broadly categorised into Himalayan Rivers and Peninsular Rivers.\n\nThe **Himalayan Rivers** include:\n1.  **The Indus River System**: This system includes the Indus and its tributaries like the Jhelum, Chenab, Ravi, Beas, and Satluj. These rivers originate in the Himalayas. The larger part of the plain formed by the Indus and its tributaries lies in Pakistan. \n2.  **The Ganga River System**: The Ganga is joined by many Himalayan tributaries like the Yamuna, Ghaghara, Gandak, and Kosi, as well as peninsular tributaries like the Chambal, Betwa, and Son. It flows eastwards till Farakka, where it bifurcates into the Bhagirathi-Hooghly and the mainstream which flows into Bangladesh, eventually joining the Brahmaputra to form the Meghna. The Sundarban Delta is formed by these rivers. \n3.  **The Brahmaputra River System**: This river flows in the east, particularly in Assam. Majuli, the largest inhabited riverine island in the world, is found in the Brahmaputra river. \n\nThe **Peninsular Rivers** are generally rain-fed and seasonal. Examples include the Godavari, Krishna, and Mahanadi, which are also used as inland waterways. \n\n**📘 Source:** NCERT Class 9 Social Science • River Systems India"
+      },
+      "actualPrimaryCorpus": "ncert",
+      "leakageBoards": [],
+      "topSource": {
+        "sourceId": "ncert-class-9-social-science-contemporary-india-i-en-chapter-02-pdf",
+        "board": "ncert",
+        "class_level": 9,
+        "subject": "social-science",
+        "book_title": null,
+        "volume_or_part": null,
+        "chapter_number": null,
+        "chapter_title": null,
+        "unit_type": null,
+        "unit_number": null,
+        "unit_title": null,
+        "excerpt": "PHYSICAL FEATURES OF INDIA 11 The Northern Plain The northern plain has been formed by the interplay of the three major river systems, namely — the Indus, the Ganga and the Brahmaputra along with their tributaries. This plain is formed of alluvial soil. The deposition of alluvium in a vast basin lying at the foothills of the Himalaya over millions of years, formed this fertile plain. It spreads over an area of 7 lakh…",
+        "supportingChunkCount": 2
+      },
+      "evidenceAudit": [
+        {
+          "sourceId": "ncert-class-9-social-science-contemporary-india-i-en-chapter-02-pdf",
+          "chunkId": "ncert-class-9-social-science-contemporary-india-i-en-chapter-02-pdf:0009",
+          "excerpt": "PHYSICAL FEATURES OF INDIA 11 The Northern Plain The northern plain has been formed by the interplay of the three major river systems, namely — the Indus, the Ganga and the Brahmaputra along with their tributaries. This plain is formed of alluvial soil. The deposition of alluvium in a vast basin lying at the foothills of the Himalaya over millions of years, formed this fertile plain. It spreads over an area of 7 lakh…",
+          "selectionReason": "selected_direct_support",
+          "selectionScore": 0.75,
+          "selectionDirect": true,
+          "selectionBlocked": false,
+          "requestedAspectMatched": true,
+          "reasonDirect": "explanation_supported",
+          "verdict": "DIRECT",
+          "board": "ncert",
+          "subject": "social-science",
+          "chapterTitle": null,
+          "unitTitle": null,
+          "chunkType": "lesson_content",
+          "strictReason": "explanation_supported"
+        },
+        {
+          "sourceId": "ncert-class-10-social-science-contemporary-india-ii-en-chapter-07-pdf",
+          "chunkId": "ncert-class-10-social-science-contemporary-india-ii-en-chapter-07-pdf:0012",
+          "excerpt": "77LIFELINES OF N ATIONAL E CONOMY Fig. 7.5: Fig. 7.5:Fig. 7.5: Fig. 7.5:Fig. 7.5: Inland waterways widely used in north-eastern states • The Ganga river between Prayagraj and Haldia (1620 km)-N.W. No.1 • The Brahmaputra river between Sadiya and Dhubri (891 km)-N.W. No.2 • The W est-C oast C anal in Kerala (Kottapurma-Kollam, Udyogamandal and Champakkara canals-205 km) – N.W. No.3 • Specified stretches of Godavari and…",
+          "selectionReason": "selected_direct_support",
+          "selectionScore": 0.6799999999999999,
+          "selectionDirect": true,
+          "selectionBlocked": false,
+          "requestedAspectMatched": false,
+          "reasonDirect": "no_proposition",
+          "verdict": "REJECTED",
+          "board": "ncert",
+          "subject": "social-science",
+          "chapterTitle": null,
+          "unitTitle": null,
+          "chunkType": "lesson_content",
+          "strictReason": "no_proposition"
+        }
+      ],
+      "auditSupportingEvidence": [
+        {
+          "sourceId": "ncert-class-9-social-science-contemporary-india-i-en-chapter-02-pdf",
+          "chunkId": "ncert-class-9-social-science-contemporary-india-i-en-chapter-02-pdf:0009",
+          "excerpt": "PHYSICAL FEATURES OF INDIA 11 The Northern Plain The northern plain has been formed by the interplay of the three major river systems, namely — the Indus, the Ganga and the Brahmaputra along with their tributaries. This plain is formed of alluvial soil. The deposition of alluvium in a vast basin lying at the foothills of the Himalaya over millions of years, formed this fertile plain. It spreads over an area of 7 lakh…",
+          "selectionReason": "selected_direct_support",
+          "selectionScore": 0.75,
+          "selectionDirect": true,
+          "selectionBlocked": false,
+          "requestedAspectMatched": true,
+          "reasonDirect": "explanation_supported",
+          "verdict": "DIRECT",
+          "board": "ncert",
+          "subject": "social-science",
+          "chapterTitle": null,
+          "unitTitle": null,
+          "chunkType": "lesson_content",
+          "strictReason": "explanation_supported"
+        }
+      ],
+      "answerCoverage": 1,
+      "verdict": "FAIL_WRONG_CORPUS"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "pass_direct": 0,
+    "pass_partial": 0,
+    "fail": 1,
+    "strictPassRate": 0
+  },
+  "validatorVersion": "strict-v2",
+  "notes": [
+    "TOC/contents/exercise/glossary-adjacent passages are rejected unless they contain an actual proposition answering the requested aspect.",
+    "PASS_DIRECT requires both corpus match and at least one strict supporting passage."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": 4,
+  "book_code": "kebo1",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/kebo1ps.pdf",
+  "fetched_at": "2026-08-16T13:38:44.398Z",
+  "sample": {
+    "class_level": 11,
+    "subject": "biology",
+    "book_title": "Biology",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": ": The Living World"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": ": Biological Classification"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": ": Plant Kingdom"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": ": Animal Kingdom"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": ": Morphology of Flowering Plants"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": ": Anatomy of Flowering Plants"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": ": Structural Organisation in Animals"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "8",
+      "canonical_unit_title": ": Cell : The Unit of Life"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "9",
+      "canonical_unit_title": ": Biomolecules"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "10",
+      "canonical_unit_title": ": Cell Cycle and Cell Division"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "11",
+      "canonical_unit_title": ": Photosynthesis in Higher Plants"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "12",
+      "canonical_unit_title": ": Respiration in Plants"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "13",
+      "canonical_unit_title": ": Plant Growth and Development"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "14",
+      "canonical_unit_title": ": Breathing and Exchange of Gases"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "15",
+      "canonical_unit_title": ": Body Fluids and Circulation"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "16",
+      "canonical_unit_title": ": Excretory Products and their Elimination"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "17",
+      "canonical_unit_title": ": Locomotion and Movement"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "18",
+      "canonical_unit_title": ": Neural Control and Coordination"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "19",
+      "canonical_unit_title": ": Chemical Coordination and Integration"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    9,
+    10,
+    11
+  ],
+  "evidence_mode": "official_pdf_text"
+}

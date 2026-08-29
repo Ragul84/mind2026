@@ -1,0 +1,22 @@
+{
+  "prompt": "Why does monsoon occur in India?",
+  "bundle": {
+    "retrievalQuery": "monsoon in india",
+    "exactPhrase": "monsoon in india",
+    "terms": [
+      "monsoon",
+      "in",
+      "india"
+    ],
+    "aliasTokens": [],
+    "numericTokens": [],
+    "eligible": true
+  },
+  "stoppedAt": "rpc_error",
+  "error": {
+    "code": "57014",
+    "details": null,
+    "hint": null,
+    "message": "canceling statement due to statement timeout"
+  }
+}

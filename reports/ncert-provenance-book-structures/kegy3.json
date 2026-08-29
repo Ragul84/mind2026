@@ -1,0 +1,50 @@
+{
+  "schema_version": 4,
+  "book_code": "kegy3",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/kegy3ps.pdf",
+  "fetched_at": "2026-08-16T13:49:02.691Z",
+  "sample": {
+    "class_level": 11,
+    "subject": "geography",
+    "book_title": "Pratical Work in Geography",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "Introduction to Maps"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "Map Scale"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "Latitude, Longitude and Time"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "Map Projections"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "Topographical Maps"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "Introduction to Remote Sensing"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    8,
+    10
+  ],
+  "evidence_mode": "official_pdf_text"
+}

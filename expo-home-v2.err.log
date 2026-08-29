@@ -1,0 +1,13 @@
+The /android project does not contain any URI schemes. Expo CLI will not be able to use links to launch the project. You can configure a custom URI scheme using the --scheme option.
+Error: listen EADDRINUSE: address already in use :::8081
+Error: listen EADDRINUSE: address already in use :::8081
+    at Server.setupListenHandle [as _listen2] (node:net:1948:16)
+    at listenInCluster (node:net:2005:12)
+    at Server.listen (node:net:2110:7)
+    at D:\mindwhite\node_modules\@expo\cli\src\start\server\metro\runServer-fork.ts:135:16
+    at new Promise (<anonymous>)
+    at runServer (D:\mindwhite\node_modules\@expo\cli\src\start\server\metro\runServer-fork.ts:126:10)
+    at instantiateMetroAsync (D:\mindwhite\node_modules\@expo\cli\src\start\server\metro\instantiateMetro.ts:252:40)
+    at MetroBundlerDevServer.startImplementationAsync (D:\mindwhite\node_modules\@expo\cli\src\start\server\metro\MetroBundlerDevServer.ts:1054:69)
+    at MetroBundlerDevServer.startAsync (D:\mindwhite\node_modules\@expo\cli\src\start\server\BundlerDevServer.ts:160:18)
+    at DevServerManager.startAsync (D:\mindwhite\node_modules\@expo\cli\src\start\server\DevServerManager.ts:184:7)

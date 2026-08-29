@@ -1,0 +1,57 @@
+{
+  "schema_version": 4,
+  "book_code": "keph1",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/keph1ps.pdf",
+  "fetched_at": "2026-08-16T13:19:33.148Z",
+  "sample": {
+    "class_level": 11,
+    "subject": "physics",
+    "book_title": "Physics Part-I",
+    "volume_or_part": "Part I"
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "Units AND MEASUREMENTS"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "Motion In A StRaIGHT LINE"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "MoTION IN A PLANE"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "Laws or Motion"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "Work, ENERGY AND POWER"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "System OF PaRTICLES AND RoTATIONAL Motion"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": "GRAVITATION"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    9,
+    10,
+    12,
+    13
+  ],
+  "evidence_mode": "official_pdf_ocr_fallback"
+}

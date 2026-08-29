@@ -1,0 +1,1036 @@
+{
+  "generated_at": "2026-08-16T16:08:00.146Z",
+  "request_contract": {
+    "mode": "chat",
+    "language_code": "en-IN",
+    "language_label": "English",
+    "attachments": [],
+    "provider": "openrouter",
+    "messages": "single new-chat user turn"
+  },
+  "profile_context_used": {
+    "target_exam": null,
+    "education_level": null
+  },
+  "results": [
+    {
+      "name": "newton",
+      "prompt": "Explain Newton's second law",
+      "events": [
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "evidence",
+        "done"
+      ],
+      "answer": "Hello there! Let's break down Newton's Second Law of Motion. It's a fundamental concept in physics and very important for understanding how forces affect motion.\n\nNewton's Second Law of Motion describes how the net external force acting on a body is related to its acceleration. While the First Law deals with cases where the net force is zero, the Second Law addresses situations where there *is* a net external force.\n\nHere's a detailed explanation:\n\n1.  **Momentum as a Key Concept:**\n    Before understanding the Second Law, it's crucial to grasp the concept of **momentum (p)**. Momentum is defined as the product of a body's **mass (m)** and its **velocity (v)**.\n    *   **p = m v**\n    *   Momentum is a **vector quantity**, meaning it has both magnitude and direction.\n    *   Think about it:\n        *   A heavy truck needs more force to get moving or to stop compared to a small car, even if they reach the same speed in the same time. This highlights the role of mass.\n        *   A bullet fired at high speed can cause significant damage, while the same bullet at a moderate speed might not. This shows the importance of velocity.\n        *   These examples together illustrate that the product of mass and velocity (momentum) is a very relevant variable when considering the effect of force on motion. \n\n2.  **The Law Itself:**\n    Newton's Second Law states that **the rate of change of momentum of an object is directly proportional to the applied unbalanced force in the direction of the force.** \n\n3.  **Mathematical Formulation:**\n    Let's consider an object of mass 'm' moving in a straight line.\n    *   Initial velocity = **u**\n    *   Final velocity = **v** (after time **t** due to a constant force **F**)\n    *   Initial momentum (p1) = **mu**\n    *   Final momentum (p2) = **mv**\n\n    The change in momentum is proportional to (p2 - p1), which is (mv - mu), or **m × (v - u)**.\n    The rate of change of momentum is proportional to **m × (v - u) / t**.\n\n    According to the law, the applied force **F** is proportional to the rate of change of momentum:\n    **F ∝ m × (v - u) / t**\n\n    We know that acceleration **a = (v - u) / t** (rate of change of velocity).\n    So, **F ∝ ma**\n\n    To convert this proportionality into an equation, we introduce a constant of proportionality, **k**:\n    **F = kma**\n\n    The unit of force is defined such that **k** becomes 1. One unit of force is the amount that produces an acceleration of **1 m s⁻²** in an object of **1 kg** mass.\n    Therefore, **1 unit of force = k × (1 kg) × (1 m s⁻²)**, which makes **k = 1**.\n\n    Thus, the widely known mathematical form of Newton's Second Law is:\n    **F = ma**\n\n4.  **Units:**\n    *   The unit of force is **kg m s⁻²**, which is also called a **newton (N)**.\n    *   **1 newton** is the force required to produce an acceleration of **1 m/s²** in a mass of **1 kg**.\n\n5.  **Significance for Exams:**\n    *   This law is fundamental to understanding dynamics in physics.\n    *   It helps in solving problems involving force, mass, and acceleration.\n    *   It forms the basis for understanding other concepts like work, energy, and power.\n    *   It's also used in concepts like Simple Harmonic Motion (SHM), where the force acting on a particle in SHM is given by **F(t) = -k x(t)**, where **k = mω²** .\n\nIn essence, Newton's Second Law tells us that if you apply a net force to an object, it will accelerate, and the acceleration will be in the direction of the force. The larger the force, the larger the acceleration; the larger the mass, the smaller the acceleration for the same force.\n\n```mindmap\n{\"root\":\"Newton's Laws of Motion\",\"subtitle\":\"Physics · Mechanics\",\"nodes\":[{\"label\":\"First Law\",\"color\":\"teal\",\"children\":[\"Inertia\",\"Net external force = 0, velocity constant\"]},{\"label\":\"Second Law\",\"color\":\"blue\",\"children\":[\"F = ma\",\"Rate of change of momentum\",\"Momentum (p = mv)\"]},{\"label\":\"Third Law\",\"color\":\"orange\",\"children\":[\"Action-reaction pairs\",\"Forces act on different bodies\",\"Equal and opposite forces\"]}]}\n```\n\n**📘 Source:** NCERT Class 11 Physics • Newton Second Law",
+      "evidence": [
+        {
+          "schemaVersion": 1,
+          "evidenceId": "textbook:chapter:a8b6de05-6375-4e34-9794-ff0fd1c7326f",
+          "kind": "textbook",
+          "sourceId": "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf",
+          "chapterId": "a8b6de05-6375-4e34-9794-ff0fd1c7326f",
+          "rank": 1,
+          "supportingChunkCount": 2,
+          "excerptChunkId": "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:0012",
+          "excerpt": "4.5 NEWTON’S SECOND LAW OF MOTION The first law refers to the simple case when the net external force on a body is zero. The second law of motion refers to the general situation when there is a net external force acting on the body. It relates the net external force to the acceleration of the body. Momentum Momentum of a body is defined to be the product of its mass m and velocity v, and is denoted by p: p = m v…",
+          "display": {
+            "board": "ncert",
+            "classLevel": 11,
+            "subject": "physics",
+            "language": "english",
+            "bookTitle": "Physics Part-I",
+            "volumeOrPart": "Part I",
+            "officialSourceUrl": "https://ncert.nic.in/textbook/pdf/keph104.pdf",
+            "unitType": "chapter",
+            "unitNumber": "4",
+            "unitTitle": "LAWS OF MOTION"
+          },
+          "displayFieldProvenance": {
+            "board": "verified_official",
+            "classLevel": "verified_official",
+            "subject": "verified_official",
+            "language": "verified_official",
+            "bookTitle": "verified_official",
+            "volumeOrPart": "verified_official",
+            "officialSourceUrl": "verified_official",
+            "unitType": "verified_official",
+            "unitNumber": "verified_official",
+            "unitTitle": "verified_official"
+          }
+        },
+        {
+          "schemaVersion": 1,
+          "evidenceId": "textbook:source:ncert-class-9-science-science-en-chapter-08-pdf",
+          "kind": "textbook",
+          "sourceId": "ncert-class-9-science-science-en-chapter-08-pdf",
+          "rank": 3,
+          "supportingChunkCount": 2,
+          "excerptChunkId": "ncert-class-9-science-science-en-chapter-08-pdf:0026",
+          "excerpt": "4.1 MATHEMATICAL FORMULATION OF SECOND LAW OF MOTION Suppose an object of mass, m is moving along a straight line with an initial velocity, u. It is uniformly accelerated to velocity, v in time, t by the application of a constant for ce, F throughout the time, t. The initial and final momentum of the object will be, p1 = mu and p2 = mv r espectively. The change in momentum ∝ p2 – p1 ∝ mv – mu ∝ m × (v – u). The rate…",
+          "display": {},
+          "displayFieldProvenance": {}
+        },
+        {
+          "schemaVersion": 1,
+          "evidenceId": "textbook:chapter:de0e19c1-a46b-419f-9c38-d49e3a1bc7a8",
+          "kind": "textbook",
+          "sourceId": "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf",
+          "chapterId": "de0e19c1-a46b-419f-9c38-d49e3a1bc7a8",
+          "rank": 4,
+          "supportingChunkCount": 1,
+          "excerptChunkId": "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf:0043",
+          "excerpt": "13.6 FORCE LAW FOR SIMPLE HARMONIC MOTION Using Newton’s second law of motion, and the expression for acceleration of a particle undergoing SHM (Eq. 13.11), the force acting on a particle of mass m in SHM is F (t ) = ma = –m ω2 x (t) i.e., F (t) = –k x (t) (13.13) where k = mω2 (13.14a) or ω = k m (13.14b) Like acceleration, force is always directed towards the mean position—hence it is sometimes called the restoring…",
+          "display": {
+            "board": "ncert",
+            "classLevel": 11,
+            "subject": "physics",
+            "language": "english",
+            "bookTitle": "Physics Part-II",
+            "volumeOrPart": "Part II",
+            "officialSourceUrl": "https://ncert.nic.in/textbook/pdf/keph206.pdf",
+            "unitType": "chapter",
+            "unitNumber": "13",
+            "unitTitle": "OSCILLATIONS"
+          },
+          "displayFieldProvenance": {
+            "board": "verified_official",
+            "classLevel": "verified_official",
+            "subject": "verified_official",
+            "language": "verified_official",
+            "bookTitle": "verified_official",
+            "volumeOrPart": "verified_official",
+            "officialSourceUrl": "verified_official",
+            "unitType": "verified_official",
+            "unitNumber": "verified_official",
+            "unitTitle": "verified_official"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "evidence": {
+            "schemaVersion": 1,
+            "evidenceId": "textbook:chapter:a8b6de05-6375-4e34-9794-ff0fd1c7326f",
+            "kind": "textbook",
+            "sourceId": "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf",
+            "chapterId": "a8b6de05-6375-4e34-9794-ff0fd1c7326f",
+            "rank": 1,
+            "supportingChunkCount": 2,
+            "excerptChunkId": "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:0012",
+            "excerpt": "4.5 NEWTON’S SECOND LAW OF MOTION The first law refers to the simple case when the net external force on a body is zero. The second law of motion refers to the general situation when there is a net external force acting on the body. It relates the net external force to the acceleration of the body. Momentum Momentum of a body is defined to be the product of its mass m and velocity v, and is denoted by p: p = m v…",
+            "display": {
+              "board": "ncert",
+              "classLevel": 11,
+              "subject": "physics",
+              "language": "english",
+              "bookTitle": "Physics Part-I",
+              "volumeOrPart": "Part I",
+              "officialSourceUrl": "https://ncert.nic.in/textbook/pdf/keph104.pdf",
+              "unitType": "chapter",
+              "unitNumber": "4",
+              "unitTitle": "LAWS OF MOTION"
+            },
+            "displayFieldProvenance": {
+              "board": "verified_official",
+              "classLevel": "verified_official",
+              "subject": "verified_official",
+              "language": "verified_official",
+              "bookTitle": "verified_official",
+              "volumeOrPart": "verified_official",
+              "officialSourceUrl": "verified_official",
+              "unitType": "verified_official",
+              "unitNumber": "verified_official",
+              "unitTitle": "verified_official"
+            }
+          },
+          "chunk": {
+            "id": "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:0012",
+            "source_id": "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf",
+            "content": "4.5 NEWTON’S SECOND LAW OF MOTION The first law refers to the simple case when the net external force on a body is zero. The second law of motion refers to the general situation when there is a net external force acting on the body. It relates the net external force to the acceleration of the body. Momentum Momentum of a body is defined to be the product of its mass m and velocity v, and is denoted by p: p = m v (4.1) Momentum is clearly a vector quantity. The following common experiences indicate the importance of this quantity for considering the effect of force on motion. • Suppose a light-weight vehicle (say a small car) and a heavy weight vehicle (say a loaded truck) are parked on a horizontal road. We all know that a much greater force is needed to push the truck than the car to bring them to the same speed in same time. Similarly, a greater opposing force is needed to stop a heavy body than a light body in the same time, if they are moving with the same speed. • If two stones, one light and the other heavy, are dropped from the top of a building, a person on the ground will find it easier to catch the light stone than the heavy stone. The mass of a body is thus an important parameter that determines the effect of force on its motion. • Speed is another important parameter to consider. A bullet fired by a gun can easily pierce human tissue before it stops, resulting in casualty. The same bullet fired with moderate speed will not cause much damage. Thus for a given mass, the greater the speed, the greater is the opposing force needed to stop the body in a certain time. T aken together, the product of mass and velocity, that is momentum, is evidently a relevant variable of motion. The greater the change in the momentum in a given time, the greater is the force that needs to be applied. • A seasoned cricketer catches a cricket ball coming in with great speed far more easily than a novice, who can hurt his hands in the",
+            "board": "ncert",
+            "class_level": 11,
+            "subject": "physics",
+            "chapter": "physics",
+            "language": "english",
+            "chunk_type": "bookback_exercise"
+          }
+        },
+        {
+          "evidence": {
+            "schemaVersion": 1,
+            "evidenceId": "textbook:source:ncert-class-9-science-science-en-chapter-08-pdf",
+            "kind": "textbook",
+            "sourceId": "ncert-class-9-science-science-en-chapter-08-pdf",
+            "rank": 3,
+            "supportingChunkCount": 2,
+            "excerptChunkId": "ncert-class-9-science-science-en-chapter-08-pdf:0026",
+            "excerpt": "4.1 MATHEMATICAL FORMULATION OF SECOND LAW OF MOTION Suppose an object of mass, m is moving along a straight line with an initial velocity, u. It is uniformly accelerated to velocity, v in time, t by the application of a constant for ce, F throughout the time, t. The initial and final momentum of the object will be, p1 = mu and p2 = mv r espectively. The change in momentum ∝ p2 – p1 ∝ mv – mu ∝ m × (v – u). The rate…",
+            "display": {},
+            "displayFieldProvenance": {}
+          },
+          "chunk": {
+            "id": "ncert-class-9-science-science-en-chapter-08-pdf:0026",
+            "source_id": "ncert-class-9-science-science-en-chapter-08-pdf",
+            "content": "4.1 MATHEMATICAL FORMULATION OF SECOND LAW OF MOTION Suppose an object of mass, m is moving along a straight line with an initial velocity, u. It is uniformly accelerated to velocity, v in time, t by the application of a constant for ce, F throughout the time, t. The initial and final momentum of the object will be, p1 = mu and p2 = mv r espectively. The change in momentum ∝ p2 – p1 ∝ mv – mu ∝ m × (v – u). The rate of change of momentum ∝ ( )× −m v u t Or, the applied force, F ∝ ( )× −m v u t ( )× −= km v u t F (8.2) = kma (8.3) Here a ∝ = [(v – u)/t] is the acceleration, which is the rate of change of velocity. The quantity, k is a constant of proportionality. The SI units of mass and acceleration are kg and m s -2 respectively. The unit of force is so chosen that the value of the constant, k becomes one. For this, one unit of force is defined as the amount that produces an acceleration of 1 m s-2 in an object of 1 kg mass. That is, 1 unit of force = k × (1 kg) × (1 m s-2). Thus, the value of k becomes 1. From Eq. (8.3) F = ma (8.4) The unit of force is kg m s -2 or newton, which has the symbol N. The second law of",
+            "board": "ncert",
+            "class_level": 9,
+            "subject": "science",
+            "chapter": "science",
+            "language": "english",
+            "chunk_type": "lesson_content"
+          }
+        },
+        {
+          "evidence": {
+            "schemaVersion": 1,
+            "evidenceId": "textbook:chapter:de0e19c1-a46b-419f-9c38-d49e3a1bc7a8",
+            "kind": "textbook",
+            "sourceId": "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf",
+            "chapterId": "de0e19c1-a46b-419f-9c38-d49e3a1bc7a8",
+            "rank": 4,
+            "supportingChunkCount": 1,
+            "excerptChunkId": "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf:0043",
+            "excerpt": "13.6 FORCE LAW FOR SIMPLE HARMONIC MOTION Using Newton’s second law of motion, and the expression for acceleration of a particle undergoing SHM (Eq. 13.11), the force acting on a particle of mass m in SHM is F (t ) = ma = –m ω2 x (t) i.e., F (t) = –k x (t) (13.13) where k = mω2 (13.14a) or ω = k m (13.14b) Like acceleration, force is always directed towards the mean position—hence it is sometimes called the restoring…",
+            "display": {
+              "board": "ncert",
+              "classLevel": 11,
+              "subject": "physics",
+              "language": "english",
+              "bookTitle": "Physics Part-II",
+              "volumeOrPart": "Part II",
+              "officialSourceUrl": "https://ncert.nic.in/textbook/pdf/keph206.pdf",
+              "unitType": "chapter",
+              "unitNumber": "13",
+              "unitTitle": "OSCILLATIONS"
+            },
+            "displayFieldProvenance": {
+              "board": "verified_official",
+              "classLevel": "verified_official",
+              "subject": "verified_official",
+              "language": "verified_official",
+              "bookTitle": "verified_official",
+              "volumeOrPart": "verified_official",
+              "officialSourceUrl": "verified_official",
+              "unitType": "verified_official",
+              "unitNumber": "verified_official",
+              "unitTitle": "verified_official"
+            }
+          },
+          "chunk": {
+            "id": "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf:0043",
+            "source_id": "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf",
+            "content": "13.6 FORCE LAW FOR SIMPLE HARMONIC MOTION Using Newton’s second law of motion, and the expression for acceleration of a particle undergoing SHM (Eq. 13.11), the force acting on a particle of mass m in SHM is F (t ) = ma = –m ω2 x (t) i.e., F (t) = –k x (t) (13.13) where k = mω2 (13.14a) or ω = k m (13.14b) Like acceleration, force is always directed towards the mean position—hence it is sometimes called the restoring force in SHM. To summarise the discussion so far, simple harmonic motion can be defined in two equivalent ways, either by Eq. (13.4) for displacement or by Eq. (13.13) that gives its force law. Going from Eq. (13.4) to Eq. (13.13) required us to differentiate two times. Likewise, by integrating the force law Eq. (13.13) two times, we can get back Eq. (13.4). Note that the force in Eq. (13.13) is linearly proportional to x(t). A particle oscillating under such a force is, therefore, calling a linear harmonic oscillator. In the real world, the force may contain small additional terms proportional to x2, x3, etc. These then are called non-linear oscillators. u Example 13.6 Two identical springs of spring constant k are attached to a block of mass m and to fixed supports as shown in Fig. 13.14. Show that when the mass is displaced from its equilibrium position on either side, it executes a simple harmonic motion. Find the period of oscillations. Fig. 13.13 Displacement, velocity and acceleration of a particle in simple harmonic motion have the same period T, but they differ in phase u Example 13.5 A body oscillates with SHM according to the equation (in SI units), x = 5 cos [2π t + π/4]. At t = 1.5 s, calculate the (a) displacement, (b) speed and (c) acceleration of the body. Answer The angular frequency ω of the body = 2π s–1 and its time period T = 1 s. At t = 1.5 s (a) displacement = (5.0 m) cos [(2 π s –1)× 1.5 s + π/4] = (5.0 m) cos [(3π + π/4)] = –5.0 × 0.707 m = –3.535 m",
+            "board": "ncert",
+            "class_level": 11,
+            "subject": "physics",
+            "chapter": "physics",
+            "language": "english",
+            "chunk_type": "bookback_exercise"
+          }
+        }
+      ],
+      "mindmap_fence_present": true
+    },
+    {
+      "name": "revolt",
+      "prompt": "The revolt of 1857",
+      "events": [
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "evidence",
+        "done"
+      ],
+      "answer": "The Revolt of 1857 was a significant event in Indian history, often regarded as the \"First War of Independence\" by nationalists. It began as a sepoy mutiny in Meerut on **May 10, 1857**, and quickly transformed into a widespread popular rebellion against British rule across many parts of India.\n\nHere's a breakdown of key aspects:\n\n1.  **Causes of the Revolt:**\n    *   **Economic Exploitation:** The British land revenue policies, such as the **Permanent Settlement**, **Ryotwari**, and **Mahalwari systems**, led to heavy taxation, dispossession of land from peasants and traditional landowners (like taluqdars in Awadh), and the rise of moneylenders. For example, in Awadh, the annexation by the British not only displaced the Nawab but also dispossessed the **taluqdars**, who had controlled land and power for generations. The first British revenue settlement after annexation further undermined their position.  Shah Mal's village in Barout also saw cultivators losing land due to the oppressive revenue system. \n    *   **Political Grievances:** The annexation of states like Awadh (which was seen as an \"alien order\") and the Doctrine of Lapse created widespread resentment among Indian rulers and the populace. The British were also unwilling to tolerate the power of the taluqdars, disarming them and destroying their forts after annexation. \n    *   **Social and Religious Factors:** The British interference in Indian customs, the activities of Christian missionaries, and the fear of conversion also contributed to unrest. The introduction of greased cartridges (rumored to be coated with animal fat) for the new Enfield rifles deeply offended both Hindu and Muslim sepoys, sparking the initial mutiny. Maulvi Ahmadullah Shah, for instance, preached **jihad** (religious war) against the British, indicating the religious dimension of the revolt. \n    *   **Military Grievances:** Indian sepoys faced discrimination, lower pay, and poor service conditions compared to their British counterparts.\n\n2.  **Key Leaders and Centres:**\n    *   **Delhi:** Bahadur Shah Zafar (nominal leader).\n    *   **Kanpur:** Nana Saheb, Tantia Tope.\n    *   **Lucknow:** Begum Hazrat Mahal, Maulvi Ahmadullah Shah. Maulvi Ahmadullah Shah was a prominent figure, known as **Danka Shah**, who preached rebellion and led the mutinous **22nd Native Infantry**. He fought in the **Battle of Chinhat** where British forces were defeated. \n    *   **Jhansi:** Rani Lakshmibai, who fought valiantly and became a symbol of resistance. \n    *   **Awadh:** The revolt was particularly widespread here, with peasants, taluqdars, and zamindars joining. \n    *   **Barout (Uttar Pradesh):** Shah Mal mobilized cultivators and headmen to rebel against the British, attacking government buildings and disrupting communication. He was locally acknowledged as the \"Raja.\" \n\n3.  **Nature of the Revolt:**\n    *   It was not merely a sepoy mutiny but quickly gained popular support, turning into a \"general revolt of the people.\" \n    *   The rebels targeted symbols of British rule, such as government buildings, bridges, and roads. \n    *   It also became a rebellion against local oppressors like moneylenders and traders, with cultivators plundering their houses. \n    *   The movement drew inspiration from the events of 1857, being celebrated as the \"First War of Independence\" in nationalist imagination. \n\n4.  **Suppression of the Revolt:**\n    *   The British responded with significant military force. Key events include the defeat of British forces in the Battle of Chinhat (June 30, 1857) and the entry of Havelock and Outram into the Residency in Lucknow (September 25, 1857). \n    *   Leaders like Shah Mal and Rani Jhansi were killed in battle in July 1857 and June 1858, respectively. \n\nThe Revolt of 1857, despite its ultimate failure, significantly impacted British policies and laid the groundwork for future nationalist movements in India.\n\n```mindmap\n{\"root\":\"Revolt of 1857\",\"subtitle\":\"Key Aspects & Causes\",\"nodes\":[{\"label\":\"Causes\",\"color\":\"red\",\"children\":[\"Economic Exploitation (land revenue, taluqdar dispossession)\",\"Political Grievances (annexation, Doctrine of Lapse)\",\"Social & Religious (greased cartridges, missionary activity)\",\"Military Grievances (discrimination, pay)\"]},{\"label\":\"Key Leaders\",\"color\":\"blue\",\"children\":[\"Bahadur Shah Zafar (Delhi)\",\"Nana Saheb (Kanpur)\",\"Begum Hazrat Mahal (Lucknow)\",\"Rani Lakshmibai (Jhansi)\",\"Maulvi Ahmadullah Shah (Lucknow)\",\"Shah Mal (Barout)\"]},{\"label\":\"Nature of Revolt\",\"color\":\"green\",\"children\":[\"Sepoy Mutiny to Popular Rebellion\",\"Targeted British symbols\",\"Against local oppressors\",\"First War of Independence\"]},{\"label\":\"Timeline\",\"color\":\"orange\",\"children\":[\"May 10, 1857: Meerut Mutiny\",\"May-June 1857: General Revolt\",\"June 30, 1857: Battle of Chinhat\",\"July 1857: Shah Mal killed\",\"June 1858: Rani Jhansi killed\"]}]}\n```\n\n**📘 Source:** NCERT Class 12 History • Revolt",
+      "evidence": [
+        {
+          "schemaVersion": 1,
+          "evidenceId": "textbook:chapter:50642cb7-fb1a-4249-93cd-052975b403ce",
+          "kind": "textbook",
+          "sourceId": "ncert-class-12-history-themes-in-indian-history-iii-en-chapter-02-pdf",
+          "chapterId": "50642cb7-fb1a-4249-93cd-052975b403ce",
+          "rank": 1,
+          "supportingChunkCount": 5,
+          "excerptChunkId": "ncert-class-12-history-themes-in-indian-history-iii-en-chapter-02-pdf:0021",
+          "excerpt": "THEMES IN INDIAN HISTORY – PART III268 and issues, traditions and loyalties worked themselves out in the revolt of 1857. In Awadh, more than anywhere else, the revolt became an expression of popular r esistance to an alien or der. The annexation displaced not just the Nawab. It also dispossessed the taluqdars of the region. The countryside of Awadh was dotted with the estates and forts of taluqdars who for many…",
+          "display": {
+            "board": "ncert",
+            "classLevel": 12,
+            "subject": "history",
+            "language": "english",
+            "bookTitle": "Themes in Indian History – Part III",
+            "volumeOrPart": "Part III",
+            "officialSourceUrl": "https://ncert.nic.in/textbook/pdf/lehs302.pdf",
+            "unitType": "theme",
+            "unitNumber": "10",
+            "unitTitle": "Rebels and the Raj: The Revolt of 1857 and Its Representations"
+          },
+          "displayFieldProvenance": {
+            "board": "verified_official",
+            "classLevel": "verified_official",
+            "subject": "verified_official",
+            "language": "verified_official",
+            "bookTitle": "verified_official",
+            "volumeOrPart": "verified_official",
+            "officialSourceUrl": "verified_official",
+            "unitType": "verified_official",
+            "unitNumber": "verified_official",
+            "unitTitle": "verified_official"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "evidence": {
+            "schemaVersion": 1,
+            "evidenceId": "textbook:chapter:50642cb7-fb1a-4249-93cd-052975b403ce",
+            "kind": "textbook",
+            "sourceId": "ncert-class-12-history-themes-in-indian-history-iii-en-chapter-02-pdf",
+            "chapterId": "50642cb7-fb1a-4249-93cd-052975b403ce",
+            "rank": 1,
+            "supportingChunkCount": 5,
+            "excerptChunkId": "ncert-class-12-history-themes-in-indian-history-iii-en-chapter-02-pdf:0021",
+            "excerpt": "THEMES IN INDIAN HISTORY – PART III268 and issues, traditions and loyalties worked themselves out in the revolt of 1857. In Awadh, more than anywhere else, the revolt became an expression of popular r esistance to an alien or der. The annexation displaced not just the Nawab. It also dispossessed the taluqdars of the region. The countryside of Awadh was dotted with the estates and forts of taluqdars who for many…",
+            "display": {
+              "board": "ncert",
+              "classLevel": 12,
+              "subject": "history",
+              "language": "english",
+              "bookTitle": "Themes in Indian History – Part III",
+              "volumeOrPart": "Part III",
+              "officialSourceUrl": "https://ncert.nic.in/textbook/pdf/lehs302.pdf",
+              "unitType": "theme",
+              "unitNumber": "10",
+              "unitTitle": "Rebels and the Raj: The Revolt of 1857 and Its Representations"
+            },
+            "displayFieldProvenance": {
+              "board": "verified_official",
+              "classLevel": "verified_official",
+              "subject": "verified_official",
+              "language": "verified_official",
+              "bookTitle": "verified_official",
+              "volumeOrPart": "verified_official",
+              "officialSourceUrl": "verified_official",
+              "unitType": "verified_official",
+              "unitNumber": "verified_official",
+              "unitTitle": "verified_official"
+            }
+          },
+          "chunk": {
+            "id": "ncert-class-12-history-themes-in-indian-history-iii-en-chapter-02-pdf:0021",
+            "source_id": "ncert-class-12-history-themes-in-indian-history-iii-en-chapter-02-pdf",
+            "content": "THEMES IN INDIAN HISTORY – PART III268 and issues, traditions and loyalties worked themselves out in the revolt of 1857. In Awadh, more than anywhere else, the revolt became an expression of popular r esistance to an alien or der. The annexation displaced not just the Nawab. It also dispossessed the taluqdars of the region. The countryside of Awadh was dotted with the estates and forts of taluqdars who for many generations had controlled land and power in the countryside. Before the coming of the British, taluqdars maintained armed retainers, built forts, and enjoyed a degree of autonomy, as long as they accepted the suzerainty of the Nawab and paid the revenue of their taluqs. Some of the bigger taluqdars had as many as 12,000 footsoldiers and even the smaller ones had about 200. The British were unwilling to tolerate the power of the taluqdars. Immediately after the annexation, the taluqdars were disarmed and their forts destroyed. The British land revenue policy further undermined the position and authority of the taluqdars . After annexation, the first British revenue settlement, known as the",
+            "board": "ncert",
+            "class_level": 12,
+            "subject": "history",
+            "chapter": "history",
+            "language": "english",
+            "chunk_type": "lesson_content"
+          }
+        }
+      ],
+      "mindmap_fence_present": true
+    },
+    {
+      "name": "revolt_causes",
+      "prompt": "Explain the causes of the Revolt of 1857",
+      "events": [
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "done"
+      ],
+      "answer": "The Revolt of **1857**, often called the First War of Indian Independence or the Sepoy Mutiny, was a major uprising against British rule in India. It was sparked by a combination of various factors that had been accumulating over many years.\n\nHere are the main causes:\n\n1.  **Political Causes:**\n    *   **Doctrine of Lapse:** Lord Dalhousie's policy of annexing Indian states whose rulers died without a natural male heir. States like **Satara, Nagpur, Jhansi,** and **Awadh** were annexed, leading to widespread resentment among Indian rulers and the general public.\n    *   **Subsidiary Alliance:** Introduced by Lord Wellesley, this system forced Indian rulers to disband their own armies and accept British forces, losing their sovereignty and control over their external affairs.\n    *   **Disrespect towards Mughal Emperor:** The British gradually undermined the authority of the Mughal Emperor, Bahadur Shah Zafar, even announcing that his successors would not be allowed to live in the Red Fort. This hurt the sentiments of many Indians who still viewed the Mughal Emperor as a symbolic head.\n\n2.  **Economic Causes:**\n    *   **Exploitation of Resources:** The British exploited India's resources for their own benefit, leading to the ruin of Indian trade and industries, especially textiles.\n    *   **Heavy Taxation:** Farmers were subjected to exorbitant land revenue demands, leading to poverty and indebtedness. The new land revenue settlements often dispossessed traditional landowners.\n    *   **Destruction of Traditional Industries:** British manufactured goods flooded the Indian markets, destroying indigenous handicrafts and industries and leading to widespread unemployment.\n\n3.  **Social and Religious Causes:**\n    *   **Interference in Social Customs:** The British introduced reforms like the abolition of **Sati** (1829), the Widow Remarriage Act (1856), and promoting Western education, which were seen by many orthodox Indians as interference in their traditional social and religious practices.\n    *   **Fear of Conversion:** Christian missionary activities were viewed with suspicion, and there was a fear that the British intended to convert Indians to Christianity.\n    *   **Racial Discrimination:** The British maintained a superior attitude towards Indians, leading to discrimination in public places, administration, and the army.\n\n4.  **Military Causes:**\n    *   **Discrimination against Indian Sepoys:** Indian sepoys were paid less, had fewer opportunities for promotion, and were treated with contempt by their British officers.\n    *   **General Service Enlistment Act (1856):** This act required new recruits to serve overseas if required, which was against the religious beliefs of many Hindu sepoys who considered sea travel a defilement.\n    *   **The Greased Cartridges:** The immediate trigger for the revolt was the rumour that the cartridges for the new Enfield rifles were greased with animal fat (cow and pig fat), which was offensive to both Hindu and Muslim sepoys. This ignited the mutiny at Meerut.\n\nThese various grievances, building up over decades, created a fertile ground for rebellion, which eventually erupted into the widespread Revolt of 1857.\n\n```mindmap\n{\"root\":\"Causes of Revolt of 1857\",\"subtitle\":\"First War of Indian Independence\",\"nodes\":[{\"label\":\"Political\",\"color\":\"red\",\"children\":[\"Doctrine of Lapse\",\"Subsidiary Alliance\",\"Disrespect to Mughals\"]},{\"label\":\"Economic\",\"color\":\"blue\",\"children\":[\"Exploitation of resources\",\"Heavy taxation\",\"Ruin of industries\"]},{\"label\":\"Social & Religious\",\"color\":\"green\",\"children\":[\"Interference in customs\",\"Fear of conversion\",\"Racial discrimination\"]},{\"label\":\"Military\",\"color\":\"purple\",\"children\":[\"Discrimination against sepoys\",\"General Service Enlistment Act\",\"Greased cartridges\"]}]}\n```",
+      "evidence": [],
+      "sources": [],
+      "mindmap_fence_present": true
+    },
+    {
+      "name": "tnpsc_dpsp",
+      "prompt": "Explain Directive Principles of State Policy for TNPSC",
+      "events": [
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "evidence",
+        "done"
+      ],
+      "answer": "கண்டிப்பாக! Directive Principles of State Policy (DPSP) பற்றி விரிவாகப் பார்க்கலாம். இது TNPSC தேர்வுகளுக்கு மிக முக்கியமான ஒரு பகுதி.\n\n**Directive Principles of State Policy (DPSP) என்றால் என்ன?**\n\nDirective Principles of State Policy (DPSP) என்பது இந்திய அரசியலமைப்பின் பகுதி **IV** இல், **சரத்துகள் 36 முதல் 51** வரை குறிப்பிடப்பட்டுள்ள வழிகாட்டு நெறிமுறைகள். நமது அரசியலமைப்பை உருவாக்கியவர்கள், சுதந்திர இந்தியா பல சவால்களை எதிர்கொள்ளும் என்பதை அறிந்திருந்தனர். அனைத்து குடிமக்களுக்கும் சமத்துவத்தையும், நல்வாழ்வையும் கொண்டு வருவது இதில் மிக முக்கியமானது. இதற்காக, சில கொள்கை வழிகாட்டுதல்கள் தேவை என்று அவர்கள் கருதினார்கள் .\n\n**முக்கிய அம்சங்கள்:**\n\n1.  **சட்டபூர்வமாக செயல்படுத்த முடியாதவை (Non-Justiciable):** DPSP-கள் சட்டபூர்வமாக நீதிமன்றங்களால் செயல்படுத்த முடியாதவை. அதாவது, ஒரு அரசு இந்த நெறிமுறைகளைச் செயல்படுத்தத் தவறினால், அதை நீதிமன்றத்தில் கேள்வி கேட்க முடியாது .\n2.  **அரசுகளுக்கு வழிகாட்டுதல்:** இவை அரசுகளுக்கு (மத்திய, மாநில அரசுகள்) கொள்கைகளை உருவாக்கும்போதும், சட்டங்களை இயற்றும்போதும் பின்பற்ற வேண்டிய வழிகாட்டுதல்களாகும். ஒரு சமூகமாக நாம் அடைய வேண்டிய இலக்குகள், அடிப்படை உரிமைகளுக்கு அப்பால் தனிநபர்கள் அனுபவிக்க வேண்டிய உரிமைகள், மற்றும் அரசு பின்பற்ற வேண்டிய கொள்கைகள் ஆகியவற்றை DPSP-கள் பட்டியலிடுகின்றன .\n3.  **சமூக நலனை நோக்கியவை:** DPSP-கள் தனிநபர்களின் உரிமைகளைப் பாதுகாப்பதற்குப் பதிலாக, முழு சமூகத்தின் நல்வாழ்வை உறுதி செய்கின்றன. இதன் மூலம் ஒரு நியாயமான சமூகத்தை உருவாக்க அரசுக்கு உதவுகின்றன .\n4.  **அரசியலமைப்பின் தொலைநோக்கு:** நமது அரசியலமைப்பை உருவாக்கியவர்களின் தொலைநோக்குப் பார்வையை DPSP-கள் பிரதிபலிக்கின்றன .\n\n**DPSP-களின் உள்ளடக்கம் (முக்கிய வகைகள்):**\n\nஅரசியலமைப்பில் DPSP-களுக்கு எந்த வகைப்பாடும் இல்லை என்றாலும், அவற்றின் உள்ளடக்கம் மற்றும் திசையின் அடிப்படையில் பொதுவாக மூன்று வகைகளாகப் பிரிக்கப்படுகின்றன:\n\n1.  **சோசலிசக் கொள்கைகள் (Socialistic Principles):** சமூக மற்றும் பொருளாதார நீதியை வழங்குவதை நோக்கமாகக் கொண்டவை.\n    *   குடிமக்கள் அனைவருக்கும் வாழ்வாதாரத்திற்கான போதுமான வழிகளைப் பாதுகாத்தல்.\n    *   செல்வம் மற்றும் உற்பத்திச் சாதனங்கள் ஒரு சிலரிடம் குவிவதைத் தடுத்தல்.\n    *   ஆண்கள் மற்றும் பெண்களுக்கு சம வேலைக்கு சம ஊதியம்.\n    *   குழந்தைகள் மற்றும் இளைஞர்களின் சுரண்டலைத் தடுத்தல்.\n    *   வேலை செய்வதற்கான உரிமை, கல்விக்கான உரிமை, வேலையின்மை, முதுமை, நோய் மற்றும் இயலாமை போன்ற சந்தர்ப்பங்களில் பொது உதவிக்கான உரிமை.\n2.  **காந்தியக் கொள்கைகள் (Gandhian Principles):** காந்தியக் கோட்பாடுகளைப் பிரதிபலிப்பவை.\n    *   கிராம பஞ்சாயத்துகளை அமைத்தல் மற்றும் அவற்றுக்கு அதிகாரம் அளித்தல் .\n    *   கிராமப்புறங்களில் குடிசைத் தொழில்களை ஊக்குவித்தல்.\n    *   மது மற்றும் தீங்கு விளைவிக்கும் மருந்துப் பொருட்களின் பயன்பாட்டைத் தடை செய்தல்.\n    *   பசுவதையைத் தடை செய்தல்.\n3.  **தாராளவாத-அறிவுசார் கொள்கைகள் (Liberal-Intellectual Principles):** தாராளவாதக் கருத்தியல்களைப் பிரதிபலிப்பவை.\n    *   குடிமக்கள் அனைவருக்கும் ஒரே மாதிரியான சிவில் சட்டம் (Uniform Civil Code).\n    *   6 வயதுக்குட்பட்ட குழந்தைகளுக்கு ஆரம்பகால குழந்தைப்பராமரிப்பு மற்றும் கல்வி வழங்குதல்.\n    *   நீதித்துறை மற்றும் நிர்வாகத்தைப் பிரித்தல்.\n    *   சர்வதேச அமைதி மற்றும் பாதுகாப்பை ஊக்குவித்தல்.\n\n**DPSP-கள் மற்றும் அடிப்படை உரிமைகள் இடையேயான மோதல்:**\n\nஅரசு DPSP-களைச் செயல்படுத்த முயற்சிக்கும்போது, சில சமயங்களில் அது குடிமக்களின் அடிப்படை உரிமைகளுடன் மோதக்கூடும். எடுத்துக்காட்டாக, ஜமீன்தாரி முறையை ஒழிக்க அரசு சட்டங்களை இயற்றியபோது, அது சொத்துரிமையை மீறுவதாகக் கூறி எதிர்க்கப்பட்டது. இருப்பினும், தனிப்பட்ட நலன்களை விட சமூகத் தேவைகள் பெரியவை என்பதைக் கருத்தில் கொண்டு, DPSP-களைச் செயல்படுத்த அரசியலமைப்பு திருத்தப்பட்டது .\n\n**சொத்துரிமை மற்றும் DPSP:**\n\nசொத்துரிமை முதலில் ஒரு அடிப்படை உரிமையாக இருந்தது. ஆனால், DPSP-களைச் செயல்படுத்துவதில் இது ஒரு தடையாக இருந்தது. 1973-ல், உச்ச நீதிமன்றம் சொத்துரிமை அரசியலமைப்பின் அடிப்படைக் கட்டமைப்பின் ஒரு பகுதி அல்ல என்று தீர்ப்பளித்தது. பின்னர், **1978-ல் 44வது அரசியலமைப்புத் திருத்தச் சட்டம்** மூலம், சொத்துரிமை அடிப்படை உரிமைகள் பட்டியலிலிருந்து நீக்கப்பட்டு, **சரத்து 300A** இன் கீழ் ஒரு சாதாரண சட்ட உரிமையாக மாற்றப்பட்டது .\n\n**DPSP-களின் முக்கியத்துவம்:**\n\n*   இந்தியாவை ஒரு நலன்புரி அரசாக மாற்றுவதற்கு இவை ஒரு வரைபடமாகச் செயல்படுகின்றன.\n*   சமூக, பொருளாதார மற்றும் அரசியல் ஜனநாயகத்தை உறுதி செய்கின்றன.\n*   அரசு தனது கொள்கைகளை வகுக்கும்போது ஒரு தார்மீக வழிகாட்டியாகச் செயல்படுகின்றன.\n\nTNPSC தேர்வுகளைப் பொறுத்தவரை, DPSP-களின் சரத்துகள், அவற்றின் முக்கியத்துவம், மற்றும் அடிப்படை உரிமைகளுடன் அவை எவ்வாறு தொடர்புபடுகின்றன என்பதில் கவனம் செலுத்துவது அவசியம்.\n\n```mindmap\n{\"root\":\"Directive Principles of State Policy (DPSP)\",\"subtitle\":\"Part IV · Art 36-51\",\"nodes\":[{\"label\":\"Nature\",\"color\":\"teal\",\"children\":[\"Non-Justiciable\",\"Guidelines for Government\",\"Promote Social Welfare\"]},{\"label\":\"Goals\",\"color\":\"blue\",\"children\":[\"Social & Economic Justice\",\"Welfare State\",\"Moral Force for Govt\"]},{\"label\":\"Key Principles\",\"color\":\"orange\",\"children\":[\"Socialistic\",\"Gandhian\",\"Liberal-Intellectual\"]},{\"label\":\"Conflict with FRs\",\"color\":\"purple\",\"children\":[\"Zamindari Abolition\",\"Right to Property (Art 300A)\"]},{\"label\":\"Examples of Implementation\",\"color\":\"green\",\"children\":[\"Panchayati Raj (Art 40)\",\"Nationalisation of Banks\",\"Minimum Wages Act\"]}]}\n```\n\n**📘 Source:** NCERT Class 11 Political Science • Directive Principles Policy",
+      "evidence": [
+        {
+          "schemaVersion": 1,
+          "evidenceId": "textbook:chapter:28afa835-e1aa-44c3-91ef-c57c1958b964",
+          "kind": "textbook",
+          "sourceId": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf",
+          "chapterId": "28afa835-e1aa-44c3-91ef-c57c1958b964",
+          "rank": 1,
+          "supportingChunkCount": 2,
+          "excerptChunkId": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf:0022",
+          "excerpt": "46 Indian Constitution at Work Principles exhort the government to do certain things. Fundamental Rights mainly protect the rights of individuals while directive principles ensure the well-being of the entire society. However, at times, when gover nment intends to implement Directive Principles of State Policy, it can come in conflict with the Fundamental Rights of the citizen. This problem arose when the government…",
+          "display": {
+            "board": "ncert",
+            "classLevel": 11,
+            "subject": "political-science",
+            "language": "english",
+            "bookTitle": "India Constitution at Work",
+            "officialSourceUrl": "https://ncert.nic.in/textbook/pdf/keps202.pdf"
+          },
+          "displayFieldProvenance": {
+            "board": "verified_official",
+            "classLevel": "verified_official",
+            "subject": "verified_official",
+            "language": "verified_official",
+            "bookTitle": "verified_official",
+            "officialSourceUrl": "verified_official"
+          }
+        },
+        {
+          "schemaVersion": 1,
+          "evidenceId": "textbook:source:ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-06-pdf",
+          "kind": "textbook",
+          "sourceId": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-06-pdf",
+          "rank": 3,
+          "supportingChunkCount": 1,
+          "excerptChunkId": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-06-pdf:0037",
+          "excerpt": "162 Exploring Society: India and Beyond | Grade 7 Part 2 DON’T MISS OUT One of the Directive Principles of State Policy listed in the Constitution was: “The state shall take steps to organise village panchayats and endow them with such powers and authority as may be necessary to enable them to function as units of self-government.” In the early 1990s, the Constitution was amended to create the panchayati raj system…",
+          "display": {},
+          "displayFieldProvenance": {}
+        },
+        {
+          "schemaVersion": 1,
+          "evidenceId": "textbook:chapter:5fe4871f-759b-4f4e-9efd-ee8063a16fca",
+          "kind": "textbook",
+          "sourceId": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-01-pdf",
+          "chapterId": "5fe4871f-759b-4f4e-9efd-ee8063a16fca",
+          "rank": 4,
+          "supportingChunkCount": 1,
+          "excerptChunkId": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-01-pdf:0009",
+          "excerpt": "8 Indian Constitution at Work provisions have the support of the Preamble to our Constitution, and these provisions are found in the section on Fundamental Rights. The Directive Principles of State of Policy also enjoin government to fulfil certain aspirations of the people. The fourth function of a constitution is to enable the government to fulfil the aspirations of a society and create conditions for a just…",
+          "display": {
+            "board": "ncert",
+            "classLevel": 11,
+            "subject": "political-science",
+            "language": "english",
+            "bookTitle": "India Constitution at Work",
+            "officialSourceUrl": "https://ncert.nic.in/textbook/pdf/keps201.pdf"
+          },
+          "displayFieldProvenance": {
+            "board": "verified_official",
+            "classLevel": "verified_official",
+            "subject": "verified_official",
+            "language": "verified_official",
+            "bookTitle": "verified_official",
+            "officialSourceUrl": "verified_official"
+          }
+        },
+        {
+          "schemaVersion": 1,
+          "evidenceId": "textbook:source:ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-10-pdf",
+          "kind": "textbook",
+          "sourceId": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-10-pdf",
+          "rank": 6,
+          "supportingChunkCount": 1,
+          "excerptChunkId": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-10-pdf:0024",
+          "excerpt": "221 Governance and Democracy 10 – The Constitution of India — An Introduction DON’T MISS OUT Directive Principles are goals that the government should try to achieve. They reflect the direction they wished the country take to make India better for all; for example, everybody in the country must have a good standard of living. But if the government does not make efforts to follow this, one cannot go to a judge and…",
+          "display": {},
+          "displayFieldProvenance": {}
+        }
+      ],
+      "sources": [
+        {
+          "evidence": {
+            "schemaVersion": 1,
+            "evidenceId": "textbook:chapter:28afa835-e1aa-44c3-91ef-c57c1958b964",
+            "kind": "textbook",
+            "sourceId": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf",
+            "chapterId": "28afa835-e1aa-44c3-91ef-c57c1958b964",
+            "rank": 1,
+            "supportingChunkCount": 2,
+            "excerptChunkId": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf:0022",
+            "excerpt": "46 Indian Constitution at Work Principles exhort the government to do certain things. Fundamental Rights mainly protect the rights of individuals while directive principles ensure the well-being of the entire society. However, at times, when gover nment intends to implement Directive Principles of State Policy, it can come in conflict with the Fundamental Rights of the citizen. This problem arose when the government…",
+            "display": {
+              "board": "ncert",
+              "classLevel": 11,
+              "subject": "political-science",
+              "language": "english",
+              "bookTitle": "India Constitution at Work",
+              "officialSourceUrl": "https://ncert.nic.in/textbook/pdf/keps202.pdf"
+            },
+            "displayFieldProvenance": {
+              "board": "verified_official",
+              "classLevel": "verified_official",
+              "subject": "verified_official",
+              "language": "verified_official",
+              "bookTitle": "verified_official",
+              "officialSourceUrl": "verified_official"
+            }
+          },
+          "chunk": {
+            "id": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf:0022",
+            "source_id": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf",
+            "content": "46 Indian Constitution at Work Principles exhort the government to do certain things. Fundamental Rights mainly protect the rights of individuals while directive principles ensure the well-being of the entire society. However, at times, when gover nment intends to implement Directive Principles of State Policy, it can come in conflict with the Fundamental Rights of the citizen. This problem arose when the government sought to pass laws to abolish zamindari system. These measures were opposed on the ground that they violated right to property. However, keeping in mind the societal needs that are greater than the individual interests, the government amended the Constitution to give effect to the Directive Principles of State Policy. This led to a long legal battle. The executive and the judiciary took different positions. The government claimed that rights can be abridged for giving effect to Directive Principles. This argument assumed that rights were a hindrance to welfare of the people. On the other hand, the court held the view that Fundamental Rights were so important and sacred that they cannot be limited even for purposes of implementing Directive Principles. Right to Property Behind the controversy about the relationship between rights and directive principles, there was one important reason: in the Constitution, originally, there was a fundamental right to ‘acquire, possess and maintain’ property. But the Constitution made it clear that property could be taken away by the government for public welfare. Since 1950, government made many laws that limited this right to property. This right was at the centre of the long debate over the relationship between rights and directive principles. Finally, in 1973, the Supreme Court gave a decision that the right to property was not part of the basic structure of the Constitution and therefore, parliament had power to abridge this right by an amendment. In 1978, the 44th amendment to the Constitution removed the right to property from the list of Fundamental Rights and converted it into a simple legal right under article 300 A. What difference, do you think, this change of status makes to the right to property?",
+            "board": "ncert",
+            "class_level": 11,
+            "subject": "political-science",
+            "chapter": "political-science",
+            "language": "english",
+            "chunk_type": "bookback_exercise"
+          }
+        },
+        {
+          "evidence": {
+            "schemaVersion": 1,
+            "evidenceId": "textbook:source:ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-06-pdf",
+            "kind": "textbook",
+            "sourceId": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-06-pdf",
+            "rank": 3,
+            "supportingChunkCount": 1,
+            "excerptChunkId": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-06-pdf:0037",
+            "excerpt": "162 Exploring Society: India and Beyond | Grade 7 Part 2 DON’T MISS OUT One of the Directive Principles of State Policy listed in the Constitution was: “The state shall take steps to organise village panchayats and endow them with such powers and authority as may be necessary to enable them to function as units of self-government.” In the early 1990s, the Constitution was amended to create the panchayati raj system…",
+            "display": {},
+            "displayFieldProvenance": {}
+          },
+          "chunk": {
+            "id": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-06-pdf:0037",
+            "source_id": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-06-pdf",
+            "content": "162 Exploring Society: India and Beyond | Grade 7 Part 2 DON’T MISS OUT One of the Directive Principles of State Policy listed in the Constitution was: “The state shall take steps to organise village panchayats and endow them with such powers and authority as may be necessary to enable them to function as units of self-government.” In the early 1990s, the Constitution was amended to create the panchayati raj system and the system of municipalities for towns and cities. Together , these made local governments the ‘third tier’ of India’s democracy, the other two being the union and state governments. This was done to strengthen democracy at the grassroots and enable people to participate directly in decision-making. What is decentralisation? ‘Decentralisation’ means that power and decision-making are spread out and not concentrated in just one place or one small group. Local problems should be solved locally, and bigger issues can be solved by higher-level governments such as the state or the central government. THINK ABOUT IT If a streetlamp in your neighbourhood is broken, who would you contact to fix it? If a village road needs to be repaired, would the local people reach out to the Central Government? LET’S EXPLORE What might be the reasons that decisions regarding local concerns should be taken locally to the extent possible? Generally, decisions regarding local matters are taken at the level closest to the people. Tasks that can be performed locally should be left in the hands of the local people and their representatives. The local municipal body can do it faster . Chapter 6.indd 162Chapter 6.indd 162 11/27/2025 12:30:51 PM11/27/2025 12:30:51 PM",
+            "board": "ncert",
+            "class_level": 7,
+            "subject": "social-science",
+            "chapter": "social-science",
+            "language": "english",
+            "chunk_type": "lesson_content"
+          }
+        },
+        {
+          "evidence": {
+            "schemaVersion": 1,
+            "evidenceId": "textbook:chapter:5fe4871f-759b-4f4e-9efd-ee8063a16fca",
+            "kind": "textbook",
+            "sourceId": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-01-pdf",
+            "chapterId": "5fe4871f-759b-4f4e-9efd-ee8063a16fca",
+            "rank": 4,
+            "supportingChunkCount": 1,
+            "excerptChunkId": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-01-pdf:0009",
+            "excerpt": "8 Indian Constitution at Work provisions have the support of the Preamble to our Constitution, and these provisions are found in the section on Fundamental Rights. The Directive Principles of State of Policy also enjoin government to fulfil certain aspirations of the people. The fourth function of a constitution is to enable the government to fulfil the aspirations of a society and create conditions for a just…",
+            "display": {
+              "board": "ncert",
+              "classLevel": 11,
+              "subject": "political-science",
+              "language": "english",
+              "bookTitle": "India Constitution at Work",
+              "officialSourceUrl": "https://ncert.nic.in/textbook/pdf/keps201.pdf"
+            },
+            "displayFieldProvenance": {
+              "board": "verified_official",
+              "classLevel": "verified_official",
+              "subject": "verified_official",
+              "language": "verified_official",
+              "bookTitle": "verified_official",
+              "officialSourceUrl": "verified_official"
+            }
+          },
+          "chunk": {
+            "id": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-01-pdf:0009",
+            "source_id": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-01-pdf",
+            "content": "8 Indian Constitution at Work provisions have the support of the Preamble to our Constitution, and these provisions are found in the section on Fundamental Rights. The Directive Principles of State of Policy also enjoin government to fulfil certain aspirations of the people. The fourth function of a constitution is to enable the government to fulfil the aspirations of a society and create conditions for a just society. Enabling provisions of the Constitution Constitutions are not only rules and regulations controlling the powers of the government. They also give powers to the government for pursuing collective good of the society. ± Constitution of South Africa assigns many responsibilities to the government: it wants the government to take measures to promote conservation of nature, make efforts to protect persons or groups subjected to unfair discrimination, and provides that the government must progressively ensure adequate housing to all, health care, etc. ± In the case of Indonesia also, the government is enjoined to establish and conduct national education system. The Indonesian Constitution ensures that the poor and destitute children will be looked after by the government. Fundamental identity of a people Finally, and perhaps even most importantly, a constitution expresses the fundamental identity of a people. This means the people as a collective entity come into being only through the basic constitution. It is by agreeing to a basic set of norms about how one should be governed, and who should be governed that one forms a collective identity. One has many sets of identities that exist prior to a constitution. But by What does it take to write nice things in the constitution? What is the point in writing down lofty aspirations and goals if they cannot change the life of the people?",
+            "board": "ncert",
+            "class_level": 11,
+            "subject": "political-science",
+            "chapter": "political-science",
+            "language": "english",
+            "chunk_type": "bookback_exercise"
+          }
+        },
+        {
+          "evidence": {
+            "schemaVersion": 1,
+            "evidenceId": "textbook:source:ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-10-pdf",
+            "kind": "textbook",
+            "sourceId": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-10-pdf",
+            "rank": 6,
+            "supportingChunkCount": 1,
+            "excerptChunkId": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-10-pdf:0024",
+            "excerpt": "221 Governance and Democracy 10 – The Constitution of India — An Introduction DON’T MISS OUT Directive Principles are goals that the government should try to achieve. They reflect the direction they wished the country take to make India better for all; for example, everybody in the country must have a good standard of living. But if the government does not make efforts to follow this, one cannot go to a judge and…",
+            "display": {},
+            "displayFieldProvenance": {}
+          },
+          "chunk": {
+            "id": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-10-pdf:0024",
+            "source_id": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-10-pdf",
+            "content": "221 Governance and Democracy 10 – The Constitution of India — An Introduction DON’T MISS OUT Directive Principles are goals that the government should try to achieve. They reflect the direction they wished the country take to make India better for all; for example, everybody in the country must have a good standard of living. But if the government does not make efforts to follow this, one cannot go to a judge and complain about it. The DPSP are more like guidelines than strict rules. Fundamental Rights, on the other hand are promises that must be kept. If someone treats you unfairly because of who you are, you can actually go to court and the judge can help you. The people who wrote our Constitution created this system on purpose. They wanted some rights that could be demanded immediately (Fundamental Rights) and some bigger goals (Directive Principles) that might take time to achieve as our country progressed. LET’S EXPLORE Read the quotation given below. Which article of the Constitution do you think she was referring to? Why do you think she said that the equality of women was not a new concept for India? Discuss in the class. Sir , the women of India are happy to step into their rightful heritage of complete equality with men in all spheres of life and activity. I say so because I am convinced that this is no new concept which has been postulated for the purposes of this Constitution, but is an ideal that has long been cherished by India, though social conditions for some time had tragically debased it in practice. This Constitution affirms that ideal and gives the solemn assurance that the rights of women in law will be wholly honoured in the Indian Republic. — Begum Aizaz Rasul, 22 November 1949, during the Constituent Assembly’s debates Chapter 10.indd 221Chapter 10.indd 221 08-04-2025 12:55:0208-04-2025 12:55:02",
+            "board": "ncert",
+            "class_level": 7,
+            "subject": "social-science",
+            "chapter": "social-science",
+            "language": "english",
+            "chunk_type": "activity"
+          }
+        }
+      ],
+      "mindmap_fence_present": true
+    },
+    {
+      "name": "five_kingdom",
+      "prompt": "Explain the five kingdom classification",
+      "events": [
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "evidence",
+        "done"
+      ],
+      "answer": "The **Five Kingdom Classification** system was proposed by **R.H. Whittaker** in **1969**. This system categorizes all living organisms into five main kingdoms: Monera, Protista, Fungi, Plantae, and Animalia. \n\nWhittaker's classification was a significant development because earlier systems, like the two-kingdom classification by Linnaeus, often grouped organisms with very different characteristics together . For example, earlier systems placed bacteria, blue-green algae, and fungi all under 'Plants' simply because they had a cell wall, despite their vast differences in cell structure and mode of nutrition .\n\nThe main criteria Whittaker used for this classification include:\n1.  **Cell structure:** Whether the cell is prokaryotic or eukaryotic.\n2.  **Body organisation:** From unicellular to multicellular with tissues and organs.\n3.  **Mode of nutrition:** Autotrophic (photosynthetic or chemosynthetic) or heterotrophic (saprophytic, parasitic, holozoic).\n4.  **Reproduction:** How organisms reproduce.\n5.  **Phylogenetic relationships:** Evolutionary relationships between organisms. \n\nHere's a breakdown of each kingdom:\n\n1.  **Monera:**\n    *   **Cell type:** Prokaryotic.\n    *   **Cell wall:** Non-cellulosic (made of polysaccharide + amino acid).\n    *   **Nuclear membrane:** Absent.\n    *   **Body organisation:** Cellular.\n    *   **Mode of nutrition:** Autotrophic (chemosynthetic and photosynthetic) and Heterotrophic (saprophytic/parasitic).\n    *   **Examples:** Bacteria (including blue-green algae or cyanobacteria). \n    *   **Key point:** They show the most extensive metabolic diversity. \n\n2.  **Protista:**\n    *   **Cell type:** Eukaryotic.\n    *   **Cell wall:** Present in some.\n    *   **Nuclear membrane:** Present.\n    *   **Body organisation:** Cellular (single-celled eukaryotes).\n    *   **Mode of nutrition:** Autotrophic (photosynthetic) and Heterotrophic.\n    *   **Examples:** Chrysophytes, Dinoflagellates, Euglenoids, Slime-moulds, and Protozoans. \n    *   **Key point:** They have a defined nucleus and other membrane-bound organelles. They reproduce both asexually and sexually. \n\n3.  **Fungi:**\n    *   **Cell type:** Eukaryotic.\n    *   **Cell wall:** Present, made of chitin.\n    *   **Nuclear membrane:** Present.\n    *   **Body organisation:** Multicellular/loose tissue.\n    *   **Mode of nutrition:** Heterotrophic (saprophytic/parasitic).\n    *   **Examples:** Phycomycetes, Ascomycetes, Basidiomycetes, and Deuteromycetes. \n    *   **Key point:** They show a great diversity in structures and habitat. \n\n4.  **Plantae:**\n    *   **Cell type:** Eukaryotic.\n    *   **Cell wall:** Present, made of cellulose.\n    *   **Nuclear membrane:** Present.\n    *   **Body organisation:** Tissue/organ.\n    *   **Mode of nutrition:** Autotrophic (photosynthetic).\n    *   **Examples:** Algae, Bryophytes, Pteridophytes, Gymnosperms, and Angiosperms. \n    *   **Key point:** Includes all eukaryotic chlorophyll-containing organisms. Their life cycle exhibits alternation of generations. \n\n5.  **Animalia:**\n    *   **Cell type:** Eukaryotic.\n    *   **Cell wall:** Absent.\n    *   **Nuclear membrane:** Present.\n    *   **Body organisation:** Tissue/organ/organ system.\n    *   **Mode of nutrition:** Heterotrophic (holozoic/saprophytic etc.). \n    *   **Key point:** Multicellular organisms lacking a cell wall. \n\nThis system helped in better understanding the diversity of life by grouping organisms based on more fundamental characteristics.\n\n```mindmap\n{\"root\":\"Five Kingdom Classification\",\"subtitle\":\"R.H. Whittaker (1969)\",\"nodes\":[{\"label\":\"Monera\",\"color\":\"teal\",\"children\":[\"Prokaryotic\",\"Non-cellulosic cell wall\",\"Cellular organisation\",\"Autotrophic/Heterotrophic\"]},{\"label\":\"Protista\",\"color\":\"blue\",\"children\":[\"Eukaryotic\",\"Present in some cell wall\",\"Cellular organisation\",\"Autotrophic/Heterotrophic\"]},{\"label\":\"Fungi\",\"color\":\"orange\",\"children\":[\"Eukaryotic\",\"Chitin cell wall\",\"Multicellular/loose tissue\",\"Heterotrophic (Saprophytic/Parasitic)\"]},{\"label\":\"Plantae\",\"color\":\"purple\",\"children\":[\"Eukaryotic\",\"Cellulose cell wall\",\"Tissue/organ organisation\",\"Autotrophic (Photosynthetic)\"]},{\"label\":\"Animalia\",\"color\":\"pink\",\"children\":[\"Eukaryotic\",\"Cell wall absent\",\"Tissue/organ/organ system\",\"Heterotrophic (Holozoic/Saprophytic)\"]}]}\n```\n\n**📘 Source:** NCERT Class 11 Biology • Five Kingdom Classification",
+      "evidence": [
+        {
+          "schemaVersion": 1,
+          "evidenceId": "textbook:chapter:75a7126c-70c3-4f33-ae78-018be2156060",
+          "kind": "textbook",
+          "sourceId": "ncert-class-11-biology-biology-en-chapter-02-pdf",
+          "chapterId": "75a7126c-70c3-4f33-ae78-018be2156060",
+          "rank": 1,
+          "supportingChunkCount": 2,
+          "excerptChunkId": "ncert-class-11-biology-biology-en-chapter-02-pdf:0002",
+          "excerpt": "BIOLOGICAL CLASSIFICATION 11 1111 1111 R.H. Whittaker (1969) proposed a Five Kingdom Classification. Five Kingdom Classification. Five Kingdom Classification. Five Kingdom Classification. Five Kingdom Classification. The kingdoms defined by him were named Monera, Protista, Fungi, PlantaeMonera, Protista, Fungi, PlantaeMonera, Protista, Fungi, PlantaeMonera, Protista, Fungi, PlantaeMonera, Protista, Fungi, Plantae and…",
+          "display": {
+            "board": "ncert",
+            "classLevel": 11,
+            "subject": "biology",
+            "language": "english",
+            "bookTitle": "Biology",
+            "officialSourceUrl": "https://ncert.nic.in/textbook/pdf/kebo102.pdf",
+            "unitType": "chapter",
+            "unitNumber": "2",
+            "unitTitle": ": Biological Classification"
+          },
+          "displayFieldProvenance": {
+            "board": "verified_official",
+            "classLevel": "verified_official",
+            "subject": "verified_official",
+            "language": "verified_official",
+            "bookTitle": "verified_official",
+            "officialSourceUrl": "verified_official",
+            "unitType": "verified_official",
+            "unitNumber": "verified_official",
+            "unitTitle": "verified_official"
+          }
+        },
+        {
+          "schemaVersion": 1,
+          "evidenceId": "textbook:chapter:95ac2e2c-0a52-4d54-90b4-cda214a47411",
+          "kind": "textbook",
+          "sourceId": "ncert-class-11-biology-biology-en-chapter-03-pdf",
+          "chapterId": "95ac2e2c-0a52-4d54-90b4-cda214a47411",
+          "rank": 3,
+          "supportingChunkCount": 1,
+          "excerptChunkId": "ncert-class-11-biology-biology-en-chapter-03-pdf:0001",
+          "excerpt": "PLANT KINGDOM 23 In the previous chapter, we looked at the broad classification of living organisms under the system proposed by Whittaker (1969) wherein he suggested the Five Kingdom classification viz. Monera, Protista, Fungi, Animalia and Plantae. In this chapter, we will deal in detail with further classification within Kingdom Plantae popularly known as the ‘plant kingdom’. We must stress here that our…",
+          "display": {
+            "board": "ncert",
+            "classLevel": 11,
+            "subject": "biology",
+            "language": "english",
+            "bookTitle": "Biology",
+            "officialSourceUrl": "https://ncert.nic.in/textbook/pdf/kebo103.pdf",
+            "unitType": "chapter",
+            "unitNumber": "3",
+            "unitTitle": ": Plant Kingdom"
+          },
+          "displayFieldProvenance": {
+            "board": "verified_official",
+            "classLevel": "verified_official",
+            "subject": "verified_official",
+            "language": "verified_official",
+            "bookTitle": "verified_official",
+            "officialSourceUrl": "verified_official",
+            "unitType": "verified_official",
+            "unitNumber": "verified_official",
+            "unitTitle": "verified_official"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "evidence": {
+            "schemaVersion": 1,
+            "evidenceId": "textbook:chapter:75a7126c-70c3-4f33-ae78-018be2156060",
+            "kind": "textbook",
+            "sourceId": "ncert-class-11-biology-biology-en-chapter-02-pdf",
+            "chapterId": "75a7126c-70c3-4f33-ae78-018be2156060",
+            "rank": 1,
+            "supportingChunkCount": 2,
+            "excerptChunkId": "ncert-class-11-biology-biology-en-chapter-02-pdf:0002",
+            "excerpt": "BIOLOGICAL CLASSIFICATION 11 1111 1111 R.H. Whittaker (1969) proposed a Five Kingdom Classification. Five Kingdom Classification. Five Kingdom Classification. Five Kingdom Classification. Five Kingdom Classification. The kingdoms defined by him were named Monera, Protista, Fungi, PlantaeMonera, Protista, Fungi, PlantaeMonera, Protista, Fungi, PlantaeMonera, Protista, Fungi, PlantaeMonera, Protista, Fungi, Plantae and…",
+            "display": {
+              "board": "ncert",
+              "classLevel": 11,
+              "subject": "biology",
+              "language": "english",
+              "bookTitle": "Biology",
+              "officialSourceUrl": "https://ncert.nic.in/textbook/pdf/kebo102.pdf",
+              "unitType": "chapter",
+              "unitNumber": "2",
+              "unitTitle": ": Biological Classification"
+            },
+            "displayFieldProvenance": {
+              "board": "verified_official",
+              "classLevel": "verified_official",
+              "subject": "verified_official",
+              "language": "verified_official",
+              "bookTitle": "verified_official",
+              "officialSourceUrl": "verified_official",
+              "unitType": "verified_official",
+              "unitNumber": "verified_official",
+              "unitTitle": "verified_official"
+            }
+          },
+          "chunk": {
+            "id": "ncert-class-11-biology-biology-en-chapter-02-pdf:0002",
+            "source_id": "ncert-class-11-biology-biology-en-chapter-02-pdf",
+            "content": "BIOLOGICAL CLASSIFICATION 11 1111 1111 R.H. Whittaker (1969) proposed a Five Kingdom Classification. Five Kingdom Classification. Five Kingdom Classification. Five Kingdom Classification. Five Kingdom Classification. The kingdoms defined by him were named Monera, Protista, Fungi, PlantaeMonera, Protista, Fungi, PlantaeMonera, Protista, Fungi, PlantaeMonera, Protista, Fungi, PlantaeMonera, Protista, Fungi, Plantae and Animalia. Animalia.Animalia.Animalia.Animalia. The main criteria for classification used by him include cell structure, body organisation, mode of nutrition, reproduction and phylogenetic relationships. Table 2.1 gives a comparative account of different characteristics of the five kingdoms. The three-domain system has also been proposed that divides the Kingdom Monera into two domains, leaving the remaining eukaryotic kingdoms in the third domain and thereby a six kingdom classification. You will learn about this system in detail in higher classes. Let us look at this five kingdom classification to understand the issues and considerations that influenced the classification system. Earlier classification systems included bacteria, blue green algae, fungi, mosses, ferns, gymnosperms and the angiosperms under ‘Plants’. The character that unified this whole kingdom was that all the organisms included had a cell wall in their cells. This placed together groups which widely differed in other characteristics. It brought together the prokaryotic bacteria and the blue green algae ( cyanobacteria) with other groups which were eukaryotic. It also grouped together the unicellular organisms and the multicellular ones, say, for example, Chlamydomonas and Spirogyra were placed together under algae. The classification did not differentiate between the heterotrophic group – fungi, and the autotrophic green plants, though they also showed a characteristic difference in their walls composition – the fungi had chitin Five KingdomsFive KingdomsFive KingdomsFive KingdomsFive Kingdoms CharactersCharactersCharactersCharactersCharacters Cell type Cell wall Nuclear membrane Body organisation Mode of nutrition MoneraMoneraMoneraMoneraMonera Prokaryotic Noncellulosic (Polysaccharide + amino acid) Absent Cellular Autotrophic (chemosynthetic and photosynthetic) and Heterotrophic (saprophytic/parasitic) Protista ProtistaProtista ProtistaProtista Eukaryotic Present in some Present Cellular Autotrophic (Photosynthetic) and Heterotrophic Fungi FungiFungi FungiFungi Eukaryotic Present with chitin Present Multiceullar/ loose tissue Heterotrophic (Saprophytic/ Parasitic) Plantae PlantaePlantae PlantaePlantae Eukaryotic Present (cellulose) Present Tissue/ organ Autotrophic (Photosynthetic) Animalia AnimaliaAnimalia AnimaliaAnimalia Eukaryotic Absent Present Tissue/organ/ organ system Heterotrophic (Holoz o ic/ Saprophytic etc.) T TTTTABLEABLEABLE ABLEABLE 2.1 2.1 2.1 2.1 2.1 Characteristics of the Five KingdomsCharacteristics of the Five KingdomsCharacteristics of the Five KingdomsCharacteristics of the Five KingdomsCharacteristics of the Five Kingdoms",
+            "board": "ncert",
+            "class_level": 11,
+            "subject": "biology",
+            "chapter": "biology",
+            "language": "english",
+            "chunk_type": "lesson_content"
+          }
+        },
+        {
+          "evidence": {
+            "schemaVersion": 1,
+            "evidenceId": "textbook:chapter:95ac2e2c-0a52-4d54-90b4-cda214a47411",
+            "kind": "textbook",
+            "sourceId": "ncert-class-11-biology-biology-en-chapter-03-pdf",
+            "chapterId": "95ac2e2c-0a52-4d54-90b4-cda214a47411",
+            "rank": 3,
+            "supportingChunkCount": 1,
+            "excerptChunkId": "ncert-class-11-biology-biology-en-chapter-03-pdf:0001",
+            "excerpt": "PLANT KINGDOM 23 In the previous chapter, we looked at the broad classification of living organisms under the system proposed by Whittaker (1969) wherein he suggested the Five Kingdom classification viz. Monera, Protista, Fungi, Animalia and Plantae. In this chapter, we will deal in detail with further classification within Kingdom Plantae popularly known as the ‘plant kingdom’. We must stress here that our…",
+            "display": {
+              "board": "ncert",
+              "classLevel": 11,
+              "subject": "biology",
+              "language": "english",
+              "bookTitle": "Biology",
+              "officialSourceUrl": "https://ncert.nic.in/textbook/pdf/kebo103.pdf",
+              "unitType": "chapter",
+              "unitNumber": "3",
+              "unitTitle": ": Plant Kingdom"
+            },
+            "displayFieldProvenance": {
+              "board": "verified_official",
+              "classLevel": "verified_official",
+              "subject": "verified_official",
+              "language": "verified_official",
+              "bookTitle": "verified_official",
+              "officialSourceUrl": "verified_official",
+              "unitType": "verified_official",
+              "unitNumber": "verified_official",
+              "unitTitle": "verified_official"
+            }
+          },
+          "chunk": {
+            "id": "ncert-class-11-biology-biology-en-chapter-03-pdf:0001",
+            "source_id": "ncert-class-11-biology-biology-en-chapter-03-pdf",
+            "content": "PLANT KINGDOM 23 In the previous chapter, we looked at the broad classification of living organisms under the system proposed by Whittaker (1969) wherein he suggested the Five Kingdom classification viz. Monera, Protista, Fungi, Animalia and Plantae. In this chapter, we will deal in detail with further classification within Kingdom Plantae popularly known as the ‘plant kingdom’. We must stress here that our understanding of the plant kingdom has changed over time. Fungi, and members of the Monera and Protista having cell walls have now been excluded from Plantae though earlier classifications placed them in the same kingdom. So, the cyanobacteria that are also referred to as blue green algae are not ‘algae’ any more. In this chapter , we will describe A lgae, Bryophytes, Pteridophytes, Gymnosperms and Angiosperms under Plantae. Let us also look at classification within angiosperms to understand some of the concerns that influenced the classification systems. The earliest systems of classification used only gross superficial morphological characters such as habit, colour, number and shape of leaves, etc. They were based mainly on vegetative characters or on the androecium structure (system given by Linnaeus). Such systems were artificial; they separated the closely related species since they were based on a few characteristics. Also, the artificial systems gave equal weightage to vegetative and sexual characteristics; this is not acceptable since we know that often the vegetative characters are more easily affected by environment. As against this, natural classification systems developed, which were based on natural affinities among the organisms and consider, PLANT KINGDOM CHAPTER 3",
+            "board": "ncert",
+            "class_level": 11,
+            "subject": "biology",
+            "chapter": "biology",
+            "language": "english",
+            "chunk_type": "lesson_content"
+          }
+        }
+      ],
+      "mindmap_fence_present": true
+    },
+    {
+      "name": "indian_monsoon",
+      "prompt": "Explain the Indian monsoon",
+      "events": [
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "token",
+        "evidence",
+        "done"
+      ],
+      "answer": "The Indian monsoon is a complex weather phenomenon crucial to India's climate and economy. The word 'monsoon' comes from the Arabic word **mausim**, meaning 'season', and refers to seasonal winds over a large area, including the Indian Ocean and South Asia. \n\nHere's a breakdown of its key aspects:\n\n**1. Mechanism and Causes:**\n*   **Differential Heating:** The fundamental principle is that land heats up and cools down faster than the ocean. \n*   **Summer Monsoon (Southwest Monsoon):**\n    *   As summer begins, the Asian landmass heats up intensely, creating a powerful **low-pressure system** over it. \n    *   The Indian Ocean, heating more slowly, maintains a relatively **high-pressure system**.\n    *   Air always flows from high pressure to low pressure. Therefore, winds are drawn from the cooler, high-pressure ocean towards the hot land. \n    *   These ocean winds carry moisture, which condenses over the warmer land, bringing heavy rains. This is why 'monsoon' commonly refers to the seasonal rains. \n    *   The **Inter Tropical Convergence Zone (ITCZ)**, a low-pressure zone where trade winds converge, shifts northward to the Gangetic plain (around 20°N-25°N latitudes) during July. This shift encourages the development of thermal low over north and northwest India. \n    *   The southeast trade winds from the Southern Hemisphere cross the Equator (between **40°E and 60°E longitudes**) and are deflected towards the Indian subcontinent due to the **Coriolis force**, becoming the southwest monsoon. \n    *   The **easterly jet stream** setting in along **15°N latitude** is also held responsible for the burst of the monsoon. \n*   **Winter Monsoon (Northeast Monsoon):**\n    *   In winter, the pattern reverses. The landmass cools down more rapidly than the ocean, developing a **high-pressure system**.\n    *   The ocean remains warmer with relatively lower pressure.\n    *   This causes winds to blow from the land towards the ocean, bringing dry conditions to much of Asia. \n    *   The ITCZ moves southward in winter, leading to the reversal of winds from northeast to south and southwest, forming the northeast monsoons. \n\n**2. Onset and Retreat:**\n*   The **southwest monsoon** typically sets in over the **Kerala coast by June 1st**. \n*   It then moves swiftly to reach Mumbai and Kolkata between **June 10th and 13th**. \n*   By mid-July, the southwest monsoon engulfs the entire Indian subcontinent. \n\n**3. Break in Monsoon:**\n*   During the southwest monsoon season, after a few days of rain, if rain fails to occur for one or more weeks, it is known as a **break in the monsoon**. \n*   Reasons for breaks vary by region:\n    *   In northern India, breaks occur if rain-bearing storms are not frequent along the monsoon trough or ITCZ. \n    *   Over the west coast, dry spells are associated with days when winds blow parallel to the coast. \n\n**4. Impact of El-Nino:**\n*   **El-Nino** is a complex weather system appearing every three to seven years, involving oceanic and atmospheric phenomena. \n*   It involves the appearance of warm currents off the coast of Peru in the Eastern Pacific, increasing water temperature by **10°C**. \n*   This leads to the distortion of equatorial atmospheric circulation, irregularities in seawater evaporation, and a reduction in planktons. \n*   El-Nino can bring droughts, floods, and other weather extremes globally, including affecting India's monsoon. It is used for forecasting long-range monsoon rainfall.  For example, in **1990-91**, a strong El-Nino delayed the onset of the southwest monsoon by five to twelve days in many parts of India. \n\nThe monsoon is central to life in India, as it fills rivers, soaks the soil, helps crops grow, and sustains life. \n\n```mindmap\n{\"root\":\"Indian Monsoon\",\"subtitle\":\"Key Aspects\",\"nodes\":[{\"label\":\"Meaning & Origin\",\"color\":\"teal\",\"children\":[\"Arabic word 'mausim' (season)\",\"Seasonal winds\"]},{\"label\":\"Mechanism\",\"color\":\"blue\",\"children\":[\"Differential heating of land & sea\",\"Air flow: High to Low pressure\"]},{\"label\":\"Southwest Monsoon (Summer)\",\"color\":\"orange\",\"children\":[\"Land heats up, low pressure\",\"Ocean high pressure\",\"Winds from ocean to land\",\"Carries moisture, heavy rains\",\"Northward ITCZ shift\",\"Easterly jet stream\"]},{\"label\":\"Northeast Monsoon (Winter)\",\"color\":\"purple\",\"children\":[\"Land cools down, high pressure\",\"Ocean lower pressure\",\"Winds from land to ocean\",\"Dry conditions\",\"Southward ITCZ shift\"]},{\"label\":\"Onset & Breaks\",\"color\":\"pink\",\"children\":[\"Kerala coast by June 1st\",\"Mumbai/Kolkata by June 10-13\",\"Break: no rain for 1+ weeks\",\"Reasons: storm frequency, parallel winds\"]},{\"label\":\"El-Nino Effect\",\"color\":\"red\",\"children\":[\"Warm currents off Peru coast\",\"Distorts atmospheric circulation\",\"Affects Indian monsoon rainfall\",\"Used for forecasting\"]}]}\n```\n\n**📘 Source:** NCERT Class 7 Social Science • Indian Monsoon",
+      "evidence": [
+        {
+          "schemaVersion": 1,
+          "evidenceId": "textbook:source:ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-03-pdf",
+          "kind": "textbook",
+          "sourceId": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-03-pdf",
+          "rank": 1,
+          "supportingChunkCount": 2,
+          "excerptChunkId": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-03-pdf:0019",
+          "excerpt": "54 Exploring Society: India and Beyond | Grade 7 Part 1 The Monsoons The monsoon season is central to life in India. During the monsoon months, the rivers fill up, the soil is soaked with water , crops grow and life thrives. Strictly speaking, the word ‘monsoon’, which comes from the Arabic word mausim, meaning ‘season’, refers to seasonal winds over a large area of the Indian Ocean and surrounding regions, including…",
+          "display": {},
+          "displayFieldProvenance": {}
+        },
+        {
+          "schemaVersion": 1,
+          "evidenceId": "textbook:chapter:a2b52916-e65a-4143-a038-3a44124d3c95",
+          "kind": "textbook",
+          "sourceId": "ncert-class-11-geography-india-physical-environment-en-chapter-04-pdf",
+          "chapterId": "a2b52916-e65a-4143-a038-3a44124d3c95",
+          "rank": 2,
+          "supportingChunkCount": 3,
+          "excerptChunkId": "ncert-class-11-geography-india-physical-environment-en-chapter-04-pdf:0006",
+          "excerpt": "31CLIMATE The shift in the position of the ITCZ is also related to the phenomenon of the withdrawal of the westerly jet stream from its position over the north Indian plain, south of the Himalayas. The easterly jet stream sets in along 15 °°N latitude only after the western jet stream has withdrawn itself from the region. This easterly jet stream is held responsible for the burst of the monsoon in India. Entry of…",
+          "display": {
+            "board": "ncert",
+            "classLevel": 11,
+            "subject": "geography",
+            "language": "english",
+            "bookTitle": "India Physical Environment",
+            "officialSourceUrl": "https://ncert.nic.in/textbook/pdf/kegy104.pdf"
+          },
+          "displayFieldProvenance": {
+            "board": "verified_official",
+            "classLevel": "verified_official",
+            "subject": "verified_official",
+            "language": "verified_official",
+            "bookTitle": "verified_official",
+            "officialSourceUrl": "verified_official"
+          }
+        },
+        {
+          "schemaVersion": 1,
+          "evidenceId": "textbook:source:ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-01-pdf",
+          "kind": "textbook",
+          "sourceId": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-01-pdf",
+          "rank": 4,
+          "supportingChunkCount": 1,
+          "excerptChunkId": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-01-pdf:0011",
+          "excerpt": "7 India and the World: Land and the People 1 – The Story of Indian Farming and plan appropriate actions to improve agricultural production — what, when, and how to grow different crops. A few examples of agroclimatic zones are the Upper Gangetic Plain Region, Southern Plateau and Hills Region, and Western Dry Region. The monsoon and agriculture The Indian monsoon system is a key factor in the country’s agricultural…",
+          "display": {},
+          "displayFieldProvenance": {}
+        }
+      ],
+      "sources": [
+        {
+          "evidence": {
+            "schemaVersion": 1,
+            "evidenceId": "textbook:source:ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-03-pdf",
+            "kind": "textbook",
+            "sourceId": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-03-pdf",
+            "rank": 1,
+            "supportingChunkCount": 2,
+            "excerptChunkId": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-03-pdf:0019",
+            "excerpt": "54 Exploring Society: India and Beyond | Grade 7 Part 1 The Monsoons The monsoon season is central to life in India. During the monsoon months, the rivers fill up, the soil is soaked with water , crops grow and life thrives. Strictly speaking, the word ‘monsoon’, which comes from the Arabic word mausim, meaning ‘season’, refers to seasonal winds over a large area of the Indian Ocean and surrounding regions, including…",
+            "display": {},
+            "displayFieldProvenance": {}
+          },
+          "chunk": {
+            "id": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-03-pdf:0019",
+            "source_id": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-i-en-chapter-03-pdf",
+            "content": "54 Exploring Society: India and Beyond | Grade 7 Part 1 The Monsoons The monsoon season is central to life in India. During the monsoon months, the rivers fill up, the soil is soaked with water , crops grow and life thrives. Strictly speaking, the word ‘monsoon’, which comes from the Arabic word mausim, meaning ‘season’, refers to seasonal winds over a large area of the Indian Ocean and surrounding regions, including Australia, Africa and South Asia. There is a yearly pattern to the monsoons. Their mechanism is complex, but based on the simple fact that land heats up or cools down faster than the ocean. Monsoons bring out the fundamental relationship between temperature, pressure and wind movement. To put it simply, as summer begins, the Asian landmass heats up, creating a powerful low-pressure system over it. Since air always flows from high pressure to low pressure, winds are drawn from the cooler , high-pressure ocean towards the hot land. These ocean winds carry moisture that condenses over the warmer land and falls in the form of heavy monsoon rains. (That is why ‘monsoon’ commonly refers to the seasonal rains rather than the winds.) Equator Africa Arabia southwest monsoon India Equator Africa Arabia northeast monsoon India B. Winter The pattern reverses in winter , when the landmass cools down more rapidly than the ocean. Now the land has a high-pressure system while the ocean remains warmer with relatively lower pressure. This causes the winds to blow in the opposite direction — from the land towards the ocean — bringing dry conditions to much of Asia. Fig. 3.9 A. Summer Chapter 3.indd 54Chapter 3.indd 54 08-04-2025 12:45:4108-04-2025 12:45:41",
+            "board": "ncert",
+            "class_level": 7,
+            "subject": "social-science",
+            "chapter": "social-science",
+            "language": "english",
+            "chunk_type": "lesson_content"
+          }
+        },
+        {
+          "evidence": {
+            "schemaVersion": 1,
+            "evidenceId": "textbook:chapter:a2b52916-e65a-4143-a038-3a44124d3c95",
+            "kind": "textbook",
+            "sourceId": "ncert-class-11-geography-india-physical-environment-en-chapter-04-pdf",
+            "chapterId": "a2b52916-e65a-4143-a038-3a44124d3c95",
+            "rank": 2,
+            "supportingChunkCount": 3,
+            "excerptChunkId": "ncert-class-11-geography-india-physical-environment-en-chapter-04-pdf:0006",
+            "excerpt": "31CLIMATE The shift in the position of the ITCZ is also related to the phenomenon of the withdrawal of the westerly jet stream from its position over the north Indian plain, south of the Himalayas. The easterly jet stream sets in along 15 °°N latitude only after the western jet stream has withdrawn itself from the region. This easterly jet stream is held responsible for the burst of the monsoon in India. Entry of…",
+            "display": {
+              "board": "ncert",
+              "classLevel": 11,
+              "subject": "geography",
+              "language": "english",
+              "bookTitle": "India Physical Environment",
+              "officialSourceUrl": "https://ncert.nic.in/textbook/pdf/kegy104.pdf"
+            },
+            "displayFieldProvenance": {
+              "board": "verified_official",
+              "classLevel": "verified_official",
+              "subject": "verified_official",
+              "language": "verified_official",
+              "bookTitle": "verified_official",
+              "officialSourceUrl": "verified_official"
+            }
+          },
+          "chunk": {
+            "id": "ncert-class-11-geography-india-physical-environment-en-chapter-04-pdf:0006",
+            "source_id": "ncert-class-11-geography-india-physical-environment-en-chapter-04-pdf",
+            "content": "31CLIMATE The shift in the position of the ITCZ is also related to the phenomenon of the withdrawal of the westerly jet stream from its position over the north Indian plain, south of the Himalayas. The easterly jet stream sets in along 15 °°N latitude only after the western jet stream has withdrawn itself from the region. This easterly jet stream is held responsible for the burst of the monsoon in India. Entry of Monsoon into India : The southwest monsoon sets in over the Kerala coast by 1st June and moves swiftly to reach Mumbai and Kolkata between 10th and 13th June. By mid-July, southwest monsoon engulfs the entire subcontinent (Figure 4.2) Break in the Monsoon During the south-west monsoon period after having rains for a few days, if rain fails to occur for one or more weeks, it is known as break in the monsoon. These dry spells are quite common during the rainy season. These breaks in the different regions are due to different reasons: (i) In northern India rains are likely to fail if the rain-bearing storms are not very frequent along the monsoon trough or the ITCZ over this region. (ii) Over the west coast the dry spells are associated with days when winds blow parallel to the coast. THE RHYTHM OF SEASONS The climatic conditions of India can best be described in terms of an annual cycle of seasons. The meteorologists recognise the following four seasons : (i) the cold weather season (ii) the hot weather season (iii) the southwest monsoon season (iv) the retreating monsoon season. The Cold Weather Season Temperature : Usually, the cold weather season sets in by mid-November in northern India. December and January are the coldest months in the northern plain. The mean daily temperature remains below 21 °°C over most parts of northern India. The night temperature may be quite low, sometimes going below freezing point in Punjab and Rajasthan. There are three main reasons for the excessive cold in north India during this season : (i) States like Punjab, Haryana and Rajasthan being far away from the moderating influence of sea experience continental climate. (ii) The snowfall in the nearby Himalayan ranges creates cold wave situation; and (iii) Around February, the cold winds coming from the Caspian Sea and Turkmenistan EI-Nino and the Indian Monsoon EI-Nino is a complex weather system that appears once every three to seven years, bringing drought, floods and other weather extremes to different parts of the world. The system involves oceanic and atmospheric phenomena with the appearance of warm currents off the coast of Peru in the Eastern Pacific and affects weather in many places including India. EI-Nino is merely an extension of the warm equatorial current which gets replaced temporarily by cold Peruvian current or Humbolt current (locate these currents in your atlas). This current increases the temperature of water on the Peruvian coast by 10°°C. This results in: (i) the distortion of equatorial atmospheric circulation; (ii) irregularities in the evaporation of sea water; (iii) reduction in the amount of planktons which further reduces the number of fish in the sea. The word EI-Nino means ‘Child Christ’ because this current appears around Christmas in December. December is a summer month in Peru (Souther n Hemisphere). EI-Nino is used in India for forecasting long range monsoon rainfall. In 1990-91, there was a wild EI-Nino event and the onset of southwest monsoon was delayed over most parts of the country ranging from five to twelve days.",
+            "board": "ncert",
+            "class_level": 11,
+            "subject": "geography",
+            "chapter": "geography",
+            "language": "english",
+            "chunk_type": "lesson_content"
+          }
+        },
+        {
+          "evidence": {
+            "schemaVersion": 1,
+            "evidenceId": "textbook:source:ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-01-pdf",
+            "kind": "textbook",
+            "sourceId": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-01-pdf",
+            "rank": 4,
+            "supportingChunkCount": 1,
+            "excerptChunkId": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-01-pdf:0011",
+            "excerpt": "7 India and the World: Land and the People 1 – The Story of Indian Farming and plan appropriate actions to improve agricultural production — what, when, and how to grow different crops. A few examples of agroclimatic zones are the Upper Gangetic Plain Region, Southern Plateau and Hills Region, and Western Dry Region. The monsoon and agriculture The Indian monsoon system is a key factor in the country’s agricultural…",
+            "display": {},
+            "displayFieldProvenance": {}
+          },
+          "chunk": {
+            "id": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-01-pdf:0011",
+            "source_id": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-01-pdf",
+            "content": "7 India and the World: Land and the People 1 – The Story of Indian Farming and plan appropriate actions to improve agricultural production — what, when, and how to grow different crops. A few examples of agroclimatic zones are the Upper Gangetic Plain Region, Southern Plateau and Hills Region, and Western Dry Region. The monsoon and agriculture The Indian monsoon system is a key factor in the country’s agricultural diversity. It brings rainfall, which is vital for many crops. India experiences the southwest monsoon and the northeast monsoon. (Refer to the chapter ‘Climates of India’ in Part 1 of this textbook.) The southwest monsoon brings rain from June to September . It is crucial for the seasonal growth of kharif crops in northern and central India. The northeast monsoon prevails from October to December . This brings rainfall to the east and south of India. Coastal regions, including the Malabar (Kerala) and Coromandel (Tamil Nadu) plains, receive rainfall from both the southwest and northeast monsoons. The rain from these two monsoon periods enables farmers in the south to grow crops during the period in between; this is a dry season for farmers in north India who depend on other sources of water like groundwater , water from rivers, canals and ponds, and moisture retained in the soil, to ensure irrigation for their crops. States like Tamil Nadu, West Bengal and Andhra Pradesh grow rice throughout the year on account of availability of water from the monsoon as well as irrigation. LET’S EXPLORE Imagine that your state received less than normal monsoon rains for two consecutive years. Which items are likely to disappear from your meals, or are likely to become difficult to access? Fig. 1.4. An irrigated crop of peanuts in south India Chapter 1.indd 7Chapter 1.indd 7 11/27/2025 12:11:30 PM11/27/2025 12:11:30 PM",
+            "board": "ncert",
+            "class_level": 7,
+            "subject": "social-science",
+            "chapter": "social-science",
+            "language": "english",
+            "chunk_type": "lesson_content"
+          }
+        }
+      ],
+      "mindmap_fence_present": true
+    }
+  ]
+}

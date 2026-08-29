@@ -1,0 +1,55 @@
+{
+  "schema_version": 4,
+  "book_code": "leps1",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/leps1ps.pdf",
+  "fetched_at": "2026-08-16T13:56:46.553Z",
+  "sample": {
+    "class_level": 12,
+    "subject": "political science",
+    "book_title": "Contemporary World Politics",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "The End of Bipolarity"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "Contemporary Centres of Power"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "Contemporary South Asia"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "International Organisations"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "Security in the Contemporary World"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "Environment and Natural Resources"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": "Globalisation"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    7,
+    10
+  ],
+  "evidence_mode": "official_pdf_text"
+}

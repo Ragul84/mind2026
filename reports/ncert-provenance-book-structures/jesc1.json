@@ -1,0 +1,85 @@
+{
+  "schema_version": 4,
+  "book_code": "jesc1",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/jesc1ps.pdf",
+  "fetched_at": "2026-08-16T13:35:25.963Z",
+  "sample": {
+    "class_level": 10,
+    "subject": "science",
+    "book_title": "Science",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "Chemical Reactions and Equations"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "Acids, Bases and Salts"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "Metals and Non-metals"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "Carbon and its Compounds"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "Life Processes"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "Control and Coordination"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": "How do Organisms Reproduce?"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "8",
+      "canonical_unit_title": "Heredity"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "9",
+      "canonical_unit_title": "Light – Reflection and Refraction"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "10",
+      "canonical_unit_title": "The Human Eye and the Colourful World"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "11",
+      "canonical_unit_title": "Electricity"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "12",
+      "canonical_unit_title": "Magnetic Effects of Electric Current"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "13",
+      "canonical_unit_title": "Our Environment"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    9,
+    10
+  ],
+  "evidence_mode": "official_pdf_text"
+}

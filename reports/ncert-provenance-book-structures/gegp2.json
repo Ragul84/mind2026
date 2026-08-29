@@ -1,0 +1,55 @@
+{
+  "schema_version": 4,
+  "book_code": "gegp2",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/gegp2ps.pdf",
+  "fetched_at": "2026-08-16T13:33:44.610Z",
+  "sample": {
+    "class_level": 7,
+    "subject": "mathematics",
+    "book_title": "Ganita Prakash-II",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "of this textbook, ‘Geometric Twins’, introduces the concept"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "Operations with Integers"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "Finding Common Ground"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "Another Peek Beyond the Point"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "Connecting the Dots..."
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "Constructions and Tilings"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": "Finding the Unknown"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    5,
+    16
+  ],
+  "evidence_mode": "official_pdf_text"
+}

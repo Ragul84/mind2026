@@ -1,0 +1,59 @@
+{
+  "schema_version": 4,
+  "book_code": "keps1",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/keps1ps.pdf",
+  "fetched_at": "2026-08-16T13:50:37.785Z",
+  "sample": {
+    "class_level": 11,
+    "subject": "political science",
+    "book_title": "Political Theory",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "Political Theory: An Introduction"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "Freedom"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "Equality"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "Social Justice"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "Rights"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "Citizenship"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": "Nationalism"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "8",
+      "canonical_unit_title": "Secularism"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    10
+  ],
+  "evidence_mode": "official_pdf_text"
+}

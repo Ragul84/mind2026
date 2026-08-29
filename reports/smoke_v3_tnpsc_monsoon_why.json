@@ -1,0 +1,270 @@
+{
+  "generatedAt": "2026-08-23T08:35:45.500Z",
+  "prompts": [
+    {
+      "key": "dpsp_short",
+      "prompt": "DPSP"
+    },
+    {
+      "key": "dpsp_explicit",
+      "prompt": "What are Directive Principles of State Policy?"
+    },
+    {
+      "key": "fr_short",
+      "prompt": "FR"
+    },
+    {
+      "key": "fr_explain",
+      "prompt": "Explain Fundamental Rights"
+    },
+    {
+      "key": "democracy",
+      "prompt": "What is democracy?"
+    },
+    {
+      "key": "federalism",
+      "prompt": "What is federalism?"
+    },
+    {
+      "key": "fundamental_duties",
+      "prompt": "What are Fundamental Duties?"
+    },
+    {
+      "key": "panchayati_raj",
+      "prompt": "What is Panchayati Raj?"
+    },
+    {
+      "key": "revolt",
+      "prompt": "The revolt of 1857"
+    },
+    {
+      "key": "revolt_causes",
+      "prompt": "Explain the causes of the Revolt of 1857"
+    },
+    {
+      "key": "revolt_explain",
+      "prompt": "Explain the Revolt of 1857"
+    },
+    {
+      "key": "1857",
+      "prompt": "1857"
+    },
+    {
+      "key": "monsoon",
+      "prompt": "Explain Indian monsoon"
+    },
+    {
+      "key": "monsoon_why",
+      "prompt": "Why does monsoon occur in India?"
+    },
+    {
+      "key": "sw_monsoon",
+      "prompt": "Southwest monsoon"
+    },
+    {
+      "key": "river_systems",
+      "prompt": "Explain river systems of India"
+    },
+    {
+      "key": "biodiversity",
+      "prompt": "What is biodiversity?"
+    },
+    {
+      "key": "mineral",
+      "prompt": "What is a mineral?"
+    },
+    {
+      "key": "photosynthesis",
+      "prompt": "What is photosynthesis?"
+    },
+    {
+      "key": "photosynthesis_detail",
+      "prompt": "Explain photosynthesis in detail"
+    },
+    {
+      "key": "nuclear_fission_short",
+      "prompt": "What is nuclear fission?"
+    },
+    {
+      "key": "nuclear_fission_explain",
+      "prompt": "Explain nuclear fission"
+    },
+    {
+      "key": "newton_short",
+      "prompt": "What is Newton's second law?"
+    },
+    {
+      "key": "newton_explain",
+      "prompt": "Explain Newton's second law"
+    },
+    {
+      "key": "gdp",
+      "prompt": "GDP"
+    },
+    {
+      "key": "fiscal_deficit",
+      "prompt": "What is fiscal deficit?"
+    },
+    {
+      "key": "inflation",
+      "prompt": "What is inflation?"
+    },
+    {
+      "key": "national_income",
+      "prompt": "What is national income?"
+    },
+    {
+      "key": "cell_theory",
+      "prompt": "What is the cell theory?"
+    },
+    {
+      "key": "respiratory_system",
+      "prompt": "What is the human respiratory system?"
+    }
+  ],
+  "fixtures": [
+    {
+      "key": "tnpsc",
+      "context": {
+        "primary_exam": "tnpsc",
+        "primary_curriculum": "samacheer",
+        "class_level": 10,
+        "context_source": "onboarding"
+      },
+      "expectedCorpus": "samacheer",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a"
+    },
+    {
+      "key": "upsc",
+      "context": {
+        "primary_exam": "upsc",
+        "primary_curriculum": "ncert",
+        "class_level": 11,
+        "context_source": "onboarding"
+      },
+      "expectedCorpus": "ncert",
+      "userId": "54778a7f-c934-472f-bfa2-b4b22b5fe910"
+    }
+  ],
+  "seededFixtures": [
+    {
+      "fixtureKey": "tnpsc",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a",
+      "studyPayload": {
+        "primary_exam": "tnpsc",
+        "primary_curriculum": "samacheer",
+        "class_level": 10,
+        "context_source": "onboarding"
+      },
+      "protocolTrackId": "tnpsc_ecosystem"
+    },
+    {
+      "fixtureKey": "upsc",
+      "userId": "54778a7f-c934-472f-bfa2-b4b22b5fe910",
+      "studyPayload": {
+        "primary_exam": "upsc",
+        "primary_curriculum": "ncert",
+        "class_level": 11,
+        "context_source": "onboarding"
+      },
+      "protocolTrackId": "upsc_ecosystem"
+    }
+  ],
+  "smokeTests": [],
+  "results": [
+    {
+      "name": "tnpsc:monsoon_why",
+      "fixtureKey": "tnpsc",
+      "prompt": "Why does monsoon occur in India?",
+      "expectedCorpus": "samacheer",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a",
+      "stream": {
+        "ok": true,
+        "status": 200,
+        "events": [
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "evidence",
+          "done"
+        ],
+        "answer": "# Monsoon in India\n\nMonsoon occurs in India primarily due to the **seasonal reversal of winds**. India remains under the influence of these monsoon winds for a significant part of the year.\n\nSpecifically:\n1.  **Southwest Monsoon:** The onset of the southwest monsoon brings down temperatures across India and causes moderate to heavy rainfall. This occurs because the sun's rays are vertical over the central part of India during mid-June, but the summer season ends by May due to this monsoon.\n2.  **Northeast Monsoon:** The climate of Southeast India is also influenced by the northeast monsoon. \n\n**📘 Source:** Samacheer Kalvi Class 10 Social Science • Does Monsoon Occur"
+      },
+      "actualPrimaryCorpus": "samacheer",
+      "leakageBoards": [],
+      "topSource": {
+        "sourceId": "samacheer-class-10-science-english-science-english-full-10th-social-20science-em-text-pdf",
+        "board": "samacheer",
+        "class_level": 10,
+        "subject": "social-science",
+        "book_title": null,
+        "volume_or_part": null,
+        "chapter_number": null,
+        "chapter_title": null,
+        "unit_type": null,
+        "unit_number": null,
+        "unit_title": null,
+        "excerpt": "147 Climate and Natural Vegetation of India Prior to the onset of the southwest monsoon, the temperature in north India reaches upto 46°C. The sudden approach of monsoon wind over south India with lightning and thunder is termed as the ‘ break’ or ‘burst of monsoon’ . The monsoon wind strikes against the southern tip of Indian land mass and gets divided into two branches. One branch starts from Arabian sea and the…",
+        "supportingChunkCount": 1
+      },
+      "evidenceAudit": [
+        {
+          "sourceId": "samacheer-class-10-science-english-science-english-full-10th-social-20science-em-text-pdf",
+          "chunkId": "samacheer-class-10-science-english-science-english-full-10th-social-20science-em-text-pdf:0236",
+          "excerpt": "147 Climate and Natural Vegetation of India Prior to the onset of the southwest monsoon, the temperature in north India reaches upto 46°C. The sudden approach of monsoon wind over south India with lightning and thunder is termed as the ‘ break’ or ‘burst of monsoon’ . The monsoon wind strikes against the southern tip of Indian land mass and gets divided into two branches. One branch starts from Arabian sea and the…",
+          "selectionReason": "selected_direct_support",
+          "selectionScore": 0.99,
+          "selectionDirect": true,
+          "selectionBlocked": false,
+          "requestedAspectMatched": true,
+          "reasonDirect": "causal_relation_supported",
+          "verdict": "DIRECT",
+          "board": "samacheer",
+          "subject": "social-science",
+          "chapterTitle": null,
+          "unitTitle": null,
+          "chunkType": "lesson_content",
+          "strictReason": "causal_relation_supported"
+        }
+      ],
+      "auditSupportingEvidence": [
+        {
+          "sourceId": "samacheer-class-10-science-english-science-english-full-10th-social-20science-em-text-pdf",
+          "chunkId": "samacheer-class-10-science-english-science-english-full-10th-social-20science-em-text-pdf:0236",
+          "excerpt": "147 Climate and Natural Vegetation of India Prior to the onset of the southwest monsoon, the temperature in north India reaches upto 46°C. The sudden approach of monsoon wind over south India with lightning and thunder is termed as the ‘ break’ or ‘burst of monsoon’ . The monsoon wind strikes against the southern tip of Indian land mass and gets divided into two branches. One branch starts from Arabian sea and the…",
+          "selectionReason": "selected_direct_support",
+          "selectionScore": 0.99,
+          "selectionDirect": true,
+          "selectionBlocked": false,
+          "requestedAspectMatched": true,
+          "reasonDirect": "causal_relation_supported",
+          "verdict": "DIRECT",
+          "board": "samacheer",
+          "subject": "social-science",
+          "chapterTitle": null,
+          "unitTitle": null,
+          "chunkType": "lesson_content",
+          "strictReason": "causal_relation_supported"
+        }
+      ],
+      "answerCoverage": 1,
+      "verdict": "PASS_DIRECT"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "pass_direct": 1,
+    "pass_partial": 0,
+    "fail": 0,
+    "strictPassRate": 1
+  },
+  "validatorVersion": "strict-v2",
+  "notes": [
+    "TOC/contents/exercise/glossary-adjacent passages are rejected unless they contain an actual proposition answering the requested aspect.",
+    "PASS_DIRECT requires both corpus match and at least one strict supporting passage."
+  ]
+}

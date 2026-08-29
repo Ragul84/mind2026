@@ -1,0 +1,22 @@
+[
+  {
+    "id": "upsc-cse-prelims-2022-gs1-q6",
+    "source_id": "upsc-cse-prelims-2022-gs1",
+    "exam": "UPSC",
+    "year": 2022,
+    "subject": null,
+    "topic": null,
+    "question_number": "6",
+    "question_text": "With reference to foreign-owned e-commerce firms operating in India, which of the following statements is/are correct? 1. They can sell their own goods in addition to offering their platforms as market-places. 2. The degree to which they can own big sellers on their platforms is limited. Select the correct answer using the code given below:",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer_text": "Neither 1 nor 2",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  }
+]

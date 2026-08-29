@@ -1,0 +1,922 @@
+[
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q1",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q2",
+    "subject": "Indian Economy",
+    "topic": "Fiscal Policy & Taxation"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q3",
+    "subject": "Geography",
+    "topic": "Population & Transport"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q4",
+    "subject": "Indian Economy",
+    "topic": "Banking & Monetary Policy"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q5",
+    "subject": "Indian Polity",
+    "topic": "Rights Bodies, RTI & Governance"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q6",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q7",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q8",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q9",
+    "subject": "Indian Polity",
+    "topic": "Rights Bodies, RTI & Governance"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q10",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q12",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q13",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q14",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q15",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q17",
+    "subject": "Indian Polity",
+    "topic": "Fundamental Rights & Duties"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q18",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q19",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q20",
+    "subject": "History & Culture",
+    "topic": "Indian Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q21",
+    "subject": "History & Culture",
+    "topic": "South Indian History"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q22",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q23",
+    "subject": "History & Culture",
+    "topic": "South Indian History"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q24",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q25",
+    "subject": "History & Culture",
+    "topic": "Delhi Sultanate & Mughals"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q26",
+    "subject": "History & Culture",
+    "topic": "Delhi Sultanate & Mughals"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q27",
+    "subject": "History & Culture",
+    "topic": "Delhi Sultanate & Mughals"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q28",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q29",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q30",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q31",
+    "subject": "General Science",
+    "topic": "Environment & Ecology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q32",
+    "subject": "General Science",
+    "topic": "Environment & Ecology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q33",
+    "subject": "General Science",
+    "topic": "Environment & Ecology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q34",
+    "subject": "General Science",
+    "topic": "Environment & Ecology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q35",
+    "subject": "Geography",
+    "topic": "Disaster Management"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q36",
+    "subject": "Geography",
+    "topic": "Population & Transport"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q37",
+    "subject": "Geography",
+    "topic": "Population & Transport"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q38",
+    "subject": "Geography",
+    "topic": "Population & Transport"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q40",
+    "subject": "Geography",
+    "topic": "Rivers & Water Resources"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q41",
+    "subject": "General Science",
+    "topic": "Scientific Inventions"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q42",
+    "subject": "General Science",
+    "topic": "Health & Human Physiology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q43",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q44",
+    "subject": "Geography",
+    "topic": "Rivers & Water Resources"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q45",
+    "subject": "Geography",
+    "topic": "Population & Transport"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q46",
+    "subject": "Current Affairs",
+    "topic": "Sports, Awards & Persons in News"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q49",
+    "subject": "Indian Polity",
+    "topic": "Elections"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q50",
+    "subject": "Current Affairs",
+    "topic": "National Current Affairs"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q51",
+    "subject": "Current Affairs",
+    "topic": "Sports, Awards & Persons in News"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q52",
+    "subject": "History & Culture",
+    "topic": "Indian Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q53",
+    "subject": "Current Affairs",
+    "topic": "Sports, Awards & Persons in News"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q54",
+    "subject": "History & Culture",
+    "topic": "Indian Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q55",
+    "subject": "Current Affairs",
+    "topic": "International Current Affairs"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q57",
+    "subject": "General Science",
+    "topic": "Health & Human Physiology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q58",
+    "subject": "General Science",
+    "topic": "Botany"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q59",
+    "subject": "General Science",
+    "topic": "Botany"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q60",
+    "subject": "General Science",
+    "topic": "Chemistry"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q61",
+    "subject": "General Science",
+    "topic": "Chemistry"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q62",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q65",
+    "subject": "General Science",
+    "topic": "Chemistry"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q66",
+    "subject": "General Science",
+    "topic": "Health & Human Physiology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q68",
+    "subject": "History & Culture",
+    "topic": "National Leaders"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q71",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q72",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q74",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q75",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q76",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q77",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q78",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q79",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q81",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q82",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu in Freedom Struggle"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q83",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu in Freedom Struggle"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q84",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu in Freedom Struggle"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q85",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q86",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q87",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q88",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q89",
+    "subject": "General Science",
+    "topic": "Chemistry"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q90",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q91",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q92",
+    "subject": "General Science",
+    "topic": "Health & Human Physiology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q93",
+    "subject": "Geography",
+    "topic": "Disaster Management"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q94",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q95",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q96",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q97",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q98",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q99",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q100",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q101",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q102",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q103",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q104",
+    "subject": "Indian Economy",
+    "topic": "Agriculture & Rural Development"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q105",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q106",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q108",
+    "subject": "Geography",
+    "topic": "Rivers & Water Resources"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q109",
+    "subject": "Indian Economy",
+    "topic": "Banking & Monetary Policy"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q110",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q111",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q112",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q113",
+    "subject": "History & Culture",
+    "topic": "National Leaders"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q114",
+    "subject": "History & Culture",
+    "topic": "National Leaders"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q115",
+    "subject": "History & Culture",
+    "topic": "National Leaders"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q116",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu in Freedom Struggle"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q117",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu in Freedom Struggle"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q118",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q119",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q120",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q121",
+    "subject": "History & Culture",
+    "topic": "National Leaders"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q122",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q123",
+    "subject": "History & Culture",
+    "topic": "National Leaders"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q124",
+    "subject": "History & Culture",
+    "topic": "Delhi Sultanate & Mughals"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q125",
+    "subject": "History & Culture",
+    "topic": "South Indian History"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q126",
+    "subject": "Geography",
+    "topic": "Population & Transport"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q127",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q128",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q129",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q130",
+    "subject": "Indian Economy",
+    "topic": "Agriculture & Rural Development"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q131",
+    "subject": "Geography",
+    "topic": "Agriculture"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q132",
+    "subject": "Indian Economy",
+    "topic": "Agriculture & Rural Development"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q133",
+    "subject": "Indian Economy",
+    "topic": "Industry & Employment"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q134",
+    "subject": "Indian Economy",
+    "topic": "Fiscal Policy & Taxation"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q135",
+    "subject": "Indian Economy",
+    "topic": "Fiscal Policy & Taxation"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q137",
+    "subject": "Indian Economy",
+    "topic": "Fiscal Policy & Taxation"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q138",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q140",
+    "subject": "Indian Economy",
+    "topic": "Banking & Monetary Policy"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q141",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q142",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q143",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q144",
+    "subject": "Indian Polity",
+    "topic": "Judiciary"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q145",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q146",
+    "subject": "Indian Polity",
+    "topic": "Local Government & Panchayat Raj"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q147",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q148",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q149",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q150",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q151",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q152",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q153",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q154",
+    "subject": "Indian Polity",
+    "topic": "Fundamental Rights & Duties"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q155",
+    "subject": "Indian Polity",
+    "topic": "Fundamental Rights & Duties"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q156",
+    "subject": "Indian Polity",
+    "topic": "Fundamental Rights & Duties"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q157",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q158",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q159",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q160",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q161",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q162",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q163",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Series & Puzzles"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q164",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Series & Puzzles"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q165",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Logical Reasoning"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q166",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q167",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q168",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q169",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q170",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q171",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q172",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q173",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q174",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q175",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q176",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q177",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q178",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q179",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q180",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q181",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q182",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q183",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q184",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q185",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q186",
+    "subject": "General Science",
+    "topic": "Zoology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q187",
+    "subject": "Geography",
+    "topic": "Agriculture"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q188",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q189",
+    "subject": "Current Affairs",
+    "topic": "Tamil Nadu Current Affairs"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q190",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q191",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q192",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q193",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q194",
+    "subject": "Current Affairs",
+    "topic": "National Current Affairs"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q195",
+    "subject": "Indian Polity",
+    "topic": "Rights Bodies, RTI & Governance"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q196",
+    "subject": "Indian Economy",
+    "topic": "Welfare Schemes"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q197",
+    "subject": "Current Affairs",
+    "topic": "Government Schemes"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q198",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q199",
+    "subject": "Indian Economy",
+    "topic": "Banking & Monetary Policy"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2021-gs-q200",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  }
+]

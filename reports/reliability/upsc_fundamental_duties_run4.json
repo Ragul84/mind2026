@@ -1,0 +1,218 @@
+{
+  "generatedAt": "2026-08-23T09:28:43.010Z",
+  "prompts": [
+    {
+      "key": "dpsp_short",
+      "prompt": "DPSP"
+    },
+    {
+      "key": "dpsp_explicit",
+      "prompt": "What are Directive Principles of State Policy?"
+    },
+    {
+      "key": "fr_short",
+      "prompt": "FR"
+    },
+    {
+      "key": "fr_explain",
+      "prompt": "Explain Fundamental Rights"
+    },
+    {
+      "key": "democracy",
+      "prompt": "What is democracy?"
+    },
+    {
+      "key": "federalism",
+      "prompt": "What is federalism?"
+    },
+    {
+      "key": "fundamental_duties",
+      "prompt": "What are Fundamental Duties?"
+    },
+    {
+      "key": "panchayati_raj",
+      "prompt": "What is Panchayati Raj?"
+    },
+    {
+      "key": "revolt",
+      "prompt": "The revolt of 1857"
+    },
+    {
+      "key": "revolt_causes",
+      "prompt": "Explain the causes of the Revolt of 1857"
+    },
+    {
+      "key": "revolt_explain",
+      "prompt": "Explain the Revolt of 1857"
+    },
+    {
+      "key": "1857",
+      "prompt": "1857"
+    },
+    {
+      "key": "monsoon",
+      "prompt": "Explain Indian monsoon"
+    },
+    {
+      "key": "monsoon_why",
+      "prompt": "Why does monsoon occur in India?"
+    },
+    {
+      "key": "sw_monsoon",
+      "prompt": "Southwest monsoon"
+    },
+    {
+      "key": "river_systems",
+      "prompt": "Explain river systems of India"
+    },
+    {
+      "key": "biodiversity",
+      "prompt": "What is biodiversity?"
+    },
+    {
+      "key": "mineral",
+      "prompt": "What is a mineral?"
+    },
+    {
+      "key": "photosynthesis",
+      "prompt": "What is photosynthesis?"
+    },
+    {
+      "key": "photosynthesis_detail",
+      "prompt": "Explain photosynthesis in detail"
+    },
+    {
+      "key": "nuclear_fission_short",
+      "prompt": "What is nuclear fission?"
+    },
+    {
+      "key": "nuclear_fission_explain",
+      "prompt": "Explain nuclear fission"
+    },
+    {
+      "key": "newton_short",
+      "prompt": "What is Newton's second law?"
+    },
+    {
+      "key": "newton_explain",
+      "prompt": "Explain Newton's second law"
+    },
+    {
+      "key": "gdp",
+      "prompt": "GDP"
+    },
+    {
+      "key": "fiscal_deficit",
+      "prompt": "What is fiscal deficit?"
+    },
+    {
+      "key": "inflation",
+      "prompt": "What is inflation?"
+    },
+    {
+      "key": "national_income",
+      "prompt": "What is national income?"
+    },
+    {
+      "key": "cell_theory",
+      "prompt": "What is the cell theory?"
+    },
+    {
+      "key": "respiratory_system",
+      "prompt": "What is the human respiratory system?"
+    }
+  ],
+  "fixtures": [
+    {
+      "key": "tnpsc",
+      "context": {
+        "primary_exam": "tnpsc",
+        "primary_curriculum": "samacheer",
+        "class_level": 10,
+        "context_source": "onboarding"
+      },
+      "expectedCorpus": "samacheer",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a"
+    },
+    {
+      "key": "upsc",
+      "context": {
+        "primary_exam": "upsc",
+        "primary_curriculum": "ncert",
+        "class_level": 11,
+        "context_source": "onboarding"
+      },
+      "expectedCorpus": "ncert",
+      "userId": "54778a7f-c934-472f-bfa2-b4b22b5fe910"
+    }
+  ],
+  "seededFixtures": [
+    {
+      "fixtureKey": "tnpsc",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a",
+      "studyPayload": {
+        "primary_exam": "tnpsc",
+        "primary_curriculum": "samacheer",
+        "class_level": 10,
+        "context_source": "onboarding"
+      },
+      "protocolTrackId": "tnpsc_ecosystem"
+    },
+    {
+      "fixtureKey": "upsc",
+      "userId": "54778a7f-c934-472f-bfa2-b4b22b5fe910",
+      "studyPayload": {
+        "primary_exam": "upsc",
+        "primary_curriculum": "ncert",
+        "class_level": 11,
+        "context_source": "onboarding"
+      },
+      "protocolTrackId": "upsc_ecosystem"
+    }
+  ],
+  "smokeTests": [],
+  "results": [
+    {
+      "name": "upsc:fundamental_duties",
+      "fixtureKey": "upsc",
+      "prompt": "What are Fundamental Duties?",
+      "expectedCorpus": "ncert",
+      "userId": "54778a7f-c934-472f-bfa2-b4b22b5fe910",
+      "stream": {
+        "ok": true,
+        "status": 200,
+        "events": [
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "done"
+        ],
+        "answer": "# Fundamental Duties\n\nFundamental Duties are a set of **11 duties** outlined in the **Indian Constitution** that are expected to be performed by all citizens. These duties are intended to promote a sense of patriotism, unity, and responsibility among the citizens.\n\nThey were added to the Constitution by the **42nd Amendment Act of 1976** based on the recommendations of the **Swaran Singh Committee**. Originally, there were 10 duties, and the **11th duty** was added by the **86th Amendment Act of 2002**.\n\nWhile Fundamental Duties are **non-justiciable** (meaning they cannot be enforced by courts), they serve as a constant reminder to citizens about their obligations to the nation, society, and fellow citizens."
+      },
+      "actualPrimaryCorpus": null,
+      "leakageBoards": [],
+      "topSource": null,
+      "evidenceAudit": [],
+      "auditSupportingEvidence": [],
+      "answerCoverage": 1,
+      "verdict": "FAIL_NO_EVIDENCE"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "pass_direct": 0,
+    "pass_partial": 0,
+    "fail": 1,
+    "strictPassRate": 0
+  },
+  "validatorVersion": "strict-v2",
+  "notes": [
+    "TOC/contents/exercise/glossary-adjacent passages are rejected unless they contain an actual proposition answering the requested aspect.",
+    "PASS_DIRECT requires both corpus match and at least one strict supporting passage."
+  ]
+}

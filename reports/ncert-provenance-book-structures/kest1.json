@@ -1,0 +1,59 @@
+{
+  "schema_version": 4,
+  "book_code": "kest1",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/kest1ps.pdf",
+  "fetched_at": "2026-08-16T13:52:41.878Z",
+  "sample": {
+    "class_level": 11,
+    "subject": "economics",
+    "book_title": "Statistics for Economics",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": ": Introduction"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": ": Collection of Data"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": ": Organisation of Data"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": ": Presentation of Data"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": ": Measures of Central Tendency"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": ": Correlation"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": ": Index Numbers"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "8",
+      "canonical_unit_title": ": Use of Statistical Tools"
+    }
+  ],
+  "evidence_pages": [
+    6,
+    10
+  ],
+  "evidence_mode": "official_pdf_text"
+}

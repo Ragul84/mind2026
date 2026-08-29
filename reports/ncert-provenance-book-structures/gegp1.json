@@ -1,0 +1,60 @@
+{
+  "schema_version": 4,
+  "book_code": "gegp1",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/gegp1ps.pdf",
+  "fetched_at": "2026-08-16T13:20:33.746Z",
+  "sample": {
+    "class_level": 7,
+    "subject": "mathematics",
+    "book_title": "Ganita Prakash",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "Large Numbers Around Us"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "Arithmetic Expressions"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "A Peek Beyond the Point"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "Expressions using Letter-Numbers"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "Parallel and Intersecting Lines"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "Number Play"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": "A Tale of Three Intersecting Lines"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "8",
+      "canonical_unit_title": "Working with Fractions"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    5,
+    16
+  ],
+  "evidence_mode": "official_pdf_text"
+}

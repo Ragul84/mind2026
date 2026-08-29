@@ -1,0 +1,85 @@
+{
+  "schema_version": 4,
+  "book_code": "lebo1",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/lebo1ps.pdf",
+  "fetched_at": "2026-08-16T13:53:09.351Z",
+  "sample": {
+    "class_level": 12,
+    "subject": "biology",
+    "book_title": "Biology",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": ": Sexual Reproduction in Flowering Plants"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": ": Human Reproduction"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": ": Reproductive Health"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": ": Principles of Inheritance and Variation"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": ": Molecular Basis of Inheritance"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": ": Evolution"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": ": Human Health and Disease"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "8",
+      "canonical_unit_title": ": Microbes in Human Welfare"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "9",
+      "canonical_unit_title": ": Biotechnology : Principles and Processes"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "10",
+      "canonical_unit_title": ": Biotechnology and its Applications"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "11",
+      "canonical_unit_title": ": Organisms and Populations"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "12",
+      "canonical_unit_title": ": Ecosystem"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "13",
+      "canonical_unit_title": ": Biodiversity and Conservation"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    10,
+    11
+  ],
+  "evidence_mode": "official_pdf_text"
+}

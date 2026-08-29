@@ -1,0 +1,80 @@
+{
+  "schema_version": 4,
+  "book_code": "gecu1",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/gecu1ps.pdf",
+  "fetched_at": "2026-08-16T13:20:49.915Z",
+  "sample": {
+    "class_level": 7,
+    "subject": "science",
+    "book_title": "Curiosity",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "12",
+      "canonical_unit_title": "‘Earth, Moon and the Sun’; and T.A. Viswanath, Former"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "‘Changes Around Us: Physical and Chemical’."
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "The Ever-Evolving World of Science \b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "Exploring Substances: Acidic, Basic, and Neutral"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "Electricity: Circuits and their Components \b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "The World of Metals and Non-metals \b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "Adolescence: A Stage of Growth and Change\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": "Heat Transfer in Nature \b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "8",
+      "canonical_unit_title": "Measurement of Time and Motion \b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "9",
+      "canonical_unit_title": "Life Processes in Animals \b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "10",
+      "canonical_unit_title": "Life Processes in Plants \b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "11",
+      "canonical_unit_title": "Light: Shadows and Reflections \b"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    16,
+    18
+  ],
+  "evidence_mode": "official_pdf_text"
+}

@@ -1,0 +1,917 @@
+[
+  {
+    "id": "tnpsc-group1-prelims-2019-q1",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q2",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q4",
+    "subject": "Geography",
+    "topic": "Soil, Minerals & Natural Resources"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q5",
+    "subject": "General Science",
+    "topic": "Chemistry"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q6",
+    "subject": "General Science",
+    "topic": "Chemistry"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q7",
+    "subject": "Geography",
+    "topic": "Rivers & Water Resources"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q8",
+    "subject": "General Science",
+    "topic": "Zoology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q9",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q10",
+    "subject": "General Science",
+    "topic": "Zoology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q11",
+    "subject": "General Science",
+    "topic": "Botany"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q12",
+    "subject": "General Science",
+    "topic": "Zoology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q13",
+    "subject": "General Science",
+    "topic": "Botany"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q14",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q15",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q16",
+    "subject": "Geography",
+    "topic": "Rivers & Water Resources"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q17",
+    "subject": "Geography",
+    "topic": "Soil, Minerals & Natural Resources"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q19",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q20",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q22",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q23",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q24",
+    "subject": "History & Culture",
+    "topic": "Indian Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q25",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q27",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q28",
+    "subject": "History & Culture",
+    "topic": "Indian Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q29",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q30",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q31",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q32",
+    "subject": "Indian Polity",
+    "topic": "Judiciary"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q33",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q34",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q36",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q37",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q38",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q39",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q41",
+    "subject": "Indian Polity",
+    "topic": "Local Government & Panchayat Raj"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q42",
+    "subject": "Indian Economy",
+    "topic": "Fiscal Policy & Taxation"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q43",
+    "subject": "Indian Economy",
+    "topic": "Agriculture & Rural Development"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q44",
+    "subject": "Indian Economy",
+    "topic": "Fiscal Policy & Taxation"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q45",
+    "subject": "Indian Economy",
+    "topic": "Fiscal Policy & Taxation"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q47",
+    "subject": "Indian Economy",
+    "topic": "Agriculture & Rural Development"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q48",
+    "subject": "Indian Economy",
+    "topic": "Agriculture & Rural Development"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q49",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q50",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q51",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q52",
+    "subject": "Indian Economy",
+    "topic": "Fiscal Policy & Taxation"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q53",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q55",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Data Interpretation"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q56",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q61",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Data Interpretation"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q62",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q63",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q65",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q67",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q68",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q70",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q74",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q75",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q76",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q77",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Data Interpretation"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q78",
+    "subject": "General Science",
+    "topic": "Health & Human Physiology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q80",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q81",
+    "subject": "Indian Economy",
+    "topic": "Fiscal Policy & Taxation"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q86",
+    "subject": "Geography",
+    "topic": "Disaster Management"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q88",
+    "subject": "Current Affairs",
+    "topic": "National Current Affairs"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q89",
+    "subject": "Current Affairs",
+    "topic": "National Current Affairs"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q90",
+    "subject": "Current Affairs",
+    "topic": "International Current Affairs"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q91",
+    "subject": "History & Culture",
+    "topic": "Indian Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q92",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q93",
+    "subject": "Indian Polity",
+    "topic": "Local Government & Panchayat Raj"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q95",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q97",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q98",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q99",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q100",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q101",
+    "subject": "Current Affairs",
+    "topic": "National Current Affairs"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q102",
+    "subject": "General Science",
+    "topic": "Chemistry"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q105",
+    "subject": "General Science",
+    "topic": "Chemistry"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q109",
+    "subject": "General Science",
+    "topic": "Zoology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q110",
+    "subject": "General Science",
+    "topic": "Zoology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q111",
+    "subject": "General Science",
+    "topic": "Zoology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q112",
+    "subject": "General Science",
+    "topic": "Zoology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q113",
+    "subject": "General Science",
+    "topic": "Environment & Ecology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q114",
+    "subject": "Geography",
+    "topic": "Rivers & Water Resources"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q115",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q116",
+    "subject": "Geography",
+    "topic": "Climate & Monsoon"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q118",
+    "subject": "Geography",
+    "topic": "Climate & Monsoon"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q119",
+    "subject": "Geography",
+    "topic": "Climate & Monsoon"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q120",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q121",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q123",
+    "subject": "History & Culture",
+    "topic": "Delhi Sultanate & Mughals"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q124",
+    "subject": "History & Culture",
+    "topic": "Delhi Sultanate & Mughals"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q126",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q127",
+    "subject": "History & Culture",
+    "topic": "National Leaders"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q130",
+    "subject": "Indian Polity",
+    "topic": "Judiciary"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q131",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q133",
+    "subject": "Indian Polity",
+    "topic": "Local Government & Panchayat Raj"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q134",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q135",
+    "subject": "Indian Polity",
+    "topic": "Fundamental Rights & Duties"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q136",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q137",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q138",
+    "subject": "Indian Economy",
+    "topic": "Agriculture & Rural Development"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q139",
+    "subject": "Indian Economy",
+    "topic": "Agriculture & Rural Development"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q140",
+    "subject": "Indian Economy",
+    "topic": "Industry & Employment"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q141",
+    "subject": "Indian Economy",
+    "topic": "Banking & Monetary Policy"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q142",
+    "subject": "Indian Economy",
+    "topic": "Banking & Monetary Policy"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q144",
+    "subject": "Indian Economy",
+    "topic": "Welfare Schemes"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q145",
+    "subject": "Indian Economy",
+    "topic": "Agriculture & Rural Development"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q146",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q147",
+    "subject": "History & Culture",
+    "topic": "Delhi Sultanate & Mughals"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q148",
+    "subject": "History & Culture",
+    "topic": "National Leaders"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q149",
+    "subject": "History & Culture",
+    "topic": "Indian Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q151",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q152",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q153",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q154",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Data Interpretation"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q155",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q157",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Data Interpretation"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q158",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Data Interpretation"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q159",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q160",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Data Interpretation"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q161",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q162",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q163",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q164",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q166",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q167",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q168",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q169",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q170",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q171",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q172",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q173",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q174",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q175",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q176",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q177",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Series & Puzzles"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q178",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q179",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Data Interpretation"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q180",
+    "subject": "Indian Economy",
+    "topic": "Industry & Employment"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q181",
+    "subject": "Indian Economy",
+    "topic": "Banking & Monetary Policy"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q183",
+    "subject": "Current Affairs",
+    "topic": "Tamil Nadu Current Affairs"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q186",
+    "subject": "Geography",
+    "topic": "Soil, Minerals & Natural Resources"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q187",
+    "subject": "History & Culture",
+    "topic": "Indian Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q188",
+    "subject": "Current Affairs",
+    "topic": "International Current Affairs"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q189",
+    "subject": "History & Culture",
+    "topic": "National Leaders"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q190",
+    "subject": "Current Affairs",
+    "topic": "National Current Affairs"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q192",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q193",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q195",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q196",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q197",
+    "subject": "History & Culture",
+    "topic": "Indian Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q199",
+    "subject": "Current Affairs",
+    "topic": "International Current Affairs"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q21",
+    "subject": "Geography",
+    "topic": "Population & Transport"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q46",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q54",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q57",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q58",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q59",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Data Interpretation"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q64",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q66",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q69",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q71",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q72",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q73",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q83",
+    "subject": "Indian Economy",
+    "topic": "Welfare Schemes"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q84",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q87",
+    "subject": "Current Affairs",
+    "topic": "National Current Affairs"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q94",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q96",
+    "subject": "Indian Polity",
+    "topic": "Judiciary"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q103",
+    "subject": "General Science",
+    "topic": "Chemistry"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q104",
+    "subject": "General Science",
+    "topic": "Chemistry"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q106",
+    "subject": "General Science",
+    "topic": "Chemistry"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q107",
+    "subject": "General Science",
+    "topic": "Botany"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q108",
+    "subject": "General Science",
+    "topic": "Botany"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q117",
+    "subject": "General Science",
+    "topic": "Environment & Ecology"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q125",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q150",
+    "subject": "History & Culture",
+    "topic": "National Leaders"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q156",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q165",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q185",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q191",
+    "subject": "Indian Economy",
+    "topic": "Welfare Schemes"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q198",
+    "subject": "Indian Economy",
+    "topic": "Welfare Schemes"
+  },
+  {
+    "id": "tnpsc-group1-prelims-2019-q200",
+    "subject": "Indian Polity",
+    "topic": "Judiciary"
+  }
+]

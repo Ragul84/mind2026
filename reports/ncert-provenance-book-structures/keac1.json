@@ -1,0 +1,55 @@
+{
+  "schema_version": 4,
+  "book_code": "keac1",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/keac1ps.pdf",
+  "fetched_at": "2026-08-16T13:38:20.825Z",
+  "sample": {
+    "class_level": 11,
+    "subject": "accountancy",
+    "book_title": "Financial Accounting-I",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "Introduction to Accounting"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "Theory Base of Accounting"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "Recording of Transactions - I"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "Recording of Transactions - II"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "Bank Reconciliation Statement"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "Trial Balance and Rectification of Errors"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": "Depreciation, Provisions and Reserves"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    10,
+    11
+  ],
+  "evidence_mode": "official_pdf_text"
+}

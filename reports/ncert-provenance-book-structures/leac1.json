@@ -1,0 +1,40 @@
+{
+  "schema_version": 4,
+  "book_code": "leac1",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/leac1ps.pdf",
+  "fetched_at": "2026-08-16T13:53:08.195Z",
+  "sample": {
+    "class_level": 12,
+    "subject": "accountancy",
+    "book_title": "Accountancy-I",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "Accounting for Partnership: Basic Concepts"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "Reconstitution of a Partnership Firm – Admission"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "Reconstitution of a Partnership Firm –"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "Dissolution of Partnership Firm"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    8,
+    9
+  ],
+  "evidence_mode": "official_pdf_text"
+}

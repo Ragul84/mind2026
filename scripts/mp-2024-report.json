@@ -1,0 +1,24 @@
+{
+  "totalPCs": 543,
+  "csvRows": 543,
+  "matched": 530,
+  "ambiguousCount": 6,
+  "unmatchedCount": 7,
+  "ambiguous": [
+    "Hamirpur (Himachal Pradesh)",
+    "Hamirpur (Uttar Pradesh)",
+    "Maharajganj (Uttar Pradesh)",
+    "Maharajganj (Bihar)",
+    "Aurangabad (Bihar)",
+    "Aurangabad (Maharashtra)"
+  ],
+  "unmatched": [
+    "Autonomous District (Assam)",
+    "Gauhati (Assam)",
+    "Mangaldoi (Assam)",
+    "Tezpur (Assam)",
+    "Nowgong (Assam)",
+    "Kaliabor (Assam)",
+    "Anantnag (Jammu & Kashmir)"
+  ]
+}

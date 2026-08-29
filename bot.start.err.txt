@@ -1,0 +1,28 @@
+D:\mindwhite\bot\server.py:134: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [42276]
+INFO:     Waiting for application startup.
+INFO:__main__:[ENV] OPENAI_API_KEY set: True
+INFO:__main__:[ENV] EXPO_PUBLIC_OPENROUTER_API_KEY set: True
+INFO:__main__:[ENV] OPENAI_API_BASE: https://openrouter.ai/api/v1
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:7860 (Press CTRL+C to quit)
+INFO:     10.18.113.23:37908 - "WebSocket /ws_story" [accepted]
+INFO:     connection open
+INFO:__main__:[WS] mode=story input_kind=topic model=google/gemini-3.1-flash-lite query=Delhi sultanate
+INFO:__main__:[JSON] trying model=google/gemini-3.1-flash-lite
+INFO:__main__:[JSON] google/gemini-3.1-flash-lite returned len=1286 preview={
+  "speech_text": "Imagine Delhi as a grand ancestral house where five different families took turns living in, each leaving their own unique mess an
+INFO:     connection closed
+INFO:     10.18.113.23:33122 - "WebSocket /ws_story" [accepted]
+INFO:     connection open
+INFO:__main__:[WS] mode=story input_kind=topic model=google/gemini-3.1-flash-lite query=Find profit / loss for a marked price and discount question.
+INFO:__main__:[JSON] trying model=google/gemini-3.1-flash-lite
+INFO:__main__:[JSON] google/gemini-3.1-flash-lite returned len=1034 preview={
+  "speech_text": "Imagine our friend Ravi opens a shirt shop, setting the price tag at 1000 rupees as the marked price. He wants to attract customer
+INFO:     connection closed

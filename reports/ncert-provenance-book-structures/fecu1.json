@@ -1,0 +1,81 @@
+{
+  "schema_version": 4,
+  "book_code": "fecu1",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/fecu1ps.pdf",
+  "fetched_at": "2026-08-16T13:20:16.946Z",
+  "sample": {
+    "class_level": 6,
+    "subject": "science",
+    "book_title": "Curiosity",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "12",
+      "canonical_unit_title": "‘Beyond Earth.’"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "The Wonderful World of Science"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "Diversity in the Living World"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "Mindful Eating: A Path to a Healthy Body"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "Exploring Magnets"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "Measurement of Length and Motion"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "Materials Around Us"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": "Temperature and its Measurement"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "8",
+      "canonical_unit_title": "A Journey through States of Water"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "9",
+      "canonical_unit_title": "Methods of Separation in Everyday Life"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "10",
+      "canonical_unit_title": "Living Creatures: Exploring their Characteristics"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "11",
+      "canonical_unit_title": "Nature’s Treasures"
+    }
+  ],
+  "evidence_pages": [
+    5,
+    14,
+    15,
+    16
+  ],
+  "evidence_mode": "official_pdf_text"
+}

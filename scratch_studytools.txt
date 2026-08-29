@@ -1,0 +1,168 @@
+--- Line 3440 ---
+Created At: 2026-05-24T16:52:07Z
+Completed At: 2026-05-24T16:52:07Z
+File Path: `file:///d:/mindwhite/app/%28tabs%29/home.tsx`
+Total Lines: 3607
+Total Bytes: 104844
+Showing lines 3440 to 3505
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+3440:           </TouchableOpacity>
+3441:         )}
+3442: 
+3443:         {/* ðŸŒŸ Daily Thirukkural (Premium Ethereal Typography) */}
+3444:         <View style={styles.thiruEtherealContainer}>
+3445:           <View style={styles.thiruEtherealQuoteIcon}>
+3446:             <Ionicons name="leaf" size={24} color="#10B981" />
+3447:           </View>
+3448:           {!dailyKural ? (
+3449:             <View style={{ alignItems: 'center', width: '100%', gap: 12 }}>
+3450:               <ShimmerBlock style={{ width: 140, height: 12, borderRadius: 4, marginVertical: 4 }} />
+3451:               <View style={[styles.thiruEtherealLines, { width: '100%', alignItems: 'center', gap: 8 }]}>
+3452:                 <ShimmerBlock style={{ width: '85%', height: 18, borderRadius: 4 }} />
+3453:                 <ShimmerBlock style={{ width: '70%', height: 18, borderRadius: 4 }} />
+3454:               </View>
+3455:               <View style={{ height: 32 }} />
+3456:             </View>
+3457:           ) : (
+3458:             <>
+3459:               <Text style={styles.thiruEtherealNumber}>THIRUKKURAL â€¢ {dailyKural.kural_number}</Text>
+3460:               <View style={styles.thiruEtherealLines}>
+3461:                 <Text style={[styles.thiruEtherealQuoteMark, { top: -24, left: -5 }]}>â€œ</Text>
+3462:                 {kuralLines.map((line: string, idx: number) => (
+3463:                   <Text key={idx} style={styles.thiruEtherealText} numberOfLines={1}>
+3464:                     {line.trim()}
+3465:                   </Text>
+3466:                 ))}
+3467:                 <Text style={[styles.thiruEtherealQuoteMark, { bottom: -32, right: -5 }]}>â€</Text>
+3468:               </View>
+3469:               <View style={styles.kuralLanguageRow}>
+3470:                 {([
+3471:                   { id: 'ta', label: 'Tamil' },
+3472:                   { id: 'hi', label: 'Hindi' },
+3473:                   { id: 'te', label: 'Telugu' },
+3474:                   { id: 'kn', label: 'Kannada' },
+3475:                   { id: 'ml', label: 'Malayalam' },
+3476:                 ] as Array<{ id: KuralLanguage; label: string }>).map((lang) => (
+3477:                   <TouchableOpacity
+3478:                     key={lang.id}
+3479:                     activeOpacity={1}
+3480:                     onPress={() => setSelectedKuralLanguage(lang.id)}
+3481:                     style={[
+3482:                       styles.kuralLanguageChip,
+3483:                       selectedKuralLanguage === lang.id && styles.kuralLanguageChipActive,
+3484:                     ]}
+3485:                   >
+3486:                     <Text
+3487:                       style={[
+3488:                         styles.kuralLanguageText,
+3489:                         selectedKuralLanguage === lang.id && styles.kuralLanguageTextActive,
+3490:                       ]}
+3491:                     >
+3492:                       {lang.label}
+3493:                     </Text>
+3494:                   </TouchableOpacity>
+3495:                 ))}
+3496:               </View>
+3497:               {!!kuralMeaning && (
+3498:                 <Text style={styles.kuralMeaningText}>{kuralMeaning}</Text>
+3499:               )}
+3500:             </>
+3501:           )}
+3502:         </View>
+3503: 
+3504:         {/* 🗺️ Study Journey Header */}
+3505:         <View style={styles.pathHeader}>
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.
+
+********************************************************************************
+--- Line 3446 ---
+Created At: 2026-05-24T16:52:30Z
+Completed At: 2026-05-24T16:52:31Z
+File Path: `file:///d:/mindwhite/app/%28tabs%29/home.tsx`
+Total Lines: 3606
+Total Bytes: 104867
+Showing lines 3410 to 3540
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+3410:               start={{ x: 0, y: 0 }}
+3411:               end={{ x: 1, y: 0 }}
+3412:               style={styles.toolsSeparatorLine}
+3413:             />
+3414:           </View>
+3415:         </View>
+3416: 
+3417:         {stateRankSnapshot && (
+3418:           <TouchableOpacity
+3419:             activeOpacity={1}
+3420:             style={styles.stateRankCard}
+3421:             onPress={() => UniversalNavigation.navigateTo('/(tabs)/leaderboard')}
+3422:           >
+3423:             <View style={styles.stateRankHeader}>
+3424:               <View>
+3425:                 <Text style={styles.stateRankLabel}>MY STATE RANK</Text>
+3426:                 <Text style={styles.stateRankTitle}>{stateRankSnapshot.state}</Text>
+3427:               </View>
+3428:               <View style={styles.stateRankBadge}>
+3429:                 <Ionicons name="flag" size={16} color="#00D4C7" />
+3430:                 <Text style={styles.stateRankBadgeText}>#{stateRankSnapshot.rank || '--'}</Text>
+3431:               </View>
+3432:             </View>
+3433:             <Text style={styles.stateRankCopy}>
+3434:               Keep studying to push {stateRankSnapshot.state} higher on the national board.
+3435:             </Text>
+3436:             <View style={styles.stateRankFooter}>
+3437:               <Text style={styles.stateRankXp}>{(stateRankSnapshot.xp || 0).toLocaleString()} XP</Text>
+3438:               
+3439:               {/* 🌟 Daily Thirukkural (Premium Compact Card) */}
+3440:               {!dailyKural ? (
+3441:                 <View style={[styles.kuralCard, { height: 110, justifyContent: 'center', ali
+<truncated 2951 bytes>
+ </Text>
+3495:                     )}
+3496:                   </View>
+3497:                 </View>
+3498:               )}
+3499:             </View>
+3500:           </TouchableOpacity>
+3501:         )}
+3502: 
+3503:         {/* 🗺️ Study Journey Header */}
+3504:         <View style={styles.pathHeader}>
+3505:           <Text style={styles.pathTitle}>Mindgames</Text>
+3506:           <TouchableOpacity activeOpacity={1} onPress={() => setIsPathVisible(!isPathVisible)}>
+3507:             <Ionicons name={isPathVisible ? "chevron-up" : "chevron-down"} size={20} color="#64748B" />
+3508:           </TouchableOpacity>
+3509:         </View>
+3510: 
+3511:         {isPathVisible && (
+3512:           <View style={styles.pathContainer}>
+3513:             <CleanLearningPath
+3514:               topics={examTopics}
+3515:               lessons={pathLessons}
+3516:               currentLessonId={currentLesson?.id}
+3517:               onOpenLesson={(id: string) => handleLessonPressById(id)}
+3518:               onLessonComplete={(id: string, xp: number) => handleLessonComplete(id, xp)}
+3519:             />
+3520:           </View>
+3521:         )}
+3522:         
+3523:         <View style={styles.arenaWrapper}>
+3524:           <TouchableOpacity
+3525:             activeOpacity={0.92}
+3526:             onPress={() => UniversalNavigation.navigateTo('/knowledge-heist')}
+3527:           >
+3528:             <ImageBackground
+3529:               source={mindClashBannerImage}
+3530:               style={styles.arenaInner}
+3531:               imageStyle={{ borderRadius: 20 }}
+3532:               resizeMode="cover"
+3533:             >
+3534:               <View style={styles.arenaDarkOverlay} />
+3535:               <ArenaEnterButton />
+3536:             </ImageBackground>
+3537:           </TouchableOpacity>
+3538:         </View>
+3539:           </>
+3540:         )}
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.
+
+********************************************************************************

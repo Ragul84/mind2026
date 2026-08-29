@@ -1,0 +1,29 @@
+import { createClient } from '@supabase/supabase-js';
+import { readFileSync, writeFileSync } from 'node:fs';
+const env = {};
+for (const f of ['.env', '.env.local']) { try { for (const l of readFileSync(f,'utf8').split(/\r?\n/)){const m=l.match(/^([A-Z0-9_]+)=(.*)$/);if(m)env[m[1]]=m[2].trim();}}catch{} }
+const supabase = createClient(env.EXPO_PUBLIC_SUPABASE_URL, env.SUPABASE_SERVICE_ROLE_KEY);
+const FIXES = {
+  59: [
+    { re:/Vardha Resolution/g, rep:'Wardha Resolution' },
+  ],
+  62: [
+    { re:/NAM founded at Bandung Conference \(1955\)\./g,
+      rep:'NAM formally founded at the Belgrade Conference (1961); the Bandung Conference (1955) was its key precursor.' },
+  ],
+  63: [
+    { re:/Consolidaiton/g, rep:'Consolidation' },
+  ],
+};
+const apply=(n,fx)=>{ if(typeof n==='string'){let s=n;for(const{re,rep}of fx)s=s.replace(re,rep);return s;} if(Array.isArray(n))return n.map(x=>apply(x,fx)); if(n&&typeof n==='object'){const o={};for(const k of Object.keys(n))o[k]=apply(n[k],fx);return o;} return n; };
+for (const [dayStr,fx] of Object.entries(FIXES)) {
+  const day=Number(dayStr);
+  const { data } = await supabase.from('master_content_vault').select('content_json').eq('track_id','upsc_ecosystem').eq('day_number',day).maybeSingle();
+  const json=typeof data.content_json==='string'?JSON.parse(data.content_json):data.content_json;
+  const before=JSON.stringify(json); writeFileSync(`scripts/backup-upsc-${day}.json`,before);
+  const counts=fx.map(f=>(before.match(f.re)||[]).length);
+  const fixed=apply(json,fx);
+  if(JSON.stringify(fixed)===before){console.log(`day ${day}: no change (${counts})`);continue;}
+  const { error } = await supabase.from('master_content_vault').update({content_json:fixed}).eq('track_id','upsc_ecosystem').eq('day_number',day);
+  console.log(error?error:`upsc day ${day}: applied (${counts.join(',')})`);
+}

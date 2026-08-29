@@ -1,0 +1,59 @@
+# Large non-app directories
+node_modules/
+.yarn/
+yarn.lock
+android/build/
+android/.gradle/
+android/app/build/
+android/**/build/
+**/android/build/
+ios/build/
+chroma_db/
+bot/
+tmp-pyq/
+.venv/
+scratch/
+wolf_companion_web/
+# Anchored to root only — a bare "data/" also matched assets/data/ (which the
+# app actually imports from, e.g. civics_lessons.ts), silently excluding it
+# from the build archive and breaking module resolution on EAS's build servers.
+/data/
+
+# Junk binaries / installers accidentally in assets
+**/*.msi
+**/*.exe
+**/*.zip
+**/*.tar
+**/*.tar.gz
+**/*.csv
+assets/mascot/newhome/
+# mascotrig/ was wrongly excluded — components/MascotRig.tsx actually
+# `require()`s the Live2D model files inside it (wolf.moc3, textures, physics,
+# expressions). Excluding it broke every build's JS bundling on EAS.
+assets/fontawesome-pro-7.0.0-desktop/
+
+# Logs and temp files
+*.log
+*.err.log
+bot-server*.log
+expo-*.log
+
+# Test/scratch files
+extracted_step_*.txt
+home_original_step_*.txt
+step_*.txt
+step_*.json
+study_lab_*.json
+study_lab_*.wav
+study_lab_*.txt
+test_out.txt
+ts_errors.txt
+quiz_hub_inspection_report.txt
+
+# One-off patch scripts
+final_clean_up.js
+global_patch_v2.js
+patch_*.js
+remove-duplicates.js
+ultimate_patch.js
+temp_fetch.cjs

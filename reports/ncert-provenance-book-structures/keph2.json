@@ -1,0 +1,93 @@
+{
+  "schema_version": 4,
+  "book_code": "keph2",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/keph2ps.pdf",
+  "fetched_at": "2026-08-16T13:50:30.809Z",
+  "sample": {
+    "class_level": 11,
+    "subject": "physics",
+    "book_title": "Physics Part-II",
+    "volume_or_part": "Part II"
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "Units AND MEASUREMENTS"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "MotIoN IN A STRAIGHT LINE"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "MotTION IN A PLANE"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "Laws or MotTIon"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "Work, ENERGY AND POWER"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "SYSTEM OF PARTICLES AND ROTATIONAL MOTION"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": "GRAVITATION"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "8",
+      "canonical_unit_title": "MECHANICAL PROPERTIES OF SOLIDS"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "9",
+      "canonical_unit_title": "MECHANICAL PROPERTIES OF FLUIDS"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "10",
+      "canonical_unit_title": "THERMAL PROPERTIES OF MATTER"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "11",
+      "canonical_unit_title": "THERMODYNAMICS"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "12",
+      "canonical_unit_title": "Kinetic THEORY"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "13",
+      "canonical_unit_title": "OSCILLATIONS"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "14",
+      "canonical_unit_title": "Waves"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    7,
+    8,
+    13,
+    14,
+    15
+  ],
+  "evidence_mode": "official_pdf_ocr_fallback"
+}

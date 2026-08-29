@@ -1,0 +1,65 @@
+{
+  "updates": [
+    {
+      "id": "tnpsc-group1-prelims-2019-q1",
+      "subject": "Science & Technology",
+      "topic": "Gravity and Free Fall"
+    },
+    {
+      "id": "tnpsc-group1-prelims-2019-q10",
+      "subject": "Current Affairs",
+      "topic": "Bogibeel Bridge Inauguration"
+    },
+    {
+      "id": "tnpsc-group1-prelims-2019-q100",
+      "subject": "Science & Technology",
+      "topic": "Cathode Ray Oscilloscope"
+    },
+    {
+      "id": "tnpsc-group1-prelims-2019-q101",
+      "subject": "Current Affairs",
+      "topic": "Havelock Island Renaming"
+    },
+    {
+      "id": "tnpsc-group1-prelims-2019-q102",
+      "subject": "Science & Technology",
+      "topic": "Protonic Acids"
+    },
+    {
+      "id": "tnpsc-group1-prelims-2019-q104",
+      "subject": "Science & Technology",
+      "topic": "Nitrous Oxide Uses"
+    },
+    {
+      "id": "tnpsc-group1-prelims-2019-q105",
+      "subject": "Science & Technology",
+      "topic": "Methane Formula"
+    },
+    {
+      "id": "tnpsc-group1-prelims-2019-q106",
+      "subject": "Science & Technology",
+      "topic": "Acid-Base Reactions"
+    },
+    {
+      "id": "tnpsc-group1-prelims-2019-q107",
+      "subject": "Science & Technology",
+      "topic": "Biological Processes"
+    },
+    {
+      "id": "tnpsc-group1-prelims-2019-q108",
+      "subject": "Environment",
+      "topic": "Non-Conventional Paper Raw Material"
+    },
+    {
+      "id": "tnpsc-group1-prelims-2019-q109",
+      "subject": "Science & Technology",
+      "topic": "Endocrine Glands"
+    },
+    {
+      "id": "tnpsc-group1-prelims-2019-q11",
+      "subject": "Science & Technology",
+      "topic": "Oil Repelling Plants"
+    }
+  ],
+  "garbage": []
+}

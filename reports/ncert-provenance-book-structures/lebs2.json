@@ -1,0 +1,75 @@
+{
+  "schema_version": 4,
+  "book_code": "lebs2",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/lebs2ps.pdf",
+  "fetched_at": "2026-08-16T13:53:28.817Z",
+  "sample": {
+    "class_level": 12,
+    "subject": "business studies",
+    "book_title": "Business Studies-II",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "9",
+      "canonical_unit_title": "Financial Management"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "10",
+      "canonical_unit_title": "Marketing"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "11",
+      "canonical_unit_title": "Consumer Protection"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "Nature and Significance of Management"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "Principles of Management"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "Business Environment"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "Planning"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "Organising"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "Staffing"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": "Directing"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "8",
+      "canonical_unit_title": "Controlling"
+    }
+  ],
+  "evidence_pages": [
+    4,
+    8,
+    9
+  ],
+  "evidence_mode": "official_pdf_text"
+}

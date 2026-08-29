@@ -1,0 +1,552 @@
+import React, { useState, useEffect, useRef } from 'react';
+import {
+  View,
+  Text,
+  StyleSheet,
+  ScrollView,
+  TouchableOpacity,
+  Dimensions,
+  Animated as RNAnimated,
+} from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { FontAwesome5, Ionicons } from '@expo/vector-icons';
+import { LinearGradient } from 'expo-linear-gradient';
+import Animated, { FadeInDown } from '@/utils/reanimated';
+import { useM3Theme } from '@/theme/M3ThemeProvider';
+import { useRouter, useLocalSearchParams } from 'expo-router';
+import LottieView from 'lottie-react-native';
+import { useUserStats } from '@/hooks/useUserStats';
+import { useAuthContext } from '@/components/AuthProvider';
+import { getUserProtocol } from '@/utils/protocolService';
+import { StreakCache } from '@/utils/streakCache';
+import { supabase } from '@/utils/supabaseService';
+
+const { width } = Dimensions.get('window');
+
+// Helper to calculate active dates in the current week
+function buildActiveDateSet(lastActiveDate: string | null, streakCount: number): Set<string> {
+  const active = new Set<string>();
+  if (!lastActiveDate || streakCount <= 0) return active;
+  const last = new Date(lastActiveDate);
+  last.setHours(0, 0, 0, 0);
+  for (let i = 0; i < streakCount; i++) {
+    const d = new Date(last);
+    d.setDate(d.getDate() - i);
+    active.add(d.toISOString().slice(0, 10));
+  }
+  return active;
+}
+
+// Returns Mon-Sun ISO dates for the current week
+function getWeekDates(today: Date): Date[] {
+  const day = today.getDay(); // 0=Sun ... 6=Sat
+  const monday = new Date(today);
+  monday.setDate(today.getDate() - ((day + 6) % 7)); // roll back to Monday
+  monday.setHours(0, 0, 0, 0);
+  return Array.from({ length: 7 }, (_, i) => {
+    const d = new Date(monday);
+    d.setDate(monday.getDate() + i);
+    return d;
+  });
+}
+
+export default function StreakScreen() {
+  const insets = useSafeAreaInsets();
+  const theme = useM3Theme();
+  const router = useRouter();
+  const { user } = useAuthContext();
+
+  const { celebration } = useLocalSearchParams<{ celebration?: string }>();
+  const isCelebration = celebration === 'true';
+
+  const mascotLottieRef = useRef<LottieView>(null);
+
+  // Stats & Streak loading logic with instant cached fallback
+  const { currentStreak: dbStreak, loading: statsLoading } = useUserStats();
+  const cachedStreak = StreakCache.getCachedStreakSync();
+  const initialStreak = cachedStreak?.currentStreak ?? (dbStreak > 0 ? dbStreak : 0);
+
+  const [streakDays, setStreakDays] = useState<number>(initialStreak);
+  const [displayStreak, setDisplayStreak] = useState<number>(initialStreak);
+
+  const [isTodayComplete, setIsTodayComplete] = useState(false);
+  const [checkingProtocol, setCheckingProtocol] = useState(true);
+
+  // Real weekly activity dates
+  const [activeDates, setActiveDates] = useState<Set<string>>(new Set());
+  const weekDates = getWeekDates(new Date());
+  const todayISO = new Date().toISOString().slice(0, 10);
+
+  // Sync authoritative streak from database
+  useEffect(() => {
+    if (!user?.id) return;
+    let isMounted = true;
+    supabase
+      .from('user_profiles')
+      .select('streak_count, last_activity_date')
+      .eq('id', user.id)
+      .single()
+      .then(({ data }) => {
+        if (isMounted && data) {
+          const count = data.streak_count || 0;
+          setStreakDays(count);
+          setActiveDates(buildActiveDateSet(data.last_activity_date, count));
+        }
+      })
+      .catch((err) => console.warn('Streak fetch error:', err));
+
+    return () => { isMounted = false; };
+  }, [user?.id, dbStreak]);
+
+  // Count up number animation (no scale zoom)
+  const countAnim = useRef(new RNAnimated.Value(initialStreak)).current;
+  useEffect(() => {
+    RNAnimated.timing(countAnim, {
+      toValue: streakDays,
+      duration: 1200,
+      useNativeDriver: false,
+    }).start();
+
+    const listener = countAnim.addListener(({ value }) => {
+      setDisplayStreak(Math.floor(value));
+    });
+
+    return () => countAnim.removeListener(listener);
+  }, [streakDays]);
+
+  // Check today's protocol status
+  useEffect(() => {
+    async function checkTodayStatus() {
+      if (!user?.id) return;
+      try {
+        const protocol = await getUserProtocol(user.id);
+        if (protocol) {
+          setIsTodayComplete((protocol.progress_phase ?? 0) >= 5);
+        }
+      } catch (err) {
+        console.error('Failed to load protocol for streak banner:', err);
+      } finally {
+        setCheckingProtocol(false);
+      }
+    }
+    checkTodayStatus();
+  }, [user?.id]);
+
+  // Play Mascot Lottie once on mount when celebration
+  useEffect(() => {
+    if (isCelebration) {
+      const t = setTimeout(() => {
+        mascotLottieRef.current?.reset();
+        mascotLottieRef.current?.play();
+      }, 150);
+      return () => clearTimeout(t);
+    }
+  }, [isCelebration]);
+
+  const renderDayNode = (day: number, active: boolean, future: boolean) => (
+    <View key={day} style={styles.dayNodeContainer}>
+      <View
+        style={[
+          styles.dayNode,
+          active && styles.dayNodeActive,
+          future && styles.dayNodeFuture,
+        ]}
+      >
+        <FontAwesome5
+          name={active ? 'fire' : future ? 'lock' : 'check'}
+          size={16}
+          color={active ? '#F97316' : future ? '#CBD5E1' : '#10B981'}
+          solid
+        />
+      </View>
+      <Text style={styles.dayText}>Day {day}</Text>
+    </View>
+  );
+
+  return (
+    <View style={[styles.container, { paddingTop: insets.top }]}>
+      {/* Header */}
+      <View style={styles.header}>
+        <TouchableOpacity style={styles.backButton} activeOpacity={0.8} onPress={() => router.back()}>
+          <FontAwesome5 name="arrow-left" size={20} color="#0F172A" />
+        </TouchableOpacity>
+        <Text style={styles.headerTitle}>Daily Streak</Text>
+        <View style={styles.placeholder} />
+      </View>
+
+      <ScrollView
+        contentContainerStyle={[styles.scrollContent, { paddingBottom: insets.bottom + 40 }]}
+        showsVerticalScrollIndicator={false}
+      >
+        {/* Today's Status Banner */}
+        {!checkingProtocol && (
+          <Animated.View
+            entering={FadeInDown.delay(50).springify()}
+            style={isTodayComplete ? styles.protectedBanner : styles.dangerBanner}
+          >
+            <View style={isTodayComplete ? styles.bannerIconSafe : styles.bannerIconDanger}>
+              <Ionicons
+                name={isTodayComplete ? 'checkmark' : 'time-outline'}
+                size={18}
+                color={isTodayComplete ? '#059669' : '#E11D48'}
+              />
+            </View>
+            <View style={styles.bannerCopy}>
+              <Text style={isTodayComplete ? styles.protectedTitle : styles.dangerTitle}>
+                {isTodayComplete ? 'Streak saved today' : 'Save before midnight'}
+              </Text>
+              <Text style={isTodayComplete ? styles.protectedDesc : styles.dangerDesc}>
+                {isTodayComplete
+                  ? 'Today is complete.'
+                  : "Finish today's mission to keep your streak alive!"}
+              </Text>
+            </View>
+            {!isTodayComplete && (
+              <TouchableOpacity
+                activeOpacity={0.9}
+                style={styles.bannerCta}
+                onPress={() => router.push('/daily-mission')}
+              >
+                <Text style={styles.bannerCtaText}>Start</Text>
+              </TouchableOpacity>
+            )}
+          </Animated.View>
+        )}
+
+        {/* Streak Main Hero Card with Mascot Lottie */}
+        <Animated.View entering={FadeInDown.delay(100).springify()} style={styles.mainCard}>
+          <LinearGradient
+            colors={['#FFFFFF', '#FFF7ED', '#FFEDD5']}
+            locations={[0, 0.6, 1]}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={[StyleSheet.absoluteFill, { borderRadius: 24 }]}
+          />
+          <LottieView
+            ref={mascotLottieRef}
+            source={require('@/assets/lotties/daystreak.json')}
+            autoPlay={false}
+            loop={false}
+            style={{ width: 140, height: 140, marginBottom: 8 }}
+          />
+          <Text style={styles.streakCount}>{displayStreak}</Text>
+          <Text style={styles.streakLabel}>Days Streak</Text>
+          <Text style={styles.streakSub}>
+            {streakDays > 0
+              ? `You're on a ${streakDays}-day streak! Keep up the momentum.`
+              : 'Complete a mission today to launch your daily streak!'}
+          </Text>
+        </Animated.View>
+
+        {/* Milestone Tracker (Original Timeline Design) */}
+        <Animated.View entering={FadeInDown.delay(200).springify()} style={styles.milestoneSection}>
+          <Text style={styles.sectionTitle}>Your Progress</Text>
+          <View style={styles.timeline}>
+            <View style={styles.timelineLine} />
+            <View style={styles.timelineNodesRow}>
+              {[1, 7, 14, 30].map((milestone) =>
+                renderDayNode(milestone, streakDays >= milestone, streakDays < milestone)
+              )}
+            </View>
+          </View>
+        </Animated.View>
+
+        {/* Weekly Goals (Original Design with Real Activity Data) */}
+        <Animated.View entering={FadeInDown.delay(300).springify()} style={styles.goalsCard}>
+          <View style={styles.cardHeader}>
+            <Text style={styles.cardTitle}>This Week's Record</Text>
+          </View>
+          <View style={styles.weekGrid}>
+            {weekDates.map((date, idx) => {
+              const iso = date.toISOString().slice(0, 10);
+              const isToday = iso === todayISO;
+              const done = activeDates.has(iso) || (isToday && isTodayComplete);
+              const DAY_LABELS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+
+              return (
+                <View key={iso} style={styles.weekDayCol}>
+                  <Text style={styles.weekDayLabel}>{DAY_LABELS[idx]}</Text>
+                  <View
+                    style={[
+                      styles.weekDayCircle,
+                      done && !isToday && styles.weekDayCompleted,
+                      isToday && done && styles.weekDayCurrent,
+                    ]}
+                  >
+                    <FontAwesome5
+                      name={done ? (isToday ? 'fire' : 'check') : 'circle'}
+                      size={12}
+                      color={done ? '#FFF' : '#CBD5E1'}
+                      solid={done}
+                    />
+                  </View>
+                </View>
+              );
+            })}
+          </View>
+        </Animated.View>
+      </ScrollView>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#F8FAFC',
+  },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 20,
+    paddingVertical: 15,
+  },
+  backButton: {
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    backgroundColor: '#FFFFFF',
+    justifyContent: 'center',
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 10,
+    elevation: 2,
+  },
+  headerTitle: {
+    fontSize: 18,
+    fontFamily: 'Poppins-Bold',
+    color: '#0F172A',
+  },
+  placeholder: {
+    width: 44,
+  },
+  scrollContent: {
+    padding: 24,
+    gap: 18,
+  },
+  mainCard: {
+    width: '100%',
+    paddingVertical: 28,
+    paddingHorizontal: 24,
+    alignItems: 'center',
+    borderRadius: 24,
+    borderWidth: 1,
+    borderColor: 'rgba(249, 115, 22, 0.12)',
+    shadowColor: '#F97316',
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.08,
+    shadowRadius: 18,
+    elevation: 4,
+  },
+  },
+  streakCount: {
+    fontSize: 52,
+    fontFamily: 'Poppins-Bold',
+    color: '#EA580C',
+    lineHeight: 56,
+  },
+  streakLabel: {
+    fontSize: 19,
+    fontFamily: 'Poppins-Bold',
+    color: '#0F172A',
+    marginBottom: 8,
+  },
+  streakSub: {
+    fontSize: 13.5,
+    fontFamily: 'Inter-Medium',
+    color: '#64748B',
+    textAlign: 'center',
+    lineHeight: 20,
+  },
+  milestoneSection: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 24,
+    padding: 24,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.04,
+    shadowRadius: 16,
+    elevation: 4,
+  },
+  sectionTitle: {
+    fontSize: 18,
+    fontFamily: 'Poppins-SemiBold',
+    color: '#0F172A',
+    marginBottom: 20,
+  },
+  timeline: {
+    position: 'relative',
+    height: 60,
+    justifyContent: 'center',
+  },
+  timelineLine: {
+    position: 'absolute',
+    top: 20,
+    left: 20,
+    right: 20,
+    height: 4,
+    backgroundColor: '#F1F5F9',
+    borderRadius: 2,
+    zIndex: 1,
+  },
+  timelineNodesRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    zIndex: 2,
+  },
+  dayNodeContainer: {
+    alignItems: 'center',
+  },
+  dayNode: {
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    backgroundColor: '#F8FAFC',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 2,
+    borderColor: '#E2E8F0',
+    marginBottom: 8,
+  },
+  dayNodeActive: {
+    backgroundColor: '#FFF7ED',
+    borderColor: '#FED7AA',
+  },
+  dayNodeFuture: {
+    backgroundColor: '#F8FAFC',
+    borderColor: '#F1F5F9',
+  },
+  dayText: {
+    fontSize: 12,
+    fontFamily: 'Inter-SemiBold',
+    color: '#64748B',
+  },
+  goalsCard: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 24,
+    padding: 24,
+    marginBottom: 24,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.04,
+    shadowRadius: 16,
+    elevation: 4,
+  },
+  cardHeader: {
+    marginBottom: 20,
+  },
+  cardTitle: {
+    fontSize: 16,
+    fontFamily: 'Poppins-SemiBold',
+    color: '#0F172A',
+  },
+  weekGrid: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  weekDayCol: {
+    alignItems: 'center',
+    gap: 8,
+  },
+  weekDayLabel: {
+    fontSize: 12,
+    fontFamily: 'Inter-Medium',
+    color: '#94A3B8',
+  },
+  weekDayCircle: {
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    backgroundColor: '#F1F5F9',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  weekDayCompleted: {
+    backgroundColor: '#10B981',
+  },
+  weekDayCurrent: {
+    backgroundColor: '#F43F5E',
+  },
+  protectedBanner: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    backgroundColor: '#F0FDF4',
+    borderWidth: 1,
+    borderColor: '#BBF7D0',
+    borderRadius: 18,
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+  },
+  dangerBanner: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    backgroundColor: '#FFF7F7',
+    borderWidth: 1,
+    borderColor: '#FECACA',
+    borderRadius: 18,
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+  },
+  bannerIconSafe: {
+    width: 34,
+    height: 34,
+    borderRadius: 17,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#DCFCE7',
+  },
+  bannerIconDanger: {
+    width: 34,
+    height: 34,
+    borderRadius: 17,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#FFE4E6',
+  },
+  bannerCopy: {
+    flex: 1,
+    minWidth: 0,
+  },
+  protectedTitle: {
+    fontSize: 14,
+    fontFamily: 'Poppins-Bold',
+    color: '#065F46',
+  },
+  dangerTitle: {
+    fontSize: 14,
+    fontFamily: 'Poppins-Bold',
+    color: '#991B1B',
+  },
+  protectedDesc: {
+    fontSize: 11,
+    fontFamily: 'Inter-Medium',
+    color: '#047857',
+    lineHeight: 15,
+  },
+  dangerDesc: {
+    fontSize: 11,
+    fontFamily: 'Inter-Medium',
+    color: '#B91C1C',
+    lineHeight: 15,
+  },
+  bannerCta: {
+    backgroundColor: '#E11D48',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    minWidth: 64,
+    paddingHorizontal: 14,
+    paddingVertical: 9,
+    borderRadius: 999,
+  },
+  bannerCtaText: {
+    color: '#FFFFFF',
+    fontSize: 12,
+    fontFamily: 'Poppins-Bold',
+  },
+});

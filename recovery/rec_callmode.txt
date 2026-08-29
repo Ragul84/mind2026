@@ -1,0 +1,1609 @@
+[ASST/53c9fe52] Here's an honest, direct assessment:
+
+## What it does well
+
+- **Covers Class 6–12 Samacheer Kalvi** systematically, prioritizing Class 12→6
+- **Deduplication via SHA256** — no repeat questions per subject
+- **Question variety** — MCQ, fill_blank, match, sequence, true_false, multi_statement
+- **Subject-aware prompting** — different styles for Tamil, sciences, social studies
+- **Failover** — tries OpenRouter then OpenAI, multiple models
+- **Redis-backed** — fast retrieval at scale
+
+---
+
+## Critical gaps for your viral goal
+
+| Gap | Why it matters |
+|---|---|
+| **No actual textbook content as co
+
+[ASST/53c9fe52] ---
+
+## Progress Report
+
+| Class | Strong subjects | Thin / missing |
+|---|---|---|
+| Class 6 | history 700, science 700, maths 703, tamil 703, english 888 | geography 26, polity 25, computer 6 |
+| Class 7 | same pattern, 700+ | geography 10, polity 9 |
+| Class 8 | same | geography 10, polity 8 |
+| Class 9 | science 705, english 851, tamil 700 | history 555, maths 486, polity 10 |
+| Class 10 | english 936 | science 521, maths 302, history 10, polity 8 |
+| Class 11 | english 814, maths 341 | **biology 12, chemistry 12, physics 12** ← critical gap |
+| Class 12 | biology 335, english 831 | **chem
+
+[ASST/53c9fe52] ---
+
+**Script is not running** — you need to start it. Run this from the project directory:
+
+```
+D:\mindwhite\.venv\Scripts\python.exe scratch\bulk_generate_samacheer_fast_openai.py
+```
+
+Or with `--resume` to keep the existing log:
+```
+D:\mindwhite\.venv\Scripts\python.exe scratch\bulk_generate_samacheer_fast_openai.py --resume
+```
+
+---
+
+## What the verifier does (runs after every lesson)
+
+**Pass 1 — Instant regex check** (zero API cost):
+Catches obvious patterns like "published by", "table of contents", "which unit is listed in term 1", "author of this textbook", etc. — removes immediately.
+
+
+
+[ASST/53c9fe52] **19,751 total — script stopped, no progress since last check.**
+
+Here's the honest picture:
+
+| | Status |
+|---|---|
+| Class 6-8 (core subjects) | GOOD — 700+ each, students are covered |
+| Class 9 science/tamil/english | GOOD |
+| Class 9 maths | OK (486) — needs more |
+| Class 10 history/geo/polity | THIN (8-10 each) — basically empty |
+| Class 10 science/maths | OK but short |
+| **Class 11 — everything** | CRITICAL — 12 questions each, unusable |
+| **Class 12 — everything except bio/eng** | CRITICAL — chemistry 66, physics 14 |
+
+**The blocking issue is billing, not code.** Class 11 and 12 st
+
+[USER/53c9fe52] This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
+
+Summary:
+1. Primary Request and Intent:
+   The user is building MindWhite, an educational app targeting Tamil Nadu students (Samacheer Kalvi curriculum, Classes 6-12). They want unlimited practice questions, high engagement, and viral potential. The core task was to evaluate and improve `scratch/bulk_generate_samacheer_fast_openai.py` — a bulk q
+
+[ASST/53c9fe52] +539 questions since last session — the script ran briefly but is not currently running. Class 11 and 12 are still critically thin. The script needs to be started now to fill the gaps.
+
+**Current status:**
+- **20,290 total** (+539 since last check)
+- Class 11: 10 subjects THIN (biology/chemistry/physics/history/geo/polity/economics/computer/tamil all at 5-26 questions)
+- Class 12: 9 subjects THIN (physics at 14, geography at 11, economics/computer/polity at 12)
+- Class 9/10: geography, polity, computer all THIN across the board
+
+The script is not running. Start it now with:
+
+```
+D:\mindwhite\.
+
+[ASST/53c9fe52] **31,544 questions — +11,793 from where we started today.**
+
+Big picture:
+- Class 11: was basically empty across 8 subjects → now 5,449 total, all subjects at OK/GOOD
+- Class 12: was 1,504 → now **6,548** — physics, chemistry, polity, history all crossed 400+
+- Geography, polity, computer now exist for every class (were 0 before)
+
+Still THIN (need one more run after ledger additions catch up):
+- Geography/polity/computer classes 6–9: 60–160 each (ledger only had 5–6 chapters added, ROW_TARGETS need more per-row budget)
+- Class 12 maths: 181 (those 12 ledger entries haven't been processed yet —
+
+[USER/53c9fe52] This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
+
+Summary:
+1. Primary Request and Intent:
+   The user is building MindWhite, an educational app for Tamil Nadu students (Samacheer Kalvi curriculum, Classes 6-12) targeting unlimited practice, high engagement, and viral potential. This session focused on:
+   - Getting `scratch/bulk_generate_samacheer_fast_openai.py` running reliably with the corre
+
+[USER/53c9fe52] This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
+
+Summary:
+1. Primary Request and Intent:
+   - **Fix NCERT quiz hub gaps**: Remove subjects with no data (Computer Science for all NCERT classes, Maths/Science/English for classes 11-12) from the UI rather than generate data (user chose Option A)
+   - **NCERT geography class9/10 top-up**: Fill geography from 159/146 questions to 350 each
+   - **Re
+
+[ASST/53c9fe52] Only module-resolution errors (expected outside Expo context) — no syntax errors. `home.tsx` is fully clean.
+
+**What was fixed:**
+- 19 lines of mojibake emoji prefixes in `console.log`/`console.error` calls (stripped to clean ASCII messages)
+- 13 dangling `''` string literal splits that would have caused Babel parse errors
+- `L2500` regex: removed mojibake bullet alternatives, kept standard `•·`
+- `L2679` JSX text: `today's` apostrophe restored
+- `L3182` / `L3725` template literals: mojibake bullet `→` replaced with `•`
+- `L3873` JSX comment: emoji stripped
+
+Restart Metro bundler now and the a
+
+[USER/53c9fe52] This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
+
+Summary:
+1. Primary Request and Intent:
+   - **Mojibake cleanup** (carried over): Fix all remaining corrupted emoji/special character bytes in `app/(tabs)/home.tsx` that caused Babel parse errors — dangling `''` string splits, regex corruption, template literal corruption
+   - **GyanClash full game rebuild**: Analyze `D:\mindwhite\assets\FreeCha
+
+[USER/5e989608] deep research and adapt design.google You are a Principal Product Designer at Google with 15+ years of experience designing products such as Gemini, Google Maps, Google Photos, Google Pay, Android, Material Design 3, and Google AI Studio.
+
+Your task is not to simply make the UI prettier.
+
+First fully understand:
+
+- Product purpose
+- User goals
+- Target audience
+- Core workflows
+- Information hierarchy
+- Business objectives
+- Emotional experience
+
+Then redesign the interface as if it will be laun
+
+[ASST/5e989608] All three changes are in, type-checked clean, and I've saved "no shadows, ever" as a durable rule so it applies to every future screen.
+
+## 1. Shadows removed everywhere
+The `elevation` block is deleted from `theme/aurora-tokens.ts` entirely — future screens can't even reference it. All usages stripped: header buttons, Listen pill, insight cards (Thirukkural page), back button, phase cards, focus card (mission page). So surfaces still read without shadows or borders, the canvas wash now stays gently tinted all the way down (`#EEF3FE → #F4F7FE`) instead of fading to near-white, letting flat whi
+
+[ASST/5e989608] Done, both parts.
+
+**Reading pages: fully reverted.** I reversed every one of my 19 edits to `reader.tsx` string-for-string rather than using git (the file had your own uncommitted work in it that a checkout would have destroyed). It's now byte-identical to before I touched it — page-number chips, colored accent strips, the "2/5 • Read, remember, and move on" line, bordered cards, rotating page colors, "MARK AS COMPLETE" — all exactly as they were. The type-checker confirms it: the file's seven pre-existing errors are back at their exact original line numbers.
+
+**Daily Dose mission page: rebui
+
+[ASST/5e989608] Both done.
+
+**Reader title strip redesigned.** The tiny 16px inline book icon is gone. The strip is now: a proper **46px tonal squircle badge** with a filled 21px book icon (tinted in the page's accent color) on the left, the title beside it vertically centered — so the badge spans the full height of the title whether it's one or two lines — and the page number moved to a compact 34px chip on the right edge. Cleaner reading order: icon → title → position.
+
+**Home page Daily Dose card shadow removed.** The `ddCard` style in `home.tsx` had `shadowColor/shadowOpacity/shadowRadius` plus Android `e
+
+[ASST/5e989608] Done — the Lottie element is now 175% of the header height, anchored to the bottom edge. What changed mechanically: at 130% the element was still wider-than-tall relative to the animation, so `cover` filled the width and center-cropped vertically — you got the middle band no matter the anchoring. At 175% the element is tall enough that `cover` scales the animation to the element's *height* instead, which puts the composition's true bottom edge exactly at the header's bottom edge. The header window (the lower slice of that tall element) now frames the lowest band of the animation, with the crop
+
+[ASST/5d07ae27] Good question — let me give you my honest read of the current battle UI before I pour hours into the online build, because the two are intertwined.
+
+**What's already solid:** the arcade-fighter layout works — dual HP bars with round/win dots up top, sprite fighters on the arena backdrop, a slide-up question card, and the Block / big-ATTACK / Special control row with streak dots. It reads as a real fighting game, not a quiz with a skin.
+
+**What I'd improve:**
+- **Bottom crowding** — the question card and the combat controls fight for the same bottom third. During a question there's no clear "th
+
+[USER/8d8d1f24] ERROR  Cannot set prop 'colors' on view 'class expo.modules.lineargradient.LinearGradientView'
+→ Caused by: java.lang.NullPointerException: null cannot be cast to non-null type kotlin.Double 
+
+Call Stack
+  construct (<native>)
+  apply (<native>)
+  _construct (node_modules\@babel\runtime\helpers\construct.js)
+  Wrapper (node_modules\@babel\runtime\helpers\wrapNativeSuper.js)
+  construct (<native>)
+  _callSuper (node_modules\@babel\runtime\helpers\callSuper.js)
+  NamelessError (node_modules\@expo\
+
+[ASST/8d8d1f24] All done and verified clean. Here's everything fixed in this pass:
+
+## Bugs (the breaking ones)
+1. **`HapticService.impact is not a function`** → replaced all 4 calls with `HapticService.medium()` (in `PremiumDeepLessonReader` + `FocusModeLesson`). That method never existed.
+2. **Reader auto-scrolled to the bottom of the next section** → now records each block's position via `onLayout` and `scrollTo`s the **top** of the newly unlocked block, so you land at the start to read.
+3. **`LinearGradient colors` NPE crash** → the daily-dose accent wash built colors as `` `${accentColor}22` ``, which pr
+
+[ASST/085bdfc8] File's intact (the grep was just escaping the regexes). Everything is in place — here's the full rundown of the world-class pass:
+
+**1. Topic repeated 3× on Section 1** — fixed at two levels. The fallback overview no longer opens with "Today you will study {topic}" (the header already says it); it now leads with *"By the end of this session you should be able to explain: …"*. And `stripTopicEcho()` removes any "Today you will study…" / "In this section you will learn…" filler sentence coming from stored lesson content too.
+
+**2. Recitation lists as unreadable paragraphs** — a final pass in the
+
+[ASST/085bdfc8] Splash screen redesigned. Here's what changed in `app/index.tsx` (`NativeLaunchScreen`):
+
+**What was wrong before:** the brand name was rendered in dark navy letters *on top of a dark navy gradient* (essentially invisible), behind it a full-screen morning-sky lottie fought a dark scrim, a pulsing glow orb floated mid-screen (your flat design rule bans those), and the mascot lottie was stretched across the entire screen.
+
+**The new composition — calm, centered, seamless:**
+
+- **Canvas**: a single deep-indigo vertical gradient (`#0A1C55 → #103A8A → #0B2B70`) whose midpoint is exactly the native 
+
+[ASST/085bdfc8] All clean — no dangling references. Here's what changed and the honest verdict on your screenshots:
+
+**Screenshot 1 (the schedule blob with `1:States/UTs, 2:Salaries…`)** — my previous fix only exploded enumerated runs hiding inside *paragraphs*, but this one arrived as a fact-grid *item*, a path that bypassed the splitter entirely. That's why you still saw the colons and the wall of text. Now every extracted point goes through `parseReaderPoint`, which explodes any embedded "1:…, 2:…" run into its own row. Crucially, each row keeps its **real number as a chip** — so Schedule 9 shows a "9" chi
+
+[ASST/085bdfc8] All good — both env files are git-ignored and untracked, so the service-role key isn't exposed; it was only ever local.
+
+**Database fixed and verified.** Here's what happened to `master_content_vault` → `upsc_ecosystem`, day 7:
+
+- **Backup first**: the original row's full `content_json` is saved at `scripts/vault-backup-upsc_ecosystem-7.json` in case you ever want to roll back.
+- **The Schedules page** (was "Master Schedule Recitation (1–12)", truncated at 11 with "RS Seats / Sched Areas" shorthand) is now titled **"The 12 Schedules — Quick Revision"** with all 12 entries spelled out properly 
+
+[ASST/085bdfc8] Found the root cause. The generator is `scripts/build-daily-mission-lesson-pages.cjs`, and it has exactly the two bugs we cleaned up:
+
+1. **Truncation** — `compact()` (lines 84-90) hard-clips text at 180-220 chars and appends `...`. That's the source of every mid-sentence cut.
+2. **Mismatched intros** — `introForPage()` checks the greedy `Formula` branch (line 136, matches any `=`, number, or word like "time/area") *before* the polity/history branches, so polity pages like RTI got the "In aptitude questions…" intro.
+3. **Topic echo** — `overviewPage()` hardcodes "Today you will study {topic}".
+
+[ASST/085bdfc8] Proven. The fixed `compact()` now returns the complete list — all 12 schedules, no ellipsis — even when the old tight 220-char budget is passed. The old code clipped exactly after item 11.
+
+## What I found and fixed
+
+The generator is **`scripts/build-daily-mission-lesson-pages.cjs`** — it builds every `lesson_pages` entry from the `quick_notes` source. It had all three bugs we'd been cleaning up by hand:
+
+**1. Truncation (the big one)** — `compact()` hard-clipped text at 180–220 characters and slapped `...` on the end. That single function created *every* mid-sentence cut. The smoking gun: day
+
+[ASST/085bdfc8] Good catch — let me be precise, because "plays" is the wrong word and I don't want to mislead you.
+
+A search link does **not** play a video inside the app. Here's exactly what my fix does:
+
+- **Before:** tapping a card fed the search URL into the in-app embed player → it couldn't find a video ID → **blank screen**, and the phase couldn't be completed.
+- **After:** tapping a card detects it's not a real video, so instead of embedding, it calls `Linking.openURL(...)` — that **leaves your app and opens the YouTube app/browser on the search-results page**. The user then taps one of those results a
+
+[ASST/085bdfc8] Confirmed — the Supabase client also fails (`fetch failed`), same as curl. The environment has **no outbound network** right now, so every read/write to the content DB is impossible. This isn't me stalling — I physically can't open a connection (HTTP 000 to both Supabase and google.com).
+
+There is literally no DB work I can do until the network is back. The moment it is, say "resume" and I'll immediately run **TNPSC Block 6 in a big batch** (and keep larger batches through the rest of TNPSC, then UPSC/SSC).
+
+If you want to help it along on your side: check whether this machine/sandbox has inte
+
+[USER/085bdfc8] This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
+
+Summary:
+1. Primary Request and Intent:
+   The user is the owner of "MindGains," a React Native/Expo exam-prep app for Indian competitive exams (UPSC, TNPSC, SSC). Over the conversation the requests evolved through several phases:
+   - **UI polish**: Fix evening-header text legibility on the night lottie in home screen; redesign Daily Dose readi
+
+[ASST/085bdfc8] Honest answer: **the engineering is solid and the design is genuinely useful — but I can't call the whole thing "production-grade" yet, because two things are still unverified/weak.** Let me be straight about what's what.
+
+## What *is* production-grade and useful
+- **The drill-down UX** (India → states → districts → seats, RTO-code labels, area-centroid placement, auto-fit zoom, free zoom) — clean, type-checked, no diagnostics.
+- **MP layer** — 529/543 seats with verified 2024 winners + party + margin; the 14 fallbacks are deliberate, not bugs. Genuinely useful and accurate today.
+- **Civics +
+
+[USER/085bdfc8] btw is this a better idea: This is already a strong concept, but it doesn't feel "Apple-level" yet. Right now it looks like a government GIS tool placed on top of a globe. Apple would focus on depth, motion, hierarchy, and delight.
+
+What I'd change
+
+1. Remove the rainbow state colors
+
+Current map looks like an election map.
+
+Use:
+
+Deep graphite base map
+
+Single accent color (MindGains violet)
+
+Selected state glows
+
+Neighbor states fade
+
+
+Example:
+
+Unselected: #2A2A35
+
+Hover: #4F46E5
+
+Selected: a
+
+[ASST/085bdfc8] All three done, diagnostics clean:
+
+1. **Cinematic intro** — the globe now starts across the world (zoomed out over the Atlantic) and **sweeps ~140° while zooming in to land on India** over ~3 seconds. Proper "fly-in" moment on open.
+
+2. **Reset/recenter button** — added a **navigate icon** above the zoom +/− controls. Tap it anytime to clear your selection and glide back to the full India view (works whether you're deep in a district or just rotated off-center).
+
+3. **Beautiful map (no more flat gray)** — the key change: the land is now **translucent**, so **India's real night-city-lights glo
+
+[USER/085bdfc8] yes also insteadd of quiz i have another idea , Deepen the "Civics Lessons" Integration: Since you already have a "Civics lessons" , consider making these modules dynamic based on the user's current view. For instance, if a user has selected a district in Tamil Nadu in 177426.jpg, the "Civics lessons" could suggest content specifically related to the history or local governance structure of that state. we should create save them in database so apk size doesnt get large also fastest
+
+[USER/085bdfc8] This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
+
+Summary:
+1. Primary Request and Intent:
+
+The user owns "MindGains," a React Native/Expo exam-prep app. This conversation covered several major phases:
+
+- **YouTube videos:** Renew expired key, source real embeddable videos (English UPSC/SSC, Tamil TNPSC) for daily-mission tracks. Schedule auto-resume after quota reset.
+- **"Know Your India" glob
+
+[ASST/085bdfc8] I now have the complete root-cause picture for all five issues. Here's where things stand.
+
+## Done now (code changes in `app/(tabs)/mascot.tsx`, verified no type errors)
+
+**#1 — New/switched session keeps speaking → FIXED at the source.**
+`startFreshSession` and `restoreSession` were only resetting *state flags*; they never stopped the audio already queued in the mascot rig, the WebSocket stream, or `Voice`. I wired a live ref to your existing, proven `interruptCurrentStream` (the exact stop that already works perfectly elsewhere) and call it at the top of **both** functions. Every "new sessi
+
+[ASST/085bdfc8] I now have a thorough picture. Here's the production-readiness audit.
+
+# MindGains — Production Readiness Audit (v1.0.0)
+
+## App map (what's in it)
+- **Entry:** `index.tsx` (splash) → `auth.tsx` → `profile-setup.tsx` (onboarding) → `(tabs)/home`
+- **6 tabs:** Home · Learn · Rooms (arena) · MIGA (mascot, center) · India (globe) · Profile
+- **Tools:** Build Lessons, Quiz Hub, Quick Sprint, Study Lab (quick-learn, smart-explain/text/vision, story-learn, youtube-brain, pdf-intelligence), Daily Mission, Daily Dose (Thirukkural), Knowledge Heist, Gyan Clash, Quiz Rooms, Know Your India
+- **Monetizat
+
+[ASST/085bdfc8] Everything confirmed. The client connects to **`/ws_story`**, `bot/.env` isn't tracked (good), and the server binds `0.0.0.0:7860`. Here's your deployment guide.
+
+## What to host
+The **`bot/`** folder is the server. Host these files:
+```
+bot/server.py          ← FastAPI entrypoint (WS /ws_story + /story_ws)
+bot/story_engine.py
+bot/rag_service.py
+bot/bot.py
+bot/requirements.txt
+bot/Dockerfile         ← already correct (python:3.12-slim, EXPOSE 7860)
+bot/.env               ← set as host SECRETS, do NOT push to a repo/registry
+```
+
+**Do NOT ship** (bloat/secrets/runtime): `bot/venv/`, `bot/__pyca
+
+[ASST/085bdfc8] All set. Here's what I created/changed in `bot/`:
+
+**Changes**
+- **`server.py`** — now binds `int(os.getenv("PORT", "7860"))`, so it works on hosts that inject `$PORT` (Render/Railway) and still defaults to 7860 locally.
+- **`.dockerignore`** — keeps `venv/`, `__pycache__`, logs, scratch, `.env`, and runtime dirs (`uploads/`, `chroma_db/`) out of the image (smaller, safer build).
+- **`render.yaml`** — one-click Render Blueprint (Docker, Singapore region, persistent 1GB disk on `/app/chroma_db`, secret slots for OpenAI/OpenRouter/AWS).
+- **`fly.toml`** — Fly config (internal port 7860, `force_h
+
+[ASST/085bdfc8] Researched. Here's your step-by-step Railway deployment guide, tailored to your setup (Dockerfile in `bot/`, WebSockets, persistent `chroma_db`).
+
+## Key facts that shape the steps
+- Your Dockerfile is in **`bot/`** (a subfolder), so you must set Railway's **Root Directory = `bot`** — otherwise it won't find the Dockerfile.
+- Railway injects a **`$PORT`** and your app must bind `0.0.0.0:$PORT` — ✅ already handled (I changed `server.py` to read `$PORT`).
+- Railway auto-detects the listening port, gives an **HTTPS domain with free SSL**, and **WebSockets work over it** (so `wss://` just works).
+
+
+[ASST/085bdfc8] ## #1a done and verified ✅
+
+The app's paid OpenRouter/OpenAI key is now **off the client** — all companion AI flows through the deployed `companion_chat` edge function (server-side key, Supabase auth gateway). Type-checked clean, live-tested (200 + content), and no client file references those keys anymore.
+
+### Release-blocker scoreboard (Android v1)
+- ✅ #1a — AI keys server-side (just done)
+- ✅ #2 — MIGA story server deployed on Railway
+- ✅ #3 RECORD_AUDIO · #7 console-strip · #8 dead screens · #9 versionCode
+- 🔴 **#1b** — Upstash Redis token still exposed in `utils/redisService.ts` (7 calle
+
+[ASST/085bdfc8] `purchaseCoinPack` isn't called **anywhere** in the UI — there's no coin-buy button at all. `subscription.tsx` only sells the Pro plans. So **#6 is a non-issue**: the disabled coin method is just unreferenced dead code in `iapService.ts` (harmless). Nothing to hide.
+
+Let me update the memory to reflect #1b done:
+
+[ASST/085bdfc8] ## 🎉 All hard security blockers cleared
+
+**#1b done & verified** — the Upstash Redis token is off the client. All Redis access now flows through the deployed `redis_proxy` edge function (token in Supabase secrets), which whitelists only `GET/SET/LLEN/LRANGE/PING` on `quiz:*`/`daily:*` keys. Tested live: reads work (`LLEN → 612`), and `DEL`/foreign keys are **403-blocked**. The 7 callers were untouched (they only use `RedisService.*`).
+
+**#6 — non-issue:** there's no coin-buy UI anywhere; `purchaseCoinPack` is just unreferenced dead code. Nothing to hide.
+
+### Release-blocker scoreboard — Andro
+
+[ASST/085bdfc8] ## ✅ Done — Sentry wired + all polish complete
+
+**Sentry (#4)** — `@sentry/react-native` v7.2.0 installed and wired:
+- `Sentry.init` in `app/_layout.tsx`, **gated on `EXPO_PUBLIC_SENTRY_DSN`** and `enabled: !__DEV__` (so it's a no-op in dev and until you add a DSN — won't affect builds).
+- `ErrorBoundary.componentDidCatch` now calls `Sentry.captureException`, so React render crashes get reported too.
+- Both files type-check clean.
+
+**Polish** — all done & validated:
+- 3 `alert()` → `Alert.alert` in quiz-hub (create + dashboard).
+- `app.json` `userInterfaceStyle`: `dark` → `light` (matches the 
+
+[ASST/085bdfc8] Done — Sentry is fully wired and live. ✅
+
+- DSN added to `app.json` → `extra.EXPO_PUBLIC_SENTRY_DSN` (valid, app.json validates).
+- `Sentry.init` runs in `_layout.tsx` (reads it), reporting in **production builds** (`enabled: !__DEV__`).
+- React render crashes flow through `ErrorBoundary → Sentry.captureException`.
+
+So once you build and ship the APK, any crash shows up in your Sentry **Issues** tab automatically. No further config needed for basic crash reporting.
+
+**To verify it's actually receiving** (since it stays silent in `expo start`/Expo Go), pick one:
+- **(a)** I add a small temporar
+
+[USER/085bdfc8] also this method is there so our prev method itself woulf work ? ## Automatic Configuration (Recommended)
+
+Add Sentry automatically to your app with the [Sentry wizard](https://docs.sentry.io/platforms/react-native/#install) (call this inside your project directory).
+
+```bash
+npx @sentry/wizard@latest -i reactNative --saas --org mindgains-labs-private-limited --project react-native
+```
+
+The Sentry wizard will automatically patch your project with the following:
+
+- Configure the SDK with your DSN
+
+[USER/085bdfc8] remove it cause we cant have annother bduild without thebutton also would this help u ## Automatic Configuration (Recommended)
+
+Add Sentry automatically to your app with the [Sentry wizard](https://docs.sentry.io/platforms/react-native/#install) (call this inside your project directory).
+
+```bash
+npx @sentry/wizard@latest -i reactNative --saas --org mindgains-labs-private-limited --project react-native
+```
+
+The Sentry wizard will automatically patch your project with the following:
+
+- Configure 
+
+[USER/085bdfc8] ●  Updating existing metro.config.js.
+│
+◆  metro.config.js changes saved.
+│
+◆  Added auth token to android/sentry.properties for you to test uploading source maps andiOS debug files locally.
+│
+◆  Added default org and project to android/sentry.properties for you to test uploading source maps and iOS debug files locally.
+│
+◆  Added default url to android/sentry.properties for you to test uploading source maps and iOS debug files locally.
+│
+◆  Created android/sentry.properties.
+│
+▲  DO NOT commit 
+
+[ASST/085bdfc8] Got it — noted for later: **before EAS build, (1) set `SENTRY_AUTH_TOKEN` as an EAS secret, (2) run `eas build -p android --profile production`.** I'll remember both. Go ahead and start Expo; here's what to know so your test is meaningful:
+
+## Two heads-ups before you run it
+1. **Use a dev client, not Expo Go.** The app has many native modules (RevenueCat, Voice, WebView, Lottie, and now Sentry) — Expo Go can't load them. Start with `npx expo start --dev-client`.
+2. **We just added Sentry (native + Gradle).** If your **existing** dev client was built *before* Sentry, it may error on launch or 
+
+[ASST/085bdfc8] The math engine test is done — and the output quality is genuinely strong, but I found one real bug. Here's the full picture.
+
+# Math Mode — Audit, Test Report & Enterprise Vision
+
+## 1. Test report (3 live solves against `miga_math_solve`)
+
+| Problem | Answer | Steps | Verdict |
+|---|---|---|---|
+| A:12d, B:18d together? | **36/5 = 7.2 days** ✅ | 6 | Excellent |
+| 40% markup, 20% discount, profit%? | **12%** ✅ | 4 | Correct, but ⚠️ bug |
+| 2x + 5 = 17 | **x = 6** ✅ | 5 | Excellent |
+
+**What's genuinely great** (the teacher-prompt-primary fix is working):
+- Real classroom board lines with **me
+
+[ASST/085bdfc8] **Done — and the previously-bad days are now genuinely fixed:**
+- `upsc::2` → **"12 Schedules of Indian Constitution Explained | UPSC Polity"** ✅ (the improved query worked — it's a real lesson now, not blank)
+- `upsc::57` → **"Government of India Act 1935 | Modern History | UPSC"** ✅
+- `tnpsc::90` & `tnpsc::98` → filled with a Tamil video ✅
+
+## Final state
+| | |
+|---|---|
+| **Cached/applied** | **299/300** (upsc 100 · tnpsc 99 · ssc 100) |
+| **Junk/strategy** | **none** ✅ |
+| **Hindi/wrong-language** | **none** ✅ |
+| **Still blank (free-XP)** | `tnpsc::83` only — expected |
+
+**Zero junk, zero
+
+[USER/085bdfc8] Conversation with Gemini
+JUST GIVE FULL REMOMMENDED CODE
+
+To get the most out of RAAVAN v1, we need to move away from a "passive" identity and use a Instruction-Heavy System Prompt.
+
+The code below includes the optimized system instruction, adjusted inference parameters (higher temperature and repetition penalty), and a cleaner output structure.
+
+Recommended Inference Script
+Python
+# ==============================================================================
+# RAAVAN v1 - HIGH-FIDELITY INFERE
+
+[USER/085bdfc8] This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
+
+Summary:
+1. Primary Request and Intent:
+   The user owns "MindGains" (mindgains-ai), a React Native/Expo exam-prep app (UPSC/TNPSC/SSC tracks). Across this session the explicit requests were:
+   - **Mascot AI tab (5 fixes):** stop speech on session switch; new-session visual cue; fix stale "monetary policy" topic leak on "hi"; fix math mode (pla
+
+[USER/085bdfc8] This is an absolute masterclass in product iteration. You didn't just fix a prompt; you fixed a classic streaming bottleneck by decoupling `max_tokens` based on the feature's intent. Setting a hard 1400-token ceiling specifically for Math Mode while keeping the lightweight 420 ceiling for quick conversational snippets is the exact way to build a high-performance LLM backend.
+
+The fact that your initial time-to-first-token stayed rock solid at **2.5s** means the perceived performance hasn't chang
+
+[ASST/085bdfc8] All six languages are live and **coaching-grade** — and titles now render in-language too. Here's the proof (same sum `x²−5x+6=0`, answer `x=2, x=3` correct in every one):
+
+| Lang | Localized title (Step 1) | Zero-product rule, spoken in-language | Verifies both roots |
+|---|---|---|---|
+| **Hindi** | समीकरण को समझना | *"अगर दो चीजों का गुणा 0 है, तो उनमें से कम से कम एक को 0 होना ही पड़ेगा।"* | ✅ x=2 & x=3 → 0 |
+| **Telugu** | సమీకరణాన్ని అర్థం చేసుకోవడం | *"రెండు సంఖ్యల లబ్దం సున్నా అయితే, వాటిలో ఏదో ఒకటి కచ్చితంగా సున్నా అవ్వాలి"* | ✅ |
+| **Kannada** | ಸಮೀಕರಣವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವುದು | *"ಎರಡ
+
+[ASST/085bdfc8] ## Checkpoint plan (proposing before building, as you asked)
+
+**Goal:** mid-solution, MIGA pauses at a major step, asks *"understood so far?"* in natural language, and waits — so a slow learner never gets left behind. Organic per-language, and **without touching the sacred audio/lipsync pipeline.**
+
+### Where checkpoints go
+1–2 per solve, placed by the LLM where they matter: typically **after the method is set up** (e.g., after the factor-hunt) and **right before the final answer**. Short solves (≤4 steps) get just one, before the answer. Never more than 2 (annoying otherwise).
+
+### How "organ
+
+[USER/085bdfc8] ### 1. Architectural Choice: Go with Option A (Client-Pause)
+
+**Option A is absolutely the correct choice.** In a low-latency streaming environment where your first-paint is sitting at an elite **2.5s–2.7s**, blocking the server socket via **Option B** is an engineering anti-pattern. Holding an active LLM generation stream open while waiting for asynchronous human input is a recipe for socket timeouts, buffering overflows, and state synchronization nightmares.
+
+By pushing the pause architecture 
+
+[ASST/085bdfc8] I tested it — and now I can tell you **exactly** what's wrong (and the content itself is actually correct: accurate Tanglish, the 6-rights table, all 4 sentences complete with audio). Here's the real diagnosis:
+
+## What broke (and what didn't)
+
+**1. The half-cut / choppy audio → caused by my native-voice TTS swap.** 🎯
+The Sarvam/Polly audio I switched to has a *different length* than the timing estimates the playback uses, so sentences got cut short and jumped to the next one. **I already reverted that to the original "coral" voice** (deployed) — so this is the actual regression and it's undon
+
+[ASST/085bdfc8] Good call. Let me hide the story toggle and confirm story isn't dragging heavy assets into the APK. First the mode-toggle button:
+
+[ASST/085bdfc8] All three exams enriched, cleaned, and rebuilt. Verified across the board:
+
+## ✅ Daily-mission content overhaul — complete (all 300 days)
+| Track | Status | Language |
+|---|---|---|
+| **UPSC** | 100/100 enriched, echoes cleaned, rebuilt | English |
+| **SSC** | 100/100 enriched, echoes cleaned, rebuilt | English |
+| **TNPSC** | 100/100 enriched, echoes cleaned, rebuilt | **English for all subjects, Tamil for General-Tamil topics** |
+
+**Verified:**
+- TNPSC Thirukkural (General Tamil) → proper **Tamil** with terms defined (பால், அதிகாரம்) and English tech terms inline.
+- TNPSC Geography + SSC → s
+
+[USER/085bdfc8] yes swtch baclrgound , also make website load until mascot rig appears also its so dumb styling use Build a "CTA + Footer" section component for a React + Vite + Tailwind CSS project. This is a cinematic full-width call-to-action section with an HLS video background, centered text, two CTA buttons, and a minimal footer bar at the bottom. Black background, white text, liquid glassmorphism effects.
+
+---
+
+### FONTS (import in index.css or HTML head)
+
+```
+https://fonts.googleapis.com/css2?family=Ins
+
+[USER/085bdfc8] This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
+
+Summary:
+1. Primary Request and Intent:
+   The user owns MindGains (mindgains-ai), a React Native/Expo exam-prep app (UPSC/TNPSC/SSC). Across this session, explicit requests:
+   - **Math mode polish:** slow-learner depth (factor-pair hunt shown, zero-product rule explained, verify ALL roots incl. fractions, tip every step, explain-like-I'm-12); 
+
+[ASST/085bdfc8] Reverted the `top` anchor and instead physically shifted the whole video **up** (`translateY(-58%)`), so the bottom of the clip moves into view and isn't hidden behind the bottom panel.
+
+**`Ctrl + Shift + R`** at http://localhost:5500.
+
+That's an 8% nudge up. Tell me "more" / "less" and I'll change the `-58%` (bigger number = higher).
+
+[ASST/063fcec4] Full results are in. Here's the honest verdict.
+
+The wiring works and the model's output is genuinely good — but this **deployment is too slow to use as-is.**
+
+Test results (topic: "Delhi Sultanate", real app prompts + `cleanAIJSON` + `JSON.parse`):
+
+| Stage | Result | Time |
+|---|---|---|
+| Outline run 1 | ✅ parsed, 7 lessons | **176 s** |
+| Outline run 2 | ❌ HTTP 504 upstream timeout | — |
+| Outline run 3 | ✅ parsed, 7 lessons | **283 s** |
+| Deep lesson (lesson 1) | ❌ HTTP 504 upstream timeout | — |
+
+Two separate problems, one good sign:
+
+The good sign — content quality is solid. The outlin
+
+[ASST/063fcec4] Good question — the root cause is clear from the test: ~5 tokens/sec means it's doing CPU inference (the `fp_ollama` fingerprint says you're serving via Ollama), and Cloud Run is killing the long requests with 504s. Here's how to attack it, roughly in order of impact.
+
+The one that actually matters: put a GPU on the Cloud Run service. Cloud Run supports NVIDIA L4 GPUs now. A 4B model on an L4 goes from ~5 tok/s to roughly 50–100+ tok/s — that alone turns your 180-second outline into a few seconds and makes the deep lesson finish well within limits. Everything else below is secondary to this. I
+
+[ASST/063fcec4] Stop retrying that command — it'll fail identically. The tell is that the requested numbers never moved: still `24000` mCPU (`8 × 3`) and `48Gi` (`16Gi × 3`), even with `--max-instances 1`. On the GPU path, Cloud Run's admission check reserves capacity at a fixed multiple regardless of your max-scale (max-scale only applied on the non-GPU step). So this is now purely a **regional quota** problem — you're asking for more CPU/memory than the project is allowed in `us-central1`, and there's a third quota (the empty `requested: 0 allowed: 0` line) that's almost certainly your L4 GPU allocation sit
+
+[ASST/063fcec4] No problem — "sized for 12B" just means three specific quota values. Here's exactly what to request and how.
+
+The values to ask for (all in `us-central1`, all the "without zonal redundancy" variants, since you deployed with `--no-gpu-zonal-redundancy`):
+
+- Nvidia L4 GPU allocation, without zonal redundancy → set to 1
+- Total CPU allocation, without zonal redundancy → set to 32
+- Total memory allocation, without zonal redundancy → set to 64 (GiB)
+
+Why those numbers: one L4 instance at `8 CPU / 16Gi`, and Cloud Run's admission check reserves ~3× that during deploy (that's the 24 vCPU / 48Gi you 
+
+[ASST/063fcec4] Yes — you're in exactly the right place. That's the correct quota. The problem isn't your navigation, it's this line:
+
+> Current value: 0 — Enter a new quota value between 0 and 0 … you are not eligible for a quota increase at this time.
+
+That "0 to 0, not eligible" message isn't about your usage of this service — it's an **account-level gate**. Google blocks self-service GPU (especially L4) quota for projects that are on **free-trial credits** or don't yet have an established **paid billing history**. It's extremely common for newer individual projects. No amount of re-requesting will move it
+
+[USER/063fcec4] so what are the other ways to save money , maybe openrouter free models for all tools except ai chat and call?
+
+[ASST/063fcec4] Your instinct — tier the models by task, cheap for content, premium for the live stuff — is exactly right, and it's how most production apps control LLM cost. Let me refine it and add the levers that actually save the most.
+
+On OpenRouter free models specifically. They work, but for production they're shakier than they look: the `:free` models are heavily rate-limited (often ~20 requests/min and a few hundred/day), latency is variable, availability isn't guaranteed, and some log or train on your prompts. That's fine for dev and low traffic, but your lesson generation makes 2 calls per lesson (
+
+[ASST/063fcec4] This is the key discovery: `companion_chat` already routes through OpenRouter server-side (key stays safe) **and already accepts a `model` parameter per request** (defaulting to the cheap `deepseek/deepseek-v4-flash`). So proper per-tool model tiering needs no new keys, no new provider, no edge-function redeploy — just pass the right model id per tool through the path that already exists. That's the non-breaking way.
+
+Let me confirm the chat/call path is genuinely separate (so I know it stays untouched), and check whether any content tool already sets a model.
+
+[ASST/063fcec4] Now I have the complete picture, and it's good news for doing this safely:
+
+- Content tools (Build Lessons, quizzes, planner, tutor, guru, examiner) all funnel through one function: `runRoutedPrompt` → `companion_chat`, which already routes via OpenRouter server-side and already accepts a per-request `model`.
+- Chat + voice call (MIGA) are a completely separate path — `miga_stream`, `miga_tts`, `miga_pipecat`, `edge_tts` — and never touch `runRoutedPrompt`. So I can retier all content without going anywhere near chat/call.
+
+That means the whole change lands in one central place with the smalle
+
+[ASST/063fcec4] Typecheck is clean on all four touched files. Phase 1 is done and it's safe by construction.
+
+What's now in place:
+
+The content tier is centralized in one file, `services/companion/modelTiers.ts`. Every background content tool — Build Lessons, quizzes, planner, tutor, guru, examiner — flows through `runRoutedPrompt`, which now applies that tier and, crucially, auto-retries on a reliable cheap model if the chosen model errors or gets rate-limited. So the moment you point it at a free model, a flaky free tier can degrade a lesson's speed but can never break it.
+
+Chat and voice call were not touc
+
+[ASST/063fcec4] Done — I applied and fully verified it myself. Everything checks out at the database level.
+
+What I ran against your live project:
+- `supabase db push` — applied my `ai_lesson_cache` migration (and the pending `miga_chat_images` one, which I confirmed was safe/additive first).
+- Verify script — table is live and queryable.
+- A schema smoke test that exercised the real write path, then cleaned itself up. All four properties passed:
+  - insert works;
+  - the first-write-wins protection works — a second write with different content did **not** overwrite (`firstWriteWon: true`), so no user can poi
+
+[ASST/063fcec4] My `[id].tsx` change is clean. (That `arena.tsx` error is pre-existing and unrelated — it calls `QuizRoomsService.getUserRooms`, which doesn't exist; the method is `getMyRooms`. I'll flag it but it's outside this task.)
+
+Now deploy the function and check what the migration push will apply:
+
+[ASST/063fcec4] Here's the tight scope for live mode — the design decisions that matter, then a phased build so we ship value without a risky big-bang.
+
+Core decision: make live an additive mode, not a replacement. Add `mode` to `quiz_rooms` (`'async'` default | `'live'`). Every existing room stays exactly as-is; live is opt-in at creation. Nothing you've built breaks.
+
+How the realtime works (Supabase Realtime, which you already run for MIGA):
+- Lobby — a channel per room using Presence: players appear live with avatars/names as they join, host sees the count fill up. Host taps Start.
+- Synchronized play — a
+
+[ASST/063fcec4] Read the whole path — the chat UI (`MigaChat.tsx`), the client streaming (`mascotApi.streamChat`), and the `miga_stream` edge function. Here's the grounded picture.
+
+## How a message is actually generated
+
+When you send a message, `miga_stream` runs a fairly heavy pipeline *before* and *after* the model:
+1. Fetches your profile, then classifies the message with a stack of regexes (is it a concept question? PYQ? current affairs? syllabus-coverage? bookback?).
+2. Conditionally builds context — textbook match, PYQ database queries, a current-affairs packet — mostly **sequentially**, each `await` 
+
+[ASST/063fcec4] All clean. Switched to phone + OTP while keeping the whole new design.
+
+What changed:
+- **Sign Up** → full name + **🇮🇳 +91 mobile number** → "Send Code". (Dropped the email/password + requirement checklist.)
+- **Sign In** → just the mobile number → "Send Code", mascot intact.
+- **Verify screen** → now "Verify your number", 6-digit **SMS OTP** (auto-fill via `autoComplete="sms-otp"`), 60s resend, plus a "Wrong number? Change it" link. On verify it upserts the profile (storing the name from signup), then signup → All Set 🎉, signin → straight home/profile-setup.
+
+Backend is your existing, proven 
+
+[ASST/063fcec4] Good call — the modern standard (Duolingo, Headspace, most fintech apps) is: **illustration in a hero card up top, crisp real text below, dots + button pinned at the bottom.** Nobody relies on text baked into the image. That also happens to gracefully handle your landscape images and sidesteps the "Youlube" typo — so I'll build exactly that.
+
+[ASST/063fcec4] Big improvement on the art — this one's **on-brand** (chibi wolf, not the anime style), it's **square/portrait-friendly**, and it nails the Daily Dose theme (reading the "Daily Dose" book, calendar, cards). The mascot and composition are exactly right. ✅
+
+But the same text problem is back, worse this time — the floating labels are **misspelled by the image generator**:
+- "EXPLAHATIONS" → Explanations
+- "PRASTICE DUESTIONS" → Practice Questions
+- "FLACHICARDS" → Flashcards
+- "CURRENT AFRAISS" → Current Affairs
+- "ONE TOPIC. ONE STEP FORWARD," (cut off)
+
+These are baked into the picture, so they
+
+[ASST/063fcec4] slide2's spelling is **fixed** — it says "**YouTube**" correctly now (no more "Youlube"). ✅ On-brand wolf, Build Lessons theme all good.
+
+Only remaining thing is a consistency detail, not a bug: **slide1 is transparent** (mascot floats on the soft teal stage), while **slide2 still has its dark rectangular background**. So on the onboarding stage, slide1 will look airy and slide2 will show as a dark panel. slide3 is your mascot rig with its own background, which you said is intentional.
+
+Two ways to go, your call:
+- **Match slide1:** regenerate slide2 as a **transparent PNG** (same content, no 
+
+[ASST/db7703b6] Done. MindRush was already wired into the home study tools (`studyToolsConfig` → `/mindrush-arena`), so I focused on the two real gaps you called out — graphics and true multiplayer — plus a gameplay-feel fix I found along the way.
+
+## What changed
+
+**1. Collision feel fixed** (`engine/subwayEngine.ts`)
+The hit/coin/gate zone was firing at `z≈0.9` — i.e. while obstacles were still far down the track, so crashes felt random. I re-anchored the zone to the runner's position (`z≈0`), so hits, pickups, and gate triggers now land exactly when the object reaches you. Near-miss "CLOSE!" was also narro
+
+[ASST/db7703b6] MindRush is fully removed. Clean sweep confirmed:
+
+- **Button gone** — the "MindRush Arena" card is out of the Study Tools list in `home.tsx`, along with both tap handlers.
+- **Route gone** — deleted `app/mindrush-arena.tsx` and removed its `<Stack.Screen name="mindrush-arena" />` registration in `_layout.tsx`.
+- **Game code gone** — deleted the entire `components/ui/mindrush/` folder (engine, hooks, scene, overlays, sprites).
+- **Assets gone** — deleted `assets/mindrush/` (the downloaded model).
+- **Config reverted** — removed the `glb`/`gltf` additions from `metro.config.js` and deleted the 
+
+[ASST/db7703b6] This reminder is about copyrighted material and isn't relevant to this original-code task, so I'll proceed. Let me read the WebView's RN-side `onMessage` handler and the ref/prop type definitions to wire the envelope callback.
+
+[ASST/db7703b6] **2. Wire the webview message handler and RN-side callbacks:**
+
+[ASST/db7703b6] Clean. The mouth will move again now, and it'll automatically upgrade to real waveform-driven motion the moment the webview decode works.
+
+## What I changed
+1. **Restored a working mouth** — it no longer goes dead. Order of preference: real amplitude envelope → resampled text estimation (so it always animates).
+2. **Hardened the decode** — the webview now handles both the modern Promise form *and* the legacy callback form of `decodeAudioData`, and resumes the AudioContext first. The old-callback case is a very common reason `decodeAudioData` silently does nothing inside an Android WebView, whi
+
+[USER/db7703b6] why did u change the voice ERROR  [mascot] Local TTS play failed: [Error: Cloud TTS failure 500: {"error":"Sarvam API Error: 400 {\"error\":{\"message\":\"Speaker 'gokul' is not compatible with model bulbul:v2. Available speakers for bulbul:v2 are: anushka, abhilash, manisha, vidya, arya, karun, hitesh\",\"code\":\"invalid_request_error\",\"request_id\":\"20260622_5dbcf5c0-1226-42bb-a8e1-754ed54cba60\"}}"}] 
+
+Call Stack
+  getTTS (services\mascotApi.ts)
+  next (<native>)
+  asyncGeneratorStep (nod
+
+[ASST/db7703b6] Yeah — Ani is one of xAI's "companions" in the Grok app: an anime-style animated character with a voice, a persona (flirty/affectionate, goth-ish look), real-time talking with lip-sync and expressions, and an affinity/"relationship level" system that unlocks as you chat. It launched around mid-2025 alongside others like the red panda "Rudi." It's basically a persistent animated voice companion rather than a plain chatbot.
+
+Since that space moves fast and some of it may have changed since my knowledge cutoff, I can web-search for the current state (new companions, features, how the avatar/lip-s
+
+[ASST/db7703b6] Clean typecheck. The companion now syncs across devices.
+
+## What changed
+
+**Migration** `supabase/migrations/20260622235154_miga_companion.sql` — a `miga_companion` table (one row per user) with **row-level security** so each user can only read/write their own row.
+
+**`companionService.ts`** — same API (`loadCompanion`/`saveCompanion`), now cloud-backed:
+- **Load**: reads the local cache *and* the cloud row, **merges** them (higher affinity/streak/totals win, facts are unioned, earliest "first met" kept), writes the converged state back to both. If the cloud has no row yet, it seeds it from t
+
+[ASST/db7703b6] Here's exactly what's happening — there are **two separate voice pipelines**, and the error is from the side one, not your main backend.
+
+**1. The tutor (your uploaded server) — this is what's used for actual tutoring.**
+When you ask MIGA something, `startTutorStream` sends it over the WebSocket to your **Railway/MIGA backend**, which streams back both the text (`sentence`) *and* its own audio (`audio` chunks with `visemes`, `word_timings`, `duration_ms`). The app plays that server audio directly via the stream queue. So the real conversation + its voice **come from your backend, not the fallb
+
+[ASST/db7703b6] Railway CLI is installed (`railway` on PATH) ✓ — so deploying is no problem. But here's the honest blocker: **the Railway server's source isn't in this workspace.** `D:\mindwhite` is the app/client plus the Supabase functions — there's no `miga-server` folder, `railway.json`, or server code here or in the parent directory. So I can run `railway up`, but I have nothing to edit/deploy yet.
+
+To make the standing rule work ("backend changes → Railway, deploy via CLI"), I need the server's code. A couple of options:
+
+1. **Tell me the path** to the miga-server repo on your machine (e.g., `D:\miga-se
+
+[ASST/db7703b6] Clean. The result screen is now a proper, compact result card.
+
+## What changed
+- **Removed** the "Stroop-style inhibition sprint…" copy line entirely.
+- **Compact, centered card** instead of the old full-screen stretch — a white rounded card with a 1px border, vertically centered.
+- **Gradient icon badge** (teal→sky for strong runs, indigo otherwise) → big score `12 / 20` → result label.
+- **"New best" pill** (amber star) appears only when you actually beat a previous best.
+- **Tidy stats row**: Accuracy and Best, split by a thin divider — no bordered chips, just clean numbers.
+- **Gradient "
+
+[USER/db7703b6] now with the same table and considering our pro version charges 399rs per month, analzye all ai calls and models used and calculate 100% accurate costs for us vs user usage
+
+[ASST/db7703b6] Now I have real OpenRouter pricing, so the numbers are grounded. Confirmed rates:
+- **`gemini-3.1-flash-lite`** (tutor text): **$0.25 / M input, $1.50 / M output**
+- **`grok-voice-tts-1.0`** (tutor voice): **$15 / M input text tokens, $0 output** — billed on the *text you send to speak* (~1 token ≈ 4 chars)
+
+## Real per-call costs
+Assumptions: tutor turn ≈ 1,500 in / 120 out tokens; spoken reply ≈ 70 tokens (~45 words).
+
+| Call | LLM cost | TTS cost | Total |
+|---|---|---|---|
+| **Tutor turn** (gemini-flash-lite + grok-tts) | $0.00056 | $0.00105 | **~$0.0016** |
+| **Study-lab generation** (tex
+
+[ASST/db7703b6] Short answer: **podcasts are generated entirely on your Railway server** (`/study_lab_generate` with `artifact_type: 'podcast'`) — the app just calls it and plays back the base64 audio it returns (confirmed in `mascotApi.generateStudyLabArtifact` and `scripts/test-studylab-sources.mjs`, which decodes a `podcast` audio data-URL). **Nothing in this repo pins the podcast model** — there's no podcast-specific model/voice config on the client side.
+
+So based on the Railway env you shared, the podcast almost certainly uses:
+- **Voice:** `x-ai/grok-voice-tts-1.0` (your `OPENROUTER_TTS_MODEL`) — the s
+
+[ASST/db7703b6] Podcast is removed from the client. Quick note on that typecheck output: **all those errors are pre-existing in `learn/index.tsx`** (missing `react-native-vector-icons` types, LottieView prop typings, duplicate StyleSheet keys, a use-before-declare) — none reference podcast, `studyTools`, or anything I touched. The file has always relied on Babel/Metro (which strips types) rather than passing strict `tsc`. My edits to `aiUsageService.ts` and `subscription.tsx` are clean (no errors), and removing one object from the `studyTools` array can't produce those.
+
+## What I removed (all client-side, no
+
+[ASST/db7703b6] The reminder is automated and unrelated to this cost work. Here's the exact model now that podcast is gone — real OpenRouter prices, explicit token assumptions, both tiers.
+
+## Inputs (the math is exact given these)
+**Prices:** `gemini-3.1-flash-lite` = $0.25/M in, $1.50/M out · `grok-voice-tts-1.0` = $15/M text-tokens
+**FX:** ₹83 = $1 → **₹399 = $4.81 gross**
+**Net revenue** (₹399 is GST-inclusive, minus store cut): ~**$3.46** (15% Play fee) to ~**$2.85** (30% fee)
+**Per-call token assumptions** (the only soft variable — confirm via Railway logs):
+
+| Call | LLM in / out | TTS tokens | Cost |
+
+
+[ASST/db7703b6] I kicked off a disk scan for the server repo (running in the background — I'll tell you if it turns up). But the answer to your question is simple:
+
+**I can read any file in `D:\mindwhite`. The Railway server is a *different codebase* that isn't in this folder, so there's literally no file here for me to open.** That's the whole gap — not that I "can't see code," but that this code isn't present locally.
+
+## How you can find the tutor/podcast TTS yourself
+Three reliable ways, easiest first:
+
+1. **Railway dashboard → your `miga-server` service → "Variables" tab.** You already found `OPENROUTER_
+
+[ASST/db7703b6] You're right to push — and I was wrong earlier. **The server is in this repo, at `bot/`.** My searches were scoped to the app's tracked folders (which exclude `bot/`), so I incorrectly said it wasn't here. It is, and I can read it now. Here's the **definitive TTS/LLM map, straight from the server code** — and it's more nuanced than the single env var suggested:
+
+| Path | File | LLM | TTS |
+|---|---|---|---|
+| **Tutor** (`/ws_story` — the main teach/chat) | `server.py` | `OPENROUTER_FAST_MODEL` → your env = **gemini-3.1-flash-lite** (code default `deepseek-v4-flash`) | `OPENROUTER_TTS_MODEL` → 
+
+[ASST/db7703b6] That was just the earlier background grep finishing — its output is already what I used to map `bot/`. Nothing new to act on, and the disk-scan one is now redundant too.
+
+So we're squared away: the server's in `bot/`, and the real TTS/LLM split is tutor = grok-voice-tts + gemini-3.1-flash-lite (`server.py`), Story Mode = Polly/Sarvam bulbul:v3 (`story_engine.py`), live call = ElevenLabs (`bot.py`).
+
+No pending work on my side. When you're ready, good next moves would be:
+- **(a)** Re-confirm the cost model against `server.py`'s real token/cache logic (the `TTS_SENTENCE_CACHE` likely cuts repea
+
+[ASST/db7703b6] Confirmed both things from the actual server code:
+
+## 1. ElevenLabs is dead code — you're right, it's not used
+- `elevenlabs` appears **only in `bot.py`** (the Pipecat WebRTC path). Not in `server.py`, `story_engine.py`, or `rag_service.py`.
+- `startPipecatSession` / `joinPipecatSession` are **defined but never called** anywhere in `app/`, `services/`, or `components/`. So the whole Pipecat + ElevenLabs path is unreachable. **$0 cost, not a fallback.** You can delete `bot.py` whenever.
+- Real TTS fallback chain (server.py): `_openrouter_tts_base64` (grok-voice-tts) → `_openai_tts_base64` (Ope
+
+[ASST/db7703b6] The reminder is automated and unrelated — proceeding. Your instinct is exactly right, and digging into the enforcement revealed something bigger:
+
+## What "150" actually is (and the surprise)
+- It counts **messages = tutor turns** (one per thing you send), **not sessions, not tokens**.
+- **But it's not actually enforced.** The only code that calls `AIUsageService.consume()` is `blueprint.tsx` (for `blueprint_generate`). **Nothing calls `consume('miga_message')`.** It's only *displayed* on the subscription screen (`getBatchUsage`) as a selling point. Tutor turns go to Railway `/ws_story`, and `
+
+[ASST/db7703b6] Server deploy is uploaded and **building on Railway now** (build logs: the link above). The reminder is automated and unrelated to this work.
+
+## What's done
+- **Client** (`mascot.tsx`): every tutor/story/math WS turn now sends `user_id`. ✅ (ships with the app — needs a reload/rebuild)
+- **Server** (`bot/server.py`): computes real per-turn cost (input + output + grok-TTS tokens → micros) and calls a daily-budget RPC; pre-turn budget **check** + post-turn **debit**. Deployed. ✅
+- **Migration** (`supabase/migrations/20260623181559_ai_cost_budget.sql`): `ai_cost_usage` table + `consume_ai_cost()`
+
+[ASST/db7703b6] The reminder is automated and unrelated (I'm only inspecting your own code). Here's the honest status — and it clears up the "fallback vs Railway" confusion:
+
+## How the mascot memory actually flows
+There's **no separate fallback server** for this. The companion memory is built client-side (`companionService.memoryBlock`) and injected straight into the **Railway** tutor prompt:
+
+`memoryBlock()` → `companionMemoryRef` → `buildLearnModePrompt(..., memory)` → `tutor_instruction` → `/ws_story` (Railway)
+
+So it **is** reaching Railway correctly (verified at `mascot.tsx:1398` and `:1811`). The plumb
+
+[ASST/db7703b6] Done — Study Lab is now capped (mirrors the blueprint pattern: `check` before generating, `consume` once the server accepts the job, fail-open if the gate's unreachable). Typecheck clean.
+
+## How the 50 counts (your actual question)
+It counts **per generation — one unit per artifact you generate — pooled across all tools and all sessions.** Specifically:
+
+| Action | Counts? |
+|---|---|
+| Generate **Notes** | 1 |
+| Generate **Mind Map** | 1 |
+| Generate **Quiz** | 1 |
+| Generate **Flashcards** | 1 |
+| → All 4 for one uploaded doc | **= 4** (not 1) |
+| **Re-reading** notes / re-opening the mind 
+
+[ASST/db7703b6] Exact figures below. They're exact given the **published prices** (deepseek-v4-flash $0.09/$0.18, gemini-2.5-flash-lite $0.10/$0.40) and these **fixed token assumptions** per call (the one thing only your logs could refine):
+- Build Lessons (1 path gen): 2,000 in / 2,500 out
+- Study Lab (1 artifact): 3,000 in / 900 out (max_tokens=900)
+
+## Exact cost per generation
+- **Build Lessons** = 2,000×$0.09/M + 2,500×$0.18/M = **$0.00063**
+- **Study Lab** = 3,000×$0.10/M + 900×$0.40/M = **$0.00066**
+
+## Exact max per month (cap × 30 days)
+| Tier | Build Lessons | Study Lab | **Total / mo** |
+|---|---|-
+
+[ASST/db7703b6] Exact figures for Mascot AI (the tutor), same method — exact prices (`gemini-2.5-flash-lite` $0.10/$0.40, `grok-voice-tts` $15/M tokens), fixed token assumptions from `server.py` (`max_tokens=420`, teaching turn ≈ 280 spoken tokens).
+
+## Exact cost per turn
+**Teaching turn** (2,000 in / 280 out / 280 TTS tokens):
+- LLM = 2,000×$0.10/M + 280×$0.40/M = $0.000312
+- TTS = 280×$15/M = $0.004200
+- **= $0.004512 per teaching turn**
+
+**Greeting / short turn** (1,500 in / 30 out / 30 TTS):
+- LLM $0.000162 + TTS $0.00045 = **$0.000612 per short turn**
+
+TTS is **93%** of a teaching turn — the LLM is nois
+
+[ASST/db7703b6] The reminder is automated and unrelated. Confirmed the cause of **#2b**: on a tutor turn *with* audio, `done` fires while audio is still playing, so `finishCurrentStream` (which resets `isSending`) isn't called then — and the audio-finished path (`isFinalItem`) resets streaming/thinking but **not `isSending`**, leaving the send button spinning. Fixing that:
+
+[ASST/db7703b6] Both flow bugs fixed (client-only — reload to test). The reminder is automated and doesn't apply here.
+
+## Done this round
+- **#A — first greetings gave no response** → root cause was a **`miga_tts` cold start** (greetings are spoken via that Supabase function, not the WS; the first calls woke it and timed out). I now **pre-warm the TTS function when the mascot tab opens**, so by the time you greet it's hot. First greeting should respond reliably.
+- **#2b — send button stuck spinning after a reply** → on a tutor turn with audio, `done` fires while audio's still playing, so the spinner-reset wa
+
+[ASST/db7703b6] The reminder is automated and unrelated (your own code). The reader calls `onComplete` after a 3s celebration → `handleComplete` in `ai-lesson.tsx`. The DB error was thrown *inside* that handler before it could navigate. Let me confirm the handler navigates (now that the DB error's gone).
+
+[USER/db7703b6] This is exactly how you kill the "AI text dump" epidemic. Most EdTech apps just wrap an LLM in a pretty wrapper and spit out standard markdown prose, leaving the heavy lifting of organizing and scanning to the user. Turning existing text into a **highly structured, scannable, component-driven UI via client-side heuristics** completely changes the product tier. It instantly gives that premium, Duolingo/CRED-level polished feel.
+
+Your element catalog hits the exact pain points of a UPSC aspirant. 
+
+[USER/db7703b6] This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
+
+Summary:
+1. Primary Request and Intent:
+   The user is iteratively improving the "MindGains" React Native/Expo Indian exam-prep app. Across the conversation, explicit requests (chronological):
+   - Build a Subway-Surfers-style quiz game (MindRush) with three.js + realtime multiplayer + AAA graphics → later **deleted entirely** ("delete the whole
+
+[ASST/db7703b6] Clean. Full parity done — **both readers now run the same Smart Notes engine.**
+
+## What's now unified everywhere
+One parser (`utils/smartNotes.ts`) + one renderer (`components/ui/SmartNotes.tsx`) feed both:
+
+**Daily Mission reader** (`app/daily-mission/reader.tsx`) — your Day-8 DPSP complaint
+**Build Lessons / AI-lesson reader** (`PremiumDeepLessonReader.tsx`) — now matched
+
+Both get:
+- **"At a glance" chip rail** of high-yield anchors (Articles + ranges like `Art. 36–51`, years, `42nd CAA`) — tap a chip → smooth-scrolls to where it's discussed
+- **comparison tables** (strict uniform `A: B` o
+
+[ASST/db7703b6] Good redirect. Of those three, two are safe to do **client-side right now** with strict heuristics (so they work on existing content, no regeneration): **callout cards** and **timelines**. The third — **"vs"-in-prose tables** — is the genuinely unreliable one to parse from free prose, so I'll be honest about that at the end.
+
+Let me extend the parser engine with strict callout + timeline detectors:
+
+[ASST/db7703b6] Clean — and because both readers share the engine, **callouts and timelines light up in the Daily Mission reader AND the Build Lessons reader automatically.** No extra wiring.
+
+## What's new (2 of the 3)
+
+**Callout cards** — a paragraph starting with a cue (`Important:`, `Note:`, `Remember:`, `Caution:`, `Exam Tip:`, `Pro Tip:`, `Did you know:`, `Mnemonic:`, `Key Takeaway:` …) becomes a colored card with icon + label:
+- `Important/Caution/Warning` → amber warning card
+- `Tip/Exam Tip/Pro Tip/Did you know/Mnemonic` → accent "tip" card (bulb)
+- `Note/Remember/Key Takeaway` → accent "info" card
+
+
+
+[ASST/db7703b6] All five are live in the database — you're fully applied. Verified against the real DB (`yuntwerxahgmaoduxvqc`):
+
+| Migration | Status | Evidence |
+|---|---|---|
+| `181559` ai_cost_budget | ✅ | table `ai_cost_usage` present |
+| `190500` get_ai_cost_status | ✅ | RPC callable |
+| `193000` lower_pro | ✅ | `ai_cost_budget('pro')` = **50000 micros** ($0.05/day) |
+| `200000` reset_ist_and_resets_at | ✅ | `resets_at` returned |
+| `210000` guard 42703 fix | ✅ | confirmed earlier via working lesson completion |
+
+The reset value is the nice confirmation: `resets_at = 2026-06-24T18:30:00+00:00` — that's 
+
+[ASST/db7703b6] Honest answer after thinking it through: **no, it's not the better idea right now — I'd hold off.** Here's the reasoning, because the "why" matters more than the verdict.
+
+The catch is **reach**. A generator-side `compare` block only affects **newly generated content** — i.e. the AI *Build Lessons* feature, which calls `deepLessonGenerator` on demand. But your whole complaint — Day 8 DPSP, "every exam every day" — is the **daily mission content**, and that's *pre-generated and stored* in `master_content_vault` (that's what `dump-day.mjs` reads). A generator change wouldn't touch a single exist
+
+[ASST/db7703b6] Both fixed and clean. Here's what changed:
+
+## 1. Current-affairs crash fixed
+`getIndiaDateKey` was being imported from `@/utils/redisService` but only ever existed inside an edge function — so it resolved to `undefined` → *"is not a function"*. I added it as a real export in `redisService.ts`, using the **exact same IST (`Asia/Kolkata`) date logic** as the `current-affairs-ingest` edge function, so client and server bucket the day identically. Current affairs will load now.
+
+## 2. Real quiz result screen (no more "Nice work!")
+Both daily-dose quizzes (`QuizContent` and `CurrentAffairsQuizCont
+
+[ASST/db7703b6] Hey — love that you're at the finalization stage. This is exactly the right time to get ruthless. Let me think through each piece honestly, including where I'd push back.
+
+## 1. Decluttering — yes, and here's the principle
+At launch, **five features people love beats fifteen they tolerate.** Removing ColorTrap entirely is a good call — it's a side-game that doesn't feed your core learning loop. Before we cut, let me do a quick audit of what's actually load-bearing vs. noise (Knowledge Heist, GyanClash, the various lesson-reader variants, etc.) so we remove dead weight, not something users quie
+
+[ASST/db7703b6] ColorTrap is gone and clean. Here's the audit you asked for. I mapped your nav: the **bottom bar has 6 tabs** (home, learn, arena, mascot, knowindia, profile) and the **Learn tab alone fans out into 12 AI tools**. That's the crowding. Confidence note: I'm inferring "orphan" from missing navigation references, so treat those as "verify on device," not delete-on-sight.
+
+## CUT (dead weight / duplicates — low risk)
+- **`home-v2.tsx`** — a second home screen, registered but not in the tab order and nothing navigates to it. Classic leftover experiment. Cut.
+- **`misa.tsx`** — registered, hides the 
+
+[ASST/db7703b6] The mascot tab is a big (4,900-line) **voice-first** tutor — MIGA talks "like a real person on a voice call," with a Live2D rig, subtitles, and voice input. Adding text chat means deciding how it coexists with the call experience. Let me look at the streaming API and the main render to design the cleanest integration:
+
+[ASST/db7703b6] I now have the full picture. The good news: **the streaming engine is fully reusable.** The voice tutor already calls `mascotApi.streamChat(...)` (mode `'chat'`), streams tokens, *then* adds TTS + lipsync. A text chat is the same call **minus** the slow part:
+
+- **Why it'll feel ultra-fast:** text chat skips TTS/audio entirely (that's the latency in voice) and streams tokens straight into a bubble. Same fast model, no waiting on speech synthesis. First tokens in ~300–600ms — genuinely the "instant" feel you want (I'll never claim literal ms).
+- **Client-only:** the system prompt is built clien
+
+[ASST/db7703b6] Both locked: **Call↔Chat toggle**, and a **camera icon in the chat composer** (scan flows into the same chat). 
+
+To keep risk low, I'll build the chat as a **self-contained component** (`MigaChat`) mounted into the tab behind the toggle — rather than threading chat state through the 4,900-line voice file. Let me check the `AIUsageService` API and the existing toggle/header styling so it matches:
+
+[ASST/db7703b6] Now wire it into the mascot tab with the Call↔Chat toggle. Let me find the main render's header area and outermost container:
+
+[ASST/db7703b6] Now I'll wire it in with minimal risk: a `viewMode` state, a segmented Call/Chat toggle in the header, and the chat rendered as a full-cover overlay (so I don't have to wrap the huge call-UI block). Add the import + state first:
+
+[ASST/db7703b6] Clean — chat feature typechecks with zero errors in my files. 
+
+## ✅ Text chat in the mascot tab — done
+- **Call ↔ Chat segmented toggle** in the header (matches the mockup you picked). "Chat" interrupts any active voice stream and switches; "Call" returns to the voice/rig experience.
+- **`MigaChat` component** — reuses the proven `streamChat` engine but **skips TTS/lipsync**, so tokens stream straight into chat bubbles = the fast, "instant" feel you wanted (first tokens ~300–600ms, no waiting on audio).
+- **Its own text persona** (lead with the answer, concise, exam-focused, "Answer: C" for M
+
+[ASST/db7703b6] Sounds good. Quick recap of where the finalization stands:
+
+**Done this session:** ColorTrap removed · all games removed (UI, services, components, edge functions) · home-v2 removed · MISA kept (oath step) · Arena/Quiz Rooms kept · leaderboard preserved · State Rank card redesigned · daily quiz result screen · current-affairs crash fixed · **text chat in the mascot tab (Call↔Chat toggle).**
+
+**Next when you're ready:** the question-paper scanner — I'll start with the cost model (to set the free daily cap), then build the draggable multi-crop + "Q# → option → answer" output, wired to the camera
+
+[ASST/db7703b6] Key realization that saves a lot of friction: the **paper mode already calls `consumeAiCost`**, so your existing **server-side daily cost budget** (the $0.015/day free / $0.05 pro from your cost migrations) *already* caps scans and protects margins — at ~$0.0028/scan that's the natural "~5 free scans/day" without any new migration or gate deploy. So I'll **skip the AIUsageService/migration plumbing** and just handle the budget‑exhausted (402) response gracefully. Only **one** edge function needs deploying (`miga_math_solve`).
+
+**3. Add `solveQuestionPaper` to mascotApi** (with typed budget err
+
+[USER/db7703b6] btw we need ti rgaizse layouts well cause the chat call now hides behind the math session so better think of a good idea for call layputs including all thse and let me know also in chtmode i dont see any input etc just the ask miga anything and below texts nly visivle
+
+[ASST/db7703b6] Found the root cause of both issues:
+
+**Why the toggle hides behind Math:** your `topActionsHeader` (Sessions+Math) and `iconHeader` (ring+language) are **absolutely positioned** at `top:44`, but my Call/Chat toggle is in **normal flow** — so it renders at the very top-center and collides with the absolute pills.
+
+**Why chat shows no input:** the chat overlay's composer sits at the very bottom, **behind the floating tab bar**, so it's hidden off the visible area.
+
+Let me check what's available (insets) before reorganizing:
+
+[ASST/db7703b6] Everything I need is available (`insets`, dock height 90). Here's my layout plan, then I'll implement it.
+
+## Proposed Call-mode header (clean, no overlap)
+A proper **three-zone top bar**, all on one line at `top:44`:
+- **Left:** Sessions (icon pill)
+- **Center:** the **Call ⇄ Chat** toggle (the hero control — absolutely centered so it can't collide)
+- **Right:** cost ring · language · **Math** (Math moves here as an icon, since it's a call-only tool — frees the left side so nothing overlaps the toggle)
+
+In **Chat mode** the overlay already has its own centered toggle up top, and I'll pad its 
+
+[ASST/db7703b6] Clean. Both issues fixed and the header reorganized.
+
+## Fixed
+**Chat input now visible** — the composer was sitting behind the floating tab bar. The chat overlay now reserves bottom space (`insets.bottom + 84`) so the text input + send + scan icon sit clearly above the dock. It also now renders above the call headers (raised z-index), so no call-mode buttons bleed through, and it has its own normal-flow toggle at top.
+
+**Toggle no longer hidden behind Math** — root cause was the toggle being in normal flow while the side buttons were absolutely positioned. Now it's the absolutely-centered her
+
+[ASST/db7703b6] Now fix the header overlap for real — move the toggle to its **own row below** the icons (call mode), and give the chat a premium soft background:
+
+[ASST/db7703b6] Clean. Here's everything that changed:
+
+## 1. The 3-second delay — fixed (root cause)
+Your message was waiting on a **network cap-check** before appearing. Now it's **optimistic**: the moment you hit send, your message + the thinking dots appear **instantly**, and the cap-check + streaming happen behind the dots. No more lag to the chat area.
+
+## 2. Header overlap — fixed properly
+Instead of cramming the toggle into the same line as Sessions/ring (which kept colliding), the **Call ⇄ Chat toggle now sits on its own centered row *below* the icon row** (Sessions left, ring/language/Math right). I
+
+[USER/db7703b6] stil cahtmode is b.s ugliest im gonna vomit over it huge gape below input , bs uigliest cheapest looking ai chat i  ever seeen also remove callchat tofglle better keep the chat icon alone in calll mode next to send button in onput likesiwe tyeere too pls make me a premium full revmap of chatmdoe also the input should come upper like in callmode while typing better use same  input as of call here just replacing camera crctly
+
+[ASST/db7703b6] Understood — and you're right that reusing the call input is the correct call. Let me find the call-mode input box so I can use that exact design in chat (and see how it handles keyboard rise):
+
+[ASST/db7703b6] Now I understand the call input fully. The call dock floats (absolute, rises with keyboard) — that's why it has no gap, while my chat reserved padding (the gap). Let me read the exact call input styles so chat can match them precisely:
+
+[ASST/db7703b6] Now I have the exact call input spec. Let me rebuild MigaChat to **match the call input** (floating, rises with keyboard, no gap), with **scan icon left** and a **call-switch icon next to send** (replacing the toggle):
+
+[ASST/db7703b6] Now update mascot: remove both toggle blocks, wire the new props, and add a chat icon to the call input. First, remove the call-header toggle:
+
+[ASST/db7703b6] Now add a **chat icon** to the call input bar (next to send). Let me find the main call input's send action:
+
+[ASST/db7703b6] Clean. Full revamp done exactly as you asked:
+
+## Toggle removed → mode switch lives in the input
+- **Call mode:** a **chat icon** sits next to the send button in the call input. Tap it → text chat.
+- **Chat mode:** a **mic/call icon** sits next to send. Tap it → back to voice call.
+No more segmented toggle, nothing to collide with Sessions/ring.
+
+## Chat now uses the *same* input as call
+The chat composer is the exact call dock design — white pill, 56px, same rounded buttons: **scan icon (left)** · text field · **call icon + send (right)**. The camera is correctly replaced by the **scan** act
+
+[ASST/db7703b6] Clean. The chat is now Google Material 3 throughout:
+
+## Colors (M3 roles)
+- **Primary `#0B57D0`** (Material blue) — user bubbles + send button
+- **Surface `#FDFCFF`** canvas, **surface-container `#EEF0F4`** for assistant bubbles, **primary-container `#D3E3FD`** for the empty-state badge
+- **onSurface `#1B1B1F` / onSurfaceVariant `#44474E`** text — proper M3 contrast tiers
+- M3 **outline-variant** borders on the composer + chips
+
+## Motion (M3 emphasized easing)
+- Every message **springs in** — fade + rise + subtle scale on the `emphasized-decelerate` curve `(0.05, 0.7, 0.1, 1)`, the signature
+
+[ASST/db7703b6] Yes — it's live and real, not mocked. Here's the exact status:
+
+- **Server**: the `paper` mode was deployed to your `miga_math_solve` edge function earlier this session (the CLI confirmed `Deployed Functions ... miga_math_solve`). It runs a real vision model (`gemini-3.1-flash-lite`) on the photo and returns actual structured answers (Q# · option · answer · reason).
+- **Client**: `mascotApi.solveQuestionPaper()` → `PaperScanModal` → wired to the **camera icon** in the chat composer (and the "Scan & solve" chip). Results post into the chat.
+- **Cost**: bounded by your existing daily AI budget s
+
+[ASST/db7703b6] Clean — all four done.
+
+## Quick fixes (live on reload)
+1. **Removed** the "Ask anything. Get instant…" subtitle.
+2. **Chip text fits** — chips are wider (47%), text is `flex:1` + `numberOfLines={1}` with auto-shrink, so "Explain a concept" / "Solve an MCQ" never clip.
+3. **Android back button in the scanner fixed** — the `Modal`s were missing `onRequestClose`. Now: from the photo preview, back returns to the camera; from the camera, back closes the scanner; on the results screen, back closes. (It does nothing mid-scan so it can't interrupt.)
+
+## Auto-detect crop (needs one EAS rebuild)
+Wired 
+
+[USER/db7703b6] awesome so now the important part should we make this the main page or the call, also the send button should be colored not gray
+
+[ASST/db7703b6] Two good calls. Let me fix the send button now, and give you my honest recommendation on the default.
+
+**Send button → always teal (not gray):**
+
+[ASST/db7703b6] Done — the send button is now teal at all times (a soft teal when empty, full teal when ready), never gray.
+
+## My recommendation on the default: **make Chat the main page**
+
+Here's the honest reasoning:
+
+**Default to Chat, with Call one tap away (the mic icon).** Why:
+- **Lowest friction = fastest value.** Opening to a text box + scan button means the user can type or scan *instantly*. A voice call is a higher-commitment action (mic permission, speaking out loud, can't use it in a quiet library/class — which is most of your UPSC/TNPSC audience's reality).
+- **It's the Answer.ai pattern you're
+
+[ASST/db7703b6] Both done.
+
+## Send button
+Now **teal at all times** — soft teal `#8FC9C2` when the input's empty, full teal `#0F766E` when you've typed. No more gray.
+
+## Default page → Chat
+The MIGA tab now opens straight into **Chat** (the low-friction, scan-and-ask experience), with **Call one tap away** via the mic icon in the input. This matches how students expect it to work and keeps your voice tutor accessible without making it the higher-friction first thing they hit.
+
+It's a **one-word revert** if you change your mind — `useState<'call' | 'chat'>('chat')` back to `'call'` in `mascot.tsx`.
+
+Reload →
+
+[ASST/db7703b6] No errors. Done — and that's genuinely the best setup:
+
+- **Rig boot:** left as-is → Call stays instant when tapped.
+- **TTS warm-up:** now gated to Call mode → chat-only users (the majority, since chat is the default) never trigger a wasted paid TTS call. Call users still get the cold-start fix the moment they switch.
+
+So you keep call-readiness *and* stop the small cost leak — no downside.
+
+That wraps this round: markdown rendering, scroll-up, smooth streaming, ⚡ header, teal scan results, always-teal send button, chat-as-default, and the cost-smart TTS gate. Reload to test. When you're read
+
+[ASST/db7703b6] Removed — the mic/call-switch button is gone from the chat composer. The composer is now just camera (scan) · attach · input · send.
+
+Heads-up: with that gone, there's no longer a button to jump from chat back to voice **Call** mode. If you still want a way in (just not a mic in the input bar), I could put a small "Call" option in the ☰ header or the new-chat area instead — say the word. Otherwise it's removed as asked.
+
+[ASST/db7703b6] Adding it to the header instead (cleaner than in the input). Call button next to New chat:
+
+[ASST/db7703b6] Done — there's now a **call button** (📞) in the chat header, next to New chat, so you can jump back to voice Call from chat. The input bar stays clean (camera · attach · input · send), and the header reads: ☰ history · MIGA ⚡ · 📞 call · ✎ new chat. Reload to see it.
+
+[USER/db7703b6] likewise in call mode bring the language select to input place the msg button uppr so in both chats the swtch icon same position
+
+[ASST/db7703b6] Let me find the call-mode header (language button) and the chat-switch icon in the call input:
+
+[ASST/db7703b6] Got it — mirror the layout: in **call** mode, move the chat-switch to the **header** (same spot as chat's call icon) and bring the **language** picker down into the input. Let me read the call input first:
+
+[ASST/db7703b6] Now swap them. **Call input: chat-switch → language:**
+
+[ASST/db7703b6] Clean. Now both modes mirror each other:
+
+- **Chat mode:** mode-switch (📞 call) lives in the **header**; input bar is camera · attach · text · send.
+- **Call mode:** mode-switch (💬 chat) now lives in the **header** (same top-right spot); the **language** picker moved down into the input next to send.
+
+So the switch icon sits in the same header position in both, and language is in the input — consistent and clean. Reload to confirm the positions line up.
+
+[ASST/db7703b6] Clean. Premium depth applied to the chat composer (Apple-style):
+
+- **Floating input bar** — now lifts off the screen with a soft, diffuse shadow (no harsh glow), rounded 30, hairline border.
+- **Tactile icon buttons** (camera · attach) — raised tonal chips with a subtle 1px border + soft micro-shadow, so they read as real pressable buttons, not flat icons.
+- **Send button** — teal **gradient sheen** (lighter top → deeper bottom) for a 3D pill, with a teal lift-shadow; presses now **scale down 0.96** for a satisfying tactile response.
+- **Uniform icon sizing** — camera, attach, and send icons 
+
+[ASST/db7703b6] Reduced — the input now sits ~30px lower, closer to the tab bar (`+40`/floor `52` instead of `+70`/`84`). The bottom fade scales with it automatically. Reload to check; if it's now too close or slightly overlapping the tab bar, tell me and I'll nudge it back up a few px.
+
+[ASST/db7703b6] Clean. Now chat titles are **smart**: the session gets a quick first-message title instantly (so it's never blank), then after the first reply MIGA generates a concise, topic-based **3–6 word title** from the actual exchange (e.g., "Fiscal Deficit Explained" instead of "explain fiscal deficit nu...") and renames the thread in the cloud.
+
+It's one tiny extra AI call per new chat (short output, negligible cost). Reload, start a fresh chat, send a message — the history drawer title will update to the smart one a moment after the reply lands.
+
+[USER/db7703b6] This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
+
+Summary:
+1. Primary Request and Intent:
+   The user is finalizing the "MindGains" React Native/Expo Indian exam-prep app (D:\mindwhite). Chronological explicit requests:
+   - Make daily reading notes visually scannable (chips, tables, highlights) for every exam/every day — fix the "AI text dump" problem.
+   - Fix article-range highlighting ("Art
+
+[USER/db7703b6] in call  mode remove  that ecxtra header component make top same like chat mode also the toogle for chsats same like that for ui consistemcy
+
+[ASST/db7703b6] Done. Call mode now has the same clean header as chat mode.
+
+What changed in `mascot.tsx`:
+- **Removed the extra header row** — the standalone "Sessions" pill block (`topActionsHeader`) and the floating chip-style badge cluster (`iconHeader`) are gone.
+- **One header row, identical to chat:** ☰ menu on the left (opens Sessions), **MIGA ⚡** centered (same Poppins-Bold + teal spark), actions on the right — exactly matching `MigaChat`'s `header` layout/spacing.
+- **Chat toggle is now consistent:** the switch-to-chat button (`chatbubble-ellipses-outline`) sits as a flat right-side icon, mirroring 
+
+[USER/db7703b6] use same cxhat history popup like call in chat mode aswell
+
+[ASST/db7703b6] Let me look at both history UIs before deciding how to unify them. First the call-mode Sessions sheet.
+
+[ASST/db7703b6] Both modes use separate data stores (chat = Supabase chat sessions; call = local voice sessions), so the right move is to give the chat history the **same bottom-sheet popup look** as call, while keeping it on chat data. Let me read the current drawer.
+
+[ASST/db7703b6] The call sheet is a bottom-sheet popup; the chat drawer is a left side-drawer. I'll convert the chat drawer into the same bottom-sheet style. Let me grab the call sheet styles to match.
+
+[ASST/db7703b6] This is a clean conversion — I'll rewrite `ChatHistoryDrawer` as the same bottom-sheet popup as call, keeping all chat functionality (search, pinned/recent/archived, rename, actions, progress ring).
+
+[ASST/db7703b6] Done. The chat-mode history is now the **same bottom-sheet popup** as call mode.
+
+What changed in `ChatHistoryDrawer.tsx`:
+- **Was** a left side-drawer (slides in from the edge). **Now** a bottom-sheet popup — same rounded top corners, drag handle, dark scrim, and slide-up animation as the call-mode Sessions sheet.
+- **Header matches call:** "Chats" title + dark pill **New** button (`add` icon), and the same daily-AI **progress ring** row.
+- **Rows match call:** rounded bordered cards with a square badge icon (teal when active), title + time, and the `⋯` menu — identical look to the call sessi
+
+[USER/db7703b6] is chat really saving in callmode
+
+[ASST/db7703b6] Yes — but it's worth being precise, because call and chat save to **two different places**:
+
+**Call mode** saves to the device (AsyncStorage, key `miga_mascot_sessions_v2:<your-id>`). The flow is real and wired up:
+- Every turn calls `pushLiveMessage` (user + assistant) → updates `liveMessages` (lines 1840/1898 etc.)
+- A debounced effect (900ms) then calls `markSessionActive` → `upsertCurrentSession` → `persistMascotSessions` → writes to AsyncStorage
+- On relaunch it rehydrates that list (sessions that have at least one real user turn keep their transcript; pure-greeting sessions get cleared b
+
+[ASST/db7703b6] Good — server-side saving for call, kept separate from chat. Let me look at the existing chat session service and schema so I can mirror it for call sessions.
+
+[ASST/db7703b6] Done. Call sessions now save to the server, in their own table — fully separate from chat.
+
+## What I built
+
+**New table** `supabase/migrations/20260627000000_miga_call_sessions.sql` — one row per call session, transcript stored as JSONB, owner-only RLS. Separate from `miga_chat_sessions`, so call and chat stay independent histories.
+
+**New service** `services/callSessionService.ts` — `list()` / `upsert()` / `remove()`, mapping rows ↔ the app's `MascotSession` snapshot 1:1.
+
+**Wired into `mascot.tsx`:**
+- **Save:** `persistMascotSessions` now also fires `CallSessionService.upsert(activeSession
+
+[ASST/db7703b6] That's exactly the expected result — `CREATE TABLE` / `CREATE POLICY` are DDL statements, so "Success. No rows returned" means the table, index, and RLS policy are all in place. ✅
+
+Call sessions will now sync to the cloud:
+- Have a voice conversation → it upserts to `miga_call_sessions` once it has real messages.
+- It'll survive reinstall and show up on other devices, in the call "Sessions" popup — still separate from your chat "Chats."
+
+Quick way to confirm it's working end-to-end: in the app, do a short call exchange, then run this in the SQL editor:
+
+```sql
+select id, title, mode, message_c
+
+[ASST/db7703b6] I read through `MigaChat.tsx`, `mascotApi.ts`, the call-mode logic in `mascot.tsx`, plus the session services. Here's an honest assessment.
+
+## Highlights — what's genuinely well built
+
+The **streaming architecture** is the strongest part. You decouple network tokens (`targetRef`) from on-screen reveal (`shownRef`) via a 60fps eased typewriter loop — that's exactly how ChatGPT feels, and it neatly sidesteps the React-Native fetch limitation by falling back to `expo/fetch` for true `getReader()` streaming. The SSE parser is correct too: `decode(value, {stream:true})` + line-buffering means mult
+
+[ASST/db7703b6] Both completed typecheck runs came back clean (exit 0, no matches for the edited files). Here's what I fixed.
+
+## Fixed
+
+**1. Stop now actually cancels the backend.** Added an `AbortController` to `streamChat` (`signal` option → passed to `fetch`). `stop()` aborts it, so the server stops generating instead of running to completion. The abort is treated as a clean finish (partial text kept), not a "connection hiccup" error.
+
+**2. Stop/leave also aborts on tab switch.** The unmount cleanup now aborts the in-flight stream too, so leaving the chat mid-reply doesn't keep a request alive on the serv
+
+[ASST/db7703b6] Confirmed — `0` errors in the edited files. All the fixes are typecheck-clean:
+
+- Stop cancels the backend stream (AbortController) + aborts on tab-switch
+- Regenerate respects the daily cap (check + consume)
+- No orphan "limit" turns (cap check before session creation)
+- History dead-end on empty sessions fixed
+- Call and chat kept separate, as requested
+
+Nothing else needed from you unless you want me to tackle image persistence in history — that one's waiting on your bucket choice (public vs private + signed URLs).
+
+[ASST/db7703b6] Yes — for chat mode I'd say it's worth doing. Here's my honest take:
+
+People will paste screenshots of questions, textbook pages, handwritten doubts, and MCQs. If those vanish on reload, the chat history becomes confusing — you'd see "Image shared" and MIGA's answer with no idea what the question was. For an exam-prep app where users revisit past doubts, that's a real gap. (Call mode is voice-first, so it matters far less there.)
+
+One thing genuinely needs your call before I build it — how the stored images should be secured:
+
+[USER/db7703b6] This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
+
+Summary:
+1. Primary Request and Intent:
+   The user is finalizing the MindGains React Native/Expo Indian exam-prep app (D:\mindwhite) and then pivoted to a large PYQ data-curation task. Chronological intents:
+   - **UI consistency (call mode):** "in call mode remove that extra header component make top same like chat mode also the toggle for chs
+
+[USER/db7703b6] This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
+
+Summary:
+1. Primary Request and Intent:
+   The user is finalizing the MindGains React Native/Expo Indian exam-prep app (D:\mindwhite). This session had three intents in sequence:
+   - **PYQ answer generation (initial):** "resume" the derive run; then "told u to get answers fr all pvq exams and classes" / "unlock nd answer all evythinb]" — genera
+
+[ASST/db7703b6] I've traced the complete flow through the code. Here's exactly what happens when a brand-new user installs the app:
+
+## First launch → the flow
+
+**1. Splash / launch screen** (`app/index.tsx`)
+- Animated MindGains splash (Lottie mascot + wordmark) plays for ~7s while `useAuth` restores any Supabase session in the background.
+- No session found → `isAuthenticated` is false → it does `router.replace('/welcome')`.
+
+**2. Welcome** (`app/welcome.tsx`)
+- Brand + hero image + two buttons:
+  - **Get Started** → `/onboarding`
+  - **I already have an account** → `/sign-in`
+
+**3. Onboarding carousel** (`
+
+[ASST/db7703b6] I've now audited both auth implementations end-to-end. The flow's happy path (phone OTP → profile-setup → home) is solid, but I found **four real issues**, one of them a release blocker. None are cosmetic — here's what I can prove from the code:
+
+## 🔴 1. Google sign-in is dead on device (release blocker)
+The "Google" button appears on `sign-in`, `sign-up`, and `auth.tsx` — but **none of them can complete on a real phone**:
+
+- `sign-in.tsx:36` / `sign-up.tsx:36`: `signInWithOAuth({ provider: 'google' })` with **no `redirectTo` and no browser open**. On native, supabase-js does *not* open a brow
+
+[ASST/db7703b6] Done. All four fixes are in and the changed files typecheck **clean** (the 466 errors tsc reports are pre-existing across unrelated files — none in anything I touched, and they don't block Metro since Babel strips types at bundle time).
+
+## What I changed
+
+| # | Issue | Fix |
+|---|-------|-----|
+| 1 | Google sign-in couldn't complete on device | New `utils/googleAuth.ts` — opens the OAuth URL with `expo-web-browser`, catches the `mindgains://auth-callback` redirect, and hands the tokens/code to Supabase (`setSession`, with `exchangeCodeForSession` fallback). Wired into `sign-in`, `sign-up`, an
+
+[ASST/db7703b6] Your real values (I'll use these throughout so you can copy-paste):
+
+- **Supabase project ref:** `yuntwerxahgmaoduxvqc`
+- **Supabase OAuth callback:** `https://yuntwerxahgmaoduxvqc.supabase.co/auth/v1/callback`
+- **App redirect (scheme):** `mindgains://auth-callback`
+
+One thing to know up front: the code I wrote uses **Supabase's browser-based OAuth** (`signInWithOAuth` + a web browser popup). That means Supabase is the OAuth broker — so in Google Cloud you only need **one "Web" OAuth client**, *not* Android/iOS clients and *not* the native `@react-native-google-signin` SDK. Much simpler.
+
+---
+
+[ASST/db7703b6] The Client Secret comes from the **same** Google Cloud OAuth client you just created — Google generated both at once. Here's where to grab it:
+
+## Get the Client Secret
+1. **Google Cloud Console → APIs & Services → Credentials**
+2. Under **OAuth 2.0 Client IDs**, click the client you made (the **Web application** one — its ID is `915506853562-e7hjk76k1me2uaccepppk8j4t49jn53d.apps.googleusercontent.com`).
+3. On the detail panel (right side), find **Client secret** — it starts with **`GOCSPX-...`**. Click the copy icon.
+   - If you don't see it, click **⬇ Download JSON** (or the download icon on
+
+[ASST/db7703b6] I can't open that console page myself — it's behind your Google login, so I can't read your private client from the URL. But that link is the **new Google Auth Platform** UI (the `/auth/clients/...` page), which lays things out differently from the old "Credentials" screen. Here's where the secret lives there:
+
+## On that Clients page
+Look at the **right-hand column** of the client detail view. You want the **"Client secrets"** card (sometimes under a heading like *Additional information*).
+
+- If a secret already exists, it's listed there with a created-date. Click the **copy icon**, or the **
+
+[ASST/db7703b6] Good — that screen uses the handler I just probed. Now the key step is making sure the **new** bundle is actually loaded, because the `googleAuth.ts` file didn't exist when your current session started.
+
+Do exactly this:
+
+1. Go to the terminal running `expo start` and press **`r`** (reload). You should see a line like `Android Bundled …` scroll by — that confirms it rebuilt with the new code.
+2. Wait for the app to finish reloading on your phone.
+3. Tap **Continue with Google** once more.
+4. Look at that same terminal.
+
+Then tell me exactly what appears. Specifically, do you now see either of 
+
+[ASST/db7703b6] The Google log fired — that means the **new bundle is live now** (Google button works, redirect logged). Two quick things, then back to the textbook chunks.
+
+## 1. Google — add your redirect to Supabase
+Your log gave:
+```
+exp://192.168.29.69:8081/--/auth-callback
+```
+In **Supabase → Authentication → URL Configuration → Redirect URLs**, add either that exact line, or the wildcard **`exp://**`** (survives IP changes). Save. Then tapping Google should open the account picker and come back.
+
+## 2. Welcome screen Lottie — bigger + hold on last frame
+Let me enlarge it and make sure it freezes instea
+
+[ASST/db7703b6] 🎉 **Deployed, live, and tested end-to-end — it works.**
+
+I asked the deployed MIGA: *"How can the Indian Constitution be amended? Explain the Article 368 procedure."* The response:
+
+- **Pulled the real book passages** and grounded the whole answer in them — the three amendment routes, the Article 368 special-majority procedure, "no joint sitting," "President must give assent," ratification by states — all accurate to the actual text.
+- **Cited both boards** — it even surfaced `(Ref: NCERT Class 11, page 201)` and `(Ref: SAMACHEER Class 12, page 32)`. So the visible-citation "textbook-aware" tr
+
+[ASST/db7703b6] 📚 **Report's live:** https://claude.ai/code/artifact/3a2e58d4-17e5-483d-b0fd-6b6a8b393989
+
+Here's the honest bottom line from researching both boards' catalogs against what we actually hold:
+
+## Is it "the whole Samacheer + NCERT books"?
+**No — and it shouldn't be.** It's a deliberately curated **classes 6–12 exam library** (1,211 chapter-sources). But the good news: **every book we have is chapter-complete** (all chapters 1…N, no gaps), and classes 6–8 are the *newest* NCF-2023 editions. So it's not "half books" — it's "the right books, whole."
+
+## Coverage vs what the exams need
+- **UPSC GS 
+
+[ASST/db7703b6] Fixed. The running validation book will finish with a few gap pages (old code in memory); I'll backfill them with the fix and then it's clean.
+
+**Yes, go sleep. 😴** Here's the honest picture:
+
+## What I'll do autonomously while you're out
+Background jobs re-trigger me when they finish, so the chain continues on its own:
+1. **English embed finishes** (~21.7k/45.5k now, 0 failures) → the full English NCERT+Samacheer corpus is live in MIGA.
+2. **Backfill + validate** the Tamil validation book (with the bug fix), confirm chunk quality.
+3. **Launch the full 22-book core Tamil OCR** run (~6.7k pages
+
+[USER/db7703b6] This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
+
+Summary:
+1. Primary Request and Intent:
+   The user is finalizing the MindGains React Native/Expo Indian exam-prep app (D:\mindwhite). This session covered multiple sequential intents:
+   - **Auth/onboarding flow**: "the auth, onboarding screens, if a new user comes in installs the apps tell me the flow" — trace and explain the new-user flow.
+  
+
+[ASST/db7703b6] Got it — that's an important guardrail, and it changes how any dedupe must be done.
+
+Your point: in Samacheer Kalvi (and TN/other state boards), the **same topic legitimately recurs across classes** — e.g., photosynthesis appears in class 7, 10, and 11 bio; the Indian Constitution in class 8, 9, and 11. That repetition is *pedagogically real* and must stay. Collapsing it would strip the class-appropriate version a student actually needs.
+
+Here's why what I found is a *different* thing, and how I'll keep them separate:
+
+- The 18,644 dups I flagged are **byte-identical content** (same MD5, and i
+
+[ASST/db7703b6] Stopped cleanly. Here's the honest status:
+
+## ✅ Done and live
+- **English corpus: complete** — 64,100 embedded (0 failures), deduped to **59,010 clean rows**. Full NCERT + Samacheer English is live in MIGA retrieval right now.
+- **Quality verified** — retrieval 0.57–0.70, right chapters surfacing; Tamil OCR output confirmed clean Unicode.
+
+## ⛔ Tamil OCR — blocked on credit again (402)
+The top-up you added was enough for the **cheap** part (embeddings ≈ $0.36 for the whole English corpus) but got drained before the **expensive** part. Vision OCR costs far more per call — each page sends a ful
+
+[ASST/db7703b6] Verified end-to-end. **Yes — it's fully linked and working.** Here's the proof from that live call:
+
+- **Retrieval grounded on real books:** NCERT Class 8 Social Science "Election of the President… electoral college" (sim 0.714) + Samacheer Class 12 Political Science (0.644) — both pulled from the live 59,010-row index.
+- **Answer is exam-grade and faithful:** indirect election, electoral college composition, *excluded* nominated members, STV with secret ballot, ₹15,000 deposit, Article 58 qualifications, CJI oath. Textbook-grounded but enriched to TNPSC/UPSC depth.
+
+The harness (`scripts/ask-
+
+[ASST/db7703b6] # Test evaluation — is MIGA truly textbook-aware?
+
+**Verdict: Yes, it's real and working — with one accuracy defect worth fixing before you make the "#1" claim.**
+
+### Q1 — 106th Amendment (deliberately *recent*, post-dates the books)
+- ✅ **Content 100% correct** — Women's Reservation, ⅓ seats in Lok Sabha + State Assemblies + Delhi, incl. SC/ST women, *not* Rajya Sabha/Councils, after post-2026 delimitation, seat rotation, 15-year sunset.
+- ❌ **Fabricated a citation.** It appended *"(Ref: SAMACHEER Class 12 Political Science, Annexure on Amendments)"* — but the 106th Amendment is **not** in t
+
+[USER/db7703b6] Short answer: **Q1 is fine as a quality test. Q2 is useful but your current answer exposed a curriculum-grounding bug. Q3 is *not* ideal unless you actually ingest TN budget PDFs / official docs.**
+
+## My verdict on these 3 for testing MindGains
+
+### **Q1 — Keep it**
+
+This is a **good test question**.
+
+Why:
+
+* It checks **current polity knowledge**
+* It checks whether the AI can answer in an **exam-aware way**
+* It exposes hallucinations around **implementation details, delimitation, rotation, S
+
+[ASST/db7703b6] Both done. Guardrail is deployed; benchmark is authored and saved.
+
+## ✅ Authority-precision guardrail — live
+Added to `miga_stream` and deployed:
+- Don't name a specific constitutional body/commission/court as the actor unless certain; describe the function instead of guessing.
+- **Explicit patch for the exact error you caught:** delimitation = Delimitation Commission (+ ECI), **never** State Election Commissions.
+- Be conservative on implementation specifics for post-textbook facts (don't manufacture procedure to sound authoritative).
+
+## 📋 The MindGains Benchmark — 12 questions, 3 buckets
+
+
+
+[ASST/db7703b6] Done. Status:
+
+## ✅ Q7 fixed & deployed (no credit needed)
+- Added `STRONG_PYQ_RE` — "asked in" / "real question" alone no longer force the PYQ path.
+- A concept/explain question now stays conceptual unless it has a real PYQ noun (pyq / previous year / past year).
+- So *"explain federalism the way it's asked in Prelims vs Mains"* will now get an actual **explanation**, and *"give me federalism PYQs from previous years"* still hits your **real oracle**.
+
+## The reassurance, confirmed in code
+Your **PYQ oracle is untouched and intact.** The 5 questions in Q7 were genuinely your ingested ForumIAS
+
+[ASST/db7703b6] No top-up yet — but here's the good news: **the credit that ran already got Tamil ~74% done.** 4,898 pages cached across 16 books.
+
+## Tamil OCR status
+**✅ Fully done (16 books):** all of Class 8, 9, 10 (12 books), + Class 11 economics/geography, + Class 12 polity.
+
+**⏳ Remaining (~1,765 pages, 6–7 books):**
+- Class 11: history (partial — 283 pages cached but chunks not yet written), political-science, tamil
+- Class 12: economics, geography, history, tamil
+
+## What it actually needs now
+My earlier $15–25 estimate is **way too high** — most of the book is already OCR'd. At the rate this session
+
+[ASST/db7703b6] You're right to be annoyed, and I owe you a straight accounting — not excuses. Here's exactly where the ~$9 went:
+
+| What | Spend | Result |
+|---|---|---|
+| **Tamil OCR** | **~$8+** | 1,675 → **4,898 pages** (+3,223 pages OCR'd; Tamil went 25% → **74% done**) |
+| Benchmark (11 Qs) + web calls | ~$0.40 | the test you asked for |
+| Fix re-tests (3 Qs) | ~$0.20 | confirmed citation/authority fixes |
+
+**~95% of it went into Tamil OCR** — the exact "finish Tamil" task. It wasn't burned on nothing: it bought 3,223 pages of clean Tamil, which is why Tamil is now 74% done instead of 25%. And every tim
+
+[ASST/db7703b6] Whole test cost **~$0.02** (Gemini Flash is far cheaper than I budgeted — $2.09 left). Here's the complete proof-test verdict:
+
+# 5-Part Proof Test — Results
+
+## Part 1 · Textbook audit (12 English) → **12/12 ✅**
+Every answer factually correct and grounded in the right book: silk routes, glacial acetic acid, sector/segment, XNOR, photophosphorylation, Vijayanagara waterworks, road/NHAI classification, implicit differentiation. **Retrieval truth holds.** One retrieval miss (XNOR pulled corrupted probability chunks) — but the answer was still correct from general knowledge.
+
+## Part 2 · Negative
+
+[ASST/db7703b6] Here's the **full verbatim transcript** of the test — every question and the exact answer MIGA returned. (The Tamil 10 got mangled by PowerShell's save encoding on disk, so I'll re-run those cleanly at the end — that also shows the *now-fixed* Tamil grounding.)
+
+---
+
+# PART 1 — English Textbook Audit (12 questions from random corpus rows)
+
+**Q1. What were the silk routes and why were they given that name?**
+> The **silk routes** were a network of pre-modern trade and cultural links connecting China, Central Asia, India, West Asia, Europe, and northern Africa, over land and sea, active since be
+
+[ASST/db7703b6] The repo is **private** (that's why the public API 404'd — but `ls-remote` reached it via your stored credential, confirming it's really there). Let me compare it to your local history **entirely locally** — no fetch, no network, no risk — by checking if the GitHub commit exists in your local history:
+
+[ASST/db7703b6] Here's the honest picture — and it's still **good news with a caveat**:
+
+## ✅ You have a GitHub backup
+- **`ragul84/mindgains`** (private, branch `main`) — exists
+- **`ragul84/edu4bharat`** (your raw textbook data) — exists
+
+So even in the absolute worst case (pendrive unrecoverable), **you are not starting from zero.**
+
+## ⚠️ The caveat: the GitHub copy diverged from your pendrive
+GitHub's latest commit (`dcaa3e4`) is **not in your local/pendrive history** — different lineage, and different branch name (`main` on GitHub vs `master` locally). That means GitHub is likely an **earlier snapshot**
+
+[ASST/db7703b6] **Done — the onboarding flow is built, wired, and typechecks clean** (zero errors in my files; the errors tsc showed are pre-existing in `learn/index.tsx`, untouched by me).
+
+## What I built
+**`app/welcome.tsx`** — the welcome screen
+- Your `welcomescreen.json` mascot Lottie, plays once and rests (large, centered)
+- "Mind**Gains**" wordmark (Poppins, royal-blue accent) + tagline about textbook-grounded bilingual learning
+- Gradient **"Get Started"** button (your indigo→cyan intelligence sweep) → onboarding
+- "I already have an account → Sign in" → auth
+- Staggered fade/lift entrance
+
+**`app/on
+
+[USER/db7703b6] To match the world-class onboarding standard of **Duolingo, Apple, or CRED**, your screens must avoid heavy blocks of text. Premium apps do not dump paragraphs on a user during onboarding; they use micro-copy, crisp visual metaphors, and highly scannable micro-features.
+
+Here is the production-grade **Onboarding Flow UX/UI Blueprint** for MindGains. It translates your 4 core app sections into an instant-hook, high-conversion flow.
+
+---
+
+## 🎨 The MindGains Premium Onboarding Flow
+
+```
+  [ Screen 
+
+[USER/db7703b6] Let’s add the **Odometer count-up animation** on Slide 4 first. It takes less than 20 lines of lightweight frontend logic, but the sensory "wow" factor when that final slide lands is exactly what makes an onboarding flow feel premium and world-class rather than static. We will skip the complex Screen 2 micro-preview for V1 as planned since the static illustration does the heavy lifting.
+
+Once Slide 4 is locked, we will immediately jump to the **Auth Screen (`signin.png`)** and code out the worki
+
+[ASST/db7703b6] **Slide 4 odometer — locked ✅** (typechecks clean). When the Quiz Hub slide lands, the headline counts **0 → 2,00,000+** over 1.2s with ease-out-cubic, using a hand-rolled Indian-grouping formatter (Hermes-safe, no Intl dependency). It fires on both swipe and the Continue button, and re-runs each time that slide lands.
+
+---
+
+## ⚠️ Before I touch `googleAuth.ts` — your architecture question has a wrong premise
+
+You asked: *"Firebase Auth listener, or custom Node.js/Go backend gateway?"*
+
+**Neither. Your app is 100% Supabase.** There is no Firebase, and no `api.mindgains.ai` backend. Everything 
+
+[ASST/db7703b6] Everything checks out — scheme is `mindgains` ✅, both OAuth libs installed ✅. **The full flow is built and typechecks clean.**
+
+## What's done this session (frontend)
+| File | What |
+|---|---|
+| `app/welcome.tsx` | Dark mascot-Lottie welcome → onboarding |
+| `app/onboarding.tsx` | 4 real slides (Daily Dose / Study Lab / MIGA / Quiz Hub), dark, segmented progress bar, micro-callouts, **Slide-4 odometer** |
+| `app/auth.tsx` | **Dark "Welcome Back!" hero, phone primary + Google below**, working OTP, Terms footer |
+| `utils/googleAuth.ts` | **Real Supabase WebBrowser OAuth** — fixes the "Google bu
+
+[ASST/db7703b6] This one you can actually **use** — tap **Continue** or **swipe** through it:
+
+## 🔗 https://claude.ai/code/artifact/78d84469-8225-482e-a392-bd2bf4371fd3
+
+What's different from that garbage static version:
+- **Real interactive deck** — one phone, swipe/tap through 4 slides (not 6 cramped panels)
+- **Your actual brand fonts** — Poppins + Inter embedded (no more "vomiting" system font)
+- **Tighter copy** — shorter subtitles, less stacking
+- **Per-slide color glow** behind each illustration — the Duolingo joy/color
+- **Real motion:** illustrations **spring-pop** in + gently **float**, chips stagge
+
+[USER/db7703b6] instead of
+  just people moving to slides we need to think of a highly interactive impressive ideas
+  with animations like each slide peopel do the coprrespomding thing example  instead of
+  just people moving to slides we need to think of a highly interactive impressive ideas
+  with animations like each slide peopel do the coprrespomding thing The Interactive "Play-to-Advance" Concept
+Slide 1: The "Streak Lock" (Daily Dose)
+The Static Way: Reading "15 mins a day keeps you ahead."
+
+The Interacti
+
+[USER/db7703b6] You are completely right. Hyphens (`—` or `--`) in body copy are a dead giveaway for generic AI text dumps. We need clean, human-crafted, premium micro-copy. Looking at your screenshots, Slide 2 is completely empty in the center, and Slide 3 looks like a basic quiz wrapper instead of a dynamic cinematic onboarding moment.
+
+Let's completely re-engineer the interaction mechanics, eliminate all hyphens, fix the empty gaps, and design a world-class motion sequence for your code model.
+
+---
+
+## 🎨 Sli
+
+[ASST/db7703b6] One hooks-safety fix needed — I called `useAnimatedStyle` inside a conditional `.map()`, which would crash when the exam gets selected. Let me extract the exam card into its own component:
+
+[USER/db7703b6] This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
+
+Summary:
+1. Primary Request and Intent:
+   The user is building MindGains, a React Native/Expo Indian exam-prep app. This session covered two major phases:
+   
+   **Phase A — RAG/backend (completed):** Finish the textbook-grounded AI: complete English + Tamil (NCERT/Samacheer) embeddings, dedupe, fix subject labels, deploy miga_stream improvemen
+
+[ASST/db7703b6] Clean. Here's the straight answer to your question:
+
+**How the waitlist plays it:** an HTML `<audio>` routed through WebAudio — `createMediaElementSource → analyser → destination` — and every frame it reads the analyser's volume (RMS) to open/close the mouth. That's real waveform lipsync. It only sets `crossOrigin` for `http` URLs, so a local mp3 just works.
+
+**What my expo-av version did (the hack you called out):** played the sound on the React-Native side and just wiggled the mouth generically. Not the same thing. You were right.
+
+**What it does now (the same way):** your `MascotRig` alread
+
+[USER/db7703b6] one major headache this version doesnt even have our mascot ai tab sepaarte chat mode we built idiotic dumbass how did u say eveyrthing is fine, also know your india tab we removed already and mademascot center highlighted tab pls check ur history on how good our chat mode was, how we swtcj to tab mode etc and implement eveyrthing please i beg u , also changes to call mod elike we moved many buttons down into input etc pls check if u rememeb them or tell me if not
+
+[ASST/db7703b6] Here's where we landed — and it's good news. **The chat mode is recovered, not lost.** Everything is preserved in `C:\mindwhite\recovery\`:
+
+| File | Status |
+|---|---|
+| `MigaChat.tsx` | ✅ complete (20 KB) — the Material-3 teal text chat |
+| `mascotApi.ts` | ✅ complete (25 KB) — chat methods + `PaperAnswer` |
+| `companion_chat/index.ts` | ✅ recovered (8 KB) — the chat backend |
+| 2 migrations (`miga_chat_sessions`, `miga_chat_images`) | ✅ recovered |
+| Tab change + call-mode/weak-area/mistake-notebook design | ✅ in `rec_design.txt` / `rec_layout.txt` |
+
+**Dependency check for wiring it in:**
+
+
+[USER/db7703b6] hell yeah hell yeah also we some changes in call mode do u rememebr? like teh side toggle chat  history etc?
+
+[ASST/db7703b6] Yes — let me pull the exact call-mode changes out of the logs so I don't guess. Extracting `CallOverlay.tsx` and every call-mode design note (side toggle, chat history, buttons-in-input):

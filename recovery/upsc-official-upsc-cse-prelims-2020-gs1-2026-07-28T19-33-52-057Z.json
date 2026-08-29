@@ -1,0 +1,62 @@
+[
+  {
+    "id": "upsc-cse-prelims-2020-gs1-q10",
+    "source_id": "upsc-cse-prelims-2020-gs1",
+    "exam": "UPSC",
+    "year": 2020,
+    "subject": null,
+    "topic": null,
+    "question_number": "10",
+    "question_text": "Consider the following pairs: 1. Alma-Ata Declaration — Healthcare of the people 2. Hague Convention — Biological and chemical weapons 3. Talanoa Dialogue — Global climate change 4. Under2 Coalition — Child rights. Which of the pairs given above is/are correctly matched?",
+    "options": [
+      "1 and 2 only",
+      "4 only",
+      "1 and 3 only",
+      "2, 3 and 4 only"
+    ],
+    "answer_text": "1 and 3 only",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2020-gs1-q57",
+    "source_id": "upsc-cse-prelims-2020-gs1",
+    "exam": "UPSC",
+    "year": 2020,
+    "subject": null,
+    "topic": null,
+    "question_number": "57",
+    "question_text": "If the RBI decides to adopt an expansionist monetary policy, which of the following would it not do? 1. Cut and optimize the Statutory Liquidity Ratio 2. Increase the Marginal Standing Facility Rate 3. Cut the Bank Rate and Repo Rate. Select the correct answer using the code given below:",
+    "options": [
+      "1 and 2 only",
+      "2 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer_text": "2 only",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2020-gs1-q99",
+    "source_id": "upsc-cse-prelims-2020-gs1",
+    "exam": "UPSC",
+    "year": 2020,
+    "subject": null,
+    "topic": null,
+    "question_number": "99",
+    "question_text": "Consider the following statements: 1. Jet streams occur in the Northern Hemisphere only. 2. Only some cyclones develop an eye. 3. The temperature inside the eye of a cyclone is nearly 10°C lesser than that of the surroundings. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "2 only",
+      "1 and 2 only"
+    ],
+    "answer_text": "2 only",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  }
+]

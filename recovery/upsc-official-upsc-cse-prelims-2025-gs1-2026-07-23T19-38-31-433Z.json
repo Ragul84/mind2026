@@ -1,0 +1,102 @@
+[
+  {
+    "id": "upsc-cse-prelims-2025-gs1-q25",
+    "source_id": "upsc-cse-prelims-2025-gs1",
+    "exam": "UPSC",
+    "year": 2025,
+    "subject": null,
+    "topic": null,
+    "question_number": "25",
+    "question_text": "Which of the following are the evidences of the phenomenon of continental drift? I. The belt of ancient rocks from Brazil coast matches with those from Western Africa. II. The gold deposits of Ghana are derived from the Brazil plateau when the two continents lay side by side. III. The Gondwana system of sediments from India is known to have its counterparts in six different landmasses of the Southern Hemisphere. Select the correct answer using the code given below.",
+    "options": [
+      "I and III only",
+      "I and II only",
+      "I, II and III",
+      "II and III only"
+    ],
+    "answer_text": "I, II and III",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2025-gs1-q31",
+    "source_id": "upsc-cse-prelims-2025-gs1",
+    "exam": "UPSC",
+    "year": 2025,
+    "subject": null,
+    "topic": null,
+    "question_number": "31",
+    "question_text": "Consider the following statements: Statement I: Studies indicate that carbon dioxide emissions from cement industry account for more than 5% of global carbon emissions. Statement II: Silica-bearing clay is mixed with limestone while manufacturing cement. Statement III: Limestone is converted into lime during clinker production for cement manufacturing. Which one of the following is correct in respect of the above statements?",
+    "options": [
+      "Both Statement II and Statement III are correct and both of them explain Statement I",
+      "Both Statement II and Statement III are correct but only one of them explains Statement I",
+      "Only one of the Statements II and III is correct and that explains Statement I",
+      "Neither Statement II nor Statement III is correct"
+    ],
+    "answer_text": "Both Statement II and Statement III are correct but only one of them explains Statement I",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2025-gs1-q61",
+    "source_id": "upsc-cse-prelims-2025-gs1",
+    "exam": "UPSC",
+    "year": 2025,
+    "subject": null,
+    "topic": null,
+    "question_number": "61",
+    "question_text": "Suppose the revenue expenditure is Rs. 80,000 crores and the revenue receipts of the Government are Rs. 60,000 crores. The Government budget also shows borrowings of Rs. 10,000 crores and interest payments of Rs. 6,000 crores. Which of the following statements are correct? I. Revenue deficit is Rs. 20,000 crores. II. Fiscal deficit is Rs. 10,000 crores. III. Primary deficit is Rs. 4,000 crores. Select the correct answer using the code given below.",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+    ],
+    "answer_text": "I, II and III",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2025-gs1-q66",
+    "source_id": "upsc-cse-prelims-2025-gs1",
+    "exam": "UPSC",
+    "year": 2025,
+    "subject": null,
+    "topic": null,
+    "question_number": "66",
+    "question_text": "Which of the following statements with regard to recommendations of the 15th Finance Commission of India are correct? I. It has recommended grants of Rs. 4,800 crores from the year 2022-23 to the year 2025-26 for incentivizing States to enhance educational outcomes. II. 45% of the net proceeds of Union taxes are to be shared with States. III. Rs. 45,000 crores are to be kept as performance-based incentive for all States for carrying out agricultural reforms. IV. It reintroduced tax effort criteria to reward fiscal performance. Select the correct answer using the code given below.",
+    "options": [
+      "I, II and III",
+      "I, II and IV",
+      "I, III and IV",
+      "II, III and IV"
+    ],
+    "answer_text": "I, III and IV",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2025-gs1-q91",
+    "source_id": "upsc-cse-prelims-2025-gs1",
+    "exam": "UPSC",
+    "year": 2025,
+    "subject": null,
+    "topic": null,
+    "question_number": "91",
+    "question_text": "Consider the following statements: I. Panchayats at the intermediate level exist in all States. II. To be eligible to be a Member of a Panchayat at the intermediate level, a person should attain the age of thirty years. III. The Chief Minister of a State constitutes a commission to review the financial position of Panchayats at the intermediate levels and to make recommendations regarding the distribution of net proceeds of taxes and duties, leviable by the State, between the State and Panchayats at the intermediate level. Which of the statements given above are not correct?",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+    ],
+    "answer_text": "I, II and III",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  }
+]

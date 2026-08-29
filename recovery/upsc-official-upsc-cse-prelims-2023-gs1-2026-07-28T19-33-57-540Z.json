@@ -1,0 +1,42 @@
+[
+  {
+    "id": "upsc-cse-prelims-2023-gs1-q14",
+    "source_id": "upsc-cse-prelims-2023-gs1",
+    "exam": "UPSC",
+    "year": 2023,
+    "subject": null,
+    "topic": null,
+    "question_number": "14",
+    "question_text": "Consider the following fauna: 1. Lion-tailed Macaque 2. Malabar Civet 3. Sambar Deer. How many of the above are generally nocturnal or most active after sunset?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+    ],
+    "answer_text": "Only one",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2023-gs1-q29",
+    "source_id": "upsc-cse-prelims-2023-gs1",
+    "exam": "UPSC",
+    "year": 2023,
+    "subject": null,
+    "topic": null,
+    "question_number": "29",
+    "question_text": "Consider the following: 1. Demographic performance 2. Forest and ecology 3. Governance reforms 4. Stable government 5. Tax and fiscal efforts. For the horizontal tax devolution, the Fifteenth Finance Commission used how many of the above as criteria other than population area and income distance?",
+    "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All five"
+    ],
+    "answer_text": "Only three",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  }
+]

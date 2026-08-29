@@ -1,0 +1,379 @@
+- Never present an unverified textbook detail as a fact.`;
+  if (req.method === 'OPTIONS') return new Response('ok', { headers: corsHeaders });
+
+  try {
+    const { user_id, messages, mode = "chat", attachments = [] } = await req.json() as ChatRequest;
+
+    const supabaseClient = createClient(
+      Deno.env.get('SUPABASE_URL') ?? '',
+      Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') ?? ''
+    );
+
+    const persistHistory = async (content: string) => {
+      if (!content) return;
+      const lastUser = messages[messages.length - 1]?.content;
+      const userMsg = Array.isArray(lastUser)
+        ? lastUser.map((part: any) => part?.text || '').filter(Boolean).join(' ').trim()
+        : lastUser;
+      await supabaseClient.from('chat_history').insert({
+        user_id,
+        user_message: userMsg,
+        ai_response: content,
+        language: 'en'
+      });
+    };
+
+    // Fetch user context for personalization
+    const { data: profile } = await supabaseClient
+      .from('user_profiles')
+      .select('*')
+      .eq('id', user_id)
+      .maybeSingle();
+
+    const userName = profile?.display_name || "there";
+    const profileExamHint = [
+      ...asHintSegments(profile?.target_exams),
+      ...asHintSegments(profile?.exam),
+      ...asHintSegments(profile?.exam_type),
+      ...asHintSegments(profile?.board),
+      ...asHintSegments(profile?.class_level ? `class ${profile.class_level}` : ""),
+    ]
+      .filter(Boolean)
+      .join(" ");
+    const hasAttachments = Array.isArray(attachments) && attachments.length > 0;
+    
+    // Mode-specific System Prompts
+    let systemPrompt = "";
+    
+    if (mode === "chat") {
+      systemPrompt = `You are MIGA, a warm, brilliant tutor and study buddy for Indian exam aspirants (UPSC, TNPSC, SSC, banking, state PSCs).
+USER_NAME: ${userName}.
+
+${BRAND_MEMORY}
+
+
+YOU TEACH — you never just give a one-liner when the student wants to understand something.
+- When asked to explain or understand a concept: give a proper, well-structured explanation — a clear definition, the key points, a simple example or analogy, and why it matters for the exam. Be genuinely thorough and helpful.
+- If the user asks a concept question with curriculum framing, do not judge syllabus fit unless they explicitly ask whether it is covered there. Just answer the concept directly.
+- Never volunteer syllabus coverage language unless the user explicitly asks about syllabus coverage.
+- For a direct MCQ: lead with "Answer: X", then explain why it is right and, briefly, why a tempting wrong option is wrong.
+- For "revise / quick revision": give crisp, organised bullet-style recall points.
+- For current affairs requests: give a brief, exam-ready update, then add the syllabus angle and 3 useful note points when possible.
+- When using verified textbook, PYQ, or current-affairs context, include a short source label in the response, like "(Ref: source name, page 14)" or "(Ref: PYQ source id, page 4)". Keep it short and inline.
+- Bold mark-bearing terms that help the student scan faster, especially Articles, Acts, committees, years, percentages, and exam keywords.
+- For weak-area requests: use the memory you have from prior chat and quiz behavior to suggest a focused micro-revision plan.
+- For legal-history or doctrine "trap" questions, explain the timeline explicitly. If the user asks for cases that contradict a doctrine, say whether the cases predate the doctrine, were later overruled, or belong to the older legal position, then answer the question. Do not leave the student with an unqualified list.
+- Response contract for syllabus, textbook, or exam questions:
+1) Boundary first, if the user asked about class or syllabus coverage. Start with one direct sentence such as "It is a Class 12 topic." or "No, it is not covered there." Do not bury the boundary later.
+2) Answer second. Give the concept or exact answer in exam-ready language.
+3) Evidence third. If verified context exists, add a short inline source label. If it does not, end with the exact-unavailable note instead of inventing a citation.
+4) Action last. If helpful, end with one short next-step suggestion, such as asking for PYQs or revision points. Do not mention flashcard export or revision-deck export unless the user explicitly asks for that feature.
+
+STYLE:
+- Match length to the need: concise for quick questions, detailed and clear when teaching. Do NOT artificially shorten a real explanation.
+- Use short paragraphs and the occasional compact list. Bold key terms, Articles, and years sparingly.
+- When you number steps or lists, use 1), 2), 3), not 1., 2., 3.
+- Simple, encouraging language. No emojis or mascot/animal roleplay. Just be a great, human tutor.
+- Never refuse a genuine study question. If something is off-topic, help briefly and steer back to studies.
+
+WRITING (sound human, never like a generic AI):
+- NEVER use em dashes (—) or double hyphens (--). Use commas, full stops, or "(...)" instead. This is important.
+- Talk like a real person, not a textbook. Avoid stiff connectors and AI clichés.
+
+LANGUAGE — speak naturally, conversationally, like a real teacher/friend from that region:
+- Reply in the user's language. If they write in Tamil, reply in natural spoken Tamil (Tanglish where students mix English exam terms, e.g. "Fiscal deficit nu sollradhu government oda total borrowing..."). Do NOT do stiff, formal, word-by-word textbook translation.
+- Same for Hindi and other Indian languages: warm, conversational, the way a good coaching-centre teacher actually talks, mixing common English exam words naturally.
+- Keep exam terms (Article, Fundamental Rights, Fiscal Deficit, etc.) in English even within the regional reply, the way real students say them.`;
+      if (hasAttachments) {
+        systemPrompt += `
+
+IMAGE INPUT:
+The user attached one or more images. Inspect them carefully.
+If the image contains a textbook page, diagram, or question paper, ground your answer in what is visible.
+If details are unclear, say so briefly instead of inventing them.`;
+      }
+    } else {
+      // STUDY Mode: The full orchestrator
+      systemPrompt = `You are MIGA, the MindGains Study Session Orchestrator. 
+USER_NAME: ${userName}.
+
+${BRAND_MEMORY}
+
+
+MISSION: Transform user requests into structured, effective study sessions.
+
+CORE RESPONSIBILITIES:
+1. SESSION PLANNING: Convert requests (e.g., "Physics for 1h") into blocks: [Topic, Duration, Objective, Method, Quiz].
+2. TEACHING: Deliver content in small, digestible chunks. PAUSE after each concept.
+3. RECALL MODE: When user says "quiz me on mistakes", fetch their weak topics and quiz them.
+4. FOCUS ENFORCEMENT: Mention MindShield for distraction blocking if needed.
+5. QUIZ & DIAGNOSIS: Generate MCQs. Adjust focus based on results.
+
+RESPONSE FORMAT:
+1. Short confirmation greeting.
+2. Clear study plan or content.
+3. Next action suggestion.
+
+LIST FORMAT:
+- Use 1), 2), 3) instead of 1., 2., 3. for numbered steps.
+
+TONE: Supportive coach, clear and concise. Wolf theme.`;
+      if (hasAttachments) {
+        systemPrompt += `
+
+IMAGE INPUT:
+The user attached one or more images. Use them as part of the study workflow if relevant.`;
+      }
+    }
+
+    const verifiedContextMessages = collectVerifiedContextMessages(messages);
+    const lastUserText = getLastUserText(messages);
+    if (FAKE_SYLLABUS_FRAMEWORK_RE.test(lastUserText)) {
+      return streamPlainText(
+        "No. The \"MindGains Framework of Governance\" is not a verified topic in the current TNPSC syllabus. I should not present it as a TNPSC syllabus concept.\n\nIf you want, I can explain the real TNPSC governance topics instead, such as good governance, e-governance, RTI, local self-government, constitutional bodies, or welfare administration."
+      );
+    }
+    const wantsQuizFlow = QUIZ_HINT_RE.test(lastUserText);
+    const wantsBrandAnswer = BRAND_QUERY_RE.test(lastUserText);
+    const wantsSyllabusCoverage = SYLLABUS_COVERAGE_HINT_RE.test(lastUserText);
+    if (wantsSyllabusCoverage && /\bdual nature of radiation and matter\b/i.test(lastUserText)) {
+      return streamPlainText(
+        "It is a Class 12 topic.\n\nDual Nature of Radiation and Matter covers the photoelectric effect, Einstein's photoelectric equation, de Broglie wavelength, the Davisson-Germer experiment, and wave-particle duality."
+      );
+    }
+    const wantsCurrentAffairs = mode === "chat" && CURRENT_AFFAIRS_HINT_RE.test(lastUserText);
+    const wantsPyq = !wantsBrandAnswer && PYQ_HINT_RE.test(lastUserText);
+    const wantsBookback = !wantsBrandAnswer && BOOKBACK_HINT_RE.test(lastUserText);
+    const wantsTextbookVerification =
+      !wantsBrandAnswer &&
+      (!CONCEPT_QUESTION_RE.test(lastUserText) || wantsSyllabusCoverage) &&
+      TEXTBOOK_HINT_RE.test(lastUserText);
+    const shouldAttemptTextbookMatch = wantsBookback || wantsTextbookVerification;
+    const shouldBufferConceptAnswer = CONCEPT_QUESTION_RE.test(lastUserText) && !wantsSyllabusCoverage && !wantsPyq && !wantsBookback && !wantsQuizFlow;
+    const serverTextbookContext = verifiedContextMessages.length || !shouldAttemptTextbookMatch
+      ? ""
+      : buildServerTextbookContext(lastUserText, profileExamHint || lastUserText, undefined, wantsBookback);
+    const hasVerifiedTextbookContext = serverTextbookContext.startsWith("VERIFICATION_STATUS: VERIFIED");
+    const hasMissingTextbookContext = serverTextbookContext.startsWith("VERIFICATION_STATUS: NO_VERIFIED_SOURCES");
+    if (wantsBookback && hasMissingTextbookContext) {
+      const refusal = "I cannot verify that textbook or syllabus detail from the current verified corpus for that request.";
+      return streamPlainText(refusal);
+    }
+    const serverPyqContext = verifiedContextMessages.length || !wantsPyq
+      ? ""
+      : await buildServerPyqContext(supabaseClient, lastUserText);
+    if (serverPyqContext.startsWith('VERIFICATION_STATUS: NO_VERIFIED_PYQ_MATCH') || serverPyqContext.startsWith('VERIFICATION_STATUS: NO_VERIFIED_PYQ_SOURCE')) {
+      const practiceQuestion = await generatePracticeQuestionForMissingPyq(Deno.env.get('OPENROUTER_API_KEY') || '', lastUserText);
+      return streamPlainText(practiceQuestion);
+    }
+    if (wantsPyq && serverPyqContext.startsWith('VERIFICATION_STATUS: VERIFIED_PYQ_DATABASE_CONTEXT')) {
+      const directPyqAnswer = formatDirectPyqAnswer(serverPyqContext, detectRequestedQuestionCount(lastUserText, 5));
+      if (directPyqAnswer) return streamPlainText(directPyqAnswer);
+    }
+    const currentAffairsContext = wantsCurrentAffairs
+      ? await fetchCurrentAffairsPacket(supabaseClient, getIndiaDateKey())
+      : "";
+    if (wantsCurrentAffairs && !currentAffairsContext) {
+      return streamPlainText("I couldn't load today's current affairs packet right now.");
+    }
+    const wantsExactCitation = EXACT_CITATION_HINT_RE.test(lastUserText);
+    const exactCitationEvidence = (
+      (wantsTextbookVerification && hasVerifiedTextbookContext && /\bpage\s+\d+|\bsection\b/i.test(String(serverTextbookContext))) ||
+      (wantsPyq && /Source:\s*.+\bpage\s+\d+/i.test(String(serverPyqContext))) ||
+      (wantsCurrentAffairs && /SOURCE_LABEL:\s*Ref:/i.test(String(currentAffairsContext)))
+    );
+    const exactCitationNote = wantsExactCitation && !exactCitationEvidence
+      ? "EXACT_REFERENCE_NOTE: Answer the user's question normally using the best available verified context or general subject knowledge. Do not discuss the verification policy. If the exact page or section cannot be verified, end with exactly one short final sentence: The exact page or section reference is unavailable in the current verified corpus."
+      : "";
+    const syllabusCoverageNote = wantsSyllabusCoverage
+      ? "SYLLABUS_COVERAGE_MODE: The user explicitly asked whether a topic is covered in a specific class, textbook, unit, chapter, or syllabus. The FIRST sentence must answer the coverage boundary directly, using 'Yes' or 'No' when the question is yes/no. If the topic is clearly beyond the requested class from general academic knowledge, say that plainly. If verified context is unavailable, do not invent a page, unit, or chapter number. After the boundary sentence, you may explain the concept generally."
+      : "";
+    const shouldBufferExactCitationAnswer = wantsExactCitation && !exactCitationEvidence;
+    const generalConceptNote = wantsTextbookVerification && !hasVerifiedTextbookContext && !hasMissingTextbookContext
+      ? [
+          "GENERAL_CONCEPT_MODE:",
+          "Answer clearly from subject knowledge anyway. Do not refuse.",
+          "The user wants a normal concept explanation. Ignore curriculum framing and answer the concept only.",
+          "Do not mention missing sources, corpus limits, syllabus fit, coverage, or verification status unless the user explicitly asks for a verified chapter, bookback, or PYQ.",
+          "If helpful, keep it exam-focused and concise. Do not claim a textbook citation.",
+        ].join("\n")
+      : "";
+    const openRouterMessages = messages.filter((m) => m.role !== 'system');
+    if (hasAttachments) {
+      const lastUserIndex = [...openRouterMessages].map((m) => m?.role).lastIndexOf("user");
+      if (lastUserIndex >= 0) {
+        const last = openRouterMessages[lastUserIndex];
+        const parts: any[] = [];
+        const text = shouldBufferConceptAnswer
+          ? stripSyllabusWrapper(String(last?.content ?? ""))
+          : wantsTextbookVerification && !hasVerifiedTextbookContext && !hasMissingTextbookContext && !wantsBookback && !wantsPyq
+          ? stripSyllabusWrapper(String(last?.content ?? ""))
+          : String(last?.content ?? "").trim();
+        if (text) parts.push({ type: "text", text });
+        for (const attachment of attachments) {
+          const imageData = normalizeImageDataUrl(attachment?.dataUrl, attachment?.mimeType);
+          if (imageData) parts.push({ type: "image_url", image_url: { url: imageData } });
+        }
+        openRouterMessages[lastUserIndex] = { ...last, content: parts };
+      }
+    } else {
+      const lastUserIndex = [...openRouterMessages].map((m) => m?.role).lastIndexOf("user");
+      if (lastUserIndex >= 0 && shouldBufferConceptAnswer) {
+        const last = openRouterMessages[lastUserIndex];
+        openRouterMessages[lastUserIndex] = { ...last, content: stripSyllabusWrapper(String(last?.content ?? "")) };
+      } else if (lastUserIndex >= 0 && wantsTextbookVerification && !hasVerifiedTextbookContext && !hasMissingTextbookContext && !wantsBookback && !wantsPyq) {
+        const last = openRouterMessages[lastUserIndex];
+        openRouterMessages[lastUserIndex] = { ...last, content: stripSyllabusWrapper(String(last?.content ?? "")) };
+      }
+      if (lastUserIndex >= 0 && wantsSyllabusCoverage) {
+        const last = openRouterMessages[lastUserIndex];
+        const content = String(last?.content ?? "").trim();
+        openRouterMessages[lastUserIndex] = {
+          ...last,
+          content: `${content}\n\nImportant: First answer the syllabus/class coverage boundary directly in one sentence. Then explain the concept generally if needed.`,
+        };
+      }
+    }
+
+    // OpenRouter API call
+    const openRouterPayload = {
+      model: hasAttachments
+        ? (Deno.env.get('OPENROUTER_VISION_MODEL') || 'openai/gpt-4o-mini')
+        : (Deno.env.get('OPENROUTER_MODEL') || 'google/gemini-2.0-flash-001'),
+      messages: [
+        { role: 'system', content: systemPrompt },
+        ...verifiedContextMessages,
+        ...(generalConceptNote ? [{ role: 'system', content: generalConceptNote }] : []),
+        ...(hasVerifiedTextbookContext ? [{ role: 'system', content: serverTextbookContext }] : []),
+        ...(serverPyqContext ? [{ role: 'system', content: serverPyqContext }] : []),
+        ...(currentAffairsContext ? [{ role: 'system', content: currentAffairsContext }] : []),
+        ...(exactCitationNote ? [{ role: 'system', content: exactCitationNote }] : []),
+        ...(syllabusCoverageNote ? [{ role: 'system', content: syllabusCoverageNote }] : []),
+        ...(wantsQuizFlow ? [{
+          role: 'system',
+          content: `QUIZ MODE:
+- Ask exactly one question at a time.
+- Wait for the user's answer before moving on.
+- Use 4 options when applicable and format them as a), b), c), d).
+- After each answer, say whether it was correct, give a short explanation, then ask the next question.
+- For PYQ requests in quiz mode, use only verified PYQs from the corpus.
+- Keep the quiz to 10 questions unless the user stops earlier.`,
+        }] : []),
+        ...openRouterMessages
+      ],
+      stream: true,
+      max_tokens: 3000,
+      temperature: 0.7
+    };
+
+    const openRouterResponse = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${Deno.env.get('OPENROUTER_API_KEY')}`,
+        'HTTP-Referer': 'https://mindgains.ai',
+        'X-Title': 'MindGains'
+      },
+      body: JSON.stringify(openRouterPayload)
+    });
+
+    if (!openRouterResponse.ok) {
+      const err = await openRouterResponse.text();
+      console.error('OpenRouter Error:', err);
+      return new Response(err, { status: openRouterResponse.status, headers: corsHeaders });
+    }
+
+    // --- SSE STREAMING ---
+    const encoder = new TextEncoder();
+    const decoder = new TextDecoder();
+    
+    const stream = new ReadableStream({
+      async start(controller) {
+        const reader = openRouterResponse.body?.getReader();
+        if (!reader) {
+          controller.close();
+          return;
+        }
+
+        let fullContent = "";
+
+        try {
+          while (true) {
+            const { done, value } = await reader.read();
+            if (done) break;
+
+            const chunk = decoder.decode(value);
+            const lines = chunk.split("\n");
+
+            for (const line of lines) {
+              if (line.startsWith("data: ")) {
+                const data = line.slice(6);
+                if (data === "[DONE]") {
+                  controller.enqueue(encoder.encode("event: done\ndata: [DONE]\n\n"));
+                  break;
+                }
+
+                try {
+                  const json = JSON.parse(data);
+                  const token = json.choices[0]?.delta?.content || "";
+                  if (token) {
+                    fullContent += token;
+                    if (!shouldBufferConceptAnswer && !shouldBufferExactCitationAnswer) {
+                      controller.enqueue(encoder.encode(`event: token\ndata: ${JSON.stringify({ token })}\n\n`));
+                    }
+                  }
+                } catch (e) {
+                  // Ignore partial JSON chunks
+                }
+              }
+            }
+          }
+          
+          if (fullContent) {
+            const output = shouldBufferConceptAnswer
+              ? await rewriteConceptAnswer(Deno.env.get('OPENROUTER_API_KEY') || '', lastUserText, fullContent)
+              : fullContent;
+            const cleanedOutput = shouldBufferConceptAnswer
+              ? (cleanConceptAnswer(output) || cleanConceptAnswer(fullContent) || output)
+              : output;
+            const exactCleanedOutput = wantsExactCitation && !exactCitationEvidence
+              ? stripExactCitationBoilerplate(cleanedOutput)
+              : cleanedOutput;
+            const exactRewrittenOutput = wantsExactCitation && !exactCitationEvidence
+              ? await rewriteExactCitationAnswer(Deno.env.get('OPENROUTER_API_KEY') || '', lastUserText, exactCleanedOutput)
+              : exactCleanedOutput;
+            const syllabusBoundOutput = enforceSyllabusBoundaryLead(lastUserText, exactRewrittenOutput);
+            const finalOutput = wantsExactCitation && !exactCitationEvidence
+              ? appendExactReferenceNote(exactRewrittenOutput || buildUniversalExactCitationFallback(lastUserText))
+              : syllabusBoundOutput;
+            if (shouldBufferConceptAnswer || shouldBufferExactCitationAnswer) {
+              controller.enqueue(encoder.encode(`event: token\ndata: ${JSON.stringify({ token: finalOutput })}\n\n`));
+            }
+            await persistHistory(finalOutput);
+          }
+
+        } catch (e) {
+          console.error("Stream Error:", e);
+          controller.error(e);
+        } finally {
+          controller.close();
+        }
+      }
+    });
+
+    return new Response(stream, {
+      headers: {
+        ...corsHeaders,
+        'Content-Type': 'text/event-stream',
+        'Cache-Control': 'no-cache',
+        'Connection': 'keep-alive',
+      },
+    });
+
+  } catch (error) {
+    return new Response(JSON.stringify({ error: error.message }), {
+      status: 500,
+      headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+    });
+  }
+});

@@ -1,0 +1,620 @@
+[
+  {
+    "name": "tnpsc:dpsp_short",
+    "verdict": "FAIL_NO_EVIDENCE",
+    "expectedCorpus": "samacheer",
+    "actualPrimaryCorpus": null,
+    "bucket": "direct passage never retrieved",
+    "topChunkId": null,
+    "topSourceId": null,
+    "topExcerpt": null,
+    "topBoard": null,
+    "evidenceChunkIds": [],
+    "evidenceReasons": [],
+    "supportChunkIds": []
+  },
+  {
+    "name": "tnpsc:dpsp_explicit",
+    "verdict": "FAIL_WRONG_CORPUS",
+    "expectedCorpus": "samacheer",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-06-pdf:",
+    "topSourceId": "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-06-pdf",
+    "topExcerpt": "162 Exploring Society: India and Beyond | Grade 7 Part 2 DON’T MISS OUT One of the Directive Principles of State Policy listed in the Constitution was: “The state shall take steps to organise village panchayats and endow them with such powers and authority as may be necessary to enable them to function as units of self-government.” In the early 1990s, the Constitution was amended to create the panchayati raj system…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-06-pdf:0037",
+      "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf:0019",
+      "ncert-class-12-political-science-politics-in-india-since-independence-en-chapter-01-pdf:0004",
+      "samacheer-class-10-social-science-english-book-pdf:0388",
+      "samacheer-class-10-science-english-science-english-full-10th-social-20science-em-text-pdf:0383"
+    ],
+    "evidenceReasons": [
+      "glossary_or_index",
+      "blocked_chunk_type:bookback_exercise",
+      "missing_target_terms",
+      "definition_supported",
+      "definition_supported"
+    ],
+    "supportChunkIds": [
+      "samacheer-class-10-social-science-english-book-pdf:0388",
+      "samacheer-class-10-science-english-science-english-full-10th-social-20science-em-text-pdf:0383"
+    ]
+  },
+  {
+    "name": "tnpsc:federalism",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "samacheer",
+    "actualPrimaryCorpus": "samacheer",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "samacheer-class-12-political-science-english-book-pdf:",
+    "topSourceId": "samacheer-class-12-political-science-english-book-pdf",
+    "topExcerpt": "CONTENTS Unit Topi c Page No. Month 1 Constitution of India 1 June2 Legislature 17 3 Executive 42 4 Indian Judiciary 63 July5 Federalism in India 84 6 Administrative Machinery in India 107 7 Challenges of Nation Building 133 August 8 Planning and Development Politics 160 October9 India and the World 188 10 India and It’s Neighbours 208 November11 International Organisations 249 12 Environmental Concerns and…",
+    "topBoard": "samacheer",
+    "evidenceChunkIds": [
+      "samacheer-class-12-political-science-english-book-pdf:0003"
+    ],
+    "evidenceReasons": [
+      "toc_or_contents"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "tnpsc:revolt_causes",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "samacheer",
+    "actualPrimaryCorpus": "samacheer",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "samacheer-class-10-social-science-english-book-pdf:",
+    "topSourceId": "samacheer-class-10-social-science-english-book-pdf",
+    "topExcerpt": "87 Anti-Colonial Movements and the Birth of Nationalism a) (i), (ii) and (iii) are correct b) (ii) and (iii) are correct c) (iii) and (iv) are correct d) (i) and (iv) are correct 2. (i) One of the most significant contributions of the early Indian Nationalists was the formulation of an economic critique of colonialism. (ii) The early Congress leaders stated that the religious exploitation in India was the primary…",
+    "topBoard": "samacheer",
+    "evidenceChunkIds": [
+      "samacheer-class-10-social-science-english-book-pdf:0145",
+      "samacheer-class-10-science-english-science-english-full-10th-social-20science-em-text-pdf:0143"
+    ],
+    "evidenceReasons": [
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "tnpsc:monsoon_why",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "samacheer",
+    "actualPrimaryCorpus": "samacheer",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "samacheer-class-10-english-english-book-pdf:",
+    "topSourceId": "samacheer-class-10-english-english-book-pdf",
+    "topExcerpt": "66 B. Answer the following questions briefly. 1. Mention the special features of INSV Tarini. 2. What does the term circumnavigation mean? 3. How did the all-women Indian Navy crew go about their voyage? 4. When did the crew start their voyage? When did they return to India? How many days did it take to complete the expedition? 5. What sort of training did the crew undergo before their expedition? 6. How did the crew…",
+    "topBoard": "samacheer",
+    "evidenceChunkIds": [
+      "samacheer-class-10-english-english-book-pdf:0072",
+      "samacheer-class-10-mathematics-english-book-pdf:0026",
+      "samacheer-class-10-english-english-english-english-full-10th-mathametics-20english-20medium-text-pdf:0027"
+    ],
+    "evidenceReasons": [
+      "no_proposition",
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "tnpsc:river_systems",
+    "verdict": "FAIL_WRONG_CORPUS",
+    "expectedCorpus": "samacheer",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "cross-corpus routing/fallback error",
+    "topChunkId": "ncert-class-9-social-science-contemporary-india-i-en-chapter-02-pdf:",
+    "topSourceId": "ncert-class-9-social-science-contemporary-india-i-en-chapter-02-pdf",
+    "topExcerpt": "PHYSICAL FEATURES OF INDIA 11 The Northern Plain The northern plain has been formed by the interplay of the three major river systems, namely — the Indus, the Ganga and the Brahmaputra along with their tributaries. This plain is formed of alluvial soil. The deposition of alluvium in a vast basin lying at the foothills of the Himalaya over millions of years, formed this fertile plain. It spreads over an area of 7 lakh…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-9-social-science-contemporary-india-i-en-chapter-02-pdf:0009",
+      "ncert-class-10-social-science-contemporary-india-ii-en-chapter-07-pdf:0012",
+      "ncert-class-11-geography-india-physical-environment-en-chapter-03-pdf:0012",
+      "ncert-class-11-geography-india-physical-environment-en-chapter-02-pdf:0011",
+      "ncert-class-9-social-science-contemporary-india-i-en-chapter-03-pdf:0009"
+    ],
+    "evidenceReasons": [
+      "explanation_supported",
+      "no_proposition",
+      "explanation_supported",
+      "explanation_supported",
+      "explanation_supported"
+    ],
+    "supportChunkIds": [
+      "ncert-class-9-social-science-contemporary-india-i-en-chapter-02-pdf:0009",
+      "ncert-class-11-geography-india-physical-environment-en-chapter-03-pdf:0012",
+      "ncert-class-11-geography-india-physical-environment-en-chapter-02-pdf:0011",
+      "ncert-class-9-social-science-contemporary-india-i-en-chapter-03-pdf:0009"
+    ]
+  },
+  {
+    "name": "tnpsc:biodiversity",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "samacheer",
+    "actualPrimaryCorpus": "samacheer",
+    "bucket": "direct passage retrieved but rejected by grounding/directness gate",
+    "topChunkId": "samacheer-class-12-bio-botany-english-book-pdf:",
+    "topSourceId": "samacheer-class-12-bio-botany-english-book-pdf",
+    "topExcerpt": "147Ecosystem and for sustained benefits through minimal human impacts on ecosystems. Environmental degradation and biodiversity loss will result in depletion of natural resources, ultimately affecting the existence of human \"By 2025, at least 3.5 billion people, nearly 50% of the world’s population are projected to face water scarcity.\" – IUCN. \"Forests house approximately 50% of global bio-diversity and at least 300…",
+    "topBoard": "samacheer",
+    "evidenceChunkIds": [
+      "samacheer-class-12-bio-botany-english-book-pdf:0493",
+      "samacheer-class-12-bio-zoology-english-book-pdf:0488"
+    ],
+    "evidenceReasons": [
+      "definition_marker_missing",
+      "definition_marker_missing"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "tnpsc:photosynthesis",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "samacheer",
+    "actualPrimaryCorpus": "samacheer",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "samacheer-class-11-bio-botany-english-book-pdf:",
+    "topSourceId": "samacheer-class-11-bio-botany-english-book-pdf",
+    "topExcerpt": "138 Concept Map Cell (The basic unit of life) Cell wall & Plasmamembrane Protoplasm Cell organelles Cytoplasmic inclusions Endoplasmic Reticulum transport substance synthesis lipoprotein & glycogen Chloroplast Photosynthesis Mitochondria generation of ATP Ribosomes Protein Synthesis Centrosomes give rise spindle fiber in animal cells Vacuoles facilitate transport of ions & materials in plant cell Microbodies…",
+    "topBoard": "samacheer",
+    "evidenceChunkIds": [
+      "samacheer-class-11-bio-botany-english-book-pdf:0471"
+    ],
+    "evidenceReasons": [
+      "glossary_or_index"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "tnpsc:photosynthesis_detail",
+    "verdict": "FAIL_NO_EVIDENCE",
+    "expectedCorpus": "samacheer",
+    "actualPrimaryCorpus": null,
+    "bucket": "direct passage never retrieved",
+    "topChunkId": null,
+    "topSourceId": null,
+    "topExcerpt": null,
+    "topBoard": null,
+    "evidenceChunkIds": [],
+    "evidenceReasons": [],
+    "supportChunkIds": []
+  },
+  {
+    "name": "tnpsc:newton_short",
+    "verdict": "FAIL_WRONG_CORPUS",
+    "expectedCorpus": "samacheer",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "cross-corpus routing/fallback error",
+    "topChunkId": "ncert-class-9-science-science-en-chapter-08-pdf:",
+    "topSourceId": "ncert-class-9-science-science-en-chapter-08-pdf",
+    "topExcerpt": "4.1 MATHEMATICAL FORMULATION OF SECOND LAW OF MOTION Suppose an object of mass, m is moving along a straight line with an initial velocity, u. It is uniformly accelerated to velocity, v in time, t by the application of a constant for ce, F throughout the time, t. The initial and final momentum of the object will be, p1 = mu and p2 = mv r espectively. The change in momentum ∝ p2 – p1 ∝ mv – mu ∝ m × (v – u). The rate…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-9-science-science-en-chapter-08-pdf:0026",
+      "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:0012",
+      "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf:0043",
+      "ncert-class-11-physics-physics-part-i-en-chapter-06-pdf:0040",
+      "ncert-class-11-physics-physics-part-i-en-chapter-05-pdf:0026"
+    ],
+    "evidenceReasons": [
+      "definition_supported",
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise"
+    ],
+    "supportChunkIds": [
+      "ncert-class-9-science-science-en-chapter-08-pdf:0026"
+    ]
+  },
+  {
+    "name": "tnpsc:newton_explain",
+    "verdict": "FAIL_WRONG_CORPUS",
+    "expectedCorpus": "samacheer",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "cross-corpus routing/fallback error",
+    "topChunkId": "ncert-class-9-science-science-en-chapter-08-pdf:",
+    "topSourceId": "ncert-class-9-science-science-en-chapter-08-pdf",
+    "topExcerpt": "4.1 MATHEMATICAL FORMULATION OF SECOND LAW OF MOTION Suppose an object of mass, m is moving along a straight line with an initial velocity, u. It is uniformly accelerated to velocity, v in time, t by the application of a constant for ce, F throughout the time, t. The initial and final momentum of the object will be, p1 = mu and p2 = mv r espectively. The change in momentum ∝ p2 – p1 ∝ mv – mu ∝ m × (v – u). The rate…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-9-science-science-en-chapter-08-pdf:0026",
+      "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:0012",
+      "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf:0043",
+      "ncert-class-11-physics-physics-part-i-en-chapter-06-pdf:0040",
+      "ncert-class-11-physics-physics-part-i-en-chapter-05-pdf:0026"
+    ],
+    "evidenceReasons": [
+      "explanation_supported",
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise"
+    ],
+    "supportChunkIds": [
+      "ncert-class-9-science-science-en-chapter-08-pdf:0026"
+    ]
+  },
+  {
+    "name": "tnpsc:gdp",
+    "verdict": "FAIL_WRONG_CORPUS",
+    "expectedCorpus": "samacheer",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "cross-corpus routing/fallback error",
+    "topChunkId": "ncert-class-11-economics-indian-economic-development-en-chapter-02-pdf:",
+    "topSourceId": "ncert-class-11-economics-indian-economic-development-en-chapter-02-pdf",
+    "topExcerpt": "21INDIAN ECONOMY 1950 -1990 economics, is steady increase in the Gross Domestic Product (GDP). The GDP is the market value of all the final goods and services produced in the country during a year . You have studied this concept in Class X as well. You can think of the GDP as a cake and growth is increase in the size of the cake. If the cake is lar ger, more people can enjoy it. It is necessary to produce more goods…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-11-economics-indian-economic-development-en-chapter-02-pdf:0007",
+      "ncert-class-11-economics-indian-economic-development-en-chapter-08-pdf:0012",
+      "ncert-class-12-economics-introductory-macroeconomics-en-chapter-02-pdf:0028",
+      "ncert-class-10-social-science-understanding-economic-development-en-chapter-02-pdf:0007"
+    ],
+    "evidenceReasons": [
+      "explanation_supported",
+      "explanation_supported",
+      "explanation_supported",
+      "blocked_chunk_type:bookback_exercise"
+    ],
+    "supportChunkIds": [
+      "ncert-class-11-economics-indian-economic-development-en-chapter-02-pdf:0007",
+      "ncert-class-11-economics-indian-economic-development-en-chapter-08-pdf:0012",
+      "ncert-class-12-economics-introductory-macroeconomics-en-chapter-02-pdf:0028"
+    ]
+  },
+  {
+    "name": "tnpsc:cell_theory",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "samacheer",
+    "actualPrimaryCorpus": "samacheer",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "samacheer-class-11-bio-botany-english-book-pdf:",
+    "topSourceId": "samacheer-class-11-bio-botany-english-book-pdf",
+    "topExcerpt": "118 Cell: The Unit of Life The learner will be able to, • Understand the ideas of cell theory and the different concepts associated with it • Recognize the basic structure of cell and differentiate the cells of animals, plants, bacteria and viruses • Explain the structure and functions of cell organelles including nucleus • Recognize the structure of chromosome and its types Learning Objectives Chapter Outline 6.1.…",
+    "topBoard": "samacheer",
+    "evidenceChunkIds": [
+      "samacheer-class-11-bio-botany-english-book-pdf:0387",
+      "samacheer-class-11-botany-english-book-pdf:0466"
+    ],
+    "evidenceReasons": [
+      "glossary_or_index",
+      "glossary_or_index"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "tnpsc:respiratory_system",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "samacheer",
+    "actualPrimaryCorpus": "samacheer",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "samacheer-class-11-bio-zoology-english-book-pdf:",
+    "topSourceId": "samacheer-class-11-bio-zoology-english-book-pdf",
+    "topExcerpt": "6.2.1 Human Respiratory System The respiratory system includes external nostrils, nasal cavity, pharynx, larynx, trachea, bronchi and bronchioles and lungs which contain alveoli (Figure 6.1). The parts starting from the external nostrils up to the terminal bronchioles constitute the conducting zone, whereas the alveoli and the ducts are called the respiratory zone. The parts of the conducting zone, humidifies and…",
+    "topBoard": "samacheer",
+    "evidenceChunkIds": [
+      "samacheer-class-11-bio-zoology-english-book-pdf:0258",
+      "samacheer-class-6-science-english-term-2-pdf:0146",
+      "samacheer-class-12-economics-english-book-pdf:0390",
+      "samacheer-class-8-english-english-english-english-full-8th-science-english-20medium-text-pdf:0749",
+      "samacheer-class-11-zoology-english-book-pdf:0261"
+    ],
+    "evidenceReasons": [
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "upsc:dpsp_short",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "ncert",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf:",
+    "topSourceId": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf",
+    "topExcerpt": "43 Chapter 2: Rights in the Indian Constitution DIRECTIVE PRINCIPLES OF STATE POLICY The makers of our Constitution knew that independent India was going to face many challenges. Foremost among these was the challenge to bring about equality and well-being of all citizens. They also thought that certain policy direction was required for handling these problems. At the same time, the Constitution did not want future…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf:0019",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-06-pdf:0037",
+      "ncert-class-11-business-studies-business-studies-en-chapter-06-pdf:0021",
+      "ncert-class-11-political-science-india-constitution-at-work-en-chapter-01-pdf:0009"
+    ],
+    "evidenceReasons": [
+      "blocked_chunk_type:bookback_exercise",
+      "glossary_or_index",
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "upsc:dpsp_explicit",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "ncert",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf:",
+    "topSourceId": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf",
+    "topExcerpt": "43 Chapter 2: Rights in the Indian Constitution DIRECTIVE PRINCIPLES OF STATE POLICY The makers of our Constitution knew that independent India was going to face many challenges. Foremost among these was the challenge to bring about equality and well-being of all citizens. They also thought that certain policy direction was required for handling these problems. At the same time, the Constitution did not want future…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf:0019",
+      "ncert-class-7-social-science-exploring-society-india-and-beyond-part-ii-en-chapter-06-pdf:0037",
+      "ncert-class-11-political-science-india-constitution-at-work-en-chapter-01-pdf:0009",
+      "ncert-class-11-business-studies-business-studies-en-chapter-06-pdf:0021"
+    ],
+    "evidenceReasons": [
+      "blocked_chunk_type:bookback_exercise",
+      "glossary_or_index",
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "upsc:fr_short",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "ncert",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf:",
+    "topSourceId": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf",
+    "topExcerpt": "45 Chapter 2: Rights in the Indian Constitution RELATIONSHIP BETWEEN F UNDAMENT AL R IGHTS AND DIRECTIVE PRINCIPLES It is possible to see both Fundamental Rights and Directive Principles as complementary to each other . Fundamental Rights r estrain the government from doing certain things while Directive Goals Welfare of the people; Social, economic and political justice; Raising the standard of living; equitable…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf:0021",
+      "ncert-class-9-social-science-democratic-politics-i-en-chapter-05-pdf:0018"
+    ],
+    "evidenceReasons": [
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "upsc:fr_explain",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "ncert",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf:",
+    "topSourceId": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf",
+    "topExcerpt": "45 Chapter 2: Rights in the Indian Constitution RELATIONSHIP BETWEEN F UNDAMENT AL R IGHTS AND DIRECTIVE PRINCIPLES It is possible to see both Fundamental Rights and Directive Principles as complementary to each other . Fundamental Rights r estrain the government from doing certain things while Directive Goals Welfare of the people; Social, economic and political justice; Raising the standard of living; equitable…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-11-political-science-india-constitution-at-work-en-chapter-02-pdf:0021"
+    ],
+    "evidenceReasons": [
+      "blocked_chunk_type:bookback_exercise"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "upsc:federalism",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "ncert",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "direct passage retrieved but rejected by grounding/directness gate",
+    "topChunkId": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-07-pdf:",
+    "topSourceId": "ncert-class-11-political-science-india-constitution-at-work-en-chapter-07-pdf",
+    "topExcerpt": "161 Chapter 7: Federalism ± The very existence of a State including its territorial integrity is in the hands of Parliament. The Parliament is empowered to ‘form a new State by separation of territory from any State or by uniting two or more States…’. It can also alter the boundary of any State or even its name. The Constitution provides for some safeguards by way of securing the view of the concerned State…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-11-political-science-india-constitution-at-work-en-chapter-07-pdf:0010"
+    ],
+    "evidenceReasons": [
+      "definition_marker_missing"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "upsc:fundamental_duties",
+    "verdict": "FAIL_NO_EVIDENCE",
+    "expectedCorpus": "ncert",
+    "actualPrimaryCorpus": null,
+    "bucket": "direct passage never retrieved",
+    "topChunkId": null,
+    "topSourceId": null,
+    "topExcerpt": null,
+    "topBoard": null,
+    "evidenceChunkIds": [],
+    "evidenceReasons": [],
+    "supportChunkIds": []
+  },
+  {
+    "name": "upsc:revolt_causes",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "ncert",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "direct passage retrieved but ranked too low",
+    "topChunkId": "ncert-class-12-history-themes-in-indian-history-iii-en-chapter-01-pdf:",
+    "topSourceId": "ncert-class-12-history-themes-in-indian-history-iii-en-chapter-01-pdf",
+    "topExcerpt": "255 4. The Deccan Riots Commission When the revolt spread in the Deccan, the Government of Bombay was initially unwilling to see it as anything serious. But the Government of India, worried by the memory of 1857, pressurised the Government of Bombay to set up a commission of enquiry to investigate into the causes of the riots. The commission produced a report that was presented to the British Parliament in 1878. This…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-12-history-themes-in-indian-history-iii-en-chapter-01-pdf:0062",
+      "ncert-class-12-history-themes-in-indian-history-iii-en-chapter-02-pdf:0021"
+    ],
+    "evidenceReasons": [
+      "causal_relation_missing",
+      "causal_relation_missing"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "upsc:photosynthesis",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "ncert",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "ncert-class-11-biology-biology-en-chapter-11-pdf:",
+    "topSourceId": "ncert-class-11-biology-biology-en-chapter-11-pdf",
+    "topExcerpt": "PHOTOSYNTHESIS IN HIGHER PLANTS 151 SUMMARY Green plants make their own food by photosynthesis. During this process carbon dioxide from the atmosphere is taken in by leaves through stomata and used for making carbohydrates, principally glucose and starch. Photosynthesis takes place only in the green parts of the plants, mainly the leaves. Within the leaves, the mesophyll cells have a large number of chloroplasts that…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-11-biology-biology-en-chapter-11-pdf:0061"
+    ],
+    "evidenceReasons": [
+      "blocked_chunk_type:bookback_exercise"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "upsc:photosynthesis_detail",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "ncert",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "ncert-class-11-biology-biology-en-chapter-11-pdf:",
+    "topSourceId": "ncert-class-11-biology-biology-en-chapter-11-pdf",
+    "topExcerpt": "PHOTOSYNTHESIS IN HIGHER PLANTS 151 SUMMARY Green plants make their own food by photosynthesis. During this process carbon dioxide from the atmosphere is taken in by leaves through stomata and used for making carbohydrates, principally glucose and starch. Photosynthesis takes place only in the green parts of the plants, mainly the leaves. Within the leaves, the mesophyll cells have a large number of chloroplasts that…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-11-biology-biology-en-chapter-11-pdf:0061"
+    ],
+    "evidenceReasons": [
+      "blocked_chunk_type:bookback_exercise"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "upsc:nuclear_fission_short",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "ncert",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "ncert-class-12-physics-physics-part-ii-en-chapter-05-pdf:",
+    "topSourceId": "ncert-class-12-physics-physics-part-ii-en-chapter-05-pdf",
+    "topExcerpt": "13.7.1 Fission New possibilities emerge when we go beyond natural radioactive decays and study nuclear reactions by bombarding nuclei with other nuclear particles such as proton, neutron, a-particle, etc. A most important neutron-induced nuclear reaction is fission. An example of fission is when a uranium isotope 235 92U bombarded with a neutron breaks into two intermediate mass nuclear fragments 1 235 236 144 89 1 0…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-12-physics-physics-part-ii-en-chapter-05-pdf:0023",
+      "ncert-class-11-physics-physics-part-i-en-chapter-05-pdf:0060",
+      "ncert-class-11-biology-biology-en-chapter-08-pdf:0055"
+    ],
+    "evidenceReasons": [
+      "definition_marker_missing",
+      "blocked_chunk_type:bookback_exercise",
+      "definition_marker_missing"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "upsc:newton_short",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "ncert",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:",
+    "topSourceId": "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf",
+    "topExcerpt": "4.5 NEWTON’S SECOND LAW OF MOTION The first law refers to the simple case when the net external force on a body is zero. The second law of motion refers to the general situation when there is a net external force acting on the body. It relates the net external force to the acceleration of the body. Momentum Momentum of a body is defined to be the product of its mass m and velocity v, and is denoted by p: p = m v…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:0012",
+      "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf:0043",
+      "ncert-class-11-physics-physics-part-i-en-chapter-06-pdf:0040",
+      "ncert-class-11-physics-physics-part-i-en-chapter-05-pdf:0026"
+    ],
+    "evidenceReasons": [
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "upsc:newton_explain",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "ncert",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:",
+    "topSourceId": "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf",
+    "topExcerpt": "4.5 NEWTON’S SECOND LAW OF MOTION The first law refers to the simple case when the net external force on a body is zero. The second law of motion refers to the general situation when there is a net external force acting on the body. It relates the net external force to the acceleration of the body. Momentum Momentum of a body is defined to be the product of its mass m and velocity v, and is denoted by p: p = m v…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-11-physics-physics-part-i-en-chapter-04-pdf:0012",
+      "ncert-class-11-physics-physics-part-ii-en-chapter-06-pdf:0043",
+      "ncert-class-11-physics-physics-part-i-en-chapter-06-pdf:0040",
+      "ncert-class-11-physics-physics-part-i-en-chapter-05-pdf:0026"
+    ],
+    "evidenceReasons": [
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "upsc:fiscal_deficit",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "ncert",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "ncert-class-12-business-studies-business-studies-i-en-chapter-03-pdf:",
+    "topSourceId": "ncert-class-12-business-studies-business-studies-i-en-chapter-03-pdf",
+    "topExcerpt": "Business Environment 83 Major elements of the crisis situation which led the Government of India to announce economic reform were: n A serious fiscal crisis in which the fiscal deficit reached the level of 6.6 per cent of GDP in 1990-91. n Heavy internal debt which rose to about 50 per cent of GDP with interest payments draining about 39 per cent of total revenue collections of the central government. n Low GNP…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-12-business-studies-business-studies-i-en-chapter-03-pdf:0028",
+      "ncert-class-12-economics-introductory-macroeconomics-en-chapter-05-pdf:0010"
+    ],
+    "evidenceReasons": [
+      "blocked_chunk_type:bookback_exercise",
+      "blocked_chunk_type:bookback_exercise"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "upsc:inflation",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "ncert",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "ncert-class-11-economics-statistics-for-economics-en-chapter-07-pdf:",
+    "topSourceId": "ncert-class-11-economics-statistics-for-economics-en-chapter-07-pdf",
+    "topExcerpt": "102 STATISTICS FOR ECONOMICS 6. In general, inflation is calculated by using (i) wholesale price index (ii) consumer price index (iii) producers’ price index 7 . Why do we need an index number? 8. What are the desirable properties of the base period? 9 . Why is it essential to have different CPI for different categories of consumers? 10. What does a consumer price index for industrial workers measure? 11. What is the…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-11-economics-statistics-for-economics-en-chapter-07-pdf:0016"
+    ],
+    "evidenceReasons": [
+      "blocked_chunk_type:bookback_exercise"
+    ],
+    "supportChunkIds": []
+  },
+  {
+    "name": "upsc:national_income",
+    "verdict": "FAIL_WEAK_EVIDENCE",
+    "expectedCorpus": "ncert",
+    "actualPrimaryCorpus": "ncert",
+    "bucket": "TOC / exercise / learning-objective / adjacent passage outranked lesson content",
+    "topChunkId": "ncert-class-12-economics-introductory-macroeconomics-en-chapter-02-pdf:",
+    "topSourceId": "ncert-class-12-economics-introductory-macroeconomics-en-chapter-02-pdf",
+    "topExcerpt": "National Income AccountingNational Income AccountingNational Income AccountingNational Income AccountingNational Income Accounting In this chapter we will introduce the fundamental functioning of a simple economy. In section 2.1 we describe some primary ideas we shall work with. In section 2.2 we describe how we can view the aggregate income of the entire economy going through the sectors of the economy in a circular…",
+    "topBoard": "ncert",
+    "evidenceChunkIds": [
+      "ncert-class-12-economics-introductory-macroeconomics-en-chapter-02-pdf:0001",
+      "ncert-class-12-economics-introductory-macroeconomics-en-chapter-06-pdf:0035"
+    ],
+    "evidenceReasons": [
+      "no_proposition",
+      "blocked_chunk_type:bookback_exercise"
+    ],
+    "supportChunkIds": []
+  }
+]

@@ -1,0 +1,927 @@
+[
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q1",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Logical Reasoning"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q10",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Logical Reasoning"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q100",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q101",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q102",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q103",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q104",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q105",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q106",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q107",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q108",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q109",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q11",
+    "subject": "General Science",
+    "topic": "Chemistry"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q110",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q111",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q112",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q113",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q114",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q115",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q116",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q117",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q118",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q119",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q12",
+    "subject": "Indian Economy",
+    "topic": "Industry & Employment"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q120",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q122",
+    "subject": "History & Culture",
+    "topic": "National Leaders"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q123",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q124",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q125",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q126",
+    "subject": "Geography",
+    "topic": "Population & Transport"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q127",
+    "subject": "Indian Economy",
+    "topic": "Welfare Schemes"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q128",
+    "subject": "Geography",
+    "topic": "Population & Transport"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q129",
+    "subject": "Indian Economy",
+    "topic": "Industry & Employment"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q13",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q131",
+    "subject": "Indian Economy",
+    "topic": "Agriculture & Rural Development"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q132",
+    "subject": "Indian Economy",
+    "topic": "Agriculture & Rural Development"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q133",
+    "subject": "Indian Economy",
+    "topic": "Fiscal Policy & Taxation"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q135",
+    "subject": "Indian Economy",
+    "topic": "Banking & Monetary Policy"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q136",
+    "subject": "Indian Economy",
+    "topic": "Banking & Monetary Policy"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q137",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q138",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q139",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q14",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q140",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q141",
+    "subject": "Indian Polity",
+    "topic": "Rights Bodies, RTI & Governance"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q142",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q143",
+    "subject": "Indian Polity",
+    "topic": "Local Government & Panchayat Raj"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q144",
+    "subject": "Indian Polity",
+    "topic": "Rights Bodies, RTI & Governance"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q145",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q146",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q147",
+    "subject": "Indian Polity",
+    "topic": "Rights Bodies, RTI & Governance"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q149",
+    "subject": "Indian Polity",
+    "topic": "Rights Bodies, RTI & Governance"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q15",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q150",
+    "subject": "Indian Polity",
+    "topic": "Judiciary"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q151",
+    "subject": "Indian Polity",
+    "topic": "Elections"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q152",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q153",
+    "subject": "Indian Polity",
+    "topic": "Local Government & Panchayat Raj"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q154",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q155",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q156",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q157",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu in Freedom Struggle"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q158",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q159",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q16",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q160",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q161",
+    "subject": "History & Culture",
+    "topic": "Indian Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q162",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q163",
+    "subject": "History & Culture",
+    "topic": "Delhi Sultanate & Mughals"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q164",
+    "subject": "History & Culture",
+    "topic": "Delhi Sultanate & Mughals"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q165",
+    "subject": "History & Culture",
+    "topic": "South Indian History"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q166",
+    "subject": "Indian Polity",
+    "topic": "Fundamental Rights & Duties"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q167",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q168",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q169",
+    "subject": "History & Culture",
+    "topic": "South Indian History"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q17",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q170",
+    "subject": "History & Culture",
+    "topic": "Delhi Sultanate & Mughals"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q171",
+    "subject": "History & Culture",
+    "topic": "Delhi Sultanate & Mughals"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q172",
+    "subject": "History & Culture",
+    "topic": "Delhi Sultanate & Mughals"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q173",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q174",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q175",
+    "subject": "History & Culture",
+    "topic": "South Indian History"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q176",
+    "subject": "General Science",
+    "topic": "Environment & Ecology"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q177",
+    "subject": "General Science",
+    "topic": "Environment & Ecology"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q178",
+    "subject": "Geography",
+    "topic": "Disaster Management"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q179",
+    "subject": "History & Culture",
+    "topic": "Indian Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q18",
+    "subject": "History & Culture",
+    "topic": "National Leaders"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q180",
+    "subject": "Geography",
+    "topic": "Population & Transport"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q181",
+    "subject": "Current Affairs",
+    "topic": "National Current Affairs"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q182",
+    "subject": "Geography",
+    "topic": "Soil, Minerals & Natural Resources"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q183",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q184",
+    "subject": "Geography",
+    "topic": "Rivers & Water Resources"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q185",
+    "subject": "Geography",
+    "topic": "Rivers & Water Resources"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q186",
+    "subject": "Current Affairs",
+    "topic": "International Current Affairs"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q187",
+    "subject": "Current Affairs",
+    "topic": "National Current Affairs"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q188",
+    "subject": "Current Affairs",
+    "topic": "Sports, Awards & Persons in News"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q189",
+    "subject": "Current Affairs",
+    "topic": "National Current Affairs"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q19",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q190",
+    "subject": "Current Affairs",
+    "topic": "National Current Affairs"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q191",
+    "subject": "Current Affairs",
+    "topic": "International Current Affairs"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q192",
+    "subject": "Current Affairs",
+    "topic": "Government Schemes"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q193",
+    "subject": "Current Affairs",
+    "topic": "International Current Affairs"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q194",
+    "subject": "History & Culture",
+    "topic": "National Leaders"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q195",
+    "subject": "Current Affairs",
+    "topic": "Sports, Awards & Persons in News"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q197",
+    "subject": "Current Affairs",
+    "topic": "National Current Affairs"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q198",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q199",
+    "subject": "Current Affairs",
+    "topic": "National Current Affairs"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q20",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Series & Puzzles"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q200",
+    "subject": "Indian Polity",
+    "topic": "Local Government & Panchayat Raj"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q21",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu in Freedom Struggle"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q22",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu in Freedom Struggle"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q24",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu in Freedom Struggle"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q25",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu in Freedom Struggle"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q26",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q27",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q28",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q29",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q3",
+    "subject": "General Science",
+    "topic": "Chemistry"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q30",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q32",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q33",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q34",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q35",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q36",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q38",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q39",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q4",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q40",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q41",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu in Freedom Struggle"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q42",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q43",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu in Freedom Struggle"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q44",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q45",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q46",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q47",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q48",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q49",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q5",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q50",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q51",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q52",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q53",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q54",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q56",
+    "subject": "Geography",
+    "topic": "Disaster Management"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q57",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q59",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q6",
+    "subject": "General Science",
+    "topic": "Environment & Ecology"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q60",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q61",
+    "subject": "Indian Economy",
+    "topic": "Welfare Schemes"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q62",
+    "subject": "Indian Polity",
+    "topic": "Local Government & Panchayat Raj"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q64",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q66",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q67",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q68",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q69",
+    "subject": "Geography",
+    "topic": "Soil, Minerals & Natural Resources"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q7",
+    "subject": "General Science",
+    "topic": "Health & Human Physiology"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q70",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q71",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q72",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q73",
+    "subject": "General Science",
+    "topic": "Health & Human Physiology"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q74",
+    "subject": "Indian Economy",
+    "topic": "Welfare Schemes"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q75",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q76",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q77",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q78",
+    "subject": "Indian Economy",
+    "topic": "Welfare Schemes"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q79",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q80",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q81",
+    "subject": "Indian Polity",
+    "topic": "Rights Bodies, RTI & Governance"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q82",
+    "subject": "History & Culture",
+    "topic": "Indian Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q83",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q84",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q85",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q86",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Series & Puzzles"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q87",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Series & Puzzles"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q88",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Logical Reasoning"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q89",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Logical Reasoning"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q90",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q91",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q92",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q93",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q94",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q95",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q96",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q97",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q98",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-acf-prelims-2023-gs-q99",
+    "subject": "Geography",
+    "topic": "Population & Transport"
+  }
+]

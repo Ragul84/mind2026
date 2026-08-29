@@ -1,0 +1,887 @@
+{
+  "scope": "samacheer_shaalaa_v1",
+  "books": {
+    "samacheer:v2:class6:mathematics-term-1": {
+      "class": 6,
+      "book_name": "Mathematics - Term 1 [English]",
+      "subject": "Mathematics",
+      "count": 322,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-mathematics-term-1-english-class-6-tn-board_317",
+      "sample_questions": [
+        "The smallest 7 digit number is _____________",
+        "The largest 8 digit number is ____________",
+        "The place value of 5 in 7005380 is ____________",
+        "The expanded form of the number 76,70,905 is ___________",
+        "Successor of a one-digit number is always a one-digit number"
+      ]
+    },
+    "samacheer:v2:class6:english-term-2": {
+      "class": 6,
+      "book_name": "English - Term 2",
+      "subject": "English",
+      "count": 119,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-english-term-2-class-6-tn-board_321",
+      "sample_questions": [
+        "A school-going girl writes the diary account.",
+        "The boy was so inspired by Mithali that he was happy for his sister to play cricket.",
+        "Mithali Raj is happy to be recognised as Tendulkar of Indian Women’s Cricket.",
+        "Women should not be compared with men in cricket, says Mithali.",
+        "Mithali Raj was not encouraged to play cricket by her family members."
+      ]
+    },
+    "samacheer:v2:class6:english-term-1": {
+      "class": 6,
+      "book_name": "English - Term 1",
+      "subject": "English",
+      "count": 170,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-english-term-1-class-6-tn-board_320",
+      "sample_questions": [
+        "Turtles are different from tortoises.",
+        "Turtles are sea animals.",
+        "There are seven kinds of sea turtles in the world.",
+        "Sea turtles are very small.",
+        "Turtles come ashore to lay eggs"
+      ]
+    },
+    "samacheer:v2:class6:english-term-3": {
+      "class": 6,
+      "book_name": "English - Term 3",
+      "subject": "English",
+      "count": 140,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-english-term-3-class-6-tn-board_322",
+      "sample_questions": [
+        "Look at the pictures, discuss in pairs, share your answers with the class. During which season do you see a peacock dance? In which season can you see trees without leaves? Name the country where your can find this season. Which season is shown in this picture? What are the people doing? Which season is shown in this picture? How do you know?",
+        "A tiny bird looked for a place to lay her eggs.",
+        "The land was wet and green.",
+        "The little bird found a shallow hollow in the ground.",
+        "The eggs hatched and the babies flew away."
+      ]
+    },
+    "samacheer:v2:class6:mathematics-term-2": {
+      "class": 6,
+      "book_name": "Mathematics - Term 2 [English]",
+      "subject": "Mathematics",
+      "count": 270,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-mathematics-term-2-english-class-6-tn-board_318",
+      "sample_questions": [
+        "The number of prime numbers between 11 and 60 is _________",
+        "The numbers 29 and ________ are twin primes",
+        "3753 is divisible by 9 and hence divisible by _________",
+        "The number of distinct prime factors of the smallest 4 digit number is __________",
+        "The sum of distinct prime factors of 30 is ________"
+      ]
+    },
+    "samacheer:v2:class6:science-term-1": {
+      "class": 6,
+      "book_name": "Science - Term 1 [English]",
+      "subject": "Science",
+      "count": 166,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-science-term-1-english-class-6-tn-board_323",
+      "sample_questions": [
+        "The height of a tree can be measured by",
+        "Conversion of 7 m into cm gives _____",
+        "Quantity that can be measured is called ____",
+        "Choose the correct one",
+        "While measuring the length of an object using a ruler, the position of your eye should be"
+      ]
+    },
+    "samacheer:v2:class6:science-term-2": {
+      "class": 6,
+      "book_name": "Science - Term 2 [English]",
+      "subject": "Science",
+      "count": 139,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-science-term-2-english-class-6-tn-board_324",
+      "sample_questions": [
+        "When an object is heated, the molecules that make up the object",
+        "The unit of heat is",
+        "One litre of water at 30o C is mixed with one litre of water at 50o C. The temperature of the mixture will be",
+        "An iron ball at 50°C is dropped in a mug containing water at 50 o C. The heat will",
+        "Heat flows from a ______ body to a _____ body."
+      ]
+    },
+    "samacheer:v2:class6:mathematics-term-3": {
+      "class": 6,
+      "book_name": "Mathematics - Term 3 [English]",
+      "subject": "Mathematics",
+      "count": 208,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-mathematics-term-3-english-class-6-tn-board_319",
+      "sample_questions": [
+        "`7 3/4 + 6 1/2` = ___________",
+        "`5 1/3 - 3 1/2` = _________",
+        "`8 ÷ 1/2` = __________",
+        "The number which has its own reciprocal is __________",
+        "`3 1/2` can be written as `3 + 1/2`"
+      ]
+    },
+    "samacheer:v2:class6:science-term-3": {
+      "class": 6,
+      "book_name": "Science - Term 3 [English]",
+      "subject": "Science",
+      "count": 120,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-science-term-3-english-class-6-tn-board_325",
+      "sample_questions": [
+        "An object that is attracted by magnet.",
+        "People who made mariner’s compass for the first time.",
+        "A freely suspended magnet always comes to rest in the ______ direction",
+        "Magnets lose their properties when they are",
+        "Mariner’s compass is used to find the"
+      ]
+    },
+    "samacheer:v2:class6:social-science-term-2": {
+      "class": 6,
+      "book_name": "Social Science - Term 2 [English]",
+      "subject": "Social Science",
+      "count": 173,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-social-science-term-2-english-class-6-tn-board_327",
+      "sample_questions": [
+        "Aryans first settled in ________________ region.",
+        "Aryans came from____________.",
+        "Our National Motto “Sathyameva Jayate” is taken from __________.",
+        "What was the ratio of land revenue collected during Vedic Age.",
+        "Assertion: The Vedic age is evidenced by the good number of texts and adequate amount of material evidence. Reason: Shrutis comprise the Vedas, the Brahmanas, the Aranyakas, and the Upanishads."
+      ]
+    },
+    "samacheer:v2:class6:social-science-term-1": {
+      "class": 6,
+      "book_name": "Social Science - Term 1 [English]",
+      "subject": "Social Science",
+      "count": 201,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-social-science-term-1-english-class-6-tn-board_326",
+      "sample_questions": [
+        "What was the step taken by the early man to collect his food?",
+        "Statement: Pre historic man went along with the dog for hunting. Reason: Dogs with its sniffing power would find out other animals.",
+        "Statement: The objects used by the early man are excavated. They are preserved to know the lifestyle of the people. Find out which of the following is related to the statement:",
+        "Find out the wrong pair.",
+        "Find the odd one"
+      ]
+    },
+    "samacheer:v2:class6:social-science-term-3": {
+      "class": 6,
+      "book_name": "Social Science - Term 3 [English]",
+      "subject": "Social Science",
+      "count": 193,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-social-science-term-3-english-class-6-tn-board_328",
+      "sample_questions": [
+        "Pattini cult in Tamil Nadu was introduced by ______.",
+        "Which dynasty was not in power during the Sangam Age?",
+        "The rule of Pandyas was followed by ______.",
+        "The lowest unit of administration during the Sangam Age was ______.",
+        "What was the occupation of the inhabitants of the Kurinji region?"
+      ]
+    },
+    "samacheer:v2:class7:english-term-1": {
+      "class": 7,
+      "book_name": "English - Term 1",
+      "subject": "English",
+      "count": 208,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-english-term-1-class-7-tn-board_305",
+      "sample_questions": [
+        "‘Finally the day had come’. Here the day refers to ______.",
+        "With their treasure, the boys would buy ______ in Eidgah.",
+        "Hamid’s friends are ______",
+        "‘ If only her son were there, it would have been a different kind of Eid’! What had happened to her son?",
+        "Hamid was like one with wings on his feet. This means ______"
+      ]
+    },
+    "samacheer:v2:class7:english-term-2": {
+      "class": 7,
+      "book_name": "English - Term 2",
+      "subject": "English",
+      "count": 97,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-english-term-2-class-7-tn-board_306",
+      "sample_questions": [
+        "My Hand of Imagination",
+        "Most people associate windmills with Holland, rather than Spain. Use the encyclopedia and any other sources you might have to find out more about windmills and their traditional and modern uses. Then, make a model of a windmill to display with the results of your research.",
+        "To Dream the Impossible Dream Don Quixote might be seen as not simply crazy in his refusal to see things as they really are but more like a person who wants to accomplish a greater good and so refuses to compromise his ideals. Examples of such people include Nelson Mandela, Mahatma Gandhi, and Martin Luther King Jr. Discuss (with examples and other evidence) whether or not they think Quixote deserves to be put in the company of real-world idealists or is merely delusional.",
+        "Explain the difference between these words by making sentence. see/sea - ______",
+        "Explain the difference between these words by making sentence. knight/night -"
+      ]
+    },
+    "samacheer:v2:class7:english-term-3": {
+      "class": 7,
+      "book_name": "English - Term 3",
+      "subject": "English",
+      "count": 124,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-english-term-3-class-7-tn-board_307",
+      "sample_questions": [
+        "Give a picturesque view through which the train travels.",
+        "Did he hire Kiouni? Why?",
+        "Why was the elephant owner happy with the deal?",
+        "Listen to the teacher reading the Weather forecast and complete the report. Name of the Cyclone is ______.It may affect the ______and ______. Heavy rains are expected on ______and______.It is ______away from Nagapatinam.",
+        "You are waiting to board a train in a railway station. The train is delayed by an hour. Write a paragraph about the crowded scene in the railway station based on your observation."
+      ]
+    },
+    "samacheer:v2:class7:mathematics-term-2": {
+      "class": 7,
+      "book_name": "Mathematics - Term 2 [English]",
+      "subject": "Mathematics",
+      "count": 350,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-mathematics-term-2-english-class-7-tn-board_315",
+      "sample_questions": [
+        "Write the decimal numbers for the following pictorial representation of numbers",
+        "Write the decimal numbers for the following pictorial representation of numbers",
+        "Express the following in cm using decimal 5 mm",
+        "Express the following in cm using decimal 9 mm",
+        "Express the following in cm using decimal 42 mm"
+      ]
+    },
+    "samacheer:v2:class7:science-term-1": {
+      "class": 7,
+      "book_name": "Science - Term 1 [English]",
+      "subject": "Science",
+      "count": 176,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-science-term-1-english-class-7-tn-board_308",
+      "sample_questions": [
+        "Which of the following is a derived quantity?",
+        "Which of the following is correct?",
+        "SI unit of density is ______.",
+        "Two spheres have mass and volume in the ratio 2:1. The ratio of their density is ______.",
+        "Light year is the unit of ______."
+      ]
+    },
+    "samacheer:v2:class7:mathematics-term-1": {
+      "class": 7,
+      "book_name": "Mathematics - Term 1 [English]",
+      "subject": "Mathematics",
+      "count": 387,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-mathematics-term-1-english-class-7-tn-board_314",
+      "sample_questions": [
+        "(−30) + ____ = 60",
+        "(−5) + ___ = −100",
+        "(−52) + (−52) = ____",
+        "____ + (−22) = 0",
+        "____ + (−70) = 70"
+      ]
+    },
+    "samacheer:v2:class7:mathematics-term-3": {
+      "class": 7,
+      "book_name": "Mathematics - Term 3 [English]",
+      "subject": "Mathematics",
+      "count": 352,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-mathematics-term-3-english-class-7-tn-board_316",
+      "sample_questions": [
+        "Add by using grid 0.51 + 0.25",
+        "Add the following by using place value grid. 25.8 + 18.53",
+        "Add the following by using place value grid. 17.4 + 23.435",
+        "Find the value of 0.46 – 0.13 by grid model",
+        "Subtract the following by using place value grid. 6.567 from 9.231"
+      ]
+    },
+    "samacheer:v2:class7:science-term-2": {
+      "class": 7,
+      "book_name": "Science - Term 2 [English]",
+      "subject": "Science",
+      "count": 142,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-science-term-2-english-class-7-tn-board_310",
+      "sample_questions": [
+        "International unit of measuring temperature is ______.",
+        "In thermometer when bulb comes in contact with hot object, liquid inside it ______.",
+        "The body temperature of a healthy man is;",
+        "Mercury is often used in laboratory thermometers because it ______.",
+        "Which of the following temperature conversions is incorrect K ( Kelvin) = °C ( Celsius) + 273.15"
+      ]
+    },
+    "samacheer:v2:class7:science-term-3": {
+      "class": 7,
+      "book_name": "Science - Term 3 [English]",
+      "subject": "Science",
+      "count": 152,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-science-term-3-english-class-7-tn-board_312",
+      "sample_questions": [
+        "The image formed by a pinhole camera is inverted because,",
+        "Light travels only in a______ It is because of this property that______ are formed.",
+        "Which of the following facts explain how shadows are formed?",
+        "Light that hits a mirror gets ______.",
+        "______Surface reflects the light well."
+      ]
+    },
+    "samacheer:v2:class7:social-science-term-2": {
+      "class": 7,
+      "book_name": "Social Science - Term 2 [English]",
+      "subject": "Social Science",
+      "count": 141,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-social-science-term-2-english-class-7-tn-board_311",
+      "sample_questions": [
+        "Who was the greatest ruler of Sangama Dynasty?",
+        "Which was the most common animal depicted on the pillars of Vijayanagara style?",
+        "Who was the last ruler of the Sangama Dynasty?",
+        "Who ended the Sultanate in Madurai?",
+        "Name the Bahmani King who was a linguist and a poet."
+      ]
+    },
+    "samacheer:v2:class7:social-science-term-1": {
+      "class": 7,
+      "book_name": "Social Science - Term 1 [English]",
+      "subject": "Social Science",
+      "count": 204,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-social-science-term-1-english-class-7-tn-board_309",
+      "sample_questions": [
+        "____________ are the writings engraved on solid surfaces such as rocks, stones, temples, walls, metals.",
+        "______ was the land gifted to temples.",
+        "______ period was known as the period of devotional literature.",
+        "______ provides information about the first Sultan of Delhi.",
+        "______, an Arab-born Morocco scholar, travelled from Morocco to India."
+      ]
+    },
+    "samacheer:v2:class7:social-science-term-3": {
+      "class": 7,
+      "book_name": "Social Science - Term 3 [English]",
+      "subject": "Social Science",
+      "count": 185,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-social-science-term-3-english-class-7-tn-board_313",
+      "sample_questions": [
+        "Who of the following composed songs on Krishna putting himself in the place of mother Yashoda?",
+        "Who preached the Advaita philosophy?",
+        "Who spread the Bhakthi ideology in northern India and made it a mass movement?",
+        "Who made Chishti order popular in India?",
+        "Who is considered their first guru by the Sikhs?"
+      ]
+    },
+    "samacheer:v2:class8:english": {
+      "class": 8,
+      "book_name": "English",
+      "subject": "English",
+      "count": 650,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-english-class-8-tn-board_301",
+      "sample_questions": [
+        "Choose the correct synonym for the underline word. Nice fun indeed.",
+        "Choose the correct synonym for the underline word. The poor woman is in a panic.",
+        "Choose the correct synonym for the underline word. The mother consoled her little girl.",
+        "Choose the correct synonym for the underline word. You are always self-centered.",
+        "Choose the correct synonym for the underline word. What is the secret you are whispering ?"
+      ]
+    },
+    "samacheer:v2:class8:science": {
+      "class": 8,
+      "book_name": "Science [English]",
+      "subject": "Science",
+      "count": 505,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-science-english-class-8-tn-board_303",
+      "sample_questions": [
+        "Which one the following system of units is the British System of unit?",
+        "Electric current is a ______ quantity",
+        "SI unit of temperature is ______",
+        "Luminous intensity is the intensity of ______",
+        "Closeness of two or more measured values is called as ______"
+      ]
+    },
+    "samacheer:v2:class8:mathematics": {
+      "class": 8,
+      "book_name": "Mathematics [English]",
+      "subject": "Mathematics",
+      "count": 678,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-mathematics-english-class-8-tn-board_302",
+      "sample_questions": [
+        "`(-19)/5` lies between the integers __________ and __________",
+        "The decimal form of the rational number `15/(-4)` is __________",
+        "The rational numbers `(-8)/3` and `8/3` are equidistant from __________",
+        "The next rational number in the sequence `(-15)/24, 20/(-32), (-25)/40` is ______.",
+        "The standard form of `58/(-78)` is __________"
+      ]
+    },
+    "samacheer:v2:class8:social-science": {
+      "class": 8,
+      "book_name": "Social Science [English]",
+      "subject": "Social Science",
+      "count": 506,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-social-science-english-class-8-tn-board_304",
+      "sample_questions": [
+        "Who laid the foundation of Portuguese power in India?",
+        "Which of the following European Nation was the foremost attempt to discover a sea route to India?",
+        "In 1453 Constantinople was captured by ____________.",
+        "Sir William Hawkins belonged to ____________.",
+        "The first fort constructed by the British in India was ____________."
+      ]
+    },
+    "samacheer:v2:class9:english": {
+      "class": 9,
+      "book_name": "English",
+      "subject": "English",
+      "count": 635,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-english-class-9-tn-board_300",
+      "sample_questions": [
+        "'Achrekar was a sincere coach'. Substantiate.",
+        "Narrate in your own words the hardships underwent by Sachin to become a great cricketer.",
+        "The Paralympic games are for _____.",
+        "The Paralympic games usually happen ______.",
+        "The first true Paralympic Games happened in Rome in _________."
+      ]
+    },
+    "samacheer:v2:class9:science": {
+      "class": 9,
+      "book_name": "Science [English]",
+      "subject": "Science",
+      "count": 525,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-science-english-class-9-tn-board_298",
+      "sample_questions": [
+        "Choose the correct one.",
+        "Rulers, measuring tapes and metre scales are used to measure ______",
+        "1 metric ton is equal to ______.",
+        "Which among the following is not a device to measure mass?",
+        "1 kg of rice is weighed by ______."
+      ]
+    },
+    "samacheer:v2:class9:mathematics": {
+      "class": 9,
+      "book_name": "Mathematics [English]",
+      "subject": "Mathematics",
+      "count": 788,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-mathematics-english-class-9-tn-board_297",
+      "sample_questions": [
+        "Identify the following is set? The collection of prime numbers upto 100.",
+        "Identify the following is set? The collection of rich people in India.",
+        "Identify the following is set? The Collection of all rivers in India.",
+        "Identify the following is set? The Collection of good Hockey players.",
+        "List the set of letters of the following words in Roster form. INDIA"
+      ]
+    },
+    "samacheer:v2:class9:social-science": {
+      "class": 9,
+      "book_name": "Social Science [English]",
+      "subject": "Social Science",
+      "count": 447,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-social-science-english-class-9-tn-board_299",
+      "sample_questions": [
+        "____________ is genetically closest to humans.",
+        "The period called____________ marks the beginning of agriculture and animal domestication.",
+        "Direct ancestor of modern man was ______.",
+        "____________ refers to the area covering Egypt, Israel-Palestine and Iraq.",
+        "Sir Robert Bruce Foote, a geologist from England first discovered the____________ tools at Pallavaram near Chennai."
+      ]
+    },
+    "samacheer:v2:class10:english": {
+      "class": 10,
+      "book_name": "English",
+      "subject": "English",
+      "count": 699,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-english-class-10-sslc-tn-board_296",
+      "sample_questions": [
+        "Marco Polo, Christopher Columbus, Ibn Battuta, Amerigo Vespucci, Xuanzang, Ferdinand Magellan, Bartolomeu Dias, Herodotus, Captain James Cook, Vasco De Gama. What is common among these individuals? Browse Internet or refer books and share some information about them.",
+        "Read the following sentence and change the form of the underlined word as directed. His family was screaming and offering him food. (to adjective)",
+        "Read the following sentence and change the form of the underlined word as directed. The young seagull gave out a loud call. (to adverb)",
+        "Read the following sentence and change the form of the underlined word as directed. The bird cackled amusedly while flying. (to noun)",
+        "Read the following sentence and change the form of the underlined word as directed. The depth of the sea from the ledge scared the seagull. (to adjective)"
+      ]
+    },
+    "samacheer:v2:class10:social-science": {
+      "class": 10,
+      "book_name": "Social Science [English]",
+      "subject": "Social Science",
+      "count": 493,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-social-science-english-class-10-sslc-tn-board_295",
+      "sample_questions": [
+        "What were the three major empires shattered by the end of First World War?",
+        "Which country emerged as the strongest in East Asia towards the close of nineteenth century?",
+        "Who said “imperialism is the highest stage of capitalism”?",
+        "Choose the correct answer. What is the Battle of Marne remembered for?",
+        "Choose the correct answer. To which country did the first Secretary General of League of Nations belong?"
+      ]
+    },
+    "samacheer:v2:class10:science": {
+      "class": 10,
+      "book_name": "Science [English]",
+      "subject": "Science",
+      "count": 783,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-science-english-class-10-sslc-tn-board_294",
+      "sample_questions": [
+        "Inertia of a body depends on",
+        "Impulse is equals to",
+        "Newton’s III law is applicable",
+        "Plotting a graph for momentum on the Y-axis and time on X-axis. the slope of the momentum-time graph gives",
+        "In which of the following sport the turning of the effect of force used"
+      ]
+    },
+    "samacheer:v2:class11:accountancy": {
+      "class": 11,
+      "book_name": "Accountancy [English]",
+      "subject": "Accountancy",
+      "count": 336,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-accountancy-english-class-11-tn-board_362",
+      "sample_questions": [
+        "The root of financial accounting system is _________",
+        "Which one of the following is not a main objective of accounting?",
+        "Which one of the following is not a branch of accounting?",
+        "Financial position of a business is ascertained on the basis of ___________.",
+        "Who is considered to be the internal user of the financial information?"
+      ]
+    },
+    "samacheer:v2:class10:mathematics": {
+      "class": 10,
+      "book_name": "Mathematics [English]",
+      "subject": "Mathematics",
+      "count": 903,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-mathematics-english-class-10-sslc-tn-board_293",
+      "sample_questions": [
+        "Find A × B, A × A and B × A : A = {2, −2, 3} and B = {1, −4}",
+        "Let A = {1, 2, 3} and B = {x | x is a prime number less than 10}. Find A × B and B × A",
+        "If B × A = {(-2, 3), (-2, 4), (0, 3), (0, 4), (3, 3), (3, 4)} find A and B",
+        "If A = {5, 6}, B = {4, 5, 6}, C = {5, 6, 7}, Show that A × A = (B × B) ∩ (C × C)",
+        "Given A = {1, 2, 3}, B = {2, 3, 5}, C = {3, 4} and D = {1, 3, 5}, check if (A ∩ C) × (B ∩ D) = (A × B) ∩ (C × D) is true?"
+      ]
+    },
+    "samacheer:v2:class11:biology-botany": {
+      "class": 11,
+      "book_name": "Biology (Botany) [English]",
+      "subject": "Biology (Botany)",
+      "count": 123,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-biology-botany-english-class-11-tn-board_356",
+      "sample_questions": [
+        "Which one of the following statement about virus is correct?",
+        "Identify the incorrect statement about the Gram positive bacteria",
+        "Identify the Archaebacterium",
+        "The correct statement regarding Blue green algae is ________.",
+        "Identify the correctly matched pair"
+      ]
+    },
+    "samacheer:v2:class11:botany": {
+      "class": 11,
+      "book_name": "Botany [English]",
+      "subject": "Botany",
+      "count": 154,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-botany-english-class-11-tn-board_464",
+      "sample_questions": [
+        "Which one of the following statement about virus is correct",
+        "Identify the incorrect statement about the Gram positive bacteria",
+        "Identify the Archaebacterium",
+        "The correct statement regarding Blue green algae is ________.",
+        "Identify the correctly matched pair"
+      ]
+    },
+    "samacheer:v2:class11:biology-zoology": {
+      "class": 11,
+      "book_name": "Biology (Zoology) [English]",
+      "subject": "Biology (Zoology)",
+      "count": 314,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-biology-zoology-english-class-11-tn-board_357",
+      "sample_questions": [
+        "A living organism is differentiated from a nonliving structure based on ______.",
+        "A group of organisms having similar traits of a rank is ______.",
+        "Every unit of classification regardless of its rank is ______.",
+        "Which of the following is not present in same rank?",
+        "What taxonomic aid gives comprehensive information about a taxon?"
+      ]
+    },
+    "samacheer:v2:class11:computer-applications": {
+      "class": 11,
+      "book_name": "Computer Applications [English]",
+      "subject": "Computer Applications",
+      "count": 302,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-computer-applications-english-class-11-tn-board_359",
+      "sample_questions": [
+        "First generation computers used ______",
+        "Name the volatile memory.",
+        "Identify the output device.",
+        "Identify the input device.",
+        "______ output device is used for printing building plans."
+      ]
+    },
+    "samacheer:v2:class11:business-mathematics-and-statistics": {
+      "class": 11,
+      "book_name": "Business Mathematics and Statistics [English]",
+      "subject": "Business Mathematics and Statistics",
+      "count": 749,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-business-mathematics-and-statistics-english-class-11-tn-board_365",
+      "sample_questions": [
+        "Find the minors and cofactors of all the elements of the following determinant. `|(5,20),(0, -1)|`",
+        "Find the minors and cofactors of all the elements of the following determinant. `|(1,-3,2),(4,-1,2),(3,5,2)|`",
+        "Evaluate `|(3,-2,4),(2,0,1),(1,2,3)|`",
+        "Solve: `|(2,x,3),(4,1,6),(1,2,7)|` = 0",
+        "Find |AB| if A = `[(3,-1),(2,1)]` and B = `[(3,0),(1,-2)]`"
+      ]
+    },
+    "samacheer:v2:class11:chemistry-volume-1-and-2": {
+      "class": 11,
+      "book_name": "Chemistry - Volume 1 and 2 [English]",
+      "subject": "Chemistry",
+      "count": 741,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-chemistry-volume-1-and-2-english-class-11-tn-board_355",
+      "sample_questions": [
+        "40 ml of methane is completely burnt using 80 ml of oxygen at room temperature The volume of gas left after cooling to room temperature is",
+        "An element X has the following isotopic composition 200 X = 90%, 199 X = 8% and 202 X = 2%. The weighted average atomic mass of the element X is closest to",
+        "Assertion: Two mole of glucose contains 12.044 × 10 23 molecules of glucose Reason: Total number of entities present in one mole of any substance is equal to 6.02 × 10 22",
+        "Carbon forms two oxides, namely carbon monoxide and carbon dioxide. The equivalent mass of which element remains constant?",
+        "The equivalent mass of a trivalent metal element is 9 g eq -1 the molar mass of its anhydrous oxide is"
+      ]
+    },
+    "samacheer:v2:class11:commerce": {
+      "class": 11,
+      "book_name": "Commerce [English]",
+      "subject": "Commerce",
+      "count": 319,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-commerce-english-class-11-tn-board_363",
+      "sample_questions": [
+        "Choose the Correct Answer. In Pandiyas Dynasty the place where the goods are sold is _____",
+        "Choose the Correct Answer. Hindrance of place is removed by ______",
+        "Choose the Correct Answer. Who wrote “Arthasasthra”?",
+        "Choose the Correct Answer. Trade and Commerce were common to _______ Dynasty.",
+        "Choose the Correct Answer. _______ was the first sultan who paved the way in the dense forest and helped traders to move from one marketplace to another place for their commercial caravans."
+      ]
+    },
+    "samacheer:v2:class11:computer-science": {
+      "class": 11,
+      "book_name": "Computer Science [English]",
+      "subject": "Computer Science",
+      "count": 376,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-computer-science-english-class-11-tn-board_358",
+      "sample_questions": [
+        "First generation computers used ______",
+        "Name the volatile memory.",
+        "Identify the output device.",
+        "Identify the input device.",
+        "______ output device is used for printing building plans."
+      ]
+    },
+    "samacheer:v2:class11:economics": {
+      "class": 11,
+      "book_name": "Economics [English]",
+      "subject": "Economics",
+      "count": 296,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-economics-english-class-11-tn-board_364",
+      "sample_questions": [
+        "‘Economics is a study of mankind in the ordinary business of life’ -It is the statement of",
+        "The basic problem studied in Economics is",
+        "Microeconomics is concerned with",
+        "Which of the following is a microeconomics statement?",
+        "Find the odd one out:"
+      ]
+    },
+    "samacheer:v2:class11:zoology": {
+      "class": 11,
+      "book_name": "Zoology [English]",
+      "subject": "Zoology",
+      "count": 331,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-zoology-english-class-11-tn-board_360",
+      "sample_questions": [
+        "A living organism is differentiated from a nonliving structure based on ______.",
+        "A group of organisms having similar traits of a rank is ______.",
+        "Every unit of classification regardless of its rank is ____________.",
+        "Which of the following is not present in same rank?",
+        "What taxonomic aid gives comprehensive information about a taxon?"
+      ]
+    },
+    "samacheer:v2:class11:english": {
+      "class": 11,
+      "book_name": "English",
+      "subject": "English",
+      "count": 423,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-english-class-11-tn-board_361",
+      "sample_questions": [
+        "Read the following word and choose the correct antonym from the option given: moist",
+        "Read the following word and choose the correct antonym from the option given: frivolous",
+        "Read the following word and choose the correct antonym from the option given: omitted",
+        "Read the following word and choose the correct antonym from the option given: protest",
+        "Read the following word and choose the correct antonym from the option given: serenity"
+      ]
+    },
+    "samacheer:v2:class11:physics-volume-1-and-2": {
+      "class": 11,
+      "book_name": "Physics - Volume 1 and 2 [English]",
+      "subject": "Physics",
+      "count": 528,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-physics-volume-1-and-2-english-class-11-tn-board_354",
+      "sample_questions": [
+        "One of the combinations from the fundamental physical constants is `\"hc\"/\"G\"`. The unit of this expression is ______",
+        "If the error in the measurement of the radius is 2%, then the error in the determination of the volume of the sphere will be ______",
+        "If the length and time period of an oscillating pendulum have errors of 1% and 3% respectively then the error in measurement of the acceleration due to gravity is ______",
+        "Which of the following has the highest number of significant figures?",
+        "If π = 3.14, then the value of π 2 is ______"
+      ]
+    },
+    "samacheer:v2:class12:accountancy": {
+      "class": 12,
+      "book_name": "Accountancy [English]",
+      "subject": "Accountancy",
+      "count": 224,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-accountancy-english-class-12-tn-board_366",
+      "sample_questions": [
+        "Incomplete records are generally maintained by ______________.",
+        "Statement of affairs is a ___________.",
+        "Opening statement of affairs is usually prepared to find out the ___________.",
+        "The excess of assets over liabilities is ________.",
+        "Which of the following items relating to bills payable is transferred to the total creditors account?"
+      ]
+    },
+    "samacheer:v2:class12:biology-botany": {
+      "class": 12,
+      "book_name": "Biology (Botany) [English]",
+      "subject": "Biology (Botany)",
+      "count": 295,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-biology-botany-english-class-12-tn-board_372",
+      "sample_questions": [
+        "Choose the correct statement from the following",
+        "An eminent Indian embryologist is",
+        "Identify the correctly matched pair",
+        "Pollen tube was discovered by",
+        "Size of pollen grain in Myosotis"
+      ]
+    },
+    "samacheer:v2:class12:botany": {
+      "class": 12,
+      "book_name": "Botany [English]",
+      "subject": "Botany",
+      "count": 349,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-botany-english-class-12-tn-board_379",
+      "sample_questions": [
+        "Choose the correct statement from the following:",
+        "An eminent Indian embryologist is",
+        "Identify the correctly matched pair",
+        "Pollen tube was discovered by",
+        "Size of pollen grain in Myosotis"
+      ]
+    },
+    "samacheer:v2:class11:mathematics-volume-1-and-2": {
+      "class": 11,
+      "book_name": "Mathematics - Volume 1 and 2 [English]",
+      "subject": "Mathematics",
+      "count": 1457,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-mathematics-volume-1-and-2-english-class-11-tn-board_353",
+      "sample_questions": [
+        "Write the following in roaster form. {x ∈ N : x 2 < 121 and x is a prime}",
+        "Write the following in roster form. The set of all positive roots of the equation (x − 1)(x + 1)(x 2 − 1) = 0",
+        "Write the following in roster form {x ∈ N : 4x + 9 < 52}",
+        "Write the following in roster form. {x : `(x − 4)/(x + 2)` = 3, x ∈ R – {– 2}}",
+        "Write the set {−1, 1} in set builder form"
+      ]
+    },
+    "samacheer:v2:class12:biology-zoology": {
+      "class": 12,
+      "book_name": "Biology (Zoology) [English]",
+      "subject": "Biology (Zoology)",
+      "count": 338,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-biology-zoology-english-class-12-tn-board_378",
+      "sample_questions": [
+        "In which type of parthenogenesis are only males produced?",
+        "The mode of reproduction in bacteria is by ____________.",
+        "In which mode of reproduction variations are seen?",
+        "Assertion and reasoning question: In the following question there are two statements. One is assertion (A) and other is reasoning (R). Mark the correct answer (A) Assertion : In bee society, all the members are diploid except drones. (R)Reason : Drones are produced by parthenogenesis.",
+        "Assertion and reasoning question: In the following question there are two statements. One is assertion (A) and other is reasoning (R). Mark the correct answer (A) Assertion: Offsprings produced by asexual reproduction are genetically identical to the parent. (R) Reason: Asexual reproduction involves only mitosis and no meiosis."
+      ]
+    },
+    "samacheer:v2:class12:computer-applications": {
+      "class": 12,
+      "book_name": "Computer Applications [English]",
+      "subject": "Computer Applications",
+      "count": 306,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-computer-applications-english-class-12-tn-board_368",
+      "sample_questions": [
+        "________ refers to any type of application that involves more than one type of media such as text, graphics video animation and sound.",
+        "One of the disadvantages of the multimedia is its _____.",
+        "Expand JPEG.",
+        "You need hardware, software and ________ to make multimedia.",
+        "Match the following by choosing the right one."
+      ]
+    },
+    "samacheer:v2:class12:commerce": {
+      "class": 12,
+      "book_name": "Commerce [English]",
+      "subject": "Commerce",
+      "count": 303,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-commerce-english-class-12-tn-board_370",
+      "sample_questions": [
+        "Management is what a _______ does?",
+        "Management is an ____________.",
+        "Scientific management is developed by ____________.",
+        "Dividing the work into small tasks is known as ________",
+        "With a wider span, there will be _______ hierarchical levels."
+      ]
+    },
+    "samacheer:v2:class12:chemistry-volume-1-and-2": {
+      "class": 12,
+      "book_name": "Chemistry - Volume 1 and 2 [English]",
+      "subject": "Chemistry",
+      "count": 709,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-chemistry-volume-1-and-2-english-class-12-tn-board_374",
+      "sample_questions": [
+        "Bauxite has the composition",
+        "Roasting of sulphide ore gives the gas (A).(A) is a colourless gas. Aqueous solution of (A) is acidic. The gas (A) is ____________.",
+        "Which one of the following reaction represents calcinations?",
+        "The metal oxide which cannot be reduced to metal by carbon is ____________.",
+        "Which of the metal is extracted by the Hall-Heroult process?"
+      ]
+    },
+    "samacheer:v2:class12:computer-science": {
+      "class": 12,
+      "book_name": "Computer Science [English]",
+      "subject": "Computer Science",
+      "count": 324,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-computer-science-english-class-12-tn-board_369",
+      "sample_questions": [
+        "The small sections of code that are used to perform a particular task are called ______",
+        "Which of the following is a unit of code that is often defined within a greater code structure?",
+        "Which of the following is a distinct syntactic block?",
+        "The variables in a function definition are called as ______",
+        "The values which are passed to a function definition are called ______"
+      ]
+    },
+    "samacheer:v2:class12:economics": {
+      "class": 12,
+      "book_name": "Economics [English]",
+      "subject": "Economics",
+      "count": 355,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-economics-english-class-12-tn-board_367",
+      "sample_questions": [
+        "The branches of the subject Economics are ______.",
+        "Who coined the word ‘Macro’?",
+        "Who is regarded as Father of Modern Macro Economics?",
+        "Identify the other name for Macro Economics.",
+        "Macro economics is a study of __________."
+      ]
+    },
+    "samacheer:v2:class12:business-mathematics-and-statistics": {
+      "class": 12,
+      "book_name": "Business Mathematics and Statistics [English]",
+      "subject": "Business Mathematics and Statistics",
+      "count": 787,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-business-mathematics-and-statistics-english-class-12-tn-board_371",
+      "sample_questions": [
+        "Find the rank of the following matrices `((5, 6),(7, 8))`",
+        "Find the rank of the following matrices `((1, -1),(3, -6))`",
+        "Find the rank of the following matrices `((1, 4),(2, 8))`",
+        "Find the rank of the following matrices `((2, -1, 1),(3, 1, -5),(1, 1, 1))`",
+        "Find the rank of the following matrices `((-1, 2, -2),(4, -3, 4),(-2, 4, -4))`"
+      ]
+    },
+    "samacheer:v2:class12:english": {
+      "class": 12,
+      "book_name": "English",
+      "subject": "English",
+      "count": 611,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-english-class-12-tn-board_380",
+      "sample_questions": [
+        "Who did the narrator meet at the outskirts of Verona?",
+        "Why did the driver not approve of the narrator buying fruits from the boys?",
+        "The boys did not spend much on clothes and food. Why?",
+        "Were the boys saving money to go to the States? How do you know?",
+        "Why did the author avoid going to Lucia’s room?"
+      ]
+    },
+    "samacheer:v2:class12:physics-volume-1-and-2": {
+      "class": 12,
+      "book_name": "Physics - Volume 1 and 2 [English]",
+      "subject": "Physics",
+      "count": 535,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-physics-volume-1-and-2-english-class-12-tn-board_376",
+      "sample_questions": [
+        "Which charge configuration produces a uniform electric field?",
+        "What is the ratio of the charges `|\"q\"_1/\"q\"_2|` for the following electric field line pattern?",
+        "An electric dipole is placed at an alignment angle of 30° with an electric field of 2 × 10 5 NC -1. It experiences a torque equal to 8 Nm. The charge on the dipole if the dipole length is lcm is ______.",
+        "Four Gaussian surfaces are given below with charges inside each Gaussian surface. Rank the electric flux through each Gaussian surface in increasing order.",
+        "The total electric flux for the following closed surface which is kept inside water"
+      ]
+    },
+    "samacheer:v2:class12:mathematics-volume-1-and-2": {
+      "class": 12,
+      "book_name": "Mathematics - Volume 1 and 2 [English]",
+      "subject": "Mathematics",
+      "count": 1053,
+      "book_url": "https://www.shaalaa.com/textbook-solutions/samacheer-kalvi-solutions-mathematics-volume-1-and-2-english-class-12-tn-board_375",
+      "sample_questions": [
+        "Find the adjoint of the following: `[(-3, 4),(6,2)]`",
+        "Find the adjoint of the following: `[(2, 3, 1),(3, 4, 1),(3, 7, 2)]`",
+        "Find the adjoint of the following:`1/3[(2, 2, 1),(-2, 1, 2),(1, -2, 2)]`",
+        "Find the inverse (if it exists) of the following: `[(-2, 4),(1, -3)]`",
+        "Find the inverse (if it exists) of the following: `[(5, 1, 1),(1, 5, 1),(1, 1, 5)]`"
+      ]
+    }
+  }
+}

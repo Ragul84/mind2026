@@ -1,0 +1,42 @@
+[
+  {
+    "id": "upsc-cse-prelims-2019-gs1-q45",
+    "source_id": "upsc-cse-prelims-2019-gs1",
+    "exam": "UPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "45",
+    "question_text": "Consider the following statements: 1. The 44th Amendment to the Constitution of India introduced an Article placing the election of the Prime Minister beyond judicial review. 2. The Supreme Court of India struck down the 99th Amendment to the Constitution of India as being violative of the independence of judiciary. Which of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer_text": "2 only",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  },
+  {
+    "id": "upsc-cse-prelims-2019-gs1-q59",
+    "source_id": "upsc-cse-prelims-2019-gs1",
+    "exam": "UPSC",
+    "year": 2019,
+    "subject": null,
+    "topic": null,
+    "question_number": "59",
+    "question_text": "As per the Solid Waste Management Rules, 2016 in India, which one of the following statements is correct?",
+    "options": [
+      "Waste generator has to segregate waste into five categories.",
+      "The Rules are applicable to notified urban local bodies, notified towns and all industrial townships only.",
+      "The Rules provide for exact and elaborate criteria for the identification of sites for landfills and waste processing facilities.",
+      "It is mandatory on the part of waste generator that the waste generated in one district cannot be moved to another district."
+    ],
+    "answer_text": "The Rules provide for exact and elaborate criteria for the identification of sites for landfills and waste processing facilities.",
+    "question_type": "objective",
+    "answer_source": "official-key",
+    "confidence": 0.95
+  }
+]

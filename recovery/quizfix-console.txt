@@ -1,0 +1,320 @@
+
+[upsc D1] OKOK upsc D1
+
+[upsc D2] OKOK upsc D2
+
+[upsc D3] OKOK upsc D3
+
+[upsc D6] OKOK upsc D6
+
+[upsc D7] OKOK upsc D7
+
+[upsc D8] OKOK upsc D8
+
+[upsc D9] OKOK upsc D9
+
+[upsc D10] OKOK upsc D10
+
+[upsc D11] OKOK upsc D11
+
+[upsc D12] OKOK upsc D12
+
+[upsc D13] OKOK upsc D13
+
+[upsc D14] OKOK upsc D14
+
+[upsc D15] OKOK upsc D15
+
+[upsc D16] OKOK upsc D16
+
+[upsc D18] OKOK upsc D18
+
+[upsc D19] OKOK upsc D19
+
+[upsc D20] OKOK upsc D20
+
+[upsc D21] OKOK upsc D21
+
+[upsc D22] OKOK upsc D22
+
+[upsc D24] OKOK upsc D24
+
+[upsc D25] OKOK upsc D25
+
+[upsc D26] OKOK upsc D26
+
+[upsc D27] OKOK upsc D27
+
+[upsc D28] OKOK upsc D28
+
+[upsc D29] OKOK upsc D29
+
+[upsc D30] OKOK upsc D30
+
+[upsc D31] OKOK upsc D31
+
+[upsc D35] OKOK upsc D35
+
+[upsc D36] OKOK upsc D36
+
+[upsc D37] OKOK upsc D37
+
+[upsc D38] OKOK upsc D38
+
+[upsc D39] OKOK upsc D39
+
+[upsc D40] OKOK upsc D40
+
+[upsc D42] OKOK upsc D42
+
+[upsc D43] OKOK upsc D43
+
+[upsc D45] OKOK upsc D45
+
+[upsc D46] OKOK upsc D46
+
+[upsc D48] OKOK upsc D48
+
+[upsc D49] OKOK upsc D49
+
+[upsc D54] OKOK upsc D54
+
+[upsc D55] OKOK upsc D55
+
+[upsc D56] OKOK upsc D56
+
+[upsc D61] OKOK upsc D61
+
+[upsc D62] OKOK upsc D62
+
+[upsc D63] OKOK upsc D63
+
+[upsc D64] OKOK upsc D64
+
+[upsc D65] OKOK upsc D65
+
+[upsc D66] OKOK upsc D66
+
+[upsc D68] OKOK upsc D68
+
+[upsc D72] OKOK upsc D72
+
+[upsc D73] OKOK upsc D73
+
+[upsc D76] OKOK upsc D76
+
+[upsc D78] OKOK upsc D78
+
+[upsc D79] OKOK upsc D79
+
+[upsc D82] OKOK upsc D82
+
+[upsc D83] OKOK upsc D83
+
+[upsc D85] OKOK upsc D85
+
+[upsc D86] OKOK upsc D86
+
+[upsc D92] OKOK upsc D92
+
+[upsc D93] OKOK upsc D93
+
+[upsc D95] OKOK upsc D95
+
+[upsc D96] OKOK upsc D96
+
+[upsc D98] OKOK upsc D98
+
+[upsc D99] OKOK upsc D99
+
+[tnpsc D1] OKOK tnpsc D1
+
+[tnpsc D2] OKOK tnpsc D2
+
+[tnpsc D3] OKOK tnpsc D3
+
+[tnpsc D4] OKOK tnpsc D4
+
+[tnpsc D7] OKOK tnpsc D7
+
+[tnpsc D10] OKOK tnpsc D10
+
+[tnpsc D11] OKOK tnpsc D11
+
+[tnpsc D12] OKOK tnpsc D12
+
+[tnpsc D17] OKOK tnpsc D17
+
+[tnpsc D18] OKOK tnpsc D18
+
+[tnpsc D19] OKOK tnpsc D19
+
+[tnpsc D20] OKOK tnpsc D20
+
+[tnpsc D21] OKOK tnpsc D21
+
+[tnpsc D22] OKOK tnpsc D22
+
+[tnpsc D24] OKOK tnpsc D24
+
+[tnpsc D25] OKOK tnpsc D25
+
+[tnpsc D26] OKOK tnpsc D26
+
+[tnpsc D27] OKOK tnpsc D27
+
+[tnpsc D28] OKOK tnpsc D28
+
+[tnpsc D30] OKOK tnpsc D30
+
+[tnpsc D43] OKOK tnpsc D43
+
+[tnpsc D44] OKOK tnpsc D44
+
+[tnpsc D58] OKOK tnpsc D58
+
+[tnpsc D61] OKOK tnpsc D61
+
+[tnpsc D63] OKOK tnpsc D63
+
+[tnpsc D64] OKOK tnpsc D64
+
+[tnpsc D66] OKOK tnpsc D66
+
+[tnpsc D67] OKOK tnpsc D67
+
+[tnpsc D68] OKOK tnpsc D68
+
+[tnpsc D73] OKOK tnpsc D73
+
+[tnpsc D74] OKOK tnpsc D74
+
+[tnpsc D83] OKOK tnpsc D83
+
+[ssc D1] OKOK ssc D1
+
+[ssc D2] OKOK ssc D2
+
+[ssc D3] OKOK ssc D3
+
+[ssc D4] OKOK ssc D4
+
+[ssc D5] OKOK ssc D5
+
+[ssc D6] OKOK ssc D6
+
+[ssc D7] OKOK ssc D7
+
+[ssc D8] OKOK ssc D8
+
+[ssc D9] OKOK ssc D9
+
+[ssc D10] OKOK ssc D10
+
+[ssc D11] OKOK ssc D11
+
+[ssc D12] OKOK ssc D12
+
+[ssc D13] OKOK ssc D13
+
+[ssc D14] OKOK ssc D14
+
+[ssc D15] OKOK ssc D15
+
+[ssc D16] OKOK ssc D16
+
+[ssc D18] OKOK ssc D18
+
+[ssc D19] OKOK ssc D19
+
+[ssc D20] OKOK ssc D20
+
+[ssc D21] OKOK ssc D21
+
+[ssc D22] OKOK ssc D22
+
+[ssc D23] OKOK ssc D23
+
+[ssc D24] OKOK ssc D24
+
+[ssc D25] OKOK ssc D25
+
+[ssc D26] OKOK ssc D26
+
+[ssc D27] OKOK ssc D27
+
+[ssc D28] OKOK ssc D28
+
+[ssc D29] OKOK ssc D29
+
+[ssc D30] OKOK ssc D30
+
+[ssc D31] OKOK ssc D31
+
+[ssc D32] OKOK ssc D32
+
+[ssc D33] OKOK ssc D33
+
+[ssc D36] OKOK ssc D36
+
+[ssc D37] OKOK ssc D37
+
+[ssc D40] OKOK ssc D40
+
+[ssc D42] OKOK ssc D42
+
+[ssc D43] OKOK ssc D43
+
+[ssc D45] OKOK ssc D45
+
+[ssc D47] OKOK ssc D47
+
+[ssc D48] OKOK ssc D48
+
+[ssc D50] OKOK ssc D50
+
+[ssc D53] OKOK ssc D53
+
+[ssc D59] OKOK ssc D59
+
+[ssc D61] OKOK ssc D61
+
+[ssc D63] OKOK ssc D63
+
+[ssc D66] OKOK ssc D66
+
+[ssc D67] OKOK ssc D67
+
+[ssc D68] OKOK ssc D68
+
+[ssc D69] OKOK ssc D69
+
+[ssc D70] OKOK ssc D70
+
+[ssc D71] OKOK ssc D71
+
+[ssc D73] OKOK ssc D73
+
+[ssc D74] OKOK ssc D74
+
+[ssc D76] OKOK ssc D76
+
+[ssc D77] OKOK ssc D77
+
+[ssc D78] OKOK ssc D78
+
+[ssc D82] OKOK ssc D82
+
+[ssc D84] OKOK ssc D84
+
+[ssc D85] OKOK ssc D85
+
+[ssc D92] OKOK ssc D92
+
+[ssc D94] OKOK ssc D94
+
+[ssc D95] OKOK ssc D95
+
+[ssc D98] OKOK ssc D98
+
+DONE quizfix. ok=159 skip=141 fail=0

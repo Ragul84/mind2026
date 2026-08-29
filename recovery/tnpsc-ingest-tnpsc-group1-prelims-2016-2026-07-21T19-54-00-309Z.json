@@ -1,0 +1,92 @@
+[
+  {
+    "id": "tnpsc-group1-prelims-2016-q4",
+    "source_id": "tnpsc-group1-prelims-2016",
+    "exam": "TNPSC",
+    "year": 2016,
+    "question_number": "4",
+    "question_text": "The number of generalized co-ordinates required to describe the position of a simple pendulum is",
+    "options": [
+      "(A) 1",
+      "(B) 2",
+      "(C) 3",
+      "(D) 4"
+    ],
+    "answer_text": "(B) 2",
+    "question_type": "objective",
+    "answer_source": "official-key-ocr",
+    "confidence": 0.9
+  },
+  {
+    "id": "tnpsc-group1-prelims-2016-q6",
+    "source_id": "tnpsc-group1-prelims-2016",
+    "exam": "TNPSC",
+    "year": 2016,
+    "question_number": "6",
+    "question_text": "The relation connecting Young's modulus (E), Bulk modulus (K) and Rigidity modulus (N) is",
+    "options": [
+      "(A) 9/E = 3/N + 1/K",
+      "(B) 9/E = 3/N + 1/K",
+      "(C) 9/E = 1/N + 3/K",
+      "(D) 9/E = 1/N + 3/K"
+    ],
+    "answer_text": "(A) 9/E = 3/N + 1/K",
+    "question_type": "objective",
+    "answer_source": "official-key-ocr",
+    "confidence": 0.9
+  },
+  {
+    "id": "tnpsc-group1-prelims-2016-q4",
+    "source_id": "tnpsc-group1-prelims-2016",
+    "exam": "TNPSC",
+    "year": 2016,
+    "question_number": "4",
+    "question_text": "Who bestowed the title Sardar on Vallabhai Patel?",
+    "options": [
+      "Dadabhai Naoroji",
+      "Jawaharlal Nehru",
+      "Mahatma Gandhi",
+      "Rajendra Prasad"
+    ],
+    "answer_text": "Jawaharlal Nehru",
+    "question_type": "objective",
+    "answer_source": "official-key-ocr",
+    "confidence": 0.9
+  },
+  {
+    "id": "tnpsc-group1-prelims-2016-q6",
+    "source_id": "tnpsc-group1-prelims-2016",
+    "exam": "TNPSC",
+    "year": 2016,
+    "question_number": "6",
+    "question_text": "Pick out the wrong statement.",
+    "options": [
+      "Veerappa, the Zamindar of Koppal rose against the Nizam of Hyderabad in 1819",
+      "Gadkaris were military classes who garrisoned Maratha forts",
+      "Chakra Bisoi was the khonds leader",
+      "Sindhu and Kanhu were the leaders of the Kols"
+    ],
+    "answer_text": "Veerappa, the Zamindar of Koppal rose against the Nizam of Hyderabad in 1819",
+    "question_type": "objective",
+    "answer_source": "official-key-ocr",
+    "confidence": 0.9
+  },
+  {
+    "id": "tnpsc-group1-prelims-2016-q106",
+    "source_id": "tnpsc-group1-prelims-2016",
+    "exam": "TNPSC",
+    "year": 2016,
+    "question_number": "106",
+    "question_text": "Where is the head quarter of the Forest Survey of India (FSI) located?",
+    "options": [
+      "New Delhi",
+      "Dehradun",
+      "Chennai",
+      "Mumbai"
+    ],
+    "answer_text": "Dehradun",
+    "question_type": "objective",
+    "answer_source": "official-key-ocr",
+    "confidence": 0.9
+  }
+]

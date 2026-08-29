@@ -1,0 +1,271 @@
+{
+  "generatedAt": "2026-08-22T20:30:23.984Z",
+  "prompts": [
+    {
+      "key": "dpsp_short",
+      "prompt": "DPSP"
+    },
+    {
+      "key": "dpsp_explicit",
+      "prompt": "What are Directive Principles of State Policy?"
+    },
+    {
+      "key": "fr_short",
+      "prompt": "FR"
+    },
+    {
+      "key": "fr_explain",
+      "prompt": "Explain Fundamental Rights"
+    },
+    {
+      "key": "democracy",
+      "prompt": "What is democracy?"
+    },
+    {
+      "key": "federalism",
+      "prompt": "What is federalism?"
+    },
+    {
+      "key": "fundamental_duties",
+      "prompt": "What are Fundamental Duties?"
+    },
+    {
+      "key": "panchayati_raj",
+      "prompt": "What is Panchayati Raj?"
+    },
+    {
+      "key": "revolt",
+      "prompt": "The revolt of 1857"
+    },
+    {
+      "key": "revolt_causes",
+      "prompt": "Explain the causes of the Revolt of 1857"
+    },
+    {
+      "key": "revolt_explain",
+      "prompt": "Explain the Revolt of 1857"
+    },
+    {
+      "key": "1857",
+      "prompt": "1857"
+    },
+    {
+      "key": "monsoon",
+      "prompt": "Explain Indian monsoon"
+    },
+    {
+      "key": "monsoon_why",
+      "prompt": "Why does monsoon occur in India?"
+    },
+    {
+      "key": "sw_monsoon",
+      "prompt": "Southwest monsoon"
+    },
+    {
+      "key": "river_systems",
+      "prompt": "Explain river systems of India"
+    },
+    {
+      "key": "biodiversity",
+      "prompt": "What is biodiversity?"
+    },
+    {
+      "key": "mineral",
+      "prompt": "What is a mineral?"
+    },
+    {
+      "key": "photosynthesis",
+      "prompt": "What is photosynthesis?"
+    },
+    {
+      "key": "photosynthesis_detail",
+      "prompt": "Explain photosynthesis in detail"
+    },
+    {
+      "key": "nuclear_fission_short",
+      "prompt": "What is nuclear fission?"
+    },
+    {
+      "key": "nuclear_fission_explain",
+      "prompt": "Explain nuclear fission"
+    },
+    {
+      "key": "newton_short",
+      "prompt": "What is Newton's second law?"
+    },
+    {
+      "key": "newton_explain",
+      "prompt": "Explain Newton's second law"
+    },
+    {
+      "key": "gdp",
+      "prompt": "GDP"
+    },
+    {
+      "key": "fiscal_deficit",
+      "prompt": "What is fiscal deficit?"
+    },
+    {
+      "key": "inflation",
+      "prompt": "What is inflation?"
+    },
+    {
+      "key": "national_income",
+      "prompt": "What is national income?"
+    },
+    {
+      "key": "cell_theory",
+      "prompt": "What is the cell theory?"
+    },
+    {
+      "key": "respiratory_system",
+      "prompt": "What is the human respiratory system?"
+    }
+  ],
+  "fixtures": [
+    {
+      "key": "tnpsc",
+      "context": {
+        "primary_exam": "tnpsc",
+        "primary_curriculum": "samacheer",
+        "class_level": 10,
+        "context_source": "onboarding"
+      },
+      "expectedCorpus": "samacheer",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a"
+    },
+    {
+      "key": "upsc",
+      "context": {
+        "primary_exam": "upsc",
+        "primary_curriculum": "ncert",
+        "class_level": 11,
+        "context_source": "onboarding"
+      },
+      "expectedCorpus": "ncert",
+      "userId": "54778a7f-c934-472f-bfa2-b4b22b5fe910"
+    }
+  ],
+  "seededFixtures": [
+    {
+      "fixtureKey": "tnpsc",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a",
+      "studyPayload": {
+        "primary_exam": "tnpsc",
+        "primary_curriculum": "samacheer",
+        "class_level": 10,
+        "context_source": "onboarding"
+      },
+      "protocolTrackId": "tnpsc_ecosystem"
+    },
+    {
+      "fixtureKey": "upsc",
+      "userId": "54778a7f-c934-472f-bfa2-b4b22b5fe910",
+      "studyPayload": {
+        "primary_exam": "upsc",
+        "primary_curriculum": "ncert",
+        "class_level": 11,
+        "context_source": "onboarding"
+      },
+      "protocolTrackId": "upsc_ecosystem"
+    }
+  ],
+  "smokeTests": [],
+  "results": [
+    {
+      "name": "tnpsc:dpsp_short",
+      "fixtureKey": "tnpsc",
+      "prompt": "DPSP",
+      "expectedCorpus": "samacheer",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a",
+      "stream": {
+        "ok": true,
+        "status": 200,
+        "events": [
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "evidence",
+          "done"
+        ],
+        "answer": "# Directive Principles of State Policy (DPSP)\n\nThe Directive Principles of State Policy (DPSP) are listed in **Part IV** of the Indian Constitution, from **Articles 36 to 51**. They are not enforceable by courts but are fundamental for the country's governance, aiming to promote the social welfare of the people. Dr. B.R. Ambedkar described them as 'novel features' of the Indian Constitution.\n\nThe Constitution does not classify DPSPs, but based on their content, they can be categorised into socialistic, Gandhian, and liberal-intellectual principles.\n\nThe 86th Amendment Act of **2002** changed Article 45, making elementary education a Fundamental Right under Article 21A. This amendment directs the state to provide early childhood care and education for all children until they complete six years of age.\n\n**📘 Source:** Samacheer Kalvi Class 10 Social Science • Dpsp"
+      },
+      "actualPrimaryCorpus": "samacheer",
+      "leakageBoards": [],
+      "topSource": {
+        "sourceId": "samacheer-class-10-science-english-science-english-full-10th-social-20science-em-text-pdf",
+        "board": "samacheer",
+        "class_level": 10,
+        "subject": "social-science",
+        "book_title": null,
+        "volume_or_part": null,
+        "chapter_number": null,
+        "chapter_title": null,
+        "unit_type": null,
+        "unit_number": null,
+        "unit_title": null,
+        "excerpt": "1.7 Directive Principles of State Policy The Directive Principles of State Policy are enumerated in Part IV of the Constitution from Articles 36 to 51. The Constitution does not contain any classification of Directive Principles. However, on the basis of their content and direction, they can be classified into three broad categories, viz, socialistic, Gandhian and liberal-intellectual. These principles are not…",
+        "supportingChunkCount": 1
+      },
+      "evidenceAudit": [
+        {
+          "sourceId": "samacheer-class-10-science-english-science-english-full-10th-social-20science-em-text-pdf",
+          "chunkId": "samacheer-class-10-science-english-science-english-full-10th-social-20science-em-text-pdf:0383",
+          "excerpt": "1.7 Directive Principles of State Policy The Directive Principles of State Policy are enumerated in Part IV of the Constitution from Articles 36 to 51. The Constitution does not contain any classification of Directive Principles. However, on the basis of their content and direction, they can be classified into three broad categories, viz, socialistic, Gandhian and liberal-intellectual. These principles are not…",
+          "selectionReason": "selected_direct_support",
+          "selectionScore": 1.06,
+          "selectionDirect": true,
+          "selectionBlocked": false,
+          "requestedAspectMatched": true,
+          "reasonDirect": "explanation_supported",
+          "verdict": "DIRECT",
+          "board": "samacheer",
+          "subject": "social-science",
+          "chapterTitle": null,
+          "unitTitle": null,
+          "chunkType": "lesson_content",
+          "strictReason": "explanation_supported"
+        }
+      ],
+      "auditSupportingEvidence": [
+        {
+          "sourceId": "samacheer-class-10-science-english-science-english-full-10th-social-20science-em-text-pdf",
+          "chunkId": "samacheer-class-10-science-english-science-english-full-10th-social-20science-em-text-pdf:0383",
+          "excerpt": "1.7 Directive Principles of State Policy The Directive Principles of State Policy are enumerated in Part IV of the Constitution from Articles 36 to 51. The Constitution does not contain any classification of Directive Principles. However, on the basis of their content and direction, they can be classified into three broad categories, viz, socialistic, Gandhian and liberal-intellectual. These principles are not…",
+          "selectionReason": "selected_direct_support",
+          "selectionScore": 1.06,
+          "selectionDirect": true,
+          "selectionBlocked": false,
+          "requestedAspectMatched": true,
+          "reasonDirect": "explanation_supported",
+          "verdict": "DIRECT",
+          "board": "samacheer",
+          "subject": "social-science",
+          "chapterTitle": null,
+          "unitTitle": null,
+          "chunkType": "lesson_content",
+          "strictReason": "explanation_supported"
+        }
+      ],
+      "answerCoverage": 1,
+      "verdict": "PASS_DIRECT"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "pass_direct": 1,
+    "pass_partial": 0,
+    "fail": 0,
+    "strictPassRate": 1
+  },
+  "validatorVersion": "strict-v2",
+  "notes": [
+    "TOC/contents/exercise/glossary-adjacent passages are rejected unless they contain an actual proposition answering the requested aspect.",
+    "PASS_DIRECT requires both corpus match and at least one strict supporting passage."
+  ]
+}

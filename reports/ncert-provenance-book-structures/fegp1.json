@@ -1,0 +1,65 @@
+{
+  "schema_version": 4,
+  "book_code": "fegp1",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/fegp1ps.pdf",
+  "fetched_at": "2026-08-16T13:20:19.788Z",
+  "sample": {
+    "class_level": 6,
+    "subject": "mathematics",
+    "book_title": "Ganita Prakash",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "Patterns in Mathematics\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "Lines and Angles\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "Number Play\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "Prime Time\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "Perimeter and Area\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": "Fractions\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "8",
+      "canonical_unit_title": "Playing with Constructions\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "9",
+      "canonical_unit_title": "Symmetry\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "10",
+      "canonical_unit_title": "The Other Side of Zero\b"
+    }
+  ],
+  "evidence_pages": [
+    5,
+    6,
+    18
+  ],
+  "evidence_mode": "official_pdf_text"
+}

@@ -1,0 +1,22 @@
+The /android project does not contain any URI schemes. Expo CLI will not be able to use links to launch the project. You can configure a custom URI scheme using the --scheme option.
+Failed to construct transformer:  Error: Failed to start watch mode.
+    at Timeout._onTimeout (D:\mindwhite\node_modules\metro-file-map\src\Watcher.js:161:24)
+    at listOnTimeout (node:internal/timers:605:17)
+    at processTimers (node:internal/timers:541:7)
+D:\mindwhite\node_modules\@expo\cli\build\src\utils\errors.js:130
+    throw error;
+    ^
+
+Error: UNKNOWN: unknown error, lstat 'D:\mindwhite\supabase\.temp\.output_miga_math_solve\?\D:\mindwhite\supabase\.temp\.output_miga_math_solve'
+    at Object.lstat (node:internal/fs/promises:1029:18)
+    at FallbackWatcher._processChange (D:\mindwhite\node_modules\metro-file-map\src\watchers\FallbackWatcher.js:205:20)
+Emitted 'error' event at:
+    at FallbackWatcher.emitError (D:\mindwhite\node_modules\metro-file-map\src\watchers\AbstractWatcher.js:70:19)
+    at D:\mindwhite\node_modules\metro-file-map\src\watchers\FallbackWatcher.js:193:25 {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'lstat',
+  path: 'D:\\mindwhite\\supabase\\.temp\\.output_miga_math_solve\\?\\D:\\mindwhite\\supabase\\.temp\\.output_miga_math_solve'
+}
+
+Node.js v24.14.1

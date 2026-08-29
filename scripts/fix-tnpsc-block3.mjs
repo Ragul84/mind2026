@@ -1,0 +1,24 @@
+import { createClient } from '@supabase/supabase-js';
+import { readFileSync, writeFileSync } from 'node:fs';
+const env = {};
+for (const f of ['.env', '.env.local']) { try { for (const l of readFileSync(f,'utf8').split(/\r?\n/)){const m=l.match(/^([A-Z0-9_]+)=(.*)$/);if(m)env[m[1]]=m[2].trim();}}catch{} }
+const supabase = createClient(env.EXPO_PUBLIC_SUPABASE_URL, env.SUPABASE_SERVICE_ROLE_KEY);
+const FIXES = { 17: [['Vedanyanyam', 'Vedaranyam']] };
+const apply = (n, subs) => {
+  if (typeof n === 'string'){ let s=n; for(const[f,r]of subs) s=s.split(f).join(r); return s; }
+  if (Array.isArray(n)) return n.map(x=>apply(x,subs));
+  if (n && typeof n==='object'){ const o={}; for(const k of Object.keys(n)) o[k]=apply(n[k],subs); return o; }
+  return n;
+};
+for (const [dayStr, subs] of Object.entries(FIXES)) {
+  const day = Number(dayStr);
+  const { data } = await supabase.from('master_content_vault').select('content_json').eq('track_id','tnpsc_ecosystem').eq('day_number',day).maybeSingle();
+  const json = typeof data.content_json==='string'?JSON.parse(data.content_json):data.content_json;
+  const before = JSON.stringify(json);
+  writeFileSync(`scripts/backup-tnpsc-${day}.json`, before);
+  const count = subs.reduce((a,[f])=>a+(before.split(f).length-1),0);
+  const fixed = apply(json, subs);
+  if (JSON.stringify(fixed)===before){ console.log(`day ${day}: no change`); continue; }
+  const { error } = await supabase.from('master_content_vault').update({content_json:fixed}).eq('track_id','tnpsc_ecosystem').eq('day_number',day);
+  console.log(error?error:`day ${day}: replaced ${count} occurrence(s)`);
+}

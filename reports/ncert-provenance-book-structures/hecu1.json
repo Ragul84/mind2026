@@ -1,0 +1,84 @@
+{
+  "schema_version": 4,
+  "book_code": "hecu1",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/hecu1ps.pdf",
+  "fetched_at": "2026-08-16T13:33:51.947Z",
+  "sample": {
+    "class_level": 8,
+    "subject": "science",
+    "book_title": "Curiosity",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "Exploring the Investigative World of Science\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "The Invisible Living World: Beyond Our Naked Eye\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "Health: The Ultimate Treasure\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "Electricity: Magnetic and Heating Effects\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "Exploring Forces\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "Pressure, Winds, Storms, and Cyclones\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": "Particulate Nature of Matter\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "8",
+      "canonical_unit_title": "Nature of Matter: Elements, Compounds, and Mixtures\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "9",
+      "canonical_unit_title": "The Amazing World of Solutes, Solvents, and Solutions\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "10",
+      "canonical_unit_title": "Light: Mirrors and Lenses\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "11",
+      "canonical_unit_title": "Keeping Time with the Skies\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "12",
+      "canonical_unit_title": "How Nature Works in Harmony\b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "13",
+      "canonical_unit_title": "Our Home: Earth, a Unique Life Sustaining Planet\b"
+    }
+  ],
+  "evidence_pages": [
+    15,
+    18
+  ],
+  "evidence_mode": "official_pdf_text"
+}

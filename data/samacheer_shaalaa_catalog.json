@@ -1,0 +1,461 @@
+{
+  "version": "samacheer_shaalaa_v1",
+  "generated_at_utc": "2026-06-08T18:41:57.301592Z",
+  "topicsByClass": {
+    "class10": [
+      {
+        "id": "english",
+        "name": "English",
+        "redisKey": "samacheer:v2:class10:english",
+        "questionCount": 699,
+        "source": "shaalaa"
+      },
+      {
+        "id": "mathematics",
+        "name": "Mathematics [English]",
+        "redisKey": "samacheer:v2:class10:mathematics",
+        "questionCount": 903,
+        "source": "shaalaa"
+      },
+      {
+        "id": "science",
+        "name": "Science [English]",
+        "redisKey": "samacheer:v2:class10:science",
+        "questionCount": 783,
+        "source": "shaalaa"
+      },
+      {
+        "id": "social-science",
+        "name": "Social Science [English]",
+        "redisKey": "samacheer:v2:class10:social-science",
+        "questionCount": 493,
+        "source": "shaalaa"
+      }
+    ],
+    "class11": [
+      {
+        "id": "accountancy",
+        "name": "Accountancy [English]",
+        "redisKey": "samacheer:v2:class11:accountancy",
+        "questionCount": 336,
+        "source": "shaalaa"
+      },
+      {
+        "id": "biology-botany",
+        "name": "Biology (Botany) [English]",
+        "redisKey": "samacheer:v2:class11:biology-botany",
+        "questionCount": 123,
+        "source": "shaalaa"
+      },
+      {
+        "id": "biology-zoology",
+        "name": "Biology (Zoology) [English]",
+        "redisKey": "samacheer:v2:class11:biology-zoology",
+        "questionCount": 314,
+        "source": "shaalaa"
+      },
+      {
+        "id": "botany",
+        "name": "Botany [English]",
+        "redisKey": "samacheer:v2:class11:botany",
+        "questionCount": 154,
+        "source": "shaalaa"
+      },
+      {
+        "id": "business-mathematics-and-statistics",
+        "name": "Business Mathematics and Statistics [English]",
+        "redisKey": "samacheer:v2:class11:business-mathematics-and-statistics",
+        "questionCount": 749,
+        "source": "shaalaa"
+      },
+      {
+        "id": "chemistry-volume-1-and-2",
+        "name": "Chemistry - Volume 1 and 2 [English]",
+        "redisKey": "samacheer:v2:class11:chemistry-volume-1-and-2",
+        "questionCount": 741,
+        "source": "shaalaa"
+      },
+      {
+        "id": "commerce",
+        "name": "Commerce [English]",
+        "redisKey": "samacheer:v2:class11:commerce",
+        "questionCount": 319,
+        "source": "shaalaa"
+      },
+      {
+        "id": "computer-applications",
+        "name": "Computer Applications [English]",
+        "redisKey": "samacheer:v2:class11:computer-applications",
+        "questionCount": 302,
+        "source": "shaalaa"
+      },
+      {
+        "id": "computer-science",
+        "name": "Computer Science [English]",
+        "redisKey": "samacheer:v2:class11:computer-science",
+        "questionCount": 376,
+        "source": "shaalaa"
+      },
+      {
+        "id": "economics",
+        "name": "Economics [English]",
+        "redisKey": "samacheer:v2:class11:economics",
+        "questionCount": 296,
+        "source": "shaalaa"
+      },
+      {
+        "id": "english",
+        "name": "English",
+        "redisKey": "samacheer:v2:class11:english",
+        "questionCount": 423,
+        "source": "shaalaa"
+      },
+      {
+        "id": "mathematics-volume-1-and-2",
+        "name": "Mathematics - Volume 1 and 2 [English]",
+        "redisKey": "samacheer:v2:class11:mathematics-volume-1-and-2",
+        "questionCount": 1457,
+        "source": "shaalaa"
+      },
+      {
+        "id": "physics-volume-1-and-2",
+        "name": "Physics - Volume 1 and 2 [English]",
+        "redisKey": "samacheer:v2:class11:physics-volume-1-and-2",
+        "questionCount": 528,
+        "source": "shaalaa"
+      },
+      {
+        "id": "zoology",
+        "name": "Zoology [English]",
+        "redisKey": "samacheer:v2:class11:zoology",
+        "questionCount": 331,
+        "source": "shaalaa"
+      }
+    ],
+    "class12": [
+      {
+        "id": "accountancy",
+        "name": "Accountancy [English]",
+        "redisKey": "samacheer:v2:class12:accountancy",
+        "questionCount": 224,
+        "source": "shaalaa"
+      },
+      {
+        "id": "biology-botany",
+        "name": "Biology (Botany) [English]",
+        "redisKey": "samacheer:v2:class12:biology-botany",
+        "questionCount": 295,
+        "source": "shaalaa"
+      },
+      {
+        "id": "biology-zoology",
+        "name": "Biology (Zoology) [English]",
+        "redisKey": "samacheer:v2:class12:biology-zoology",
+        "questionCount": 338,
+        "source": "shaalaa"
+      },
+      {
+        "id": "botany",
+        "name": "Botany [English]",
+        "redisKey": "samacheer:v2:class12:botany",
+        "questionCount": 349,
+        "source": "shaalaa"
+      },
+      {
+        "id": "business-mathematics-and-statistics",
+        "name": "Business Mathematics and Statistics [English]",
+        "redisKey": "samacheer:v2:class12:business-mathematics-and-statistics",
+        "questionCount": 787,
+        "source": "shaalaa"
+      },
+      {
+        "id": "chemistry-volume-1-and-2",
+        "name": "Chemistry - Volume 1 and 2 [English]",
+        "redisKey": "samacheer:v2:class12:chemistry-volume-1-and-2",
+        "questionCount": 709,
+        "source": "shaalaa"
+      },
+      {
+        "id": "commerce",
+        "name": "Commerce [English]",
+        "redisKey": "samacheer:v2:class12:commerce",
+        "questionCount": 303,
+        "source": "shaalaa"
+      },
+      {
+        "id": "computer-applications",
+        "name": "Computer Applications [English]",
+        "redisKey": "samacheer:v2:class12:computer-applications",
+        "questionCount": 306,
+        "source": "shaalaa"
+      },
+      {
+        "id": "computer-science",
+        "name": "Computer Science [English]",
+        "redisKey": "samacheer:v2:class12:computer-science",
+        "questionCount": 324,
+        "source": "shaalaa"
+      },
+      {
+        "id": "economics",
+        "name": "Economics [English]",
+        "redisKey": "samacheer:v2:class12:economics",
+        "questionCount": 355,
+        "source": "shaalaa"
+      },
+      {
+        "id": "english",
+        "name": "English",
+        "redisKey": "samacheer:v2:class12:english",
+        "questionCount": 611,
+        "source": "shaalaa"
+      },
+      {
+        "id": "mathematics-volume-1-and-2",
+        "name": "Mathematics - Volume 1 and 2 [English]",
+        "redisKey": "samacheer:v2:class12:mathematics-volume-1-and-2",
+        "questionCount": 1053,
+        "source": "shaalaa"
+      },
+      {
+        "id": "physics-volume-1-and-2",
+        "name": "Physics - Volume 1 and 2 [English]",
+        "redisKey": "samacheer:v2:class12:physics-volume-1-and-2",
+        "questionCount": 535,
+        "source": "shaalaa"
+      }
+    ],
+    "class6": [
+      {
+        "id": "english-term-1",
+        "name": "English - Term 1",
+        "redisKey": "samacheer:v2:class6:english-term-1",
+        "questionCount": 170,
+        "source": "shaalaa"
+      },
+      {
+        "id": "english-term-2",
+        "name": "English - Term 2",
+        "redisKey": "samacheer:v2:class6:english-term-2",
+        "questionCount": 119,
+        "source": "shaalaa"
+      },
+      {
+        "id": "english-term-3",
+        "name": "English - Term 3",
+        "redisKey": "samacheer:v2:class6:english-term-3",
+        "questionCount": 140,
+        "source": "shaalaa"
+      },
+      {
+        "id": "mathematics-term-1",
+        "name": "Mathematics - Term 1 [English]",
+        "redisKey": "samacheer:v2:class6:mathematics-term-1",
+        "questionCount": 322,
+        "source": "shaalaa"
+      },
+      {
+        "id": "mathematics-term-2",
+        "name": "Mathematics - Term 2 [English]",
+        "redisKey": "samacheer:v2:class6:mathematics-term-2",
+        "questionCount": 270,
+        "source": "shaalaa"
+      },
+      {
+        "id": "mathematics-term-3",
+        "name": "Mathematics - Term 3 [English]",
+        "redisKey": "samacheer:v2:class6:mathematics-term-3",
+        "questionCount": 208,
+        "source": "shaalaa"
+      },
+      {
+        "id": "science-term-1",
+        "name": "Science - Term 1 [English]",
+        "redisKey": "samacheer:v2:class6:science-term-1",
+        "questionCount": 166,
+        "source": "shaalaa"
+      },
+      {
+        "id": "science-term-2",
+        "name": "Science - Term 2 [English]",
+        "redisKey": "samacheer:v2:class6:science-term-2",
+        "questionCount": 139,
+        "source": "shaalaa"
+      },
+      {
+        "id": "science-term-3",
+        "name": "Science - Term 3 [English]",
+        "redisKey": "samacheer:v2:class6:science-term-3",
+        "questionCount": 120,
+        "source": "shaalaa"
+      },
+      {
+        "id": "social-science-term-1",
+        "name": "Social Science - Term 1 [English]",
+        "redisKey": "samacheer:v2:class6:social-science-term-1",
+        "questionCount": 201,
+        "source": "shaalaa"
+      },
+      {
+        "id": "social-science-term-2",
+        "name": "Social Science - Term 2 [English]",
+        "redisKey": "samacheer:v2:class6:social-science-term-2",
+        "questionCount": 173,
+        "source": "shaalaa"
+      },
+      {
+        "id": "social-science-term-3",
+        "name": "Social Science - Term 3 [English]",
+        "redisKey": "samacheer:v2:class6:social-science-term-3",
+        "questionCount": 193,
+        "source": "shaalaa"
+      }
+    ],
+    "class7": [
+      {
+        "id": "english-term-1",
+        "name": "English - Term 1",
+        "redisKey": "samacheer:v2:class7:english-term-1",
+        "questionCount": 208,
+        "source": "shaalaa"
+      },
+      {
+        "id": "english-term-2",
+        "name": "English - Term 2",
+        "redisKey": "samacheer:v2:class7:english-term-2",
+        "questionCount": 97,
+        "source": "shaalaa"
+      },
+      {
+        "id": "english-term-3",
+        "name": "English - Term 3",
+        "redisKey": "samacheer:v2:class7:english-term-3",
+        "questionCount": 124,
+        "source": "shaalaa"
+      },
+      {
+        "id": "mathematics-term-1",
+        "name": "Mathematics - Term 1 [English]",
+        "redisKey": "samacheer:v2:class7:mathematics-term-1",
+        "questionCount": 387,
+        "source": "shaalaa"
+      },
+      {
+        "id": "mathematics-term-2",
+        "name": "Mathematics - Term 2 [English]",
+        "redisKey": "samacheer:v2:class7:mathematics-term-2",
+        "questionCount": 350,
+        "source": "shaalaa"
+      },
+      {
+        "id": "mathematics-term-3",
+        "name": "Mathematics - Term 3 [English]",
+        "redisKey": "samacheer:v2:class7:mathematics-term-3",
+        "questionCount": 352,
+        "source": "shaalaa"
+      },
+      {
+        "id": "science-term-1",
+        "name": "Science - Term 1 [English]",
+        "redisKey": "samacheer:v2:class7:science-term-1",
+        "questionCount": 176,
+        "source": "shaalaa"
+      },
+      {
+        "id": "science-term-2",
+        "name": "Science - Term 2 [English]",
+        "redisKey": "samacheer:v2:class7:science-term-2",
+        "questionCount": 142,
+        "source": "shaalaa"
+      },
+      {
+        "id": "science-term-3",
+        "name": "Science - Term 3 [English]",
+        "redisKey": "samacheer:v2:class7:science-term-3",
+        "questionCount": 152,
+        "source": "shaalaa"
+      },
+      {
+        "id": "social-science-term-1",
+        "name": "Social Science - Term 1 [English]",
+        "redisKey": "samacheer:v2:class7:social-science-term-1",
+        "questionCount": 204,
+        "source": "shaalaa"
+      },
+      {
+        "id": "social-science-term-2",
+        "name": "Social Science - Term 2 [English]",
+        "redisKey": "samacheer:v2:class7:social-science-term-2",
+        "questionCount": 141,
+        "source": "shaalaa"
+      },
+      {
+        "id": "social-science-term-3",
+        "name": "Social Science - Term 3 [English]",
+        "redisKey": "samacheer:v2:class7:social-science-term-3",
+        "questionCount": 185,
+        "source": "shaalaa"
+      }
+    ],
+    "class8": [
+      {
+        "id": "english",
+        "name": "English",
+        "redisKey": "samacheer:v2:class8:english",
+        "questionCount": 650,
+        "source": "shaalaa"
+      },
+      {
+        "id": "mathematics",
+        "name": "Mathematics [English]",
+        "redisKey": "samacheer:v2:class8:mathematics",
+        "questionCount": 678,
+        "source": "shaalaa"
+      },
+      {
+        "id": "science",
+        "name": "Science [English]",
+        "redisKey": "samacheer:v2:class8:science",
+        "questionCount": 505,
+        "source": "shaalaa"
+      },
+      {
+        "id": "social-science",
+        "name": "Social Science [English]",
+        "redisKey": "samacheer:v2:class8:social-science",
+        "questionCount": 506,
+        "source": "shaalaa"
+      }
+    ],
+    "class9": [
+      {
+        "id": "english",
+        "name": "English",
+        "redisKey": "samacheer:v2:class9:english",
+        "questionCount": 635,
+        "source": "shaalaa"
+      },
+      {
+        "id": "mathematics",
+        "name": "Mathematics [English]",
+        "redisKey": "samacheer:v2:class9:mathematics",
+        "questionCount": 788,
+        "source": "shaalaa"
+      },
+      {
+        "id": "science",
+        "name": "Science [English]",
+        "redisKey": "samacheer:v2:class9:science",
+        "questionCount": 525,
+        "source": "shaalaa"
+      },
+      {
+        "id": "social-science",
+        "name": "Social Science [English]",
+        "redisKey": "samacheer:v2:class9:social-science",
+        "questionCount": 447,
+        "source": "shaalaa"
+      }
+    ]
+  }
+}

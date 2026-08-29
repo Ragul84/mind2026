@@ -1,0 +1,271 @@
+{
+  "generatedAt": "2026-08-23T07:30:09.134Z",
+  "prompts": [
+    {
+      "key": "dpsp_short",
+      "prompt": "DPSP"
+    },
+    {
+      "key": "dpsp_explicit",
+      "prompt": "What are Directive Principles of State Policy?"
+    },
+    {
+      "key": "fr_short",
+      "prompt": "FR"
+    },
+    {
+      "key": "fr_explain",
+      "prompt": "Explain Fundamental Rights"
+    },
+    {
+      "key": "democracy",
+      "prompt": "What is democracy?"
+    },
+    {
+      "key": "federalism",
+      "prompt": "What is federalism?"
+    },
+    {
+      "key": "fundamental_duties",
+      "prompt": "What are Fundamental Duties?"
+    },
+    {
+      "key": "panchayati_raj",
+      "prompt": "What is Panchayati Raj?"
+    },
+    {
+      "key": "revolt",
+      "prompt": "The revolt of 1857"
+    },
+    {
+      "key": "revolt_causes",
+      "prompt": "Explain the causes of the Revolt of 1857"
+    },
+    {
+      "key": "revolt_explain",
+      "prompt": "Explain the Revolt of 1857"
+    },
+    {
+      "key": "1857",
+      "prompt": "1857"
+    },
+    {
+      "key": "monsoon",
+      "prompt": "Explain Indian monsoon"
+    },
+    {
+      "key": "monsoon_why",
+      "prompt": "Why does monsoon occur in India?"
+    },
+    {
+      "key": "sw_monsoon",
+      "prompt": "Southwest monsoon"
+    },
+    {
+      "key": "river_systems",
+      "prompt": "Explain river systems of India"
+    },
+    {
+      "key": "biodiversity",
+      "prompt": "What is biodiversity?"
+    },
+    {
+      "key": "mineral",
+      "prompt": "What is a mineral?"
+    },
+    {
+      "key": "photosynthesis",
+      "prompt": "What is photosynthesis?"
+    },
+    {
+      "key": "photosynthesis_detail",
+      "prompt": "Explain photosynthesis in detail"
+    },
+    {
+      "key": "nuclear_fission_short",
+      "prompt": "What is nuclear fission?"
+    },
+    {
+      "key": "nuclear_fission_explain",
+      "prompt": "Explain nuclear fission"
+    },
+    {
+      "key": "newton_short",
+      "prompt": "What is Newton's second law?"
+    },
+    {
+      "key": "newton_explain",
+      "prompt": "Explain Newton's second law"
+    },
+    {
+      "key": "gdp",
+      "prompt": "GDP"
+    },
+    {
+      "key": "fiscal_deficit",
+      "prompt": "What is fiscal deficit?"
+    },
+    {
+      "key": "inflation",
+      "prompt": "What is inflation?"
+    },
+    {
+      "key": "national_income",
+      "prompt": "What is national income?"
+    },
+    {
+      "key": "cell_theory",
+      "prompt": "What is the cell theory?"
+    },
+    {
+      "key": "respiratory_system",
+      "prompt": "What is the human respiratory system?"
+    }
+  ],
+  "fixtures": [
+    {
+      "key": "tnpsc",
+      "context": {
+        "primary_exam": "tnpsc",
+        "primary_curriculum": "samacheer",
+        "class_level": 10,
+        "context_source": "onboarding"
+      },
+      "expectedCorpus": "samacheer",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a"
+    },
+    {
+      "key": "upsc",
+      "context": {
+        "primary_exam": "upsc",
+        "primary_curriculum": "ncert",
+        "class_level": 11,
+        "context_source": "onboarding"
+      },
+      "expectedCorpus": "ncert",
+      "userId": "54778a7f-c934-472f-bfa2-b4b22b5fe910"
+    }
+  ],
+  "seededFixtures": [
+    {
+      "fixtureKey": "tnpsc",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a",
+      "studyPayload": {
+        "primary_exam": "tnpsc",
+        "primary_curriculum": "samacheer",
+        "class_level": 10,
+        "context_source": "onboarding"
+      },
+      "protocolTrackId": "tnpsc_ecosystem"
+    },
+    {
+      "fixtureKey": "upsc",
+      "userId": "54778a7f-c934-472f-bfa2-b4b22b5fe910",
+      "studyPayload": {
+        "primary_exam": "upsc",
+        "primary_curriculum": "ncert",
+        "class_level": 11,
+        "context_source": "onboarding"
+      },
+      "protocolTrackId": "upsc_ecosystem"
+    }
+  ],
+  "smokeTests": [],
+  "results": [
+    {
+      "name": "tnpsc:newton_explain",
+      "fixtureKey": "tnpsc",
+      "prompt": "Explain Newton's second law",
+      "expectedCorpus": "samacheer",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a",
+      "stream": {
+        "ok": true,
+        "status": 200,
+        "events": [
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "evidence",
+          "done"
+        ],
+        "answer": "# Newton's Second Law\n\nNewton's second law of motion states that the rate of change of momentum of an object is directly proportional to the applied unbalanced force in the direction of the force.\n\nMathematically, it is expressed as:\n$F = ma$\n\nWhere:\n*   **F** = net external force acting on the object (in Newtons)\n*   **m** = mass of the object (in kg)\n*   **a** = acceleration of the object (in m/s²)\n\nThis law provides a method to measure the force acting on an object as a product of its mass and acceleration . It applies when there is a net external force acting on a body .\n\n**📘 Source:** NCERT Class 9 Science • Newton Second Law"
+      },
+      "actualPrimaryCorpus": "ncert",
+      "leakageBoards": [],
+      "topSource": {
+        "sourceId": "ncert-class-9-science-science-en-chapter-08-pdf",
+        "board": "ncert",
+        "class_level": 9,
+        "subject": "science",
+        "book_title": null,
+        "volume_or_part": null,
+        "chapter_number": null,
+        "chapter_title": null,
+        "unit_type": null,
+        "unit_number": null,
+        "unit_title": null,
+        "excerpt": "4.1 MATHEMATICAL FORMULATION OF SECOND LAW OF MOTION Suppose an object of mass, m is moving along a straight line with an initial velocity, u. It is uniformly accelerated to velocity, v in time, t by the application of a constant for ce, F throughout the time, t. The initial and final momentum of the object will be, p1 = mu and p2 = mv r espectively. The change in momentum ∝ p2 – p1 ∝ mv – mu ∝ m × (v – u). The rate…",
+        "supportingChunkCount": 1
+      },
+      "evidenceAudit": [
+        {
+          "sourceId": "ncert-class-9-science-science-en-chapter-08-pdf",
+          "chunkId": "ncert-class-9-science-science-en-chapter-08-pdf:0026",
+          "excerpt": "4.1 MATHEMATICAL FORMULATION OF SECOND LAW OF MOTION Suppose an object of mass, m is moving along a straight line with an initial velocity, u. It is uniformly accelerated to velocity, v in time, t by the application of a constant for ce, F throughout the time, t. The initial and final momentum of the object will be, p1 = mu and p2 = mv r espectively. The change in momentum ∝ p2 – p1 ∝ mv – mu ∝ m × (v – u). The rate…",
+          "selectionReason": "selected_direct_support",
+          "selectionScore": 0.6466666666666667,
+          "selectionDirect": true,
+          "selectionBlocked": false,
+          "requestedAspectMatched": true,
+          "reasonDirect": "explanation_supported",
+          "verdict": "DIRECT",
+          "board": "ncert",
+          "subject": "science",
+          "chapterTitle": null,
+          "unitTitle": null,
+          "chunkType": "lesson_content",
+          "strictReason": "explanation_supported"
+        }
+      ],
+      "auditSupportingEvidence": [
+        {
+          "sourceId": "ncert-class-9-science-science-en-chapter-08-pdf",
+          "chunkId": "ncert-class-9-science-science-en-chapter-08-pdf:0026",
+          "excerpt": "4.1 MATHEMATICAL FORMULATION OF SECOND LAW OF MOTION Suppose an object of mass, m is moving along a straight line with an initial velocity, u. It is uniformly accelerated to velocity, v in time, t by the application of a constant for ce, F throughout the time, t. The initial and final momentum of the object will be, p1 = mu and p2 = mv r espectively. The change in momentum ∝ p2 – p1 ∝ mv – mu ∝ m × (v – u). The rate…",
+          "selectionReason": "selected_direct_support",
+          "selectionScore": 0.6466666666666667,
+          "selectionDirect": true,
+          "selectionBlocked": false,
+          "requestedAspectMatched": true,
+          "reasonDirect": "explanation_supported",
+          "verdict": "DIRECT",
+          "board": "ncert",
+          "subject": "science",
+          "chapterTitle": null,
+          "unitTitle": null,
+          "chunkType": "lesson_content",
+          "strictReason": "explanation_supported"
+        }
+      ],
+      "answerCoverage": 1,
+      "verdict": "FAIL_WRONG_CORPUS"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "pass_direct": 0,
+    "pass_partial": 0,
+    "fail": 1,
+    "strictPassRate": 0
+  },
+  "validatorVersion": "strict-v2",
+  "notes": [
+    "TOC/contents/exercise/glossary-adjacent passages are rejected unless they contain an actual proposition answering the requested aspect.",
+    "PASS_DIRECT requires both corpus match and at least one strict supporting passage."
+  ]
+}

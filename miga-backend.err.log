@@ -1,0 +1,173 @@
+D:\mindwhite\bot\server.py:134: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [30308]
+INFO:     Waiting for application startup.
+INFO:__main__:[ENV] OPENAI_API_KEY set: True
+INFO:__main__:[ENV] EXPO_PUBLIC_OPENROUTER_API_KEY set: True
+INFO:__main__:[ENV] OPENAI_API_BASE: https://openrouter.ai/api/v1
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:7860 (Press CTRL+C to quit)
+INFO:     10.18.113.23:54156 - "WebSocket /ws_story" [accepted]
+INFO:     connection open
+INFO:__main__:[WS] mode=tutor input_kind=topic model=google/gemini-3.1-flash-lite query=Hi
+INFO:__main__:[JSON] trying model=google/gemini-3.1-flash-lite
+INFO:__main__:[JSON] google/gemini-3.1-flash-lite returned len=490 preview={
+  "speech_text": "Hello Friend, I am ready to help you prepare for your competitive exams; what topic would you like to master today?",
+  "emotion":
+INFO:__main__:[WS] mode=tutor input_kind=topic model=google/gemini-3.1-flash-lite query=Hai
+INFO:__main__:[JSON] trying model=google/gemini-3.1-flash-lite
+INFO:__main__:[JSON] google/gemini-3.1-flash-lite returned len=504 preview={
+  "speech_text": "\u0bb5\u0ba3\u0b95\u0bcd\u0b95\u0bae\u0bcd Friend, \u0b89\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0baa\u0bcb\u0b9f\u0bcd\u0b9f\u0bbf\u0ba4\u0bcd \u0ba4\u0bc7\u0bb0\u0bcd\u0bb5\u0bc1\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba4\u0bcd \u0ba4\u0baf\u0bbe\u0bb0\u0bbe\u0b95 \u0ba8\u0bbe\u0ba9\u0bcd \u0ba4\u0baf\u0bbe\u0bb0\u0bbe\u0b95 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bc7\u0ba9\u0bcd; \u0b87\u0ba9\u0bcd\u0bb1\u0bc1 \u0b8e\u0ba8\u0bcd\u0ba4\u0baa\u0bcd \u0baa\u0bbe\u0b9f\u0ba4\u0bcd\u0ba4\u0bc8 \u0ba8\u0bbe\u0bae\u0bcd \u0bb5\u0bbf\u0bb0\u0bbf\u0bb5\u0bbe\u0b95\u0b95\u0bcd \u0b95\u0bb1\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd?",
+  
+INFO:__main__:[WS] mode=tutor input_kind=topic model=google/gemini-3.1-flash-lite query=Photosynthets
+INFO:__main__:[JSON] trying model=google/gemini-3.1-flash-lite
+INFO:__main__:[JSON] google/gemini-3.1-flash-lite returned len=1390 preview={
+  "speech_text": "Photosynthesis-na enna nu paarkalam. Idhu plants, sunlight-ai payanpaduthi carbon dioxide matrum water-ai glucose-ah mathum oru ch
+INFO:__main__:[WS] mode=tutor input_kind=topic model=google/gemini-3.1-flash-lite query=Sunlight
+INFO:__main__:[JSON] trying model=google/gemini-3.1-flash-lite
+INFO:__main__:[JSON] google/gemini-3.1-flash-lite returned len=1271 preview={
+  "speech_text": "Correct, sunlight thaan intha process-kku mukkiamana energy source. Sun-la irukkum light energy-ai, plants chemical energy-a mathi
+INFO:     connection closed
+INFO:     10.18.113.23:33266 - "WebSocket /ws_story" [accepted]
+INFO:     connection open
+INFO:__main__:[WS] mode=tutor input_kind=topic model=google/gemini-3.1-flash-lite query=Hai
+INFO:__main__:[JSON] trying model=google/gemini-3.1-flash-lite
+INFO:__main__:[JSON] google/gemini-3.1-flash-lite returned len=513 preview={
+  "speech_text": "Hello Friend, I am ready to help you prepare for your competitive exams, so please let me know which topic you would like to maste
+INFO:__main__:[WS] mode=tutor input_kind=topic model=google/gemini-3.1-flash-lite query=Photosynthesis
+INFO:__main__:[JSON] trying model=google/gemini-3.1-flash-lite
+INFO:__main__:[JSON] google/gemini-3.1-flash-lite returned len=1494 preview={
+  "speech_text": "Photosynthesis is the fundamental biological process where green plants, algae, and some bacteria convert light energy into chemic
+INFO:__main__:[WS] mode=tutor input_kind=topic model=google/gemini-3.1-flash-lite query=Starch?
+INFO:__main__:[JSON] trying model=google/gemini-3.1-flash-lite
+ERROR:__main__:[OpenRouter] structured turn failed with no local fallback: HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=6.0)
+ERROR:__main__:Story websocket error: MIGA AI request failed: HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=6.0)
+Traceback (most recent call last):
+  File "D:\mindwhite\bot\venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\mindwhite\bot\venv\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ragul\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+  File "C:\Users\ragul\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ragul\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ragul\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ragul\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ragul\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\mindwhite\bot\venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\mindwhite\bot\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\mindwhite\bot\venv\Lib\site-packages\urllib3\util\retry.py", line 490, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\mindwhite\bot\venv\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "D:\mindwhite\bot\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\mindwhite\bot\venv\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "D:\mindwhite\bot\venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=6.0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\mindwhite\bot\server.py", line 1270, in _generate_structured_turn
+    data = await _openrouter_complete_json(messages, model=model) if model else await _openrouter_complete_json(messages)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\mindwhite\bot\server.py", line 1078, in _openrouter_complete_json
+    resp = await asyncio.to_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ragul\AppData\Local\Programs\Python\Python312\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ragul\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\mindwhite\bot\venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\mindwhite\bot\venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\mindwhite\bot\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\mindwhite\bot\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\mindwhite\bot\venv\Lib\site-packages\requests\adapters.py", line 690, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=6.0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\mindwhite\bot\server.py", line 1771, in story_ws
+    structured = await _generate_structured_turn(mode, query, context, lang_code, profile, model=effective_model, input_kind=input_kind)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\mindwhite\bot\server.py", line 1290, in _generate_structured_turn
+    raise RuntimeError(f"MIGA AI request failed: {e}")
+RuntimeError: MIGA AI request failed: HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=6.0)
+
+INFO:     connection closed
+INFO:     10.18.113.23:38122 - "WebSocket /ws_story" [accepted]
+INFO:     connection open
+INFO:__main__:[WS] mode=tutor input_kind=topic model=google/gemini-3.1-flash-lite query=Why u stopped
+INFO:__main__:[JSON] trying model=google/gemini-3.1-flash-lite
+INFO:__main__:[JSON] google/gemini-3.1-flash-lite returned len=1473 preview={
+  "speech_text": "I am right here, Friend! I was waiting for your answer to my previous question so we could continue our journey into the fascinati
+INFO:     connection closed
+INFO:     10.18.113.23:38582 - "WebSocket /ws_story" [accepted]
+INFO:     connection open
+INFO:__main__:[WS] mode=tutor input_kind=topic model=google/gemini-3.1-flash-lite query=Ohho
+INFO:__main__:[JSON] trying model=google/gemini-3.1-flash-lite
+INFO:__main__:[JSON] google/gemini-3.1-flash-lite returned len=1275 preview={
+  "speech_text": "I see you are ready to dive back in, Friend! To clarify our earlier point, the process of photosynthesis is essentially a chemical
+INFO:__main__:[WS] mode=tutor input_kind=topic model=google/gemini-3.1-flash-lite query=Starch?
+INFO:__main__:[JSON] trying model=google/gemini-3.1-flash-lite
+INFO:__main__:[JSON] google/gemini-3.1-flash-lite returned len=1265 preview={
+  "speech_text": "Not quite, Friend. Starch is actually the storage form of the glucose that the plant produces after the process is complete. The p
+INFO:__main__:[WS] mode=tutor input_kind=topic model=google/gemini-3.1-flash-lite query=Chloroplast
+INFO:__main__:[JSON] trying model=google/gemini-3.1-flash-lite
+INFO:__main__:[JSON] google/gemini-3.1-flash-lite returned len=1414 preview={
+  "speech_text": "That is spot on, Friend! You identified the organelle, and specifically, the pigment inside it is Chlorophyll. This pigment is the
+INFO:__main__:[WS] mode=tutor input_kind=topic model=google/gemini-3.1-flash-lite query=Co2
+INFO:__main__:[JSON] trying model=google/gemini-3.1-flash-lite
+INFO:__main__:[JSON] google/gemini-3.1-flash-lite returned len=1378 preview={
+  "speech_text": "Actually, Carbon Dioxide is taken in by the plant from the atmosphere to be used in the later stages, not released. When water mol
+INFO:     connection closed
+INFO:     10.18.113.23:45674 - "WebSocket /ws_story" [accepted]
+INFO:     connection open
+INFO:__main__:[WS] mode=tutor input_kind=topic model=google/gemini-3.1-flash-lite query=Gm
+INFO:__main__:[JSON] trying model=google/gemini-3.1-flash-lite
+INFO:__main__:[JSON] google/gemini-3.1-flash-lite returned len=517 preview={
+  "speech_text": "Good morning! It is a pleasure to start our session today; please let me know which topic you would like to master for your compet
+INFO:     connection closed

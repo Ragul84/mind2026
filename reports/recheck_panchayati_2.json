@@ -1,0 +1,253 @@
+{
+  "generatedAt": "2026-08-23T09:11:34.971Z",
+  "prompts": [
+    {
+      "key": "dpsp_short",
+      "prompt": "DPSP"
+    },
+    {
+      "key": "dpsp_explicit",
+      "prompt": "What are Directive Principles of State Policy?"
+    },
+    {
+      "key": "fr_short",
+      "prompt": "FR"
+    },
+    {
+      "key": "fr_explain",
+      "prompt": "Explain Fundamental Rights"
+    },
+    {
+      "key": "democracy",
+      "prompt": "What is democracy?"
+    },
+    {
+      "key": "federalism",
+      "prompt": "What is federalism?"
+    },
+    {
+      "key": "fundamental_duties",
+      "prompt": "What are Fundamental Duties?"
+    },
+    {
+      "key": "panchayati_raj",
+      "prompt": "What is Panchayati Raj?"
+    },
+    {
+      "key": "revolt",
+      "prompt": "The revolt of 1857"
+    },
+    {
+      "key": "revolt_causes",
+      "prompt": "Explain the causes of the Revolt of 1857"
+    },
+    {
+      "key": "revolt_explain",
+      "prompt": "Explain the Revolt of 1857"
+    },
+    {
+      "key": "1857",
+      "prompt": "1857"
+    },
+    {
+      "key": "monsoon",
+      "prompt": "Explain Indian monsoon"
+    },
+    {
+      "key": "monsoon_why",
+      "prompt": "Why does monsoon occur in India?"
+    },
+    {
+      "key": "sw_monsoon",
+      "prompt": "Southwest monsoon"
+    },
+    {
+      "key": "river_systems",
+      "prompt": "Explain river systems of India"
+    },
+    {
+      "key": "biodiversity",
+      "prompt": "What is biodiversity?"
+    },
+    {
+      "key": "mineral",
+      "prompt": "What is a mineral?"
+    },
+    {
+      "key": "photosynthesis",
+      "prompt": "What is photosynthesis?"
+    },
+    {
+      "key": "photosynthesis_detail",
+      "prompt": "Explain photosynthesis in detail"
+    },
+    {
+      "key": "nuclear_fission_short",
+      "prompt": "What is nuclear fission?"
+    },
+    {
+      "key": "nuclear_fission_explain",
+      "prompt": "Explain nuclear fission"
+    },
+    {
+      "key": "newton_short",
+      "prompt": "What is Newton's second law?"
+    },
+    {
+      "key": "newton_explain",
+      "prompt": "Explain Newton's second law"
+    },
+    {
+      "key": "gdp",
+      "prompt": "GDP"
+    },
+    {
+      "key": "fiscal_deficit",
+      "prompt": "What is fiscal deficit?"
+    },
+    {
+      "key": "inflation",
+      "prompt": "What is inflation?"
+    },
+    {
+      "key": "national_income",
+      "prompt": "What is national income?"
+    },
+    {
+      "key": "cell_theory",
+      "prompt": "What is the cell theory?"
+    },
+    {
+      "key": "respiratory_system",
+      "prompt": "What is the human respiratory system?"
+    }
+  ],
+  "fixtures": [
+    {
+      "key": "tnpsc",
+      "context": {
+        "primary_exam": "tnpsc",
+        "primary_curriculum": "samacheer",
+        "class_level": 10,
+        "context_source": "onboarding"
+      },
+      "expectedCorpus": "samacheer",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a"
+    },
+    {
+      "key": "upsc",
+      "context": {
+        "primary_exam": "upsc",
+        "primary_curriculum": "ncert",
+        "class_level": 11,
+        "context_source": "onboarding"
+      },
+      "expectedCorpus": "ncert",
+      "userId": "54778a7f-c934-472f-bfa2-b4b22b5fe910"
+    }
+  ],
+  "seededFixtures": [
+    {
+      "fixtureKey": "tnpsc",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a",
+      "studyPayload": {
+        "primary_exam": "tnpsc",
+        "primary_curriculum": "samacheer",
+        "class_level": 10,
+        "context_source": "onboarding"
+      },
+      "protocolTrackId": "tnpsc_ecosystem"
+    },
+    {
+      "fixtureKey": "upsc",
+      "userId": "54778a7f-c934-472f-bfa2-b4b22b5fe910",
+      "studyPayload": {
+        "primary_exam": "upsc",
+        "primary_curriculum": "ncert",
+        "class_level": 11,
+        "context_source": "onboarding"
+      },
+      "protocolTrackId": "upsc_ecosystem"
+    }
+  ],
+  "smokeTests": [],
+  "results": [
+    {
+      "name": "tnpsc:panchayati_raj",
+      "fixtureKey": "tnpsc",
+      "prompt": "What is Panchayati Raj?",
+      "expectedCorpus": "samacheer",
+      "userId": "5edfdff2-9c4a-430e-a3af-a5347d44098a",
+      "stream": {
+        "ok": true,
+        "status": 200,
+        "events": [
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "token",
+          "evidence",
+          "done"
+        ],
+        "answer": "# Panchayati Raj\n\nPanchayati Raj refers to the system of Panchayat institutions, which are rural local governments in India. It means the institutions that deliberate, discuss, and decide on local matters .\n\nThe system aims to empower people at the grassroots level, as emphasized by Mahatma Gandhi, who believed in putting power in the hands of the people through this model .\n\nThe Constitution of India, specifically **Article 40** in Part IV (Directive Principle of State Policy), mandates that the State shall take steps to organize village panchayats and endow them with necessary powers to function as units of self-government .\n\n**📘 Source:** Samacheer Kalvi Class 11 Political Science • Panchayati Raj"
+      },
+      "actualPrimaryCorpus": "samacheer",
+      "leakageBoards": [],
+      "topSource": {
+        "sourceId": "samacheer-class-11-political-science-english-book-pdf",
+        "board": "samacheer",
+        "class_level": 11,
+        "subject": "political-science",
+        "book_title": null,
+        "volume_or_part": null,
+        "chapter_number": null,
+        "chapter_title": null,
+        "unit_type": null,
+        "unit_number": null,
+        "unit_title": null,
+        "excerpt": "223 facilitated only through effective local self-government. “I shall work for an India in which the poorest shall feel that it is their country, in whose making they have an effective voice. ” Gandhi time and again emphasized need for power in the hands of the people in India through the Panchayat Raj model. Gandhi said, “The greater the power of the people, the better for the people. ” For Ambedkar, those villages…",
+        "supportingChunkCount": 1
+      },
+      "evidenceAudit": [
+        {
+          "sourceId": "samacheer-class-11-political-science-english-book-pdf",
+          "chunkId": "samacheer-class-11-political-science-english-book-pdf:0370",
+          "excerpt": "223 facilitated only through effective local self-government. “I shall work for an India in which the poorest shall feel that it is their country, in whose making they have an effective voice. ” Gandhi time and again emphasized need for power in the hands of the people in India through the Panchayat Raj model. Gandhi said, “The greater the power of the people, the better for the people. ” For Ambedkar, those villages…",
+          "selectionReason": "selected_direct_support",
+          "selectionScore": 0.8300000000000001,
+          "selectionDirect": true,
+          "selectionBlocked": false,
+          "requestedAspectMatched": false,
+          "reasonDirect": "definition_marker_missing",
+          "verdict": "REJECTED",
+          "board": "samacheer",
+          "subject": "political-science",
+          "chapterTitle": null,
+          "unitTitle": null,
+          "chunkType": "lesson_content",
+          "strictReason": "definition_marker_missing"
+        }
+      ],
+      "auditSupportingEvidence": [],
+      "answerCoverage": 1,
+      "verdict": "FAIL_WEAK_EVIDENCE"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "pass_direct": 0,
+    "pass_partial": 0,
+    "fail": 1,
+    "strictPassRate": 0
+  },
+  "validatorVersion": "strict-v2",
+  "notes": [
+    "TOC/contents/exercise/glossary-adjacent passages are rejected unless they contain an actual proposition answering the requested aspect.",
+    "PASS_DIRECT requires both corpus match and at least one strict supporting passage."
+  ]
+}

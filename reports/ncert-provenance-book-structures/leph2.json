@@ -1,0 +1,91 @@
+{
+  "schema_version": 4,
+  "book_code": "leph2",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/leph2ps.pdf",
+  "fetched_at": "2026-08-16T13:56:34.336Z",
+  "sample": {
+    "class_level": 12,
+    "subject": "physics",
+    "book_title": "Physics Part-II",
+    "volume_or_part": "Part II"
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "ELECTRIC CHARGES AND FIELDS"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "ELECTROSTATIC POTENTIAL AND CAPACITANCE"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "CURRENT ELECTRICITY"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "MOVING CHARGES AND MAGNETISM"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "MAGNETISM AND MATTER"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "ELECTROMAGNETIC INDUCTION"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": "ALTERNATING CURRENT"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "8",
+      "canonical_unit_title": "ELECTROMAGNETIC WAVES"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "9",
+      "canonical_unit_title": "RAY OPTICS AND OPTICAL INSTRUMENTS"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "10",
+      "canonical_unit_title": "WAVE OPTICS"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "11",
+      "canonical_unit_title": "DUAL NATURE OF RADIATION AND MATTER"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "12",
+      "canonical_unit_title": "ATOMS"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "13",
+      "canonical_unit_title": "NUCLEI"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "14",
+      "canonical_unit_title": "SEMICONDUCTOR ELECTRONICS: MATERIALS, DEVICES AND SIMPLE CIRCUITS"
+    }
+  ],
+  "evidence_pages": [
+    6,
+    13,
+    14,
+    15
+  ],
+  "evidence_mode": "official_pdf_text"
+}

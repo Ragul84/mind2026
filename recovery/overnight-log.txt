@@ -1,0 +1,145 @@
+OK upsc D17
+FAIL upsc D23: This operation was aborted
+OK upsc D32
+OK upsc D33
+OK upsc D34
+OK upsc D41
+OK upsc D44
+OK upsc D47
+OK upsc D50
+OK upsc D51
+OK upsc D52
+OK upsc D53
+OK upsc D57
+OK upsc D58
+OK upsc D59
+OK upsc D60
+OK upsc D67
+OK upsc D69
+OK upsc D70
+OK upsc D71
+OK upsc D74
+OK upsc D75
+OK upsc D77
+OK upsc D80
+OK upsc D81
+OK upsc D84
+FAIL upsc D87: This operation was aborted
+OK upsc D88
+FAIL upsc D89: This operation was aborted
+OK upsc D90
+OK upsc D91
+OK upsc D94
+OK upsc D97
+OK upsc D100
+OK tnpsc D5
+OK tnpsc D6
+OK tnpsc D8
+OK tnpsc D9
+OK tnpsc D13
+OK tnpsc D14
+OK tnpsc D15
+OK tnpsc D16
+OK tnpsc D23
+OK tnpsc D29
+OK tnpsc D31
+OK tnpsc D32
+OK tnpsc D33
+OK tnpsc D34
+OK tnpsc D35
+OK tnpsc D36
+OK tnpsc D37
+OK tnpsc D38
+OK tnpsc D39
+OK tnpsc D40
+OK tnpsc D41
+OK tnpsc D42
+OK tnpsc D45
+OK tnpsc D46
+FAIL tnpsc D47: This operation was aborted
+FAIL tnpsc D48: This operation was aborted
+OK tnpsc D49
+OK tnpsc D50
+OK tnpsc D51
+OK tnpsc D52
+OK tnpsc D53
+OK tnpsc D54
+OK tnpsc D55
+OK tnpsc D56
+OK tnpsc D57
+OK tnpsc D59
+OK tnpsc D60
+OK tnpsc D62
+OK tnpsc D65
+OK tnpsc D69
+OK tnpsc D70
+OK tnpsc D71
+OK tnpsc D72
+OK tnpsc D73
+OK tnpsc D75
+OK tnpsc D76
+OK tnpsc D77
+OK tnpsc D78
+OK tnpsc D79
+OK tnpsc D80
+OK tnpsc D81
+OK upsc D23
+OK upsc D87
+OK upsc D89
+OK tnpsc D47
+OK tnpsc D48
+FAIL tnpsc D82: This operation was aborted
+OK tnpsc D84
+OK tnpsc D85
+OK tnpsc D92
+OK tnpsc D100
+OK ssc D17
+OK ssc D34
+OK ssc D35
+OK ssc D38
+OK ssc D39
+OK ssc D41
+OK ssc D44
+FAIL ssc D46: This operation was aborted
+FAIL ssc D49: This operation was aborted
+OK tnpsc D82
+FAIL ssc D46: This operation was aborted
+FAIL ssc D49: This operation was aborted
+FAIL ssc D51: This operation was aborted
+FAIL ssc D46: This operation was aborted
+OK ssc D49
+FAIL ssc D51: This operation was aborted
+FAIL ssc D52: This operation was aborted
+OK ssc D54
+OK ssc D55
+OK ssc D56
+OK ssc D57
+OK ssc D58
+OK ssc D60
+OK ssc D62
+OK ssc D64
+OK ssc D65
+OK ssc D72
+OK ssc D75
+OK ssc D79
+OK ssc D80
+OK ssc D81
+OK ssc D83
+OK ssc D86
+OK ssc D87
+OK ssc D88
+OK ssc D89
+OK ssc D90
+OK ssc D91
+OK ssc D93
+OK ssc D96
+OK ssc D97
+OK ssc D99
+OK ssc D100
+
+DONE. ok=27 skip=270 fail=3
+OK ssc D46
+OK ssc D51
+OK ssc D52
+
+DONE. ok=3 skip=297 fail=0

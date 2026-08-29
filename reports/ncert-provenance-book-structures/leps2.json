@@ -1,0 +1,59 @@
+{
+  "schema_version": 4,
+  "book_code": "leps2",
+  "official_book_structure_url": "https://ncert.nic.in/textbook/pdf/leps2ps.pdf",
+  "fetched_at": "2026-08-16T13:56:55.613Z",
+  "sample": {
+    "class_level": 12,
+    "subject": "political-science",
+    "book_title": "Politics in India Since Independence",
+    "volume_or_part": null
+  },
+  "chapters": [
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "1",
+      "canonical_unit_title": "Challenges of nation building \b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "2",
+      "canonical_unit_title": "Era of one-party dominance \b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "3",
+      "canonical_unit_title": "Politics of planned development \b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "4",
+      "canonical_unit_title": "India’s external relations \b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "5",
+      "canonical_unit_title": "Challenges to and restoration of the congress system"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "6",
+      "canonical_unit_title": "The crisis of democratic order \b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "7",
+      "canonical_unit_title": "Regional aspirations \b"
+    },
+    {
+      "canonical_unit_type": "chapter",
+      "canonical_unit_number": "8",
+      "canonical_unit_title": "Recent developments in indian politics \b"
+    }
+  ],
+  "evidence_pages": [
+    9,
+    12
+  ],
+  "evidence_mode": "official_pdf_text"
+}

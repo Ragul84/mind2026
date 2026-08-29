@@ -1,0 +1,687 @@
+[
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q101",
+    "subject": "Indian Polity",
+    "topic": "Judiciary"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q102",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q103",
+    "subject": "Indian Polity",
+    "topic": "Fundamental Rights & Duties"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q104",
+    "subject": "History & Culture",
+    "topic": "Delhi Sultanate & Mughals"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q105",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q106",
+    "subject": "History & Culture",
+    "topic": "Indian Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q107",
+    "subject": "History & Culture",
+    "topic": "Delhi Sultanate & Mughals"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q108",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q109",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q110",
+    "subject": "Geography",
+    "topic": "Rivers & Water Resources"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q111",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q112",
+    "subject": "General Science",
+    "topic": "Health & Human Physiology"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q113",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q114",
+    "subject": "General Science",
+    "topic": "Scientific Inventions"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q115",
+    "subject": "General Science",
+    "topic": "Botany"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q116",
+    "subject": "General Science",
+    "topic": "Scientific Inventions"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q117",
+    "subject": "Current Affairs",
+    "topic": "International Current Affairs"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q118",
+    "subject": "Current Affairs",
+    "topic": "Sports, Awards & Persons in News"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q119",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q121",
+    "subject": "History & Culture",
+    "topic": "Indian Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q122",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q123",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q124",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu in Freedom Struggle"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q125",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q126",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Dravidian & Self-Respect Movement"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q128",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q130",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q131",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q132",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q133",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q135",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q136",
+    "subject": "Indian Economy",
+    "topic": "Agriculture & Rural Development"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q137",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q138",
+    "subject": "General Science",
+    "topic": "Zoology"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q141",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Series & Puzzles"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q142",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q143",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q144",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q146",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q147",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q148",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q149",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q150",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q151",
+    "subject": "Indian Polity",
+    "topic": "Rights Bodies, RTI & Governance"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q152",
+    "subject": "Indian Polity",
+    "topic": "Local Government & Panchayat Raj"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q153",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q155",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q156",
+    "subject": "Indian Polity",
+    "topic": "Judiciary"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q157",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q158",
+    "subject": "History & Culture",
+    "topic": "Delhi Sultanate & Mughals"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q159",
+    "subject": "Geography",
+    "topic": "Population & Transport"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q160",
+    "subject": "Geography",
+    "topic": "Physical Geography of India"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q161",
+    "subject": "Geography",
+    "topic": "Physical Geography of India"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q162",
+    "subject": "General Science",
+    "topic": "Health & Human Physiology"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q163",
+    "subject": "General Science",
+    "topic": "Chemistry"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q164",
+    "subject": "General Science",
+    "topic": "Environment & Ecology"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q165",
+    "subject": "Current Affairs",
+    "topic": "International Current Affairs"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q166",
+    "subject": "Current Affairs",
+    "topic": "International Current Affairs"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q167",
+    "subject": "Current Affairs",
+    "topic": "National Current Affairs"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q169",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Logical Reasoning"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q170",
+    "subject": "Indian Economy",
+    "topic": "Fiscal Policy & Taxation"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q171",
+    "subject": "Indian Polity",
+    "topic": "Constitution & Preamble"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q172",
+    "subject": "History & Culture",
+    "topic": "Indian Culture & Heritage"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q173",
+    "subject": "Current Affairs",
+    "topic": "National Current Affairs"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q174",
+    "subject": "History & Culture",
+    "topic": "Delhi Sultanate & Mughals"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q175",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu in Freedom Struggle"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q176",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q177",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q179",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q180",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q181",
+    "subject": "Geography",
+    "topic": "Soil, Minerals & Natural Resources"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q182",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu in Freedom Struggle"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q183",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q184",
+    "subject": "Indian Polity",
+    "topic": "Fundamental Rights & Duties"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q185",
+    "subject": "Indian Economy",
+    "topic": "Industry & Employment"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q186",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q187",
+    "subject": "General Science",
+    "topic": "Scientific Inventions"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q188",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q189",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q190",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q191",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q192",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q193",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q194",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q195",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q196",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q197",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q198",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q199",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2022-gs-v2-q200",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q1",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q10",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q11",
+    "subject": "Indian Polity",
+    "topic": "Fundamental Rights & Duties"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q12",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q13",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q14",
+    "subject": "History & Culture",
+    "topic": "Ancient India & Indus Valley"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q15",
+    "subject": "History & Culture",
+    "topic": "Delhi Sultanate & Mughals"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q16",
+    "subject": "Geography",
+    "topic": "Soil, Minerals & Natural Resources"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q17",
+    "subject": "General Science",
+    "topic": "Environment & Ecology"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q18",
+    "subject": "General Science",
+    "topic": "Environment & Ecology"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q2",
+    "subject": "Indian Economy",
+    "topic": "Banking & Monetary Policy"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q21",
+    "subject": "General Science",
+    "topic": "Physics"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q3",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q33",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q38",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q39",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q40",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Series & Puzzles"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q42",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Logical Reasoning"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q43",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q45",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q46",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q50",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q52",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q53",
+    "subject": "History & Culture",
+    "topic": "Indian National Movement"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q54",
+    "subject": "History & Culture",
+    "topic": "National Leaders"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q55",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q56",
+    "subject": "Indian Economy",
+    "topic": "Agriculture & Rural Development"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q57",
+    "subject": "Indian Economy",
+    "topic": "Fiscal Policy & Taxation"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q59",
+    "subject": "Indian Polity",
+    "topic": "Union & State Government"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q6",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q62",
+    "subject": "History & Culture",
+    "topic": "Delhi Sultanate & Mughals"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q66",
+    "subject": "Geography",
+    "topic": "Disaster Management"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q67",
+    "subject": "Geography",
+    "topic": "Population & Transport"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q69",
+    "subject": "Geography",
+    "topic": "Physical Geography of India"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q7",
+    "subject": "Indian Economy",
+    "topic": "National Economy & Planning"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q79",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu Economy & Development"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q8",
+    "subject": "Indian Polity",
+    "topic": "Rights Bodies, RTI & Governance"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q82",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q83",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Nadu in Freedom Struggle"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q85",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q86",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q88",
+    "subject": "Tamil Nadu Specific",
+    "topic": "Tamil Society & Sangam Literature"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q92",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q95",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q96",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q97",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  },
+  {
+    "id": "tnpsc-group2-prelims-2024-gs-v2-q98",
+    "subject": "Aptitude & Reasoning",
+    "topic": "Arithmetic & Numerical Ability"
+  }
+]

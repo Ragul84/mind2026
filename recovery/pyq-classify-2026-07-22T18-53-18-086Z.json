@@ -1,0 +1,95 @@
+{
+  "updates": [
+    {
+      "id": "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q1-p21",
+      "subject": "Science & Technology",
+      "topic": "Antenna Arrays"
+    },
+    {
+      "id": "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q1-p23",
+      "subject": "Science & Technology",
+      "topic": "BJT and FET"
+    },
+    {
+      "id": "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q1-p25",
+      "subject": "Science & Technology",
+      "topic": "Sampling Rate"
+    },
+    {
+      "id": "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q101-p22",
+      "subject": "Science & Technology",
+      "topic": "BJT Q-point"
+    },
+    {
+      "id": "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q102-p22",
+      "subject": "Science & Technology",
+      "topic": "Digital Logic Families"
+    },
+    {
+      "id": "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q106-p23",
+      "subject": "Science & Technology",
+      "topic": "Feedback Amplifiers"
+    },
+    {
+      "id": "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q116-p25",
+      "subject": "Science & Technology",
+      "topic": "Difference Equations"
+    },
+    {
+      "id": "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q119-p25",
+      "subject": "Science & Technology",
+      "topic": "Periodic Signals"
+    },
+    {
+      "id": "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q122-p26",
+      "subject": "Science & Technology",
+      "topic": "MOS Transistor"
+    },
+    {
+      "id": "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q136-p29",
+      "subject": "Science & Technology",
+      "topic": "Adders"
+    },
+    {
+      "id": "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q2-p25",
+      "subject": "Science & Technology",
+      "topic": "Sampling Theorem"
+    }
+  ],
+  "garbage": [
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q1-p12",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q1-p13",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q1-p17",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q1-p19",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q1-p2",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q1-p29",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q110-p23",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q120-p25",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q124-p26",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q125-p27",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q129-p27",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q144-p30",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q145-p31",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q146-p31",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q18-p5",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q2-p16",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q2-p23",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q2-p24",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q2-p29",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q2-p3",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q20-p6",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q21-p6",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q23-p6",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q24-p6",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q26-p7",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q28-p7",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q29-p7",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q3-p10",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q3-p13",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q3-p17",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q3-p18",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q3-p2",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q3-p24",
+    "exams-upsc-pyq-2002-qp-enggservcprelexam-24-electronics-and-telecommunication-engineering-200224r-pdf-q3-p26"
+  ]
+}
