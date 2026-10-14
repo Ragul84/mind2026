@@ -18,7 +18,7 @@ export interface UserProgress {
   xp_earned: number;
 }
 
-export type SubscriptionTier = 'free' | 'pro';
+export type SubscriptionTier = 'free' | 'plus' | 'pro';
 
 export const TIER_LIMITS = {
   free: {
@@ -27,6 +27,13 @@ export const TIER_LIMITS = {
     migaTools: 1,         // 1 FREE PDF/PLAN
     heistPlays: 2,        // 2 FREE GAMES
     multiplier: 1.0
+  },
+  plus: {
+    lessons: 6,
+    chatResponses: 60,
+    migaTools: 5,
+    heistPlays: 10,
+    multiplier: 1.25
   },
   pro: {
     lessons: 15,          // 15 BLUEPRINTS

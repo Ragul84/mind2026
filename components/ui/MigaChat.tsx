@@ -29,6 +29,17 @@ import { MotiView, AnimatePresence } from 'moti';
 import Svg, { Circle } from 'react-native-svg';
 import Animated, { Easing, useAnimatedKeyboard, useAnimatedStyle } from 'react-native-reanimated';
 import { mascotApi, PaperAnswer } from '@/services/mascotApi';
+import { TextbookModeBar } from '@/components/textbook/TextbookModeBar';
+import { CitationChips } from '@/components/textbook/CitationChips';
+import {
+  EMPTY_SCOPE,
+  loadTextbookMode,
+  loadTextbookScope,
+  saveTextbookMode,
+  saveTextbookScope,
+  type TextbookCitation,
+  type TextbookScope,
+} from '@/utils/textbookScope';
 import { AIUsageService } from '@/services/aiUsageService';
 import { supabase } from '@/utils/supabaseService';
 import PaperScanModal from '@/components/ui/PaperScanModal';
@@ -202,6 +213,8 @@ type ChatMessage = {
   /** The existing quiz card remains readable while its replacement is loading. */
   quizAdvancing?: boolean;
   evidence?: TextbookEvidence[];
+  /** Page-level book/chapter/page citations (textbook mode). */
+  citations?: TextbookCitation[];
 };
 type ChatSession = {
   id: string;
@@ -210,6 +223,15 @@ type ChatSession = {
   last_message_at?: string | null;
   updated_at?: string | null;
 };
+
+/** Keep only the citations the answer actually referenced with [n]; all if it used none. */
+function usedCitations(answer: string, citations: TextbookCitation[]): TextbookCitation[] | undefined {
+  if (!citations.length) return undefined;
+  const used = new Set<number>();
+  for (const m of String(answer || '').matchAll(/\[(\d{1,2})\]/g)) used.add(Number(m[1]));
+  const filtered = citations.filter((c) => used.has(c.ref));
+  return filtered.length ? filtered : citations;
+}
 
 const newId = () => `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
 
@@ -1850,6 +1872,31 @@ export function MigaChat({
   const [scrollOffset, setScrollOffset] = useState(0);
   const [zoomImage, setZoomImage] = useState<string | null>(null);
   const [sourceEvidence, setSourceEvidence] = useState<TextbookEvidence[] | null>(null);
+  // Textbook mode: answers only from the student's own books, with page citations.
+  const [textbookMode, setTextbookMode] = useState(false);
+  const [textbookScope, setTextbookScope] = useState<TextbookScope>(EMPTY_SCOPE);
+  const textbookModeRef = useRef(false);
+  const textbookScopeRef = useRef<TextbookScope>(EMPTY_SCOPE);
+  useEffect(() => { textbookModeRef.current = textbookMode; }, [textbookMode]);
+  useEffect(() => { textbookScopeRef.current = textbookScope; }, [textbookScope]);
+  useEffect(() => {
+    let alive = true;
+    (async () => {
+      const [mode, scope] = await Promise.all([loadTextbookMode(), loadTextbookScope(userId)]);
+      if (!alive) return;
+      setTextbookMode(mode);
+      setTextbookScope(scope);
+    })();
+    return () => { alive = false; };
+  }, [userId]);
+  const handleTextbookToggle = useCallback((next: boolean) => {
+    setTextbookMode(next);
+    void saveTextbookMode(next);
+  }, []);
+  const handleTextbookScope = useCallback((next: TextbookScope) => {
+    setTextbookScope(next);
+    void saveTextbookScope(userId, next);
+  }, [userId]);
   const [keyboardOverlap, setKeyboardOverlap] = useState(0);
   const [keyboardFrameHeight, setKeyboardFrameHeight] = useState(0);
   const [inputFocused, setInputFocused] = useState(false);
@@ -2337,6 +2384,7 @@ export function MigaChat({
 
       try {
         let streamedEvidence: TextbookEvidence[] = [];
+        let streamedCitations: TextbookCitation[] = [];
         await new Promise<void>((resolve, reject) => {
           // The chat must never be able to hang forever. Two safety nets:
           // a stall timer (no token for STALL_MS) and a hard ceiling, both of
@@ -2385,6 +2433,9 @@ export function MigaChat({
               signal: controller.signal,
               attachments: atts.map((a) => ({ dataUrl: a.dataUrl, mimeType: a.mimeType })),
               onEvidence: (payload) => { streamedEvidence = Array.isArray(payload?.evidence) ? payload.evidence as TextbookEvidence[] : []; },
+              textbookMode: textbookModeRef.current,
+              textbookScope: textbookScopeRef.current,
+              onCitations: (payload) => { streamedCitations = Array.isArray(payload?.citations) ? payload.citations as TextbookCitation[] : []; },
             },
             // A throw inside streamChat itself (before any callback fires) would
             // otherwise strand this promise â€” surface it as a normal error.
@@ -2406,11 +2457,12 @@ export function MigaChat({
                   ...m,
                   content: targetRef.current,
                   rowId, evidence: streamedEvidence.length ? streamedEvidence : undefined,
+                  citations: usedCitations(targetRef.current, streamedCitations),
                   quizIndex: pendingQuiz?.quizIndex ?? m.quizIndex,
                   quizAdvancing: false,
                 }
                 : m))
-            : prev.map((m) => (m.id === assistantId ? { ...m, rowId, evidence: streamedEvidence.length ? streamedEvidence : undefined } : m));
+            : prev.map((m) => (m.id === assistantId ? { ...m, rowId, evidence: streamedEvidence.length ? streamedEvidence : undefined, citations: usedCitations(targetRef.current, streamedCitations) } : m));
           if (activeStreamContext) activeStreamContext.messagesRef.current = next;
           return next;
         };
@@ -3216,6 +3268,8 @@ export function MigaChat({
                             );
                           })()}
 
+                          {!!m.citations?.length && <CitationChips citations={m.citations} />}
+
                           {m.stopped && <Text style={styles.stoppedNote}>Stopped by you</Text>}
 
                           {!m.sprintRun && !!m.content && !(streaming && m.id === lastAssistantId) && (
@@ -3360,6 +3414,12 @@ export function MigaChat({
           </View>
         )}
 
+        <TextbookModeBar
+          enabled={textbookMode}
+          scope={textbookScope}
+          onToggle={handleTextbookToggle}
+          onScopeChange={handleTextbookScope}
+        />
         <View style={styles.inputBar}>
           <Pressable
             onPress={openAttachmentMenu}

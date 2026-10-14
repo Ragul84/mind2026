@@ -179,6 +179,10 @@ export const mascotApi = {
       attachments?: Array<{ dataUrl: string; mimeType?: string }>;
       signal?: AbortSignal;
       onEvidence?: (payload: { schemaVersion: number; evidence: any[] }) => void;
+      /** Textbook mode: answer only from the student's textbooks, with page citations. */
+      textbookMode?: boolean;
+      textbookScope?: { board?: string | null; classLevel?: number | null; subject?: string | null; language?: string | null };
+      onCitations?: (payload: { schemaVersion: number; citations: any[] }) => void;
     }
   ) {
     const { data: { session } } = await supabase.auth.getSession();
@@ -210,6 +214,8 @@ export const mascotApi = {
           language_code: options?.languageCode || 'en-IN',
           language_label: options?.languageLabel || 'English',
           attachments: options?.attachments || [],
+          textbook_mode: options?.textbookMode === true,
+          textbook_scope: options?.textbookScope ?? null,
           provider: 'openrouter' // Always use OpenRouter
         }),
         signal: options?.signal,
@@ -250,7 +256,9 @@ export const mascotApi = {
             if (dataStr === "[DONE]") continue;
             try {
               const parsed = JSON.parse(dataStr);
-              if (eventType === 'evidence' && Array.isArray(parsed.evidence)) {
+              if (eventType === 'citations' && Array.isArray(parsed.citations)) {
+                options?.onCitations?.(parsed);
+              } else if (eventType === 'evidence' && Array.isArray(parsed.evidence)) {
                 options?.onEvidence?.(parsed);
               } else if (parsed.token) {
                 fullContent += parsed.token;
@@ -289,7 +297,9 @@ export const mascotApi = {
         if (!dataStr || dataStr === "[DONE]") return;
         try {
           const parsed = JSON.parse(dataStr);
-          if (eventType === 'evidence' && Array.isArray(parsed.evidence)) {
+          if (eventType === 'citations' && Array.isArray(parsed.citations)) {
+                options?.onCitations?.(parsed);
+              } else if (eventType === 'evidence' && Array.isArray(parsed.evidence)) {
             options?.onEvidence?.(parsed);
           } else if (parsed.token) {
             fullContent += parsed.token;

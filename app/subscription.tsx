@@ -22,7 +22,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { AIUsageService, type AIFeatureUsage } from '@/services/aiUsageService';
-import { IAP_PRODUCTS, IAPService } from '@/services/iapService';
+import { IAP_PRODUCTS, IAPService, PAYWALL_PLANS } from '@/services/iapService';
 import { RewardService, type SubscriptionTier } from '@/services/rewardService';
 import HapticService from '@/utils/hapticService';
 import { V2026 } from '@/theme/v2026-tokens';
@@ -38,14 +38,32 @@ const BENEFITS = [
   { icon: 'map' as const, title: 'Lesson blueprints', text: 'Build structured paths for topics that need more than a quick explanation.' },
 ];
 
-const PLAN_IDS = ['mindgains_pro_annual', 'mindgains_pro_monthly'] as const;
+// Oct 2026 pricing. Every id below needs a matching Play Console product and a
+// RevenueCat entitlement mapping before release (see docs/pricing-2026.md).
+type PlanTier = 'plus' | 'pro';
+type PlanId =
+  | typeof PAYWALL_PLANS.plus.monthly | typeof PAYWALL_PLANS.plus.annual
+  | typeof PAYWALL_PLANS.pro.monthly | typeof PAYWALL_PLANS.pro.annual
+  | typeof PAYWALL_PLANS.examWeek;
+
+const TIER_FEATURES: Record<'free' | PlanTier, string[]> = {
+  free: ['Daily exam path and streaks', 'Unlimited verified PYQs', '1 mock test a week', '10 MIGA chats a day', 'Textbook mode with page citations'],
+  plus: ['Everything in Free', 'All mocks and test series', '60 MIGA chats a day', '20 Study Lab generations a day', 'Rank predictor and PYQ trends'],
+  pro: ['Everything in Plus', 'MIGA voice tutor (200 calls/day)', 'AI mains answer evaluation', '50 Study Lab generations + podcasts', 'Highest limits on every AI tool'],
+};
 
 export default function SubscriptionScreen() {
   const [tier, setTier] = useState<SubscriptionTier>('free');
   const [usage, setUsage] = useState<AIFeatureUsage[]>([]);
   const [loading, setLoading] = useState(true);
   const [busyProduct, setBusyProduct] = useState<string | null>(null);
-  const [selectedPlan, setSelectedPlan] = useState<'mindgains_pro_annual' | 'mindgains_pro_monthly'>('mindgains_pro_annual');
+  const [selectedTier, setSelectedTier] = useState<PlanTier>('pro');
+  const [selectedPlan, setSelectedPlan] = useState<PlanId>(PAYWALL_PLANS.pro.annual);
+  const pickTier = (t: PlanTier) => {
+    HapticService.selection();
+    setSelectedTier(t);
+    setSelectedPlan(selectedPlan.includes('monthly') ? PAYWALL_PLANS[t].monthly : PAYWALL_PLANS[t].annual);
+  };
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -79,14 +97,14 @@ export default function SubscriptionScreen() {
     setBusyProduct(productId);
     HapticService.selection();
     try {
-      const result = await IAPService.subscribeToPro(productId);
+      const result = await IAPService.subscribe(productId);
       if (!result.success) {
         showBrandAlert({ title: 'Subscription failed', message: result.error || 'Please try again.', icon: 'alert-circle-outline' });
         return;
       }
       HapticService.success();
       showBrandAlert({
-        title: "You're on PRO",
+        title: IAP_PRODUCTS[productId]?.tier === 'plus' ? "You're on Plus" : "You're on Pro",
         message: 'Your higher daily limits are active now.',
         icon: 'checkmark-circle-outline',
         buttons: [{ text: 'Continue', onPress: () => router.back() }],
@@ -116,11 +134,19 @@ export default function SubscriptionScreen() {
     }
   };
 
-  const renderPlanCard = (productId: typeof PLAN_IDS[number]) => {
-    const isAnnual = productId.includes('annual');
+  const isActivePlan = tier === 'pro' || (tier === 'plus' && selectedTier === 'plus' && selectedPlan !== PAYWALL_PLANS.examWeek);
+
+  const renderPlanCard = (productId: PlanId) => {
+    const product = IAP_PRODUCTS[productId];
+    const isAnnual = product.period === 'year';
+    const isWeek = product.period === 'week';
     const isSelected = selectedPlan === productId;
-    const monthlyPriceText = isAnnual ? '₹83' : '₹349';
-    const billingText = isAnnual ? 'Billed as ₹999/year' : 'Billed as ₹349/month';
+    const monthly = isAnnual ? `₹${Math.round(product.priceAmount / 12)}` : `₹${product.priceAmount}`;
+    const monthlyCounterpart = isAnnual ? IAP_PRODUCTS[PAYWALL_PLANS[product.tier || 'pro'].monthly] : null;
+    const savePct = monthlyCounterpart
+      ? Math.round((1 - product.priceAmount / (monthlyCounterpart.priceAmount * 12)) * 100)
+      : 0;
+    const billingText = isWeek ? 'One-time ₹19 · 7 days of Pro' : isAnnual ? `Billed as ${product.priceText}` : `Billed as ${product.priceText}`;
 
     return (
       <TouchableOpacity
@@ -140,20 +166,49 @@ export default function SubscriptionScreen() {
             {isSelected && <View style={styles.radioInner} />}
           </View>
           <View style={styles.planTitleContainer}>
-            <Text style={styles.planTitleText}>{isAnnual ? 'Annual' : 'Monthly'}</Text>
-            <Text style={styles.planSubTitleText}>{isAnnual ? 'For regular study' : 'Flexible access'}</Text>
+            <Text style={styles.planTitleText}>{isWeek ? 'Exam-Week Pass' : isAnnual ? 'Annual' : 'Monthly'}</Text>
+            <Text style={styles.planSubTitleText}>{isWeek ? 'Pro for your exam week, no auto-renew' : isAnnual ? 'For the whole prep year' : 'Flexible, cancel anytime'}</Text>
           </View>
           <View style={styles.planPriceContainer}>
-            <Text style={styles.planPriceBig}>{monthlyPriceText}</Text>
-            <Text style={styles.planPriceSub}>/month</Text>
+            <Text style={styles.planPriceBig}>{isWeek ? '₹19' : monthly}</Text>
+            <Text style={styles.planPriceSub}>{isWeek ? '/week' : '/month'}</Text>
           </View>
         </View>
         <Text style={styles.planBillingDesc}>
-          {billingText} · <Text style={styles.highlightText}>{isAnnual ? 'Save 60%' : 'Cancel anytime'}</Text>
+          {billingText}
+          {isAnnual && savePct > 0 ? <Text style={styles.highlightText}>{` · Save ${savePct}%`}</Text> : null}
         </Text>
       </TouchableOpacity>
     );
   };
+
+  const renderTierTabs = () => (
+    <View style={styles.tierTabs}>
+      {(['plus', 'pro'] as PlanTier[]).map((t) => {
+        const on = selectedTier === t;
+        return (
+          <TouchableOpacity key={t} style={[styles.tierTab, on && styles.tierTabOn]} onPress={() => pickTier(t)} activeOpacity={0.9}>
+            <Text style={[styles.tierTabTitle, on && styles.tierTabTitleOn]}>{t === 'plus' ? 'Plus' : 'Pro'}</Text>
+            <Text style={styles.tierTabPrice}>{t === 'plus' ? 'from ₹42/mo' : 'from ₹108/mo'}</Text>
+          </TouchableOpacity>
+        );
+      })}
+    </View>
+  );
+
+  const renderCompare = () => (
+    <View style={styles.compareRow}>
+      {(['free', 'plus', 'pro'] as const).map((t) => (
+        <View key={t} style={[styles.compareCol, t === selectedTier && styles.compareColOn]}>
+          <Text style={styles.compareTitle}>{t === 'free' ? 'Free' : t === 'plus' ? 'Plus' : 'Pro'}</Text>
+          <Text style={styles.comparePrice}>{t === 'free' ? '₹0' : t === 'plus' ? '₹79/mo' : '₹199/mo'}</Text>
+          {TIER_FEATURES[t].map((f) => (
+            <Text key={f} style={styles.compareItem}>• {f}</Text>
+          ))}
+        </View>
+      ))}
+    </View>
+  );
 
   return (
     <View style={styles.root}>
@@ -162,7 +217,7 @@ export default function SubscriptionScreen() {
           <TouchableOpacity style={styles.iconBtn} onPress={() => router.back()} activeOpacity={0.8}>
             <Ionicons name="close" size={22} color={V2026.colors.text} />
           </TouchableOpacity>
-          <Text style={styles.headerTitle}>MindGains PRO</Text>
+          <Text style={styles.headerTitle}>MindGains Plans</Text>
           <TouchableOpacity onPress={restore} disabled={!!busyProduct} style={styles.restoreHeaderBtn} activeOpacity={0.7}>
             <Text style={styles.restoreHeaderText}>Restore</Text>
           </TouchableOpacity>
@@ -197,7 +252,13 @@ export default function SubscriptionScreen() {
 
               <View style={styles.section}>
                 <Text style={styles.sectionLabel}>Choose your plan</Text>
-                <View style={styles.planStack}>{PLAN_IDS.map((id) => renderPlanCard(id))}</View>
+                {renderTierTabs()}
+                <View style={styles.planStack}>
+                  {renderPlanCard(PAYWALL_PLANS[selectedTier].annual)}
+                  {renderPlanCard(PAYWALL_PLANS[selectedTier].monthly)}
+                  {selectedTier === 'pro' && renderPlanCard(PAYWALL_PLANS.examWeek)}
+                </View>
+                {renderCompare()}
               </View>
 
               <View style={styles.card}>
@@ -277,10 +338,10 @@ export default function SubscriptionScreen() {
               />
               <View style={styles.checkoutButtonContainer}>
                 <TouchableOpacity
-                  style={[styles.primaryCheckoutButton, (busyProduct !== null || tier === 'pro') && styles.primaryCheckoutButtonDisabled]}
+                  style={[styles.primaryCheckoutButton, (busyProduct !== null || isActivePlan) && styles.primaryCheckoutButtonDisabled]}
                   onPress={() => handleSubscribe(selectedPlan)}
                   activeOpacity={0.88}
-                  disabled={busyProduct !== null || tier === 'pro'}
+                  disabled={busyProduct !== null || isActivePlan}
                 >
                   <LinearGradient
                     colors={tier === 'pro' ? ['#94A3B8', '#94A3B8'] : ['#00D4C7', '#22B8F0']}
@@ -293,7 +354,9 @@ export default function SubscriptionScreen() {
                       <View style={styles.buttonContent}>
                         {tier === 'pro' && <MaterialCommunityIcons name="crown" size={16} color="#FFFFFF" style={{ marginRight: 6 }} />}
                         <Text style={styles.checkoutButtonText}>
-                          {tier === 'pro' ? "You're on PRO" : selectedPlan === 'mindgains_pro_annual' ? 'Continue with Annual' : 'Continue with Monthly'}
+                          {tier === 'pro' ? "You're on Pro" : isActivePlan ? "You're on Plus"
+                            : selectedPlan === PAYWALL_PLANS.examWeek ? 'Get Exam-Week Pass · ₹19'
+                            : `Continue with ${selectedTier === 'plus' ? 'Plus' : 'Pro'} ${IAP_PRODUCTS[selectedPlan].period === 'year' ? 'Annual' : 'Monthly'} · ${IAP_PRODUCTS[selectedPlan].priceText}`}
                         </Text>
                       </View>
                     )}
@@ -309,6 +372,18 @@ export default function SubscriptionScreen() {
 }
 
 const styles = StyleSheet.create({
+  tierTabs: { flexDirection: 'row', gap: 10, marginBottom: 12 },
+  tierTab: { flex: 1, paddingVertical: 12, borderRadius: 14, borderWidth: 1, borderColor: 'rgba(15, 23, 42, 0.08)', backgroundColor: '#FFFFFF', alignItems: 'center' },
+  tierTabOn: { borderColor: '#00D4C7', backgroundColor: 'rgba(0, 212, 199, 0.08)' },
+  tierTabTitle: { fontSize: 16, fontWeight: '800', color: '#334155' },
+  tierTabTitleOn: { color: '#0F766E' },
+  tierTabPrice: { fontSize: 12, color: '#64748B', marginTop: 2 },
+  compareRow: { flexDirection: 'row', gap: 8, marginTop: 14 },
+  compareCol: { flex: 1, padding: 10, borderRadius: 12, backgroundColor: '#FFFFFF', borderWidth: 1, borderColor: 'rgba(15, 23, 42, 0.06)' },
+  compareColOn: { borderColor: '#00D4C7' },
+  compareTitle: { fontSize: 13, fontWeight: '800', color: '#0F172A' },
+  comparePrice: { fontSize: 12, fontWeight: '700', color: '#0F766E', marginBottom: 6 },
+  compareItem: { fontSize: 11, lineHeight: 16, color: '#475569' },
   root: { flex: 1, backgroundColor: V2026.colors.background },
   safe: { flex: 1 },
 

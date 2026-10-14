@@ -36,7 +36,7 @@ serve(async (req) => {
     }
 
     const body = await req.json().catch(() => ({}));
-    const entitlementId = String(body.entitlementId || "pro");
+    const requestedEntitlement = String(body.entitlementId || "pro");
     const appUserId = authData.user.id;
 
     const rcResponse = await fetch(
@@ -55,7 +55,12 @@ serve(async (req) => {
     }
 
     const rcData = await rcResponse.json();
-    const entitlement = rcData?.subscriber?.entitlements?.[entitlementId] ?? null;
+    // Highest active entitlement wins: pro (incl. the exam-week pass) > plus.
+    // Falls back to the requested one so an expired plan still syncs to free.
+    const entitlements = rcData?.subscriber?.entitlements ?? {};
+    const activeNow = (e: any) => Boolean(e) && (!e.expires_date || new Date(e.expires_date).getTime() > Date.now());
+    const entitlementId = ["pro", "plus"].find((id) => activeNow(entitlements[id])) ?? requestedEntitlement;
+    const entitlement = entitlements[entitlementId] ?? null;
     const expiresAtText = entitlement?.expires_date ?? null;
     const expiresAt = expiresAtText ? new Date(expiresAtText) : null;
     const isActive = Boolean(entitlement) && (!expiresAt || expiresAt.getTime() > Date.now());
@@ -77,7 +82,7 @@ serve(async (req) => {
 
     return json({
       success: true,
-      tier: data?.tier ?? (isActive ? "pro" : "free"),
+      tier: data?.tier ?? (isActive ? (entitlementId === "plus" ? "plus" : "pro") : "free"),
       active: isActive,
       expires_at: expiresAtText,
       product_id: productId,

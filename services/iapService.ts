@@ -15,7 +15,19 @@ export interface IAPProduct {
   priceAmount: number;
   type: 'consumable' | 'subscription';
   coinsAwarded?: number;
+  /** Entitlement this product unlocks in RevenueCat. */
+  tier?: 'plus' | 'pro';
+  period?: 'week' | 'month' | 'year';
+  /** Old price point, kept only for restore. Hidden on the paywall. */
+  legacy?: boolean;
 }
+
+/** Products shown on the paywall, in display order. */
+export const PAYWALL_PLANS = {
+  plus: { monthly: 'mindgains_plus_monthly', annual: 'mindgains_plus_annual' },
+  pro: { monthly: 'mindgains_pro_monthly_2026', annual: 'mindgains_pro_annual_2026' },
+  examWeek: 'mindgains_exam_week',
+} as const;
 
 export const IAP_PRODUCTS: Record<string, IAPProduct> = {
   'mindgains_coins_100': {
@@ -36,26 +48,88 @@ export const IAP_PRODUCTS: Record<string, IAPProduct> = {
     type: 'consumable',
     coinsAwarded: 500,
   },
+  // ── Legacy plans (₹349/mo, ₹999/yr). Kept so existing subscribers can still
+  //    restore; no longer shown on the paywall.
   'mindgains_pro_monthly': {
     id: 'mindgains_pro_monthly',
-    title: 'MindGains PRO Monthly',
+    title: 'MindGains PRO Monthly (legacy)',
     description: 'Higher daily limits for MIGA, Study Lab, podcasts, blueprints, and quiz rooms.',
     priceText: '₹349/month',
     priceAmount: 349,
     type: 'subscription',
+    tier: 'pro',
+    legacy: true,
   },
   'mindgains_pro_annual': {
     id: 'mindgains_pro_annual',
-    title: 'MindGains PRO Annual',
+    title: 'MindGains PRO Annual (legacy)',
     description: 'Best value for students who use MindGains every week.',
     priceText: '₹999/year',
     priceAmount: 999,
     type: 'subscription',
+    tier: 'pro',
+    legacy: true,
+  },
+  // ── Oct 2026 pricing. ⚠️ NEW STORE PRODUCTS: these IDs must be created in
+  //    Google Play Console (subscriptions + base plans) and attached in the
+  //    RevenueCat dashboard to entitlements 'plus' / 'pro' before release.
+  //    See docs/pricing-2026.md.
+  'mindgains_plus_monthly': {
+    id: 'mindgains_plus_monthly',
+    title: 'MindGains Plus Monthly',
+    description: 'Unlimited practice, all mocks, rank predictor and more MIGA every day.',
+    priceText: '₹79/month',
+    priceAmount: 79,
+    type: 'subscription',
+    tier: 'plus',
+    period: 'month',
+  },
+  'mindgains_plus_annual': {
+    id: 'mindgains_plus_annual',
+    title: 'MindGains Plus Annual',
+    description: 'Plus for a full year of preparation.',
+    priceText: '₹499/year',
+    priceAmount: 499,
+    type: 'subscription',
+    tier: 'plus',
+    period: 'year',
+  },
+  'mindgains_pro_monthly_2026': {
+    id: 'mindgains_pro_monthly_2026',
+    title: 'MindGains Pro Monthly',
+    description: 'Everything in Plus, MIGA voice tutor, AI answer evaluation and textbook mode at Pro limits.',
+    priceText: '₹199/month',
+    priceAmount: 199,
+    type: 'subscription',
+    tier: 'pro',
+    period: 'month',
+  },
+  'mindgains_pro_annual_2026': {
+    id: 'mindgains_pro_annual_2026',
+    title: 'MindGains Pro Annual',
+    description: 'Pro for a full year of preparation.',
+    priceText: '₹1,299/year',
+    priceAmount: 1299,
+    type: 'subscription',
+    tier: 'pro',
+    period: 'year',
+  },
+  'mindgains_exam_week': {
+    id: 'mindgains_exam_week',
+    title: 'Exam-Week Pass',
+    description: '7 days of Pro right before your exam. Does not auto-renew.',
+    priceText: '₹19/week',
+    priceAmount: 19,
+    // Google Play prepaid base plan (1 week, no auto-renew) -> entitlement 'pro'.
+    type: 'subscription',
+    tier: 'pro',
+    period: 'week',
   },
 };
 
 const REVENUECAT_ANDROID_API_KEY = process.env.EXPO_PUBLIC_REVENUECAT_ANDROID_API_KEY;
 const PRO_ENTITLEMENT_ID = 'pro';
+const PLUS_ENTITLEMENT_ID = 'plus';
 
 const getRevenueCat = () => {
   if (Platform.OS !== 'android') {
@@ -87,13 +161,16 @@ export class IAPService {
     IAPService.configuredUserId = userId;
   }
 
-  private static hasActivePro(customerInfo: any): boolean {
-    return Boolean(customerInfo?.entitlements?.active?.[PRO_ENTITLEMENT_ID]);
+  private static hasActiveEntitlement(customerInfo: any, entitlementId: string): boolean {
+    const active = customerInfo?.entitlements?.active ?? {};
+    // Pro includes everything in Plus.
+    if (entitlementId === PLUS_ENTITLEMENT_ID) return Boolean(active[PLUS_ENTITLEMENT_ID] || active[PRO_ENTITLEMENT_ID]);
+    return Boolean(active[entitlementId]);
   }
 
-  private static async syncRevenueCatEntitlement(): Promise<{ success: boolean; tier?: string; error?: string }> {
+  private static async syncRevenueCatEntitlement(entitlementId: string = PRO_ENTITLEMENT_ID): Promise<{ success: boolean; tier?: string; error?: string }> {
     const { data, error } = await supabase.functions.invoke('revenuecat-sync', {
-      body: { entitlementId: PRO_ENTITLEMENT_ID },
+      body: { entitlementId },
     });
 
     if (error || !data?.success) {
@@ -139,18 +216,18 @@ export class IAPService {
       await IAPService.configureRevenueCat(user.id);
 
       const { default: Purchases, PURCHASE_TYPE } = getRevenueCat();
+      const entitlementId = product.tier === 'plus' ? PLUS_ENTITLEMENT_ID : PRO_ENTITLEMENT_ID;
       const purchase = await Purchases.purchaseProduct(productId, null, PURCHASE_TYPE.SUBS);
-      if (!IAPService.hasActivePro(purchase.customerInfo)) {
-        throw new Error('Purchase completed, but Pro entitlement is not active yet.');
+      if (!IAPService.hasActiveEntitlement(purchase.customerInfo, entitlementId)) {
+        throw new Error(`Purchase completed, but the ${entitlementId} entitlement is not active yet.`);
       }
 
-      const sync = await IAPService.syncRevenueCatEntitlement();
-      if (!sync.success || sync.tier !== 'pro') {
-        throw new Error(sync.error || 'Could not verify Pro entitlement.');
+      const sync = await IAPService.syncRevenueCatEntitlement(entitlementId);
+      if (!sync.success || (sync.tier !== 'pro' && sync.tier !== entitlementId)) {
+        throw new Error(sync.error || 'Could not verify your subscription.');
       }
 
       HapticService.success();
-      console.log(`[IAP] User ${user.id} upgraded to PRO`);
       return { success: true };
 
     } catch (e: any) {
@@ -158,6 +235,11 @@ export class IAPService {
       HapticService.error();
       return { success: false, error: e.message || 'Subscription payment failed.' };
     }
+  }
+
+  /** Subscribe to any paywall plan (Plus, Pro or the exam-week pass). */
+  static async subscribe(productId: string): Promise<{ success: boolean; error?: string }> {
+    return IAPService.subscribeToPro(productId);
   }
 
   // ── Restore Past Purchases ──────────────────────────────────────────────────

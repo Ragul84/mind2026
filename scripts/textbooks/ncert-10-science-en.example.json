@@ -1,0 +1,18 @@
+{
+  "book": {
+    "slug": "ncert-10-science-en",
+    "board": "ncert",
+    "board_type": "ncert",
+    "class_level": 10,
+    "subject": "science",
+    "language": "english",
+    "title": "Science",
+    "source_url": "https://ncert.nic.in/textbook.php?jesc1=0-13"
+  },
+  "pdf_url": "https://ncert.nic.in/textbook/pdf/jesc101.pdf",
+  "chapters": [
+    { "number": 1, "title": "Chemical Reactions and Equations", "page_start": 1, "page_end": 20 }
+  ],
+  "page_offset": 0,
+  "pages_per_call": 20
+}

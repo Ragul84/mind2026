@@ -24,6 +24,8 @@ import { SupabaseService, supabase } from '@/utils/supabaseService';
 import { studyContextForOnboardingTrack } from '@/utils/studyContext';
 import HapticService from '@/utils/hapticService';
 import { V2026 } from '@/theme/v2026-tokens';
+import { TextbookScopePicker } from '@/components/textbook/TextbookScopePicker';
+import { EMPTY_SCOPE, saveTextbookScope, type TextbookScope } from '@/utils/textbookScope';
 
 const { width } = Dimensions.get('window');
 
@@ -134,6 +136,9 @@ export default function ProfileSetup() {
   const [checkingName, setCheckingName] = useState(false);
   const [nameError, setNameError] = useState('');
 
+  // Step 2 — Textbooks (board + class) for textbook-aware MIGA
+  const [textbookScope, setTextbookScope] = useState<TextbookScope>(EMPTY_SCOPE);
+
   // Step 3 — Avatar
   const [selectedStyle, setSelectedStyle] = useState('adventurer');
   const [currentSeed, setCurrentSeed] = useState('Felix');
@@ -186,6 +191,10 @@ export default function ProfileSetup() {
     if (step === 1) {
       if (!selected) return;
       HapticService.success();
+      setTextbookScope((current) => current.board ? current : {
+        ...current,
+        board: selected === 'samacheer_ecosystem' || selected === 'tnpsc_ecosystem' ? 'samacheer' : 'ncert',
+      });
       setStep(2);
       return;
     }
@@ -252,6 +261,9 @@ export default function ProfileSetup() {
         p_protocol_track_id: finalTrack,
       });
       if (onboardingError) throw onboardingError;
+
+      // Textbook scope is optional; a failure here must not block onboarding.
+      await saveTextbookScope(user.id, textbookScope).catch(() => {});
 
       // Keep the auth avatar metadata in sync with the profile written above.
       const avatarUrl = getAvatarUrl(selectedStyle, currentSeed);
@@ -392,6 +404,13 @@ export default function ProfileSetup() {
         <Text style={styles.inputHint}>Profile names are public and must be unique.</Text>
         {nameError ? <Text style={styles.inputError}>{nameError}</Text> : null}
       </View>
+
+      {/* Textbook board + class, used to ground MIGA answers in the student's own books */}
+      <TextbookScopePicker
+        value={textbookScope}
+        onChange={setTextbookScope}
+        hint="MIGA answers from these books and cites chapter and page."
+      />
 
       {/* State selector */}
       <Text style={[styles.inputLabel, { marginBottom: 10, marginTop: 20 }]}>YOUR STATE</Text>
