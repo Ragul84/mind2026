@@ -17,6 +17,7 @@ import { KnowledgeHeistGameService } from '@/services/knowledgeHeistService';
 import { supabase } from '@/utils/supabaseService';
 import { useAuthContext } from '@/components/AuthProvider';
 import { V2026 } from '@/theme/v2026-tokens';
+import { WeeklyLeague } from '@/components/leagues/WeeklyLeague';
 
 const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get('window');
 
@@ -81,7 +82,7 @@ const formatXP = (xp: number) => {
   return xp.toLocaleString();
 };
 
-export default function StateLeaderboard() {
+function StateLeaderboard() {
   const insets = useSafeAreaInsets();
   const { user } = useAuthContext();
   const [selectedFilter, setSelectedFilter] = useState<'weekly' | 'monthly' | 'alltime'>('monthly');
@@ -868,4 +869,39 @@ const styles = StyleSheet.create({
     width: 58,
     height: 20,
   },
+});
+
+
+// ── Ranks screen: weekly leagues (default) + the existing state leaderboard ──
+export default function RanksScreen() {
+  const [mode, setMode] = useState<'league' | 'states'>('league');
+  const insets = useSafeAreaInsets();
+  return (
+    <View style={{ flex: 1, backgroundColor: '#F5F7FB' }}>
+      <View style={[ranksStyles.switchWrap, { paddingTop: insets.top + 6 }]}>
+        {(['league', 'states'] as const).map((m) => (
+          <TouchableOpacity
+            key={m}
+            onPress={() => setMode(m)}
+            style={[ranksStyles.switchBtn, mode === m && ranksStyles.switchBtnOn]}
+            accessibilityRole="tab"
+            accessibilityState={{ selected: mode === m }}
+          >
+            <Text style={[ranksStyles.switchText, mode === m && ranksStyles.switchTextOn]}>
+              {m === 'league' ? 'Weekly League' : 'States'}
+            </Text>
+          </TouchableOpacity>
+        ))}
+      </View>
+      <View style={{ flex: 1 }}>{mode === 'league' ? <WeeklyLeague /> : <StateLeaderboard />}</View>
+    </View>
+  );
+}
+
+const ranksStyles = StyleSheet.create({
+  switchWrap: { flexDirection: 'row', gap: 8, paddingHorizontal: 16, paddingBottom: 6, backgroundColor: '#FFFFFF' },
+  switchBtn: { flex: 1, paddingVertical: 9, borderRadius: 12, backgroundColor: '#F1F5F9', alignItems: 'center' },
+  switchBtnOn: { backgroundColor: V2026.colors.primary },
+  switchText: { fontWeight: '800', color: '#475569', fontSize: 13 },
+  switchTextOn: { color: '#FFFFFF' },
 });
