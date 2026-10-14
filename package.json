@@ -14,7 +14,8 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "test:whatsapp": "node scripts/test-whatsapp.js",
-    "audit:quiz": "node scripts/quiz-coverage-audit.cjs"
+    "audit:quiz": "node scripts/quiz-coverage-audit.cjs",
+    "test:leagues": "node scripts/tests/weekly-leagues.pglite.mjs"
   },
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.28.5",
