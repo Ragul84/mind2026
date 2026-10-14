@@ -45,6 +45,15 @@ const FEATURE_LIMITS: Record<SubscriptionTier, Record<AIFeature, number>> = {
     quiz_room_generate: 1,
     quiz_sprint_generate: 3,
   },
+  plus: {
+    miga_message: 60,
+    miga_call: 30,
+    study_lab_generation: 20,
+    study_lab_podcast: 1,
+    blueprint_generate: 6,
+    quiz_room_generate: 4,
+    quiz_sprint_generate: 12,
+  },
   pro: {
     miga_message: 150,
     miga_call: 200,
@@ -57,7 +66,7 @@ const FEATURE_LIMITS: Record<SubscriptionTier, Record<AIFeature, number>> = {
 };
 
 function normalizeUsage(feature: AIFeature, data: any): AIFeatureUsage {
-  const tier: SubscriptionTier = data?.tier === 'pro' ? 'pro' : 'free';
+  const tier: SubscriptionTier = data?.tier === 'pro' ? 'pro' : data?.tier === 'plus' ? 'plus' : 'free';
   const fallbackLimit = FEATURE_LIMITS[tier][feature];
   const used = Math.max(0, Number(data?.used ?? 0) || 0);
   const limit = Math.max(0, Number(data?.limit ?? fallbackLimit) || 0);

@@ -14,7 +14,9 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "test:whatsapp": "node scripts/test-whatsapp.js",
-    "audit:quiz": "node scripts/quiz-coverage-audit.cjs"
+    "audit:quiz": "node scripts/quiz-coverage-audit.cjs",
+    "test:textbook": "deno test --no-lock supabase/functions/_shared/textbook.test.ts",
+    "ingest:textbook": "node scripts/ingest-textbook.mjs"
   },
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.28.5",

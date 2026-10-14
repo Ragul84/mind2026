@@ -1,6 +1,7 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 import { textbookSourceIndex as textbookSourceIndexJson } from "../_shared/textbook-source-index.ts";
+import { buildTextbookSystemPrompt, normaliseScope, retrieveTextbookPages, type TextbookCitation } from "../_shared/textbookRetrieval.ts";
 import { syllabusContextBlock, officialWeightageForSubject, getSyllabusForExam } from "./syllabus.ts";
 
 const corsHeaders = {
@@ -15,6 +16,9 @@ interface ChatRequest {
   attachments?: Array<{ dataUrl?: string; mimeType?: string }>;
   language_code?: string;
   language_label?: string;
+  /** Textbook mode: answer only from the student's own textbooks, with page citations. */
+  textbook_mode?: boolean;
+  textbook_scope?: { board?: string | null; classLevel?: number | null; subject?: string | null; language?: string | null };
 }
 
 type StudyContext = {
@@ -2468,7 +2472,7 @@ const SOURCE_VERIFICATION_POLICY = `SOURCE VERIFICATION POLICY:
   if (req.method === 'OPTIONS') return new Response('ok', { headers: corsHeaders });
 
   try {
-    const { user_id, messages, mode = "chat", attachments = [], language_code = "", language_label = "" } = await req.json() as ChatRequest;
+    const { user_id, messages, mode = "chat", attachments = [], language_code = "", language_label = "", textbook_mode = false, textbook_scope } = await req.json() as ChatRequest;
     const supabaseClient = createClient(
       Deno.env.get('SUPABASE_URL') ?? '',
       Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') ?? ''
@@ -2746,6 +2750,7 @@ The user attached one or more images. Use them as part of the study workflow if 
     // PYQ, or current-affairs flows, which have their own verified context).
     const textbookQueryBundle = buildTextbookRetrievalBundle(lastUserText);
     const wantsTextbookText =
+      textbook_mode !== true &&
       !verifiedContextMessages.length &&
       !wantsBrandAnswer && !wantsQuizFlow && !wantsCurrentAffairs && !wantsPyq &&
       textbookQueryBundle.eligible;
@@ -2754,7 +2759,30 @@ The user attached one or more images. Use them as part of the study workflow if 
       : emptyTextbookGrounding();
     // Keep the exact existing prompt text separate from the selected retrieval
     // rows. Nothing below changes the text supplied to the model.
-    const serverTextbookText = serverTextbookGrounding.promptContext;
+    const legacyTextbookText = serverTextbookGrounding.promptContext;
+
+    // Textbook mode (explicit toggle in the MIGA chat): page-level retrieval from
+    // public.textbook_page_chunks, scoped to the student's board/class, with
+    // mandatory [n] book/chapter/page citations. Replaces the legacy grounding
+    // rules for this turn so the two citation styles never conflict.
+    const textbookModeActive = textbook_mode === true &&
+      !wantsBrandAnswer && !wantsQuizFlow && !wantsCurrentAffairs && !wantsPyq;
+    let pageCitations: TextbookCitation[] = [];
+    if (textbookModeActive) {
+      try {
+        const scope = normaliseScope(textbook_scope);
+        pageCitations = await retrieveTextbookPages(supabaseClient, lastUserText, {
+          board: scope.board || prefBoard || null,
+          classLevel: scope.classLevel ?? null,
+          subject: scope.subject ?? null,
+          language: scope.language ?? null,
+        });
+      } catch (e) {
+        console.error('[textbook-mode] retrieval failed', e instanceof Error ? e.message : e);
+      }
+    }
+    const textbookModePrompt = textbookModeActive ? buildTextbookSystemPrompt(pageCitations) : '';
+    const serverTextbookText = textbookModeActive ? '' : legacyTextbookText;
     const selectedEvidenceChunks = serverTextbookGrounding.isGrounded
       ? selectEvidenceChunksForDisplay(lastUserText, serverTextbookGrounding.selectedChunks, prefBoard, studyContext.classLevel)
       : [];
@@ -2826,6 +2854,8 @@ The user attached one or more images. Use them as part of the study workflow if 
         // that keeps the anti-hedging/anti-meta guard but actively asks for cites.
         ...((wantsSyllabusOverview || wantsTopicAnalytics || wantsSyllabusCoverage)
           ? []
+          : textbookModeActive
+          ? [{ role: 'system', content: textbookModePrompt }]
           : (hasVerifiedTextbookContext || serverTextbookText)
           ? [{ role: 'system', content: 'HARD OUTPUT RULES (must follow strictly): Answer the asked question directly and concisely as a tutor. If the VERIFIED TEXTBOOK PASSAGES below actually cover THIS specific question, ground your answer in them, claim by claim. A passage covering a related law, formula, or application that the student did not ask about is NOT something to include, a passage being present is not permission to teach it. If the passages are off-topic or simply do not contain the fact being asked (retrieval sometimes hands you the wrong passage) then IGNORE them completely and answer the question anyway from your own confident general knowledge, exactly as if no passage had been supplied — a mismatched passage is never a reason to say you cannot answer. This applies especially to well-known specific facts (an article/section number, a date, a founder or first-holder of an office, a named formula) — state the exact fact plainly and confidently, the same way you would if asked with zero passages attached. Do not soften a specific number or name into a vague description just because it came from your own knowledge rather than a passage. Default to a short answer (definition, defining formula, one line of meaning) unless the question itself needs more or the student asked for depth. Do NOT write any citation, "Ref:", "Source:", page, chapter, or book name yourself — the exact textbook source is shown automatically below your answer when it is actually relevant. If you do include an equation, show it in LaTeX (inline $…$, display $$…$$, fractions \\frac{a}{b}), at most 2 to 3 lines by default. CRITICAL: never comment on what the passages do or do not contain — do NOT write "the passages do not include", "not found in the text", "based on the provided passages", or similar; if they are not useful, simply answer without mentioning them at all. Do NOT hedge or add meta disclaimers ("I cannot verify", "as an AI", training data, real-time access).' }]
           : [{ role: 'system', content: 'HARD OUTPUT RULES (must follow strictly): Answer the concept directly and factually as a tutor. Do NOT mention or reference any of the following in your reply: whether a topic is in the syllabus, syllabus fit or coverage, textbooks, NCERT, class level, board, "not taught", source absence, verification, corpus, "I cannot verify", "as an AI", real-time access, or training data. Never add meta disclaimers about sources or about what you can or cannot do. Do not hedge about textbooks or curriculum. Just teach the concept clearly.' }]),
@@ -3011,8 +3041,11 @@ Rules:
         // ends up with exactly one correct citation, never zero, never a duplicate.
         let footerEmitted = false;
         let evidenceEmitted = false;
+        if (textbookModeActive) {
+          controller.enqueue(encoder.encode(`event: citations\ndata: ${JSON.stringify({ schemaVersion: 1, citations: pageCitations })}\n\n`));
+        }
         const emitEvidence = async () => {
-          if (evidenceEmitted || !serverTextbookGrounding.isGrounded) return;
+          if (evidenceEmitted || textbookModeActive || !serverTextbookGrounding.isGrounded) return;
           evidenceEmitted = true;
           const evidence = await textbookEvidencePromise;
           if (evidence.length) controller.enqueue(encoder.encode(`event: evidence\ndata: ${JSON.stringify({ schemaVersion: 1, evidence })}\n\n`));
